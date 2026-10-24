@@ -976,10 +976,10 @@ S.forEach((sec,k)=>{const id=sec.id;const card=document.createElement('section')
   out+='<p'+(cls?' class="'+cls+'"':'')+'>'+clean(el)+'</p>';}
  if(ul)out+='</ul>'; if(inNotes)out+='</div>';
  const v=VID[id]?'<iframe class="vid" loading="lazy" title="'+VID[id][1]+'" src="https://www.youtube-nocookie.com/embed/'+VID[id][0]+'?rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>':'';
- card.innerHTML='<span class="num">'+(k+1)+' / '+S.length+'</span>'+(ey?'<p class="ey">'+ey+'</p>':'')+'<h2>'+(title||'Slide '+(k+1))+'</h2>'+v+'<div class="th" title="Open this slide"></div><p class="thhint">Tap the picture to open the slide</p><div class="txt">'+out+'</div>'+(N[k]?'<details><summary>Presenter’s notes</summary><p></p></details>':'');
+ card.innerHTML='<span class="num">'+(k+1)+' / '+S.length+'</span>'+(ey?'<p class="ey">'+ey+'</p>':'')+'<h2>'+(title||'Slide '+(k+1))+'</h2>'+v+(VID[id]?'':'<div class="th" title="Open this slide"></div><p class="thhint">Tap the picture to open the slide</p>')+'<div class="txt">'+out+'</div>'+(N[k]?'<details><summary>Presenter’s notes</summary><p></p></details>':'');
  if(N[k])card.querySelector('details p').textContent=N[k];
- const th=card.querySelector('.th');const cl=sec.cloneNode(true);cl.classList.add('on');cl.removeAttribute('id');cl.querySelectorAll('iframe[src*="youtube"]').forEach(f=>f.remove());cl.querySelectorAll('iframe').forEach(f=>f.setAttribute('loading','lazy'));th.appendChild(cl);
- th.onclick=()=>{setMode(false,true);show(k)};
+ const th=card.querySelector('.th');if(th){const cl=sec.cloneNode(true);cl.classList.add('on');cl.removeAttribute('id');cl.querySelectorAll('iframe[src*="youtube"]').forEach(f=>f.remove());cl.querySelectorAll('iframe').forEach(f=>f.setAttribute('loading','lazy'));th.appendChild(cl);
+ th.onclick=()=>{setMode(false,true);show(k)};}
  cards.appendChild(card);
  const a=document.createElement('a');a.href='#r'+(k+1);a.textContent=(k+1);a.title=card.querySelector('h2').textContent;toc.appendChild(a);});
  fitTh();}
