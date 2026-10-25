@@ -5,33 +5,34 @@
 <meta property="og:description" content="Ten questions on today's satsang. See how much you remember!">
 <meta property="og:image" content="https://ramakrishna-vedanta-centre-nz.github.io/satsangs/SAT-001/cover.jpg">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400..700;1,400..700&family=Noto+Sans:wght@400..700&family=Noto+Sans+Devanagari:wght@400..700&display=swap">
+<link rel="stylesheet" href="../../assets/rvc-type.css">
 <style>
 :root{--navy:#12285A;--navy2:#1D3770;--cream:#FBF5EA;--card:#FFFDF8;--gold:#C9A24A;--goldt:#6B4E0E;--green:#2F5A2E;--pink:#C2557A;--ink:#1E1E1E;--line:#E6DAC3}
 *{margin:0;box-sizing:border-box}
 body{background:var(--cream);color:var(--ink);font-family:'Noto Sans',Arial,sans-serif;min-height:100vh}
 header{background:var(--navy);color:var(--cream);padding:18px 16px 22px;text-align:center}
 header img{width:56px;height:66px;object-fit:contain}
-.ey{font:700 12px 'Noto Sans',sans-serif;letter-spacing:3px;color:#E6C36A;margin-top:6px}
-h1{font:700 26px/1.2 'Noto Serif',serif;margin:6px 0 4px}
-header p{font-size:15px;color:#F1ECDF}
+.ey{font:700 var(--fs-micro,11px) 'Noto Sans',sans-serif;letter-spacing:3px;color:#E6C36A;margin-top:6px}
+h1{font:700 var(--fs-title,24px)/1.2 'Noto Serif',serif;margin:6px 0 4px}
+header p{font-size:var(--fs-body,15px);color:#F1ECDF}
 main{max-width:640px;margin:0 auto;padding:18px 16px 40px}
 .bar{height:8px;background:var(--line);border-radius:4px;overflow:hidden;margin-bottom:6px}
 .bar i{display:block;height:100%;background:var(--gold);width:0;transition:width .3s}
-.meta{display:flex;justify-content:space-between;font-size:13px;color:#5A5A5A;margin-bottom:14px}
+.meta{display:flex;justify-content:space-between;font-size:var(--fs-small,12.5px);color:#5A5A5A;margin-bottom:14px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 18px;box-shadow:0 2px 8px rgba(19,41,91,.08)}
-.qn{font:700 12px 'Noto Sans',sans-serif;letter-spacing:2px;color:var(--goldt)}
-.q{font:700 20px/1.35 'Noto Serif',serif;color:#13295B;margin:8px 0 16px}
+.qn{font:700 var(--fs-micro,11px) 'Noto Sans',sans-serif;letter-spacing:2px;color:var(--goldt)}
+.q{font:700 var(--fs-question,16px)/var(--lh-tight,1.35) 'Noto Serif',serif;color:#13295B;margin:8px 0 14px}
 .dev{font-family:'Noto Sans Devanagari','Noto Sans',sans-serif}
-.opt{display:block;width:100%;text-align:left;background:#fff;border:2px solid var(--line);border-radius:10px;padding:13px 14px;margin-bottom:10px;font:500 17px 'Noto Sans',sans-serif;color:var(--ink);cursor:pointer}
+.opt{display:block;width:100%;text-align:left;background:#fff;border:2px solid var(--line);border-radius:10px;padding:12px 13px;margin-bottom:9px;font:450 var(--fs-text,13.5px)/var(--lh-option,1.5) 'Noto Sans',sans-serif;color:var(--ink);cursor:pointer}
 .opt:hover:not(:disabled){border-color:var(--gold)}
 .opt.right{border-color:var(--green);background:#E3EDDF}
 .opt.wrong{border-color:var(--pink);background:#F6E3EA}
 .opt:disabled{cursor:default}
-input.fill{width:100%;font:500 18px 'Noto Sans',sans-serif;padding:13px 14px;border:2px solid var(--line);border-radius:10px;margin-bottom:10px}
+input.fill{width:100%;font:500 var(--fs-field,16px) 'Noto Sans',sans-serif;padding:13px 14px;border:2px solid var(--line);border-radius:10px;margin-bottom:10px}
 input.fill:focus{outline:none;border-color:var(--gold)}
-.btn{display:inline-block;background:var(--navy);color:var(--cream);border:0;border-radius:10px;padding:13px 22px;font:700 16px 'Noto Sans',sans-serif;cursor:pointer;text-decoration:none}
+.btn{display:inline-block;background:var(--navy);color:var(--cream);border:0;border-radius:10px;padding:12px 20px;font:700 var(--fs-btn,14px) 'Noto Sans',sans-serif;cursor:pointer;text-decoration:none}
 .btn.gold{background:var(--gold);color:var(--navy)}
-.fb{margin-top:14px;padding:12px 14px;border-radius:10px;font-size:15.5px;line-height:1.55;display:none}
+.fb{margin-top:14px;padding:12px 14px;border-radius:10px;font-size:var(--fs-text,13.5px);line-height:var(--lh-text,1.7);display:none}
 .fb.ok{display:block;background:#E3EDDF;border-left:5px solid var(--green)}
 .fb.no{display:block;background:#F6E3EA;border-left:5px solid var(--pink)}
 .fb b{display:block;margin-bottom:2px}
@@ -40,25 +41,25 @@ input.fill:focus{outline:none;border-color:var(--gold)}
 .score{margin:6px 0;color:#13295B}
 .score .big{font:700 64px/1 'Noto Serif',serif}
 .score .of{font:700 28px 'Noto Serif',serif;color:#5A5A5A}
-.band{font:700 20px 'Noto Serif',serif;color:var(--green);margin-bottom:8px}
-.res p{font-size:16px;line-height:1.55;margin-bottom:12px}
+.band{font:700 var(--fs-heading,21px) 'Noto Serif',serif;color:var(--green);margin-bottom:8px}
+.res p{font-size:var(--fs-body,15px);line-height:var(--lh-body,1.75);margin-bottom:12px}
 .rev{text-align:left;margin-top:18px}
-.rev div{padding:10px 12px;border-radius:8px;margin-bottom:8px;font-size:14.5px;line-height:1.45}
+.rev div{padding:10px 12px;border-radius:8px;margin-bottom:8px;font-size:var(--fs-text,13.5px);line-height:var(--lh-text,1.7)}
 .rev .r{background:#E3EDDF}.rev .w{background:#F6E3EA}
 .acts{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:16px}
-footer{text-align:center;font-size:13px;color:#5A5A5A;padding:0 16px 30px}
+footer{text-align:center;font-size:var(--fs-small,12.5px);color:#5A5A5A;padding:0 16px 30px}
 footer a{color:#13295B}
 .mrow{border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin-bottom:10px;background:#fff}
-.mrow p{font-weight:600;margin-bottom:8px;font-size:16px}
+.mrow p{font-weight:600;margin-bottom:8px;font-size:var(--fs-body,15px);line-height:var(--lh-tight,1.35)}
 .mrow .ch{display:flex;flex-wrap:wrap;gap:8px}
-.mrow .ch button{border:2px solid var(--line);background:#FFFDF8;border-radius:8px;padding:8px 10px;font:500 14.5px 'Noto Sans',sans-serif;color:var(--ink);cursor:pointer;text-align:left}
+.mrow .ch button{border:2px solid var(--line);background:#FFFDF8;border-radius:8px;padding:8px 10px;font:450 var(--fs-text,13.5px) 'Noto Sans',sans-serif;color:var(--ink);cursor:pointer;text-align:left}
 .mrow .ch button.sel{border-color:var(--navy);background:#E8EEF8}
 .mrow .ch button.right{border-color:var(--green);background:#E3EDDF}
 .mrow .ch button.wrong{border-color:var(--pink);background:#F6E3EA}
-.refl{margin-top:10px;padding:10px 12px;background:#F3E6C4;border-radius:10px;font-size:15px;line-height:1.55}
-.join{margin-top:16px;padding:14px;border-radius:12px;background:#12285A;color:#FBF5EA;font-size:15px;line-height:1.5}
+.refl{margin-top:10px;padding:10px 12px;background:#F3E6C4;border-radius:10px;font-size:var(--fs-text,13.5px);line-height:var(--lh-text,1.7)}
+.join{margin-top:16px;padding:14px;border-radius:12px;background:#12285A;color:#FBF5EA;font-size:var(--fs-text,13.5px);line-height:var(--lh-text,1.7)}
 .join a{color:#E6C36A;font-weight:700}
-@media (max-width:600px){h1{font-size:21px}.q{font-size:17px;line-height:1.35;margin:6px 0 12px}.opt{font-size:15px;padding:11px 12px;margin-bottom:8px}.mrow p{font-size:15px}.ch button{font-size:14px}.fb{font-size:14.5px}}</style></head><body>
+@media (max-width:600px){main{padding:14px 12px 36px}.card{padding:16px 14px}}</style></head><body>
 <header><img src="../logo.png" alt="Ramakrishna Vedanta NZ emblem"><p class="ey">REVISION QUIZ · SAT-001</p><h1>The Divine Mother</h1><p>25 questions · 100 marks · explanations and reflections</p></header>
 <main>
 <div class="bar"><i id="prog"></i></div>
@@ -85,8 +86,8 @@ function fb(ok,gain,ansText,q){const el=document.getElementById('fb');el.classNa
 function show(){hdr();if(i>=Q.length)return result();const q=Q[i];
  let h='<div class="card"><p class="qn">QUESTION '+(i+1)+' · 4 MARKS'+(q.t==='match'?' · MATCHING':'')+'</p><p class="q">'+esc(q.q)+'</p>';
  if(q.t==='mc')q.o.forEach((o,k)=>h+='<button class="opt" data-k="'+k+'">'+String.fromCharCode(65+k)+'. '+esc(o)+'</button>');
- else{h+='<p style="font-size:14px;color:#5A5A5A;margin:-8px 0 10px">Choose an answer for each line, then check. 1 mark for each correct match.</p>';q.rows.forEach((r,ri)=>{h+='<div class="mrow"><p>'+esc(r)+'</p><div class="ch" data-r="'+ri+'">'+q.c.map((c,ci)=>'<button data-c="'+ci+'">'+esc(c)+'</button>').join('')+'</div></div>'});h+='<button class="btn" id="chk">Check my matches</button>'}
- h+='<div class="fb" id="fb"></div><div class="nav"><button class="btn gold" id="nx" style="display:none">'+(i===Q.length-1?'See my result':'Next question ›')+'</button></div><p style="font-size:13px;color:#6B6B6B;text-align:center;margin-top:12px">Your answers are saved as you go, so you can stop at any time and continue later. Sign in to vedanta.nz to continue on any device.</p></div>';
+ else{h+='<p style="font-size:var(--fs-text,13.5px);color:#5A5A5A;margin:-8px 0 10px">Choose an answer for each line, then check. 1 mark for each correct match.</p>';q.rows.forEach((r,ri)=>{h+='<div class="mrow"><p>'+esc(r)+'</p><div class="ch" data-r="'+ri+'">'+q.c.map((c,ci)=>'<button data-c="'+ci+'">'+esc(c)+'</button>').join('')+'</div></div>'});h+='<button class="btn" id="chk">Check my matches</button>'}
+ h+='<div class="fb" id="fb"></div><div class="nav"><button class="btn gold" id="nx" style="display:none">'+(i===Q.length-1?'See my result':'Next question ›')+'</button></div><p style="font-size:var(--fs-small,12.5px);color:#6B6B6B;text-align:center;margin-top:12px">Your answers are saved as you go, so you can stop at any time and continue later. Sign in to vedanta.nz to continue on any device.</p></div>';
  app.innerHTML=h;window.scrollTo(0,0);
  if(q.t==='mc')app.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{const ok=+b.dataset.k===q.a;app.querySelectorAll('.opt').forEach((x,k)=>{x.disabled=true;if(k===q.a)x.classList.add('right')});if(!ok)b.classList.add('wrong');const g=ok?M:0;score+=g;ans.push({g});fb(ok,g,ok?'':q.o[q.a],q)});
  else{const pick=q.rows.map(()=>-1);app.querySelectorAll('.ch').forEach(row=>row.querySelectorAll('button').forEach(b=>b.onclick=()=>{if(b.disabled)return;pick[+row.dataset.r]=+b.dataset.c;row.querySelectorAll('button').forEach(x=>x.classList.toggle('sel',x===b))}));
@@ -98,7 +99,7 @@ function result(){const p=score;try{localStorage.removeItem(SK)}catch(e){}
  let r='<div class="card res"><p class="qn">YOUR RESULT</p><p class="score"><span class="big">'+score+'</span><span class="of"> / '+TOT+'</span></p><p class="band">'+band[0]+'</p><p>'+band[1]+'</p><div class="rev">';
  Q.forEach((q,k)=>{const g=ans[k]?ans[k].g:0;r+='<div class="'+(g===4?'r':'w')+'">'+(g===4?'✓ ':(g>0?'◐ ':'✗ '))+'<b>Q'+(k+1)+'</b> '+g+'/4 · '+esc(q.t==='mc'?q.o[q.a]:q.q)+' <i>(slide '+q.s+')</i></div>'});
  r+='</div><div class="acts"><button class="btn" id="again">Try again</button><a class="btn gold" href="../" target="_blank" rel="noopener">Open the slides</a></div><div class="join">Join <b>Satsang Study</b> on our website, free, to study each satsang, share reflections with other members, and keep your progress: <a href="https://www.vedanta.nz/course/satsang-study" target="_top">vedanta.nz/course/satsang-study</a></div></div>';
- if(EMBED)r=r.replace('<div class="acts">','<p id="savemsg" style="font-size:14.5px;background:#E8EEDF;border-radius:10px;padding:10px 12px;margin-top:14px">'+saveMsg()+'</p><div class="acts">');
+ if(EMBED)r=r.replace('<div class="acts">','<p id="savemsg" style="font-size:var(--fs-text,13.5px);background:#E8EEDF;border-radius:10px;padding:10px 12px;margin-top:14px">'+saveMsg()+'</p><div class="acts">');
  app.innerHTML=r;window.scrollTo(0,0);
  if(EMBED){const full=ans.filter(a=>a&&a.g===4).length;try{window.parent.postMessage({type:'quizResult',code:QCODE,title:QTITLE,programme:QPROG,score:score,maxScore:TOT,percent:score,questionsCorrect:full,questionCount:Q.length,answers:ans.map((a,k)=>({q:k+1,marks:a?a.g:0}))},'*')}catch(e){}}
  document.getElementById('again').onclick=()=>{i=0;score=0;ans=[];show()}}

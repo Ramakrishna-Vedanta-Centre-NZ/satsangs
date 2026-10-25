@@ -1,0 +1,33 @@
+/* Ramakrishna Vedanta Centre NZ: standard type scale
+   Taken from the blog essay decks (Ritam Wellbeing Programme), which were tuned for phones.
+   Use these tokens in every page and embed (quizzes, My Journey, decks, essays) so text looks the same everywhere.
+
+   Blog deck source of each size:
+     body       p.body        15px / 1.75
+     text       p.card-text   13.5px / 1.7   (also notes and "in plain words" boxes)
+     heading    h3.card-title 21px
+     title      h2.slide-title clamp(27px, 5vw, 44px)
+     micro      .eyebrow, .tag 11px
+     small      chips 12.5px
+     button     .btn 13px (14px here for easier tapping)
+
+   Rules:
+   - Form fields stay at 16px or more, or iPhones zoom the page when a field is tapped.
+   - Only the question grows on wide screens; all other sizes are the same on every device.
+   - Never use em dashes in text shown to people. */
+:root{
+  --fs-micro:11px;
+  --fs-small:12.5px;
+  --fs-text:13.5px;
+  --fs-btn:14px;
+  --fs-body:15px;
+  --fs-question:16px;
+  --fs-heading:21px;
+  --fs-title:clamp(22px,5.5vw,28px);
+  --fs-field:16px;
+  --lh-text:1.7;
+  --lh-body:1.75;
+  --lh-tight:1.35;
+  --lh-option:1.5;
+}
+@media (min-width:720px){:root{--fs-question:18px}}
