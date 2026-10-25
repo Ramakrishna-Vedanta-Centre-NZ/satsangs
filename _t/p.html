@@ -1,0 +1,9 @@
+<!doctype html><iframe id="f" src="/SAT-001/quiz/?embed=1" style="width:980px;height:1150px"></iframe>
+<script>
+const f=document.getElementById('f');
+window.addEventListener('message',async e=>{const d=e.data||{};
+ if(d.type==='ready'){const st=await window.dbGet();f.contentWindow.postMessage({type:'resume',state:st?JSON.parse(st):null},'*')}
+ if(d.type==='progress'){await window.dbSet(d.state?JSON.stringify(d.state):null)}
+ if(d.type==='quizResult'){await window.dbSet(null);f.contentWindow.postMessage({type:'saved'},'*')}
+});
+</script>

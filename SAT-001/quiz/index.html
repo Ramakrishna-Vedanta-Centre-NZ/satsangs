@@ -73,8 +73,9 @@ const EMBED=/[?&]embed=1/.test(location.search)||window.self!==window.top;
 const QCODE='SAT-001',QTITLE='The Divine Mother: The One Power That Became All',QPROG='Satsang Study';
 let saveState='';
 const SK='rvcQuiz:'+QCODE;
-function keep(){try{if(ans.length&&ans.length<Q.length)localStorage.setItem(SK,JSON.stringify({score:score,ans:ans,t:Date.now()}));else localStorage.removeItem(SK)}catch(e){}}
-function saved(){try{const v=JSON.parse(localStorage.getItem(SK)||'null');if(v&&Array.isArray(v.ans)&&v.ans.length>0&&v.ans.length<Q.length)return v}catch(e){}return null}
+function keep(){const st=(ans.length&&ans.length<Q.length)?{score:score,ans:ans,t:Date.now()}:null;try{if(st)localStorage.setItem(SK,JSON.stringify(st));else localStorage.removeItem(SK)}catch(e){}if(EMBED)try{window.parent.postMessage({type:'progress',code:QCODE,state:st},'*')}catch(e){}}
+function valid(v){return v&&Array.isArray(v.ans)&&v.ans.length>0&&v.ans.length<Q.length&&typeof v.score==='number'?v:null}
+function saved(){try{return valid(JSON.parse(localStorage.getItem(SK)||'null'))}catch(e){return null}}
 window.addEventListener('message',e=>{const d=e.data||{};if(d.type==='saved')saveState='saved';else if(d.type==='saveError')saveState='error';else if(d.type==='notMember')saveState='guest';else return;const el=document.getElementById('savemsg');if(el)el.innerHTML=saveMsg()});
 function saveMsg(){return saveState==='saved'?'✓ Your result has been saved to your account. See all your results on <a href="https://www.vedanta.nz/my-journey" target="_top">My Journey</a>.':saveState==='error'?'Your result could not be saved just now. Please try again, or write to mail@vedanta.nz.':saveState==='guest'?'Sign in to vedanta.nz to save your results.':'Saving your result…'}
 const app=document.getElementById('app');
@@ -85,7 +86,7 @@ function show(){hdr();if(i>=Q.length)return result();const q=Q[i];
  let h='<div class="card"><p class="qn">QUESTION '+(i+1)+' · 4 MARKS'+(q.t==='match'?' · MATCHING':'')+'</p><p class="q">'+esc(q.q)+'</p>';
  if(q.t==='mc')q.o.forEach((o,k)=>h+='<button class="opt" data-k="'+k+'">'+String.fromCharCode(65+k)+'. '+esc(o)+'</button>');
  else{h+='<p style="font-size:14px;color:#5A5A5A;margin:-8px 0 10px">Choose an answer for each line, then check. 1 mark for each correct match.</p>';q.rows.forEach((r,ri)=>{h+='<div class="mrow"><p>'+esc(r)+'</p><div class="ch" data-r="'+ri+'">'+q.c.map((c,ci)=>'<button data-c="'+ci+'">'+esc(c)+'</button>').join('')+'</div></div>'});h+='<button class="btn" id="chk">Check my matches</button>'}
- h+='<div class="fb" id="fb"></div><div class="nav"><button class="btn gold" id="nx" style="display:none">'+(i===Q.length-1?'See my result':'Next question ›')+'</button></div><p style="font-size:13px;color:#6B6B6B;text-align:center;margin-top:12px">Your answers are kept on this device as you go, so you can stop at any time and continue later.</p></div>';
+ h+='<div class="fb" id="fb"></div><div class="nav"><button class="btn gold" id="nx" style="display:none">'+(i===Q.length-1?'See my result':'Next question ›')+'</button></div><p style="font-size:13px;color:#6B6B6B;text-align:center;margin-top:12px">Your answers are saved as you go, so you can stop at any time and continue later. Sign in to vedanta.nz to continue on any device.</p></div>';
  app.innerHTML=h;window.scrollTo(0,0);
  if(q.t==='mc')app.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{const ok=+b.dataset.k===q.a;app.querySelectorAll('.opt').forEach((x,k)=>{x.disabled=true;if(k===q.a)x.classList.add('right')});if(!ok)b.classList.add('wrong');const g=ok?M:0;score+=g;ans.push({g});fb(ok,g,ok?'':q.o[q.a],q)});
  else{const pick=q.rows.map(()=>-1);app.querySelectorAll('.ch').forEach(row=>row.querySelectorAll('button').forEach(b=>b.onclick=()=>{if(b.disabled)return;pick[+row.dataset.r]=+b.dataset.c;row.querySelectorAll('button').forEach(x=>x.classList.toggle('sel',x===b))}));
@@ -101,10 +102,16 @@ function result(){const p=score;try{localStorage.removeItem(SK)}catch(e){}
  app.innerHTML=r;window.scrollTo(0,0);
  if(EMBED){const full=ans.filter(a=>a&&a.g===4).length;try{window.parent.postMessage({type:'quizResult',code:QCODE,title:QTITLE,programme:QPROG,score:score,maxScore:TOT,percent:score,questionsCorrect:full,questionCount:Q.length,answers:ans.map((a,k)=>({q:k+1,marks:a?a.g:0}))},'*')}catch(e){}}
  document.getElementById('again').onclick=()=>{i=0;score=0;ans=[];show()}}
-function start(){const v=saved();if(!v)return show();
+function start(){if(!EMBED)return offer(saved());
+ let done=false,n=0,tm=null;const go=v=>{if(done)return;done=true;if(tm)clearInterval(tm);offer(v)};
+ window.addEventListener('message',e=>{const d=e.data||{};if(d.type!=='resume')return;const a=valid(d.state),b=saved();go(a&&b?((a.t||0)>=(b.t||0)?a:b):(a||b))});
+ app.innerHTML='<div class="card"><p>Loading your quiz…</p></div>';
+ const ping=()=>{if(done)return;if(++n>6)return go(saved());try{window.parent.postMessage({type:'ready',code:QCODE},'*')}catch(e){}};
+ tm=setInterval(ping,500);ping()}
+function offer(v){if(!v)return show();
  const n=v.ans.length;hdr();
  app.innerHTML='<div class="card"><p class="qn">WELCOME BACK</p><p class="q">You have answered '+n+' of '+Q.length+' questions so far, with '+v.score+' marks.</p><p>Would you like to continue where you left off, or start again from the beginning?</p><div class="acts"><button class="btn gold" id="cont">Continue from question '+(n+1)+' ›</button><button class="btn" id="fresh">Start again</button></div></div>';
  document.getElementById('cont').onclick=()=>{ans=v.ans;score=v.score;i=n;show()};
- document.getElementById('fresh').onclick=()=>{try{localStorage.removeItem(SK)}catch(e){}i=0;score=0;ans=[];show()}}
+ document.getElementById('fresh').onclick=()=>{i=0;score=0;ans=[];keep();show()}}
 start();
 </script></body></html>
