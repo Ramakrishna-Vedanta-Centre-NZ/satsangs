@@ -109,7 +109,7 @@ function start(){if(!EMBED)return offer(saved());
  const ping=()=>{if(done)return;if(++n>6)return go(saved());try{window.parent.postMessage({type:'ready',code:QCODE},'*')}catch(e){}};
  tm=setInterval(ping,500);ping()}
 function offer(v){if(!v)return show();
- const n=v.ans.length;hdr();
+ const n=v.ans.length;i=n;score=v.score;hdr();document.getElementById('pos').textContent='Paused at question '+(n+1)+' of '+Q.length;
  app.innerHTML='<div class="card"><p class="qn">WELCOME BACK</p><p class="q">You have answered '+n+' of '+Q.length+' questions so far, with '+v.score+' marks.</p><p>Would you like to continue where you left off, or start again from the beginning?</p><div class="acts"><button class="btn gold" id="cont">Continue from question '+(n+1)+' ›</button><button class="btn" id="fresh">Start again</button></div></div>';
  document.getElementById('cont').onclick=()=>{ans=v.ans;score=v.score;i=n;show()};
  document.getElementById('fresh').onclick=()=>{i=0;score=0;ans=[];keep();show()}}
