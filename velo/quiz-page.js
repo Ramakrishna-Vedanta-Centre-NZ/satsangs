@@ -1,6 +1,6 @@
-// Page code for the "Satsang Quiz" page on vedanta.nz (URL: /satsang-quiz)
+// Page code for the "Quiz" page on vedanta.nz (URL: /quiz). Serves every quiz: satsangs and course lessons.
 // The page holds one HTML element (Embed > Embed a site) with the ID: quizFrame
-// Opens the quiz chosen in the link, e.g. www.vedanta.nz/satsang-quiz?q=SAT-001
+// Opens the quiz chosen in the link, e.g. www.vedanta.nz/quiz?q=SAT-001 (or ?q=MIND-L01 for a course lesson)
 // and saves each completed quiz to the CMS collection "Quiz Results".
 
 import wixData from 'wix-data';

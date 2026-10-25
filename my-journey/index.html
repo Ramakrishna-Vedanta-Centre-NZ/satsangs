@@ -50,7 +50,7 @@ function render(d){
  else{h+='<h2>Your best result for each quiz</h2>';
   bestList.sort((a,b)=>new Date(b.date)-new Date(a.date)).forEach(r=>{const b=band(r.percent);const tries=items.filter(x=>x.code===r.code).length;
    h+='<div class="res"><div class="top"><div><p class="code">'+esc(r.code)+(r.programme?' · '+esc(r.programme).toUpperCase():'')+'</p><p class="t">'+esc(r.title)+'</p></div><p class="pct">'+r.percent+'%</p></div><div class="bar"><i style="width:'+Math.max(2,r.percent)+'%;background:'+b[1]+'"></i></div><div class="meta"><span class="band" style="color:'+b[1]+'">'+b[0]+'</span><span>'+r.score+' / '+r.maxScore+' · '+new Date(r.date).toLocaleDateString('en-NZ',{day:'numeric',month:'short',year:'numeric'})+(tries>1?' · '+tries+' attempts':'')+'</span></div></div>'});}
- h+='<div class="links"><a class="a1" href="https://www.vedanta.nz/course/satsang-study" target="_top">Continue Satsang Study</a><a class="a2" href="https://www.vedanta.nz/satsang-quiz?q=SAT-001" target="_top">Take the latest quiz</a></div>';
+ h+='<div class="links"><a class="a1" href="https://www.vedanta.nz/course/satsang-study" target="_top">Continue Satsang Study</a><a class="a2" href="https://www.vedanta.nz/quiz?q=SAT-001" target="_top">Take the latest quiz</a></div>';
  app.innerHTML=h}
 window.addEventListener('message',e=>{const d=e.data||{};if(d.type==='journey')render(d);else if(d.type==='notMember')app.innerHTML='<div class="note">Please sign in to vedanta.nz to see your journey.</div>'});
 if(window.self===window.top){app.innerHTML='<div class="note">This page shows your results when you open <b>My Journey</b> on <a href="https://www.vedanta.nz/my-journey">vedanta.nz</a> while signed in.</div>'}
