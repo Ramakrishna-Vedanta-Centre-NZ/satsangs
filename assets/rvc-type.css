@@ -13,7 +13,8 @@
 
    Rules:
    - Form fields stay at 16px or more, or iPhones zoom the page when a field is tapped.
-   - Only the question grows on wide screens; all other sizes are the same on every device.
+   - Questions are the same size as reading text (15px); bold serif makes them stand out.
+   - All sizes are the same on every device.
    - Never use em dashes in text shown to people. */
 :root{
   --fs-micro:11px;
@@ -21,7 +22,7 @@
   --fs-text:13.5px;
   --fs-btn:14px;
   --fs-body:15px;
-  --fs-question:16px;
+  --fs-question:15px;
   --fs-heading:21px;
   --fs-title:clamp(22px,5.5vw,28px);
   --fs-field:16px;
@@ -30,4 +31,3 @@
   --lh-tight:1.35;
   --lh-option:1.5;
 }
-@media (min-width:720px){:root{--fs-question:18px}}
