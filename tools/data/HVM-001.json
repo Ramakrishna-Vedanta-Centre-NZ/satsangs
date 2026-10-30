@@ -2457,5 +2457,6 @@
    "r": "Which one practice will I carry through the coming month?",
    "s": 25
   }
- ]
+ ],
+ "allow_bare_names": true
 }

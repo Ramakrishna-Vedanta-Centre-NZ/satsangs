@@ -27,4 +27,6 @@ Open `CODE/quiz/index.html`, answer everything correctly: the result must be 100
 
 ## Proof it works
 Run on `data/HVM-001.json`, the output is byte for byte identical to the live HVM-001 pages.
+Set `"allow_bare_names": true` only for an old satsang published before the naming rule (HVM-001); new ones must write "Swami Vivekananda" in full.
+
 Not yet automated: sending the Wix files (Claude does this with the Wix API, after approval), tracker and README rows.
