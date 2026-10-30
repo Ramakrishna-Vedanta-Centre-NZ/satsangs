@@ -1,0 +1,2461 @@
+{
+ "code": "HVM-001",
+ "series": "HVM",
+ "page_kind": "Hamilton class",
+ "noun": "class",
+ "title": "Spiritualising Everyday Life",
+ "subtitle": "Niṣkāma Karma and Seva Yoga",
+ "qtitle": "Spiritualising Everyday Life: Niṣkāma Karma and Seva Yoga",
+ "date": "2026-10-07",
+ "when_where": "Wednesday 7 October 2026, Phoenix Community Hall, Frankton, and on Zoom. Swami Tadananda, Ramakrishna Vedanta Centre NZ.",
+ "program": "Satsang Study",
+ "handout_url": "https://8902ede3-28da-4abb-829e-7338609acebf.usrfiles.com/ugd/bff1bf_8283224183e14cc3916edf2eb753495b.pdf",
+ "handout_label": "download the Study Companion (PDF, 62 pages)",
+ "recording_url": null,
+ "quiz": {
+  "marks_per_question": 4,
+  "total": 100,
+  "desc": "Twenty-five question revision quiz for the Hamilton class on Spiritualising Everyday Life, Ramakrishna Vedanta Centre NZ.",
+  "og_title": "Revision quiz: Spiritualising Everyday Life",
+  "og_desc": "Twenty-five questions on the class. See how much you remember!",
+  "hero_line": "25 questions · 100 marks · explanations and reflections",
+  "blessing": "May your daily work become an offering."
+ },
+ "deck": {
+  "meta_desc": "Self-study slides and notes for the Hamilton Vedanta-Meditation class on Niṣkāma Karma and Seva Yoga, Ramakrishna Vedanta Centre NZ.",
+  "og_desc": "Hamilton Vedanta-Meditation class, 7 October 2026. Self-study slides with notes, Ramakrishna Vedanta Centre NZ."
+ },
+ "cms": {
+  "series": "Hamilton Vedanta-Meditation class",
+  "themes": [
+   "Niṣkāma Karma",
+   "Seva Yoga",
+   "Bhagavad Gita",
+   "Karma Yoga"
+  ],
+  "cover_url": "https://static.wixstatic.com/media/bff1bf_aa60e16761604bc28e143fafdddc45f2~mv2.jpg",
+  "slides_download": "wix:document://v1/ugd/bff1bf_8283224183e14cc3916edf2eb753495b.pdf/HVM-001 Study Companion.pdf",
+  "event_link": null,
+  "summary": "Can our daily work and duties become a path to inner peace? Vedanta says the division between work and spiritual practice is the real problem. We look at the knots of the doer, the enjoyer and attachment; the four instructions of Gita 2.47; yoga as equanimity (Gita 2.48) and skill in action; work as offering (Gita 3.9); and seva, serving all as manifestations of God. The class ends with practices to bring this attitude into home, work and family life.",
+  "reflection_questions": [
+   "Which of my daily hours feels most separate from my spiritual life?",
+   "Think of a recurring task I dislike. Is the discomfort in the task, or in my resistance to it?",
+   "Which of the three knots (the doer, the enjoyer, attachment) is strongest in me this week?",
+   "What is one task where I confuse caring about the work with needing the result?",
+   "Recall a time I worked at my best. Was my mind on the task or on the result?"
+  ],
+  "suggested_reading": [
+   "The Bhagavad Gita, chapters 2 and 3, Ramakrishna Math translation",
+   "Complete Works of Swami Vivekananda: Karma-Yoga",
+   "The Gospel of Sri Ramakrishna, tr. Swami Nikhilananda"
+  ]
+ },
+ "slides": [
+  {
+   "n": 1,
+   "t": "Title",
+   "on": [
+    "This class explores one question: how can the hours we spend working, caring and keeping house become part of spiritual life? Two ideas carry the answer. Niṣkāma Karma is action done wholeheartedly without craving for the result. Seva Yoga is work offered as service, seeing the Divine in the one served.",
+    "The scriptural source is the Bhagavad Gita and the Upanishads. Three teachers brought it alive: Sri Ramakrishna (1836 to 1886), Holy Mother Sri Sarada Devi (1853 to 1920) and Swami Vivekananda (1863 to 1902). Use the notes behind each slide and the Study Companion to follow up at home."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "Karma / कर्म",
+     "action, and the chain of cause and effect that follows action"
+    ],
+    [
+     "Niṣkāma / निष्काम",
+     "without kāma, that is, without desire or craving"
+    ],
+    [
+     "Seva / सेवा",
+     "service"
+    ],
+    [
+     "Yoga / योग",
+     "union; a discipline leading to union with the Divine, or evenness of mind"
+    ]
+   ],
+   "base": [
+    {
+     "h": "ABOUT THESE STUDY NOTES",
+     "paras": [
+      "These notes sit behind every slide so that the deck can be used for self-study after the class. Read the slide first, then the notes. Each set follows the same pattern: the idea in plain words, key terms, what the texts say, and a question to take into daily life."
+     ]
+    },
+    {
+     "h": "THE QUESTION BEHIND THE CLASS",
+     "paras": [
+      "Most of us spend the largest part of our waking hours working: at a job, at home, in caring for others. If spiritual life is confined to the meditation hour, then those hours feel like a subtraction. Vedanta answers that nothing in life is outside spiritual life, provided the work is done with the right inner attitude. Two ideas carry the whole class: Niṣkāma Karma (action without craving for the result) and Seva Yoga (work offered as service, seeing the Divine in the one served)."
+     ]
+    },
+    {
+     "h": "KEY TERMS",
+     "paras": [
+      "Karma: action, and also the chain of cause and effect that follows action. Niṣkāma: without kāma, that is, without desire or craving. Seva: service. Yoga: union, a discipline that leads to union with the Divine, or evenness of mind."
+     ]
+    },
+    {
+     "h": "THE FOUR TEACHERS",
+     "paras": [
+      "Sri Ramakrishna (1836 to 1886) lived the teaching and gave it in simple images. Holy Mother Sri Sarada Devi (1853 to 1920) lived it in the daily work of a household. Swami Vivekananda (1863 to 1902) turned it into a systematic Karma Yoga and into organised service. Behind all three stand the Bhagavad Gita and the Upanishads, which are the scriptural source."
+     ]
+    },
+    {
+     "h": "HOW TO STUDY",
+     "paras": [
+      "Go through one part per sitting: Part 1 (slides 2 to 3), Part 2 the Gita and Upanishads (slides 4 to 9), Part 3 the four teachers (slides 10 to 15), Part 4 practice (slides 16 to 25). Keep a notebook and write one line after each slide: what is one place in my day where this applies?"
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "IS THIS CLASS ONLY FOR RELIGIOUS PEOPLE?",
+     "paras": [
+      "No. Swami Vivekananda first taught Karma Yoga to a general audience in New York, and he presented it as a practical psychology of work that applies to anyone. People of every faith and of none find that the discipline of working wholeheartedly without anxiety about results, and of treating others with respect, makes ordinary life lighter. The language here is Vedantic, but the practice is open to everyone."
+     ]
+    },
+    {
+     "h": "WHAT THE THREE GREAT TEACHERS SHARE",
+     "paras": [
+      "Sri Ramakrishna taught in homely images and asked householders to live in the world with the mind on God. Holy Mother showed the same teaching in the day-to-day work of caring for others. Swami Vivekananda gave it a systematic form as Karma Yoga and carried it into organised service. They differ in style, and they agree on the essentials: work is not an obstacle to spiritual life, and the right inner attitude turns it into a path."
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "t": "Our evening",
+   "on": [
+    "The evening follows the classical order of Vedantic learning. Listening (śravaṇa) is the talk. Reflection (manana) is the question time. Meditation (nididhyāsana) is the two guided sittings, one before the talk to quieten the mind and one after to let the teaching settle into experience.",
+    "To follow the same pattern at home: sit quietly for a few minutes, read one section of the deck, write down one question, and close with a short silent sitting. Please bring questions to the 7.15 pm session. Entry is free, donations are welcome, and refreshments are shared."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "HOW THE EVENING IS BUILT",
+     "paras": [
+      "The programme follows a deliberate order. Arrival and refreshments let the mind settle. The first guided meditation (6.30 pm) quietens the mind before the talk, so that the ideas land in a receptive state. The talk (6.45 pm) gives the framework. Questions (7.15 pm) let each person test the ideas against their own life. The closing meditation (7.45 pm) turns the ideas into direct experience."
+     ]
+    },
+    {
+     "h": "WHY MEDITATION BOTH BEFORE AND AFTER",
+     "paras": [
+      "Vedanta treats listening (śravaṇa), reflection (manana) and meditation (nididhyāsana) as three stages of one process. The talk and the questions are listening and reflection. The meditations are where the teaching begins to be absorbed."
+     ]
+    },
+    {
+     "h": "FOR SELF-STUDY",
+     "paras": [
+      "If you are working through this deck alone, you can reproduce the same pattern: sit quietly for a few minutes, read one section, write down a question, and end with a short silent sitting on slide 22."
+     ]
+    },
+    {
+     "h": "REFLECT",
+     "paras": [
+      "What do I usually do in the first five minutes of a study session, and does it prepare my mind?"
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "THE THREE STAGES OF VEDANTIC STUDY",
+     "paras": [
+      "Vedanta describes learning in three stages. Śravaṇa is listening to the teaching from a teacher and the texts. Manana is reflecting on it until doubts are resolved. Nididhyāsana is deep, sustained contemplation until the teaching becomes one's own experience. This class tries to touch all three in one evening, which is why meditation appears at the beginning and the end."
+     ]
+    },
+    {
+     "h": "A MONTHLY RHYTHM",
+     "paras": [
+      "The class meets on the first Wednesday of every month. A teaching that is heard once fades quickly. A monthly meeting gives a rhythm of hearing, practising for a few weeks, and returning with questions. Many participants find that bringing one real experience of the previous month to the Q and A is the most useful way to learn."
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "t": "The question",
+   "on": [
+    "Many of us feel at peace in meditation and scattered by noon. We divide life into \"real\" work and \"spiritual\" practice, so that work feels like time taken away from what matters. Vedanta says the division is the real problem. One Reality is present in all things, so no activity is outside spiritual life.",
+    "The tasks stay the same. What changes is the inner attitude: from \"this is mine and I must succeed\" to \"this is offered and I will do my best\". Krishna teaches this to Arjuna on a battlefield, the place of greatest duty. The path is walked in the midst of action, not away from it."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "Vyavahāra / व्यवहार",
+     "everyday transactional life, the world of work and relationships"
+    ],
+    [
+     "Paramārtha / परमार्थ",
+     "the highest truth, the Reality beyond appearances"
+    ]
+   ],
+   "base": [
+    {
+     "h": "THE IDEA IN PLAIN WORDS",
+     "paras": [
+      "Many people experience a split between \"real life\" (work, errands, duties) and \"spiritual life\" (prayer, meditation, study). The split produces two kinds of unease: work feels like time stolen from what matters, and spiritual practice feels like an escape from responsibility. Vedanta does not accept the split. In the vision of the Gita and the Upanishads, one Reality is present in all things, so no activity is outside it. The task is to change how we hold our activity."
+     ]
+    },
+    {
+     "h": "WHAT CHANGES, AND WHAT DOES NOT",
+     "paras": [
+      "The tasks stay the same: the cooking, the emails, the caring. What changes is the inner attitude: from \"this is mine, and I must succeed\" to \"this is offered, and I will do my best\". Sri Ramakrishna, Holy Mother and Swami Vivekananda all taught this change of attitude, not a change of occupation."
+     ]
+    },
+    {
+     "h": "WHY NOT SIMPLY WITHDRAW?",
+     "paras": [
+      "The Gita is spoken to Arjuna on a battlefield, a situation of maximum duty and pressure. Krishna does not send him to a forest. This is the founding image of the whole teaching: the path is walked in the midst of action."
+     ]
+    },
+    {
+     "h": "KEY TERM",
+     "paras": [
+      "Vyavahāra: everyday transactional life. Vedanta teaches that vyavahāra can be lived in the light of the Self, and does not need to be abandoned."
+     ]
+    },
+    {
+     "h": "REFLECT",
+     "paras": [
+      "Think of a recurring task you dislike. What exactly is the discomfort: the task, or the resistance to it?"
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "THE TWO LEVELS IN VEDANTA",
+     "paras": [
+      "Vedanta speaks of two levels: vyavahāra (everyday life) and paramārtha (the highest Reality). The teaching is that these are not two separate worlds. The same One appears as the many, and everyday life, rightly seen, is lived in the light of the Self. This is why the Gita can ask for full engagement in the world and also say that action does not bind the one who knows."
+     ]
+    },
+    {
+     "h": "QUESTIONS PEOPLE ASK",
+     "paras": [
+      "Is it selfish to seek peace through work? The Vedantic answer is that peace of mind is not selfish; a settled mind is more useful to others. Is it escapism to focus on inner attitude? No. The change of attitude must show in outer behaviour: greater care, honesty, patience and respect. If nothing outward changes, the inner change has not yet happened."
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "t": "Why does action bind us?",
+   "on": [
+    "Work is not the problem. Three knots tie us to it: kartṛtva (the sense of being the doer), bhoktṛtva (the sense of being the enjoyer who must receive the reward) and saṅga (attachment to outcomes, praise and ownership). These produce anxiety before a task and elation or disappointment after it.",
+    "Niṣkāma karma means full effort without craving for the result. It does not mean without purpose or without care. The Gita (18.26) describes the ideal doer as free from attachment, not boastful, full of resolve and enthusiasm, and unmoved by success or failure."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "Kartṛtva / कर्तृत्व",
+     "the sense of being the doer"
+    ],
+    [
+     "Bhoktṛtva / भोक्तृत्व",
+     "the sense of being the enjoyer of results"
+    ],
+    [
+     "Saṅga / सङ्ग",
+     "attachment, clinging"
+    ],
+    [
+     "Niṣkāma karma / निष्काम कर्म",
+     "action without craving for results"
+    ]
+   ],
+   "base": [
+    {
+     "h": "THE IDEA IN PLAIN WORDS",
+     "paras": [
+      "It is not action itself that binds but a particular way of relating to action. The Gita and later Vedanta point to three knots."
+     ]
+    },
+    {
+     "h": "THE THREE KNOTS",
+     "paras": [
+      "Kartṛtva: the sense of being the doer (\"I am accomplishing this\"). Bhoktṛtva: the sense of being the enjoyer, the one who must receive the benefit (\"I must get the reward\"). Saṅga: attachment, the clinging to outcomes, to praise, and to ownership of what we do. Together they produce anxiety before the task, elation or disappointment after it, and the tendency to carry the result into the next moment."
+     ]
+    },
+    {
+     "h": "NIṢKĀMA KARMA DEFINED",
+     "paras": [
+      "Niṣkāma karma is action performed with full effort but without craving for a particular result. The Sanskrit nir or niḥ means without, and kāma means desire. It does not mean without purpose, or without care. It means that the mind does not tie its peace to the outcome."
+     ]
+    },
+    {
+     "h": "AN ILLUSTRATION",
+     "paras": [
+      "Two people prepare the same meal. The first is preoccupied with whether it will be praised, and is irritated if no one notices. The second is attentive to the cooking, offers the meal, and is content when it is eaten. The work is identical. The inner life is entirely different, and so is the effect on the person doing it."
+     ]
+    },
+    {
+     "h": "WHAT VEDANTA ADDS",
+     "paras": [
+      "At the deepest level the sense of being the doer rests on a mistake: the Self (Ātman) is not the agent of action. The Gita says elsewhere that actions are performed by the qualities of nature (guṇas), and only the mind deluded by ego thinks \"I am the doer\" (Gita 3.27). This teaching is for later study, but it explains why releasing doership brings freedom."
+     ]
+    },
+    {
+     "h": "REFLECT",
+     "paras": [
+      "Which of the three knots is strongest in me this week: doership, enjoyership, or attachment?"
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "THE SATTVIC DOER (GITA 18.26)",
+     "paras": [
+      "mukta-saṅgo 'nahaṃ-vādī dhṛty-utsāha-samanvitaḥ | siddhy-asiddhyor nirvikāraḥ kartā sāttvika ucyate. The doer who is free from attachment, who does not speak of 'I', who has firmness and enthusiasm, and who remains unchanged in success and failure is called sattvic. This verse is a precise portrait of Niṣkāma Karma: strong effort with a loosened ego and an even mind."
+     ]
+    },
+    {
+     "h": "A SIMPLE TEST OF DOERSHIP",
+     "paras": [
+      "Notice the thoughts 'I did it all' after a success and 'it was entirely my fault' after a failure. Both come from the belief of being the sole agent. In fact health, other people, timing and opportunity all contributed. Seeing this is the first practical loosening of doership. It is not a denial of effort but a correction of a mistaken self-image, and it brings a sense of lightness."
+     ]
+    },
+    {
+     "h": "A WORKING EXERCISE",
+     "paras": [
+      "Take one task today. Before starting, notice what result you are hoping for. Then say silently, 'I will do my best and offer the result.' After finishing, notice whether you are still holding on to the outcome. This is a small, practical way to observe the three knots in action."
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "t": "Gita 2.47: the foundation",
+   "on": [
+    "Gita 2.47 is the foundation of Niṣkāma Karma and carries four instructions: act; do not claim the fruit; do not make the fruit your motive; do not retreat into inaction. Krishna speaks it to Arjuna, who has put down his bow, overcome by grief on the battlefield.",
+    "The verse is often misread as indifference or as a ban on goals. It is neither. A farmer sows with a purpose. What the verse removes is the dependence of our peace on the result, and the fourth instruction closes the door to passivity. Krishna asks for more engagement, with a released grip."
+   ],
+   "vs": [
+    {
+     "ref": "Bhagavad Gita 2.47",
+     "dev": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥ ४७ ॥",
+     "iast": "karmaṇy evādhikāras te mā phaleṣu kadācana\nmā karma-phala-hetur bhūr mā te saṅgo 'stv akarmaṇi",
+     "en": "You have a right to action alone, never to its fruits. Do not let the fruit be your motive, nor be attached to inaction."
+    }
+   ],
+   "gl": [
+    [
+     "karmaṇi / कर्मणि",
+     "in action"
+    ],
+    [
+     "eva / एव",
+     "only"
+    ],
+    [
+     "adhikāraḥ / अधिकारः",
+     "right, entitlement"
+    ],
+    [
+     "te / ते",
+     "your"
+    ],
+    [
+     "mā / मा",
+     "not, never"
+    ],
+    [
+     "phaleṣu / फलेषु",
+     "in the fruits"
+    ],
+    [
+     "kadācana / कदाचन",
+     "ever, at any time"
+    ],
+    [
+     "karma-phala-hetuḥ / कर्मफलहेतुः",
+     "one whose motive is the fruit of action"
+    ],
+    [
+     "bhūḥ / भूः",
+     "(do not) become"
+    ],
+    [
+     "saṅgaḥ / सङ्गः",
+     "attachment"
+    ],
+    [
+     "akarmaṇi / अकर्मणि",
+     "in inaction"
+    ]
+   ],
+   "base": [
+    {
+     "h": "THE FOUR INSTRUCTIONS",
+     "paras": [
+      "1. Act. The right is to action. 2. Do not claim the fruit. The outcome depends on many factors beyond one's control. 3. Do not let the fruit be the motive. It is possible to act and be driven entirely by the reward. 4. Do not drift into inaction. The verse closes the loophole that would turn detachment into passivity."
+     ]
+    },
+    {
+     "h": "THE CONTEXT",
+     "paras": [
+      "Arjuna has put down his bow, overcome by grief. Krishna's answer begins in Chapter 2 with the teaching of the Self, then turns to action. This verse is the first statement of what the Gita calls karma yoga."
+     ]
+    },
+    {
+     "h": "COMMON MISREADINGS",
+     "paras": [
+      "That it forbids having goals. It does not; a farmer sows with a purpose. It forbids making peace of mind depend on the result. That it justifies indifference. The fourth instruction rules this out."
+     ]
+    },
+    {
+     "h": "HOW VIVEKANANDA READS IT",
+     "paras": [
+      "Swami Vivekananda quotes this teaching in Karma-Yoga as \"To work you have the right, but not to the fruits thereof\", and treats it as the heart of the path."
+     ]
+    },
+    {
+     "h": "REFLECT",
+     "paras": [
+      "What is one task where I have been confusing \"caring about the work\" with \"needing the result\"?"
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "WHERE THE VERSE SITS IN THE GITA",
+     "paras": [
+      "Chapter 2 begins with Arjuna's despair and Krishna's first teaching on the imperishable Self. At verse 39 Krishna announces that he will now teach buddhi-yoga, the yoga of discernment applied to action. Verse 47 is the first clear statement of that discipline. The rest of the Gita elaborates it: Chapter 3 explains why work is necessary, Chapter 4 explains inaction in action, Chapter 5 compares renunciation and yoga, and Chapter 18 gathers the teaching together."
+     ]
+    },
+    {
+     "h": "QUESTIONS PEOPLE ASK",
+     "paras": [
+      "If I have no right to the fruits, why work at all? Because the right to act is given and the outcome depends on many causes beyond one person's control. Does it mean I should not set goals? No. Goals orient action. The teaching is about holding them lightly. Is detachment cold? Vedanta teaches that the one without attachment is the one capable of the warmest, steadiest care, because their care does not depend on being rewarded."
+     ]
+    },
+    {
+     "h": "VIVEKANANDA ON THE VERSE",
+     "paras": [
+      "In Karma-Yoga, Swami Vivekananda restates this teaching as 'To work you have the right, but not to the fruits thereof', and builds his teaching of unselfish work around it. He emphasises that the practice leads to inner strength and freedom, since the mind that does not depend on results cannot be disturbed by them."
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "t": "Equanimity and skill",
+   "on": [
+    "Two verses define Yoga in action. Gita 2.48 says yoga is equanimity (samatva): to remain level in success and failure. Gita 2.50 says yoga is skill in action (kauśalam). The first is the inner side of work and the second is the outer side.",
+    "A mind that swings between hope and fear is divided: part of its attention is on the task and part on the imagined result. Releasing the result frees all the attention for the work. Shankara and other commentators read \"skill\" as the art of acting so that action does not bind, namely with evenness of mind and the spirit of offering."
+   ],
+   "vs": [
+    {
+     "ref": "Bhagavad Gita 2.48",
+     "dev": "योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय ।\nसिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते ॥ ४८ ॥",
+     "iast": "yoga-sthaḥ kuru karmāṇi saṅgaṃ tyaktvā dhanañjaya\nsiddhy-asiddhyoḥ samo bhūtvā samatvaṃ yoga ucyate",
+     "en": "Established in yoga, perform actions, giving up attachment, O Arjuna, becoming even-minded in success and failure. Evenness of mind is called yoga."
+    },
+    {
+     "ref": "Bhagavad Gita 2.50",
+     "dev": "बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते ।\nतस्माद्योगाय युज्यस्व योगः कर्मसु कौशलम् ॥ ५० ॥",
+     "iast": "buddhi-yukto jahātīha ubhe sukṛta-duṣkṛte\ntasmād yogāya yujyasva yogaḥ karmasu kauśalam",
+     "en": "One whose mind is yoked in this evenness casts off here both good and evil results. Therefore strive for yoga. Yoga is skill in action."
+    }
+   ],
+   "gl": [
+    [
+     "yoga-sthaḥ / योगस्थः",
+     "established in yoga"
+    ],
+    [
+     "saṅgaṃ tyaktvā / सङ्गं त्यक्त्वा",
+     "giving up attachment"
+    ],
+    [
+     "siddhi-asiddhi / सिद्ध्यसिद्ध्योः",
+     "in success and failure"
+    ],
+    [
+     "samatvam / समत्वम्",
+     "evenness, equanimity"
+    ],
+    [
+     "buddhi-yuktaḥ / बुद्धियुक्तः",
+     "one whose mind is yoked, balanced"
+    ],
+    [
+     "sukṛta-duṣkṛte / सुकृतदुष्कृते",
+     "good and evil deeds"
+    ],
+    [
+     "kauśalam / कौशलम्",
+     "skill"
+    ]
+   ],
+   "base": [
+    {
+     "h": "THE TWO MEANINGS OF YOGA HERE",
+     "paras": [
+      "In 2.48 yoga is defined as equanimity (samatva): the mind that remains level in success and failure. In 2.50 yoga is skill in action (kauśalam). Classical commentators, including Shankara, understand this skill as the ability to act in such a way that action does not bind: that is, with equanimity and in the spirit of offering. The two verses together give the full picture: equanimity is the inner side, excellence is the outer side."
+     ]
+    },
+    {
+     "h": "WHY EQUANIMITY HELPS THE WORK",
+     "paras": [
+      "A mind swinging between hope and fear is divided: part of its attention is on the task and part on the anticipated result. Releasing the result frees the whole of the attention for the work. Many people find that their work improves when they practise this."
+     ]
+    },
+    {
+     "h": "REFLECT",
+     "paras": [
+      "Recall a time you worked at your best. Was your mind on the task or on the result?"
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "EQUANIMITY IS NOT EMOTIONLESSNESS",
+     "paras": [
+      "Samatva does not mean feeling nothing. It means the mind is not knocked off its centre by outcomes. A person with samatva can feel joy and sorrow and still return quickly to balance. The Gita's ideal is a steady, clear, warm mind, and not a numb one."
+     ]
+    },
+    {
+     "h": "WHY EXCELLENCE AND EQUANIMITY BELONG TOGETHER",
+     "paras": [
+      "It might seem that equanimity would make us careless. The Gita says the opposite: yoga is skill in action. The mind that does not fret about results can give full attention to the work, and the work improves. Many athletes, musicians and surgeons describe the same experience: performance is best when the mind is absorbed in the task and not in the result."
+     ]
+    },
+    {
+     "h": "THE SAME ACTION, TWO ATTITUDES",
+     "paras": [
+      "Imagine two people washing the same pile of dishes. One is anxious about who will notice and resentful at not being thanked. The other works with steady attention and offers the work. The outward action is identical. Shankara's point is that this inner attitude is the skill (kauśalam) that keeps action from binding."
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "t": "Why work is necessary",
+   "on": [
+    "Gita 3.19 says work must be done without attachment, and by working so one attains the Supreme. Krishna adds that no one can remain without action even for a moment (3.5), so the real choice is between action that binds and action that frees. Gita 3.9 gives the key: work done as an offering (yajña) frees, and work done for self alone binds.",
+    "Gita 4.18 teaches inaction in action: in the midst of work the Self stays actionless, and outward idleness with a restless mind is still action. Krishna points to Janaka and others who attained perfection through action alone (3.20), and says even he acts though he has nothing to gain (3.22)."
+   ],
+   "vs": [
+    {
+     "ref": "Bhagavad Gita 3.19",
+     "dev": "तस्मादसक्तः सततं कार्यं कर्म समाचर ।\nअसक्तो ह्याचरन्कर्म परमाप्नोति पूरुषः ॥ १९ ॥",
+     "iast": "tasmād asaktaḥ satataṃ kāryaṃ karma samācara\nasakto hy ācaran karma param āpnoti pūruṣaḥ",
+     "en": "Therefore, without attachment, always perform the work that has to be done. By working without attachment, a person attains the Supreme."
+    },
+    {
+     "ref": "Bhagavad Gita 3.9",
+     "dev": "यज्ञार्थात्कर्मणोऽन्यत्र लोकोऽयं कर्मबन्धनः ।\nतदर्थं कर्म कौन्तेय मुक्तसङ्गः समाचर ॥ ९ ॥",
+     "iast": "yajñārthāt karmaṇo 'nyatra loko 'yaṃ karma-bandhanaḥ\ntad-arthaṃ karma kaunteya mukta-saṅgaḥ samācara",
+     "en": "Except for work done as an offering, this world is bound by action. Therefore, free from attachment, perform action for that purpose."
+    },
+    {
+     "ref": "Bhagavad Gita 4.18",
+     "dev": "कर्मण्यकर्म यः पश्येदकर्मणि च कर्म यः ।\nस बुद्धिमान्मनुष्येषु स युक्तः कृत्स्नकर्मकृत् ॥ १८ ॥",
+     "iast": "karmaṇy akarma yaḥ paśyed akarmaṇi ca karma yaḥ\nsa buddhimān manuṣyeṣu sa yuktaḥ kṛtsna-karma-kṛt",
+     "en": "One who sees inaction in action and action in inaction is wise among people, and is a yogi who has accomplished all action."
+    }
+   ],
+   "gl": [
+    [
+     "asaktaḥ / असक्तः",
+     "unattached"
+    ],
+    [
+     "satatam / सततम्",
+     "constantly"
+    ],
+    [
+     "kāryam karma / कार्यं कर्म",
+     "the work that is to be done, duty"
+    ],
+    [
+     "samācara / समाचर",
+     "perform well"
+    ],
+    [
+     "pūruṣaḥ / पूरुषः",
+     "a person"
+    ],
+    [
+     "yajña / यज्ञ",
+     "offering, sacrifice"
+    ],
+    [
+     "karma-bandhanaḥ / कर्मबन्धनः",
+     "bound by action"
+    ],
+    [
+     "mukta-saṅgaḥ / मुक्तसङ्गः",
+     "free from attachment"
+    ],
+    [
+     "akarma / अकर्म",
+     "inaction"
+    ]
+   ],
+   "base": [
+    {
+     "h": "THE ARGUMENT OF CHAPTER 3",
+     "paras": [
+      "Arjuna asks why Krishna urges action if knowledge is superior. Krishna answers that no one can remain without action even for a moment (3.5), and that those who refrain from action while the mind dwells on sense objects are deluded (3.6). The only real choice is between action that binds and action that frees."
+     ]
+    },
+    {
+     "h": "GITA 3.9: WORK AS OFFERING",
+     "paras": [
+      "yajñārthāt karmaṇo 'nyatra loko 'yaṃ karma-bandhanaḥ: except for work done as an offering (yajña), this world is bound by action. Therefore perform action for that purpose, free from attachment. Yajña here is any act performed as an offering to the Divine or for the welfare of all. This is the key to the whole teaching: the same work either binds or liberates depending on whether it is offered."
+     ]
+    },
+    {
+     "h": "GITA 4.18: INACTION IN ACTION",
+     "paras": [
+      "karmaṇy akarma yaḥ paśyed akarmaṇi ca karma yaḥ: one who sees inaction in action and action in inaction is wise among people. The meaning has two sides. In the midst of work, the Self remains actionless and the wise person knows this. And outward idleness with a restless mind is still action, because the mind is engaged. Vivekananda gives the same ideal in his own words: calm in the midst of activity and activity in the midst of calm."
+     ]
+    },
+    {
+     "h": "REFLECT",
+     "paras": [
+      "Where in my life am I physically still but mentally busy, or the reverse?"
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "JANAKA AND KRISHNA HIMSELF",
+     "paras": [
+      "In 3.20 Krishna says that Janaka and others attained perfection through action alone. Janaka was a king, a householder and a knower of the Self, and the tradition remembers him as the model of the karma yogi. In 3.22 Krishna says that there is nothing in the three worlds that he needs to do or to obtain, yet he engages in action. Action is therefore not a sign of lack. It can be the free overflow of a full heart."
+     ]
+    },
+    {
+     "h": "INACTION IN ACTION",
+     "paras": [
+      "Gita 4.18 can be read at two levels. At the level of the Self, the knower sees that the Self never acts: all action belongs to the play of nature. At the level of practice, a person can be outwardly very busy while the mind is calm, or outwardly idle while the mind is in turmoil. Vivekananda expresses a similar ideal in his own words: the ideal person finds intense activity in the midst of silence, and silence in the midst of intense activity."
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "t": "The Upanishadic root",
+   "on": [
+    "The Īśā Upanishad opens with the vision that grounds Karma Yoga: all this is to be covered by the Lord. Seeing the world as pervaded by the Divine, we use what comes to us without ownership: \"enjoy through renunciation\" and do not covet. Verse 2 then draws the practical conclusion: do works here and wish to live long, and action will not cling.",
+    "Shankara reads verse 2 as addressed to a person who is not yet ready for the path of renunciation and knowledge. For that person, work done in the spirit of the first verse is the way to remain free. The Gita's Karma Yoga is a development of this Upanishadic teaching."
+   ],
+   "vs": [
+    {
+     "ref": "Īśā Upaniṣad 1",
+     "dev": "ईशा वास्यमिदं सर्वं यत्किञ्च जगत्यां जगत् ।\nतेन त्यक्तेन भुञ्जीथा मा गृधः कस्य स्विद्धनम् ॥ १ ॥",
+     "iast": "īśā vāsyam idaṃ sarvaṃ yat kiñca jagatyāṃ jagat\ntena tyaktena bhuñjīthā mā gṛdhaḥ kasya svid dhanam",
+     "en": "All this, whatever moves in this world, is to be covered by the Lord. Enjoy through renunciation, and do not covet anyone's wealth."
+    },
+    {
+     "ref": "Īśā Upaniṣad 2",
+     "dev": "कुर्वन्नेवेह कर्माणि जिजीविषेच्छतं समाः ।\nएवं त्वयि नान्यथेतोऽस्ति न कर्म लिप्यते नरे ॥ २ ॥",
+     "iast": "kurvann eveha karmāṇi jijīviṣec chataṃ samāḥ\nevaṃ tvayi nānyatheto 'sti na karma lipyate nare",
+     "en": "Doing works here, one should wish to live a hundred years. For you there is no other way, so that action does not cling to a person."
+    }
+   ],
+   "gl": [
+    [
+     "īśā / ईशा",
+     "by the Lord"
+    ],
+    [
+     "vāsyam / वास्यम्",
+     "to be covered, pervaded"
+    ],
+    [
+     "idam sarvam / इदं सर्वम्",
+     "all this"
+    ],
+    [
+     "jagatyām jagat / जगत्यां जगत्",
+     "whatever moves in the world"
+    ],
+    [
+     "tyaktena / त्यक्तेन",
+     "through renunciation"
+    ],
+    [
+     "bhuñjīthāḥ / भुञ्जीथाः",
+     "enjoy; sustain yourself"
+    ],
+    [
+     "mā gṛdhaḥ / मा गृधः",
+     "do not covet"
+    ],
+    [
+     "jijīviṣet / जिजीविषेत्",
+     "one should wish to live"
+    ],
+    [
+     "lipyate / लिप्यते",
+     "clings, stains"
+    ]
+   ],
+   "base": [
+    {
+     "h": "WHAT THEY SAY",
+     "paras": [
+      "The first verse sees the whole world as pervaded by the Lord. From this follows the attitude of enjoying through renunciation: using what comes to us without ownership. The second verse then draws the practical conclusion: one need not leave action. Perform actions and wish to live long, and by this way, action does not stain."
+     ]
+    },
+    {
+     "h": "HOW SHANKARA READS VERSE 2",
+     "paras": [
+      "In his commentary Shankara reads this verse as addressed to the person who has not yet taken to the path of knowledge and renunciation. For such a person, work done in the spirit of the first verse is the way to remain free of its binding effect. It is the Upanishadic ancestor of the Gita's karma yoga."
+     ]
+    },
+    {
+     "h": "WHY IT MATTERS",
+     "paras": [
+      "This is the oldest statement in the tradition that active life and spiritual life need not be separated, and that the ground of the teaching is the vision of God in all."
+     ]
+    },
+    {
+     "h": "REFLECT",
+     "paras": [
+      "What do I treat as \"mine\" in my work? What changes if I regard it as held on trust?"
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "THE FIRST VERSE: THE VISION",
+     "paras": [
+      "Īśāvāsyam idam sarvam: the Lord pervades everything that moves in the world. Many teachers say this single line contains the essence of Vedanta. If the Divine is the inner reality of all things, then no object is truly mine, and nothing is outside the sacred. The practice that follows is to use the world with gratitude and without greed."
+     ]
+    },
+    {
+     "h": "THE SECOND VERSE: THE WAY OF ACTION",
+     "paras": [
+      "The Upanishad does not tell us to flee from action. It says: do actions here, and wish to live a hundred years. In this way, and not otherwise, action does not cling. The word lipyate (clings, stains) is the same family of words as in Gita 5.10, which describes the lotus leaf untouched by water. The teaching is the same in both texts: action done with the Lord in view does not leave a stain."
+     ]
+    },
+    {
+     "h": "QUESTIONS PEOPLE ASK",
+     "paras": [
+      "What does it mean to enjoy through renunciation? Many teachers explain it as using the world without possessiveness: enjoying what comes with gratitude and without clutching. Does it mean we should give up everything? No. It means giving up the claim of ownership, which is a mental renunciation and not a physical one."
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "t": "Work as worship",
+   "on": [
+    "Three verses, three images. Gita 9.27: whatever you do, even eating, offer it to Me, so nothing is too small to be offered. Gita 18.46: through one's own work, worship the One from whom all beings arise; the work itself is the worship. Gita 5.10: acting with all actions offered to Brahman, one is untouched by sin as the lotus leaf by water.",
+    "The mind can stay rooted in the Divine while the hands are busy. A practical form of offering: before a task, say silently, \"This is Yours.\" After it, \"May it be as You will.\" Gita 18.45 adds that each person devoted to their own work attains perfection, so any honest work can be worship."
+   ],
+   "vs": [
+    {
+     "ref": "Bhagavad Gita 9.27",
+     "dev": "यत्करोषि यदश्नासि यज्जुहोषि ददासि यत् ।\nयत्तपस्यसि कौन्तेय तत्कुरुष्व मदर्पणम् ॥ २७ ॥",
+     "iast": "yat karoṣi yad aśnāsi yaj juhoṣi dadāsi yat\nyat tapasyasi kaunteya tat kuruṣva mad-arpaṇam",
+     "en": "Whatever you do, whatever you eat, whatever you offer in sacrifice, give, or practise as austerity, do that as an offering to Me."
+    },
+    {
+     "ref": "Bhagavad Gita 18.46",
+     "dev": "यतः प्रवृत्तिर्भूतानां येन सर्वमिदं ततम् ।\nस्वकर्मणा तमभ्यर्च्य सिद्धिं विन्दति मानवः ॥ ४६ ॥",
+     "iast": "yataḥ pravṛttir bhūtānāṃ yena sarvam idaṃ tatam\nsva-karmaṇā tam abhyarcya siddhiṃ vindati mānavaḥ",
+     "en": "By worshipping, through one's own work, Him from whom beings have arisen and by whom all this is pervaded, a person attains perfection."
+    },
+    {
+     "ref": "Bhagavad Gita 5.10",
+     "dev": "ब्रह्मण्याधाय कर्माणि सङ्गं त्यक्त्वा करोति यः ।\nलिप्यते न स पापेन पद्मपत्रमिवाम्भसा ॥ १० ॥",
+     "iast": "brahmaṇy ādhāya karmāṇi saṅgaṃ tyaktvā karoti yaḥ\nlipyate na sa pāpena padma-patram ivāmbhasā",
+     "en": "One who acts offering all actions to Brahman, free from attachment, is untouched by sin, as the lotus leaf by water."
+    }
+   ],
+   "gl": [
+    [
+     "arpaṇa / अर्पण",
+     "offering"
+    ],
+    [
+     "sva-karma / स्वकर्म",
+     "one's own work or duty"
+    ],
+    [
+     "abhyarcya / अभ्यर्च्य",
+     "having worshipped"
+    ],
+    [
+     "siddhi / सिद्धि",
+     "perfection, accomplishment"
+    ],
+    [
+     "padma-patra / पद्मपत्र",
+     "lotus leaf"
+    ],
+    [
+     "ambhas / अम्भस्",
+     "water"
+    ]
+   ],
+   "base": [
+    {
+     "h": "THE THREE IMAGES",
+     "paras": [
+      "Offering (9.27): even the most ordinary acts, such as eating, are covered. Nothing is too small to be offered. Worship (18.46): the work itself is the worship, and it is done in accordance with one's own nature and duty (sva-karma). The source of beings and the one worshipped are the same. The lotus leaf (5.10): the leaf lives in water yet remains dry. The mind can be engaged in the world and remain unstained."
+     ]
+    },
+    {
+     "h": "HOW TO PRACTISE IT",
+     "paras": [
+      "Before beginning a task, say silently: \"This is Yours.\" After finishing, say: \"May it be good, as You will.\" These two small acts are the practical form of arpaṇa, offering."
+     ]
+    },
+    {
+     "h": "REFLECT",
+     "paras": [
+      "Is there one daily action I can begin to treat as worship this week?"
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "SVA-KARMA: ONE'S OWN WORK",
+     "paras": [
+      "In Gita 18.45 Krishna says: sve sve karmaṇy abhirataḥ saṃsiddhiṃ labhate naraḥ, 'Each person, devoted to their own work, attains perfection.' It follows that there is no ranking of tasks as spiritual or worldly. The question is not what the work is, but how it is done. Vivekananda retells, in Karma-Yoga, the old story of a young renunciant who is sent to learn from a devoted housewife and a butcher, each of whom has reached the highest wisdom through doing their own duty well."
+     ]
+    },
+    {
+     "h": "THE THREE IMAGES AS A PRACTICE",
+     "paras": [
+      "Offering (9.27) teaches us to bring even the most ordinary act into the circle of worship. Worship (18.46) teaches that the work and the worship are one. The lotus leaf (5.10) teaches that we can live in the middle of action without being stained by it. Together they suggest a simple practice: begin each task with a silent offering, do the work well, and let go of the result at the end."
+     ]
+    },
+    {
+     "h": "QUESTIONS PEOPLE ASK",
+     "paras": [
+      "What if my work seems meaningless? The Gita's answer is that meaning comes from the spirit in which the work is done and not from the status of the work. What if I do not believe in a personal God? The teaching can be practised by offering work to whatever you regard as highest: the Truth, the good of all, the Self within."
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "t": "Swami Vivekananda: Karma Yoga",
+   "on": [
+    "Karma-Yoga is based on lectures Swami Vivekananda gave in New York in the winter of 1895 to 1896. His key image is the master and the slave. The slave works under compulsion, from need, fear or craving for approval. The master works from inner freedom and so can give himself fully to the work without being owned by it.",
+    "Unselfishness is a practice with a purpose: it weakens the small ego and reveals the Self, which is why work becomes a means to freedom. Freedom is not the absence of work but the absence of compulsion. Karma Yoga in five marks: work wholeheartedly, do not demand reward, do not feel superior, offer the result, stay free inside."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "ABOUT THE TEXT",
+     "paras": [
+      "Swami Vivekananda's Karma-Yoga is based on lectures he gave in New York in the winter of 1895 to 1896. It was one of his first systematic presentations of Vedanta as a practical discipline for modern people. It appears in volume 1 of the Complete Works."
+     ]
+    },
+    {
+     "h": "THE QUOTATIONS",
+     "paras": [
+      "\"You should work like a master and not as a slave; work incessantly, but do not do slave's work.\" (The Secret of Work)\n\"Work incessantly, but be not attached to it.\" (The Secret of Work)\n\"Karma-Yoga is the attaining through unselfish work of that freedom which is the goal of all human nature.\" (The Ideal of Karma-Yoga)"
+     ]
+    },
+    {
+     "h": "THE MASTER AND THE SLAVE",
+     "paras": [
+      "The slave works under compulsion: from need, from fear of loss, from craving for approval. The master works from inner freedom, and can therefore give himself to work without being owned by it. In this one distinction Vivekananda translates the Gita's detachment into psychology. Freedom is not the absence of work but the absence of compulsion."
+     ]
+    },
+    {
+     "h": "WHAT \"UNSELFISH\" MEANS HERE",
+     "paras": [
+      "Vivekananda is clear that unselfishness is a practice with a purpose: it weakens the small ego and so reveals the Self. Work becomes a means to freedom, which for him is the goal of all human nature."
+     ]
+    },
+    {
+     "h": "FIVE MARKS OF KARMA YOGA (A SUMMARY FOR STUDY)",
+     "paras": [
+      "Work wholeheartedly. Do not demand reward. Do not feel superior. Offer the result to the Lord. Stay free inside."
+     ]
+    },
+    {
+     "h": "REFLECT",
+     "paras": [
+      "Where in my own work do I feel like a slave, and where like a master? What is different in the two cases?"
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "THE BOOK AND ITS PLACE",
+     "paras": [
+      "Karma-Yoga is one of four books of Vivekananda's yogas (Karma, Jnana, Bhakti and Raja). It gives a practical discipline for people who must remain active in the world, and it is often the best starting point for modern readers. The chapters include Karma in its Effect on Character, Each is Great in His Own Place, The Secret of Work, What is Duty?, We Help Ourselves not the World, Non-Attachment is Complete Self-Abnegation, Freedom, and The Ideal of Karma-Yoga."
+     ]
+    },
+    {
+     "h": "WORK AND CHARACTER",
+     "paras": [
+      "Vivekananda teaches that each action leaves an impression on the mind, and that the sum of these impressions forms character. Selfish action strengthens the ego, and unselfish action weakens it. In this view work is the great school of character, and a person can do spiritual practice through every hour of ordinary life."
+     ]
+    },
+    {
+     "h": "QUESTIONS PEOPLE ASK",
+     "paras": [
+      "Does 'work like a master' mean being the boss? No. It describes an inner attitude and not an outer position. A cleaner can work as a master and a chief executive can work as a slave. What decides it is whether the mind is free or compelled."
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "t": "Vivekananda: we help ourselves",
+   "on": [
+    "Vivekananda turns the usual picture of charity upside down. The giver is not the benefactor. \"It is not the receiver that is blessed, but it is the giver.\" Service is an occasion for the giver to loosen selfishness and grow, so the person served does the giver a favour by being there. We should not stand on a high pedestal and say, \"Here, my poor man.\"",
+    "In practice gratitude replaces superiority, we do not expect thanks because we are already receiving something, and resentment fades. This joins to Niṣkāma Karma: if the fruits are offered to the Lord, we have no claim on any return from people. The two halves of the teaching are one."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "THE QUOTATIONS",
+     "paras": [
+      "\"We give up all the fruits of our work unto the Lord; and, worshipping Him thus, we have no right to expect anything from mankind for the work we do.\" (Karma-Yoga, The Secret of Work)\n\"Do not stand on a high pedestal and take five cents in your hand and say, 'Here, my poor man.'\" and \"It is not the receiver that is blessed, but it is the giver.\" (Karma-Yoga, the chapter on helping the world)"
+     ]
+    },
+    {
+     "h": "THE CENTRAL IDEA",
+     "paras": [
+      "Vivekananda turns the usual picture of charity upside down. We usually think of the giver as the benefactor and the receiver as the beneficiary. He says the one who serves is the one who benefits most, because service is an opportunity for the giver to loosen selfishness and grow. The person served is, in a sense, doing the giver a service by being there."
+     ]
+    },
+    {
+     "h": "WHAT FOLLOWS IN PRACTICE",
+     "paras": [
+      "Gratitude replaces superiority. We do not expect thanks, because we are receiving something already. Pride in being a \"giver\" loses its ground. Resentment diminishes, because the person served is not an obstacle to our time but an occasion for growth."
+     ]
+    },
+    {
+     "h": "THE CONNECTION TO NIṢKĀMA KARMA",
+     "paras": [
+      "If we have offered the fruits to the Lord, we have no claim on any return from people. This is why the first quotation links \"giving up the fruits\" with \"no right to expect anything from mankind\". The two halves of the teaching are one."
+     ]
+    },
+    {
+     "h": "THE LARGER SPIRIT",
+     "paras": [
+      "A saying widely attributed to Vivekananda, \"They alone live who live for others\", captures the spirit of this slide."
+     ]
+    },
+    {
+     "h": "REFLECT",
+     "paras": [
+      "Think of a recent act of help. Did I feel I was giving, or was I also receiving?"
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "THE CHAPTER 'WE HELP OURSELVES, NOT THE WORLD'",
+     "paras": [
+      "In this chapter of Karma-Yoga, Vivekananda argues that the world does not need our help in the sense of being unable to continue without us. What happens through service is that we ourselves are educated. The world is a moral gymnasium in which we strengthen ourselves. This is why he can say that the one who gives is the one who is blessed."
+     ]
+    },
+    {
+     "h": "A PRACTICAL TEST",
+     "paras": [
+      "When you have helped someone, notice how you feel. If there is a sense of pride or an expectation of thanks, the ego has returned. If there is a sense of quiet gratitude for the opportunity, the work has become Seva Yoga. The test does not need to be applied to others. It is a private measure."
+     ]
+    },
+    {
+     "h": "A SAYING TO CONTEMPLATE",
+     "paras": [
+      "A saying widely attributed to Vivekananda is: 'They alone live who live for others; the rest are more dead than alive.' Its spirit matches this slide. If you want to quote it publicly, check the wording against the Complete Works."
+     ]
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "t": "Sri Ramakrishna: living in the world",
+   "on": [
+    "Sri Ramakrishna taught a great many householders and never asked them to abandon their lives. He asked them to live in the world with the mind turned to God, using homely images. The maidservant works attentively in a rich man's house, yet her mind is on her own home in the village. The tortoise moves in the water, but its thought is on its eggs on the bank.",
+    "Do your duties with one hand and hold on to God with the other. When the duties are over, hold on with both. The inner anchor matters, not the outer role. He also said that work is a means to God-realisation and not the final goal, and that prayer, japa and holy company keep the inner anchor strong. (Retold in paraphrase from the Gospel.)"
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "SRI RAMAKRISHNA AS A TEACHER OF HOUSEHOLDERS",
+     "paras": [
+      "Sri Ramakrishna taught a very large number of householders who came to him at Dakshineswar. His message was not that they should leave their families and occupations. He asked them to live in the world with the mind turned towards God. His teaching style is remembered for its homely images."
+     ]
+    },
+    {
+     "h": "THE IMAGES (PARAPHRASED FROM THE GOSPEL OF SRI RAMAKRISHNA)",
+     "paras": [
+      "The maidservant: a maidservant in a rich man's house performs all the household tasks attentively, speaks of \"my\" master's house, and even brings up the children as if they were her own. Yet her mind is on her own home in the village, and she knows that this house is not hers.\nThe tortoise: the tortoise moves about in the water, but its thought is on the eggs left on the bank. In the same way the devotee carries out all duties while the mind rests in God.\nOne hand and the other: do your work with one hand and hold on to God with the other. When work is over, hold on to God with both hands."
+     ]
+    },
+    {
+     "h": "WHAT THE IMAGES TEACH",
+     "paras": [
+      "Full engagement and inner detachment can go together. The inner anchor is what matters, not the outer role. This is the same teaching as the Gita's, translated into the speech of ordinary life."
+     ]
+    },
+    {
+     "h": "HIS OTHER EMPHASIS",
+     "paras": [
+      "Sri Ramakrishna also said that work is not the final goal but a means to God-realisation, and that the householder needs prayer, japa and the company of holy people to keep the inner anchor strong. The practice of work and the practice of prayer support each other."
+     ]
+    },
+    {
+     "h": "A NOTE ON SOURCES",
+     "paras": [
+      "The images above are retold in paraphrase. The Gospel of Sri Ramakrishna, translated by Swami Nikhilananda, contains them in the original conversations."
+     ]
+    },
+    {
+     "h": "REFLECT",
+     "paras": [
+      "What is my \"home in the village\", the thing my mind returns to while my hands are busy?"
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "THE GOSPEL OF SRI RAMAKRISHNA",
+     "paras": [
+      "Most of what we know of Sri Ramakrishna's teaching comes from the notes of Mahendranath Gupta, known as 'M.', who recorded conversations between 1882 and 1886. They were published in Bengali as the Kathamrita and in English, translated by Swami Nikhilananda, as The Gospel of Sri Ramakrishna. The images on this slide are retold in paraphrase and each can be found in these conversations."
+     ]
+    },
+    {
+     "h": "LIVING IN THE WORLD: THE HOUSEHOLDER'S WAY",
+     "paras": [
+      "Sri Ramakrishna taught that the householder can realise God while living in the family, provided the mind is directed to God. He recommended regular prayer, japa, time in the company of holy people, and sometimes periods of solitude. Work done with these supports remains light, and without them it becomes heavy. His advice is thoroughly practical and suited to ordinary life."
+     ]
+    },
+    {
+     "h": "WORK AS A MEANS, NOT AN END",
+     "paras": [
+      "In his teaching, work is valuable because it purifies the mind and prepares it for devotion and knowledge. A familiar Gospel image is the household where the duties of a daughter-in-law lessen as she approaches motherhood. In the same way, as the love of God grows, the need for outward work diminishes. For most people, however, work is a long and valuable stage."
+     ]
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "t": "Śiva-jñāne jīva-sevā",
+   "on": [
+    "Śiva-jñāne jīva-sevā means serving the living being with the knowledge that it is Śiva, the Divine. In the Dakshineswar episode, a visitor spoke of compassion for all beings as an ideal. Sri Ramakrishna, absorbed, said in effect: who are you to show compassion? Serve each being as God. Narendra, outside the room, said he had heard something new.",
+    "He said that if the Lord granted him the chance, he would carry this Vedanta from the forest into the home and the world. Compassion can hide a sense of height. Service given in the knowledge that the other is Śiva keeps the giver in the posture of a worshipper. (Paraphrase, following Swami Shantatmananda's account.)"
+   ],
+   "vs": [
+    {
+     "ref": "Teaching of Sri Ramakrishna",
+     "dev": "शिवज्ञाने जीवसेवा",
+     "iast": "śiva-jñāne jīva-sevā",
+     "en": "Service of the living being, with the knowledge that it is Śiva."
+    }
+   ],
+   "gl": [
+    [
+     "śiva / शिव",
+     "the auspicious one, the Divine"
+    ],
+    [
+     "jñāna / ज्ञान",
+     "knowledge"
+    ],
+    [
+     "jīva / जीव",
+     "the living being"
+    ],
+    [
+     "sevā / सेवा",
+     "service"
+    ],
+    [
+     "dayā / दया",
+     "compassion, pity"
+    ]
+   ],
+   "base": [
+    {
+     "h": "THE TEACHING",
+     "paras": [
+      "Śiva-jñāne jīva-sevā: serving the living being with the knowledge that it is Śiva (the Divine). The phrase is associated with Sri Ramakrishna and was carried forward by Swami Vivekananda."
+     ]
+    },
+    {
+     "h": "THE EPISODE (RETOLD IN PARAPHRASE)",
+     "paras": [
+      "At Dakshineswar in the mid-1880s, a visitor spoke of the Vaishnava teaching, associated with Sri Chaitanya, of \"compassion for all beings\". Sri Ramakrishna fell into deep absorption and then said, in effect: who are you to show compassion? Serve every being as God. Narendra, the future Swami Vivekananda, was outside the room. Coming out, he said that he had heard something new, and that if the Lord granted him the opportunity he would carry this teaching of Vedanta from the forest and the cave into the home and the marketplace, and teach it to all. This account follows Swami Shantatmananda's retelling; the words on the slide are not exact quotations."
+     ]
+    },
+    {
+     "h": "COMPASSION AND SERVICE",
+     "paras": [
+      "Compassion (dayā) can hide a sense of height: the one who is compassionate looks down on the one who suffers. Service (sevā) given in the knowledge that the other is Śiva keeps the giver in the position of a worshipper. This is the spiritual root of the idea that service is worship."
+     ]
+    },
+    {
+     "h": "WHY IT WAS A TURNING POINT",
+     "paras": [
+      "Vedanta had long been taught as a path for renunciates. This teaching made it available for everyone in daily life. Vivekananda later worked to bring this Vedanta into homes and public life, and the Ramakrishna Mission grew from this insight."
+     ]
+    },
+    {
+     "h": "REFLECT",
+     "paras": [
+      "Think of someone I find hard to serve. What changes if I try to see Śiva in them, even for one minute?"
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "THE THREE PRECEPTS OF SRI CHAITANYA",
+     "paras": [
+      "The visitor was reciting three precepts associated with Sri Chaitanya: love for the Name of God (nāme ruci), compassion for living beings (jīve dayā) and service of devotees (vaiṣṇava-sevā). Sri Ramakrishna's reply did not reject these. It deepened the second one: compassion becomes service when the other is seen as the Divine."
+     ]
+    },
+    {
+     "h": "IS COMPASSION THEN REJECTED?",
+     "paras": [
+      "No. The Gita itself lists karuṇā (compassion) among the marks of the devotee dear to the Lord (12.13). The teaching is about vantage point, not about abandoning a good quality: the same feeling is purified when it is joined to reverence."
+     ]
+    },
+    {
+     "h": "WHAT CHANGES IN PRACTICE",
+     "paras": [
+      "The outward act may be identical, whether it is nursing a patient, feeding a child or helping a colleague. What changes is the inner relation. We ask what the person needs instead of assuming, we offer our help as worship, and we accept their thanks, or their silence, without needing either."
+     ]
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "t": "From teaching to Seva Yoga",
+   "on": [
+    "\"Recognise all as manifestations of God and serve them as such.\" This is the doctrinal root of Seva Yoga, the unselfish offering of body, mind and intellect to all. Swami Vivekananda founded the Ramakrishna Mission on 1 May 1897 and gave it the motto Ātmano mokṣārthaṃ jagad-dhitāya ca: for one's own liberation and for the welfare of the world.",
+    "The motto holds two aims together. Service without spiritual practice runs dry, and spiritual practice without service becomes self-absorbed. Vivekananda taught his disciples to see the poor, the sick and the ignorant as forms of God (daridra nārāyaṇa). In Seva Yoga the inner attitude is the essential element. Without it the same outer work is philanthropy, which is good but not yet yoga."
+   ],
+   "vs": [
+    {
+     "ref": "Ramakrishna Mission motto",
+     "dev": "आत्मनो मोक्षार्थं जगद्धिताय च",
+     "iast": "ātmano mokṣārthaṃ jagad-dhitāya ca",
+     "en": "For one's own liberation and for the welfare of the world."
+    }
+   ],
+   "gl": [
+    [
+     "ātmanaḥ / आत्मनः",
+     "of one's own Self"
+    ],
+    [
+     "mokṣa / मोक्ष",
+     "liberation"
+    ],
+    [
+     "artham / अर्थम्",
+     "for the sake of"
+    ],
+    [
+     "jagat / जगत्",
+     "the world"
+    ],
+    [
+     "hitāya / हिताय",
+     "for the welfare of"
+    ],
+    [
+     "ca / च",
+     "and"
+    ],
+    [
+     "daridra nārāyaṇa / दरिद्र नारायण",
+     "God in the form of the poor"
+    ]
+   ],
+   "base": [
+    {
+     "h": "THE TEACHING",
+     "paras": [
+      "\"Recognise all as manifestations of God and serve them as such.\" This is a summary, in this lecture's wording, of Swami Vivekananda's interpretation of Sri Ramakrishna's teaching. It is the doctrinal basis of what the Ramakrishna Order calls Seva Yoga: unselfish offering of body, mind and intellect to all."
+     ]
+    },
+    {
+     "h": "THE MOTTO",
+     "paras": [
+      "ātmano mokṣārthaṃ jagad-dhitāya ca: \"for one's own liberation and for the welfare of the world.\" Vivekananda gave this motto to the Ramakrishna Mission, which he founded on 1 May 1897. Its two halves are balanced: personal spiritual growth and service of the world are one effort. Service without spiritual practice runs dry, and spiritual practice without service becomes self-absorbed."
+     ]
+    },
+    {
+     "h": "DARIDRA NĀRĀYAṆA",
+     "paras": [
+      "Vivekananda taught his disciples to see the poor, the sick and the ignorant as forms of God, which is the meaning of the phrase daridra nārāyaṇa. The medical work, schools and disaster relief of the Ramakrishna Order are meant to be worship in action, not charity from above."
+     ]
+    },
+    {
+     "h": "SEVA AS YOGA, NOT ONLY AS SOCIAL WORK",
+     "paras": [
+      "In Seva Yoga the inner attitude is the essential element: offering, selfless motive, and seeing God in the one served. Without that, the same outer work is only philanthropy, which is good but is not yet yoga."
+     ]
+    },
+    {
+     "h": "LOCAL EXPRESSION",
+     "paras": [
+      "The Ramakrishna Vedanta Centre in Auckland holds satsang, classes and community events. These are small expressions of the same impulse, and volunteering at them is itself Seva Yoga."
+     ]
+    },
+    {
+     "h": "REFLECT",
+     "paras": [
+      "What is the equivalent of my own \"liberation and the welfare of the world\": do I have both halves in my week?"
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "THE TWO HALVES OF THE MOTTO",
+     "paras": [
+      "Ātmano mokṣārtham is the pursuit of one's own liberation through spiritual practice. Jagad-dhitāya ca is the welfare of the world through service. The motto does not set these as rivals. Each completes the other. A person who only meditates may become self-absorbed, and a person who only serves may become exhausted or proud. Together they form a complete life."
+     ]
+    },
+    {
+     "h": "FROM IDEA TO INSTITUTION",
+     "paras": [
+      "After Sri Ramakrishna's passing, Vivekananda and his brother disciples took up monastic life. After his journey to the West, Vivekananda founded the Ramakrishna Mission in 1897 as an organisation for service in education, health care and relief, regarding all service as worship. The Ramakrishna Order's schools, hospitals and relief work grew from this single teaching, and centres around the world, including in Auckland, express the same ideal."
+     ]
+    },
+    {
+     "h": "SEVA IN LOCAL LIFE",
+     "paras": [
+      "Seva Yoga does not require founding an institution. Helping to prepare the hall, welcoming newcomers, sharing refreshments, driving someone to a class, or offering skills to the Centre are all forms of Seva Yoga when done in the spirit of offering."
+     ]
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "t": "Holy Mother, Sri Sarada Devi",
+   "on": [
+    "Holy Mother Sri Sarada Devi lived the teaching quietly: cooking, nursing, running a household and receiving every visitor as her child. \"One must do some work. Through work alone one can remove the bondage of work, not by avoiding work.\" She once corrected someone who dropped a broom carelessly after sweeping: \"One should perform even an insignificant work with respect.\"",
+    "She paired work with prayer: duties keep the mind in good condition, but japa, meditation and prayer are also very necessary. She noted that Vivekananda wisely founded institutions where people do disinterested work. Her universal motherhood, in which no one is a stranger, is the root of her service. (From collections of her sayings.)"
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "",
+     "paras": [
+      "HOLY MOTHER SRI SARADA DEVI (1853 to 1920)\nHoly Mother was the spiritual consort of Sri Ramakrishna and, after his passing, the spiritual mother of the monastic and lay disciples. She spent much of her life in simple surroundings in a village and in Calcutta, cooking, nursing, running a household and receiving visitors. Her life is the clearest example of Seva Yoga lived without speeches."
+     ]
+    },
+    {
+     "h": "HER WORDS ON WORK (FROM COLLECTIONS OF HER SAYINGS)",
+     "paras": [
+      "\"One must do some work. Through work alone one can remove the bondage of work, not by avoiding work.\"\n\"One should perform even an insignificant work with respect.\" She said this when correcting someone who had thrown aside a broom carelessly after sweeping.\n\"No doubt, you must do your duties. It keeps one's mind in good condition. But it is also very necessary to practise japa, meditation and prayer.\"\nElsewhere she said it is much better to work than to allow the mind to roam at large, for an idle mind creates confusion."
+     ]
+    },
+    {
+     "h": "WHAT SHE TEACHES",
+     "paras": [
+      "Work purifies, and avoiding work does not free us. Every task deserves respect, because respect is a form of worship. Work and spiritual practice belong together. She also noted that Swami Vivekananda wisely founded institutions where people would do disinterested work, recognising its spiritual value."
+     ]
+    },
+    {
+     "h": "HER MESSAGE OF UNIVERSAL MOTHERHOOD",
+     "paras": [
+      "She is widely quoted as saying that no one is a stranger and that the whole world is one's own. This universal outlook is the root of her service: she saw all as her children."
+     ]
+    },
+    {
+     "h": "REFLECT",
+     "paras": [
+      "What task do I habitually do carelessly because it seems small? What would change if I did it with respect?"
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "A LIFE OF SERVICE",
+     "paras": [
+      "Sarada Devi was born in the village of Jayrambati in 1853 and was married to Sri Ramakrishna as a child. She lived for some time at Dakshineswar, and after his passing she lived in Jayrambati and at the Udbodhan house in Calcutta, guiding the disciples as their spiritual mother until she passed away in 1920. She performed her daily tasks with calmness and without complaint."
+     ]
+    },
+    {
+     "h": "WORK AND PRACTICE TOGETHER",
+     "paras": [
+      "In her teaching, duties keep the mind in good condition, and japa, meditation and prayer give the work its direction. An idle mind wanders and creates confusion. Work and practice are two wings of one life."
+     ]
+    },
+    {
+     "h": "WHY THIS OUTLOOK MAKES SERVICE NATURAL",
+     "paras": [
+      "For a Karma Yogi the outlook that no one is a stranger removes the sense of 'my' and 'other'. Service then stops being a favour to someone separate and becomes the care of one's own family."
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "t": "Common pitfalls",
+   "on": [
+    "Five common traps on this path. Detachment can turn into indifference: care fully, hold lightly. Hidden hope for thanks shows the fruit is still being claimed: offer the work and let it go. Burnout is a misreading of \"work incessantly\": rest is part of the offering, because a depleted instrument serves poorly.",
+    "Resentment toward those served arises when duty has no inner connection: see them as the Lord. Pride in being a giver is subtle: remember that the giver is the one who is blessed. These are not failures of character. They show that the old habits of ego are still at work, which is normal. Notice, smile and return to the offering."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "THE IDEA",
+     "paras": [
+      "The path of Niṣkāma Karma and Seva Yoga has typical traps. Naming them helps us recognise them in ourselves without self-judgement."
+     ]
+    },
+    {
+     "h": "THE FIVE PITFALLS AND THEIR CORRECTIONS",
+     "paras": [
+      "1. Detachment becomes indifference. Detachment is freedom from craving, not absence of care. The fourth instruction of Gita 2.47 prevents this: do not retreat into inaction. Correction: care fully, hold lightly.\n2. Hidden hope for thanks. We say we have no expectation, yet feel hurt when no one thanks us. This is a sign that the fruit is still being claimed. Correction: offer the work, then let it go, as Vivekananda says in the passage on slide 11.\n3. Burnout. \"Work incessantly\" can be misread as \"work frantically\". Rest, sleep and recreation are part of the offering, because a depleted instrument serves poorly. Holy Mother herself paired work with japa and meditation.\n4. Resentment toward those served. Resentment arises when service is done from duty alone with no inner connection. Correction: see them as the Lord, as Sri Ramakrishna taught.\n5. Pride in being a giver. Spiritual pride is subtle. Correction: remember Vivekananda: the giver is the one who is blessed."
+     ]
+    },
+    {
+     "h": "HOW TO WORK WITH A PITFALL",
+     "paras": [
+      "Notice it without scolding yourself. Smile. Return to the offering. These pitfalls are not failures of character. They show that the old habits of ego are still active, which is normal on this path."
+     ]
+    },
+    {
+     "h": "REFLECT",
+     "paras": [
+      "Which one of these five is most familiar to me? What is one small correction I can try this week?"
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "THE FEEL OF EACH PITFALL",
+     "paras": [
+      "Each pitfall has a signature feeling. Indifference feels like numbness. Hidden expectation feels like a small hurt when no one notices. Burnout feels like exhaustion mixed with irritation. Resentment feels like heaviness. Pride feels like a quiet glow of being good. When the feeling arises, name it gently, offer it, and return to the practice. Self-criticism is not needed."
+     ]
+    },
+    {
+     "h": "A WORD ON REST",
+     "paras": [
+      "The Gita itself says that yoga is not for those who eat too much or too little, or sleep too much or too little (6.16). Moderation in food, rest, recreation and work is part of the discipline. Holy Mother's pairing of work with prayer is another form of rest for the mind."
+     ]
+    },
+    {
+     "h": "A SELF-CHECK FOR THE EVENING",
+     "paras": [
+      "Ask: did I give my full effort? Was I attached to the result? Did I see the person in front of me as a living being or as a task? Where did I feel resentful or proud? These are not accusations. They are information for tomorrow."
+     ]
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "t": "A daily practice",
+   "on": [
+    "A daily practice in five steps. Morning offering: \"May my work today be Yours.\" Remembrance in the middle of work: one breath and one silent word, three times a day, as the maidservant and the tortoise do. Release the result when a task ends: \"Done, offered.\" See the Lord in the one served.",
+    "Evening review: where was I a master and where a slave? Offer the whole day, including mistakes, without harsh self-criticism. Begin with one step for one week and add another only when it feels natural. Small and steady is better than ambitious and abandoned. A notebook with one line each evening helps."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "THE FIVE-STEP PRACTICE",
+     "paras": [
+      "1. Morning offering. Before the day begins, sit for a minute and offer the day: \"May my work today be Yours.\" Sets the direction.\n2. Remembrance in the middle of work. Three times a day, pause for one breath and one silent word, such as \"Yours\". This is the practice of the maidservant and the tortoise: keeping the mind on the home while the hands work.\n3. Release the result. When a task is finished, pause for a moment and let the outcome go: \"Done, offered.\" This is Gita 2.47 in practice.\n4. See the Lord in the one served. In each encounter, such as with a colleague, child, patient or stranger, take a moment to recall that the Divine is present in this person. This is Śiva-jñāne jīva-sevā.\n5. Evening review. Before sleep, ask: where did I act as a master, and where as a slave? Then offer the whole day, including the mistakes. Do not criticise yourself harshly."
+     ]
+    },
+    {
+     "h": "HOW TO BEGIN",
+     "paras": [
+      "Choose one step for one week. A practice that is small and steady is better than one that is ambitious and abandoned. After a week, add another."
+     ]
+    },
+    {
+     "h": "APPLICATIONS",
+     "paras": [
+      "At home: cooking, cleaning, caring for children or parents. At work: emails, meetings, deadlines, difficult colleagues. In service: volunteering, supporting a friend, looking after elders."
+     ]
+    },
+    {
+     "h": "TRACKING PROGRESS",
+     "paras": [
+      "A simple notebook helps. Each evening write one line: which step did I practise, and what did I notice?"
+     ]
+    },
+    {
+     "h": "REFLECT",
+     "paras": [
+      "Which step is easiest for me, and which is hardest? Begin with the easiest."
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "APPLYING THE STEPS AT HOME",
+     "paras": [
+      "At home the tasks are cooking, cleaning, caring for children or elders. Before beginning, pause and offer the task. While working, notice the feel of the work and the person you are doing it for. At the end, let go of the outcome: whether it is praised or ignored, it is offered. Parents often find that this practice softens the tension of constant demands."
+     ]
+    },
+    {
+     "h": "APPLYING THE STEPS AT WORK",
+     "paras": [
+      "At work the tasks are emails, meetings, deadlines and difficult colleagues. Use the transitions between tasks as reminders: a breath before opening a message, a pause before a meeting. When a colleague is difficult, try to recall that the same Divine is present in them. This does not mean accepting poor behaviour. It means keeping your own mind steady and respectful."
+     ]
+    },
+    {
+     "h": "APPLYING THE STEPS IN SERVICE",
+     "paras": [
+      "In volunteering, remember Vivekananda: the giver is the one who is blessed. Give without expectation, and notice any wish to be thanked. When you are tired, rest. Sustained service needs a sustained and healthy servant."
+     ]
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "t": "Daily reflection: the evening review",
+   "on": [
+    "A daily reflection of five to ten minutes turns good intentions into habit. Fix a time, settle with three breaths, replay the day as a witness, ask the checklist questions, write one line (one thing that went well, one slip, one intention) and offer the day. The review is step 5 of the daily practice, given a clear shape.",
+    "The spirit matters most: witness, not judge. Vedanta calls the Self the witness (sākṣī), and the review borrows that standpoint in a modest way. Observation with kindness leads to learning, and harsh judgement leads to discouragement. Keep it short. If it becomes rumination, stop, breathe and offer the thought."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "Sākṣī / साक्षी",
+     "the witness, awareness that observes without being changed"
+    ],
+    [
+     "Svādhyāya / स्वाध्याय",
+     "self-study, study of the texts and of oneself"
+    ],
+    [
+     "Arpaṇa / अर्पण",
+     "offering"
+    ]
+   ],
+   "base": [
+    {
+     "h": "THE IDEA IN PLAIN WORDS",
+     "paras": [
+      "Practice becomes real when we look at how it went. A short daily reflection turns good intentions into a habit by showing, without drama, where the teaching was lived and where it was forgotten. It is the evening review (step 5 of the daily practice) given a clear shape."
+     ]
+    },
+    {
+     "h": "HOW TO DO THE REVIEW",
+     "paras": [
+      "1. Fix a time. Five to ten minutes, at the same time each evening, ideally after the evening meal or before sleep.\n2. Settle. Three slow breaths and a moment of silence.\n3. Replay the day as a witness. Recall the events in order, as if watching a film, without commentary.\n4. Ask the checklist questions on the next slide.\n5. Write one line. One thing that went well, one slip, and one intention for tomorrow.\n6. Offer. Offer the day, with its successes and mistakes, and release it before sleep."
+     ]
+    },
+    {
+     "h": "THE SPIRIT OF THE REVIEW: WITNESS, NOT JUDGE",
+     "paras": [
+      "Vedanta describes the Self as the witness (sākṣī): the awareness that observes thoughts and actions without being changed by them. The reflection takes this standpoint in a modest way, observing the movements of the mind from a little distance. Observation with kindness leads to learning. Harsh judgement leads to discouragement, and often to giving up the practice."
+     ]
+    },
+    {
+     "h": "GUARDRAILS",
+     "paras": [
+      "Keep the review short. If it turns into self-criticism or rumination, stop, take three breaths and offer the thought. Do not review when exhausted; a one-line note is enough. Sri Ramakrishna warned against brooding on one's faults (paraphrase): one who keeps repeating \"I am bound\" remains bound, and one who knows \"I am free\" becomes free."
+     ]
+    },
+    {
+     "h": "WHAT TO WRITE",
+     "paras": [
+      "Keep a small notebook. Three lines are enough: \"Went well:\", \"Slip:\", \"Tomorrow:\". Over weeks the lines reveal patterns that no single day shows."
+     ]
+    },
+    {
+     "h": "REFLECT",
+     "paras": [
+      "What time of day would work best for my review, and what could I attach it to (a meal, a cup of tea, brushing teeth)?"
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "WHY A WRITTEN LINE HELPS",
+     "paras": [
+      "Writing even one line slows the mind and makes a vague impression concrete. After a few weeks the notebook shows patterns: the time of day when patience runs out, the kind of task that triggers resentment, the person who is hardest to see as God. Patterns are the raw material for gentle adjustment."
+     ]
+    },
+    {
+     "h": "SELF-STUDY IN THE TRADITION",
+     "paras": [
+      "Svādhyāya, the study of the scriptures and of oneself, is listed among the observances (niyamas) in Patanjali's Yoga Sutras. The daily review is a form of self-study: reading the day as one reads a text, with attention and without hurry."
+     ]
+    },
+    {
+     "h": "QUESTIONS PEOPLE ASK",
+     "paras": [
+      "What if I forget to do the review for several days? Begin again that evening, without catching up. What if the review makes me feel worse? Shorten it, remove the judging, and keep only the offering. If distress persists, talk to someone you trust. Is it selfish to focus on myself? The review is aimed at serving others better, since a steadier mind serves more kindly."
+     ]
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "t": "Daily checklist",
+   "on": [
+    "The checklist turns the teaching into small, observable actions. Morning: offered the day, set one intention, began the first task before opening messages. During the day: three pauses, best effort without rehearsing the result, saw the Lord in one person served, respected one small task. Evening: released results, noticed master and slave, noticed a pitfall without scolding, offered the day.",
+    "Tick for done with attention, dash for partly, blank for not today. A blank is information, not failure. Do not aim for twelve ticks. Begin with three or four items for a week, then add more. If you miss a day, do not catch up and do not scold. Begin again with the morning offering."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "THE IDEA IN PLAIN WORDS",
+     "paras": [
+      "A checklist makes the teaching concrete. Each item is a small, observable action drawn from the texts studied in this class. Use it as a mirror and not as an exam: the aim is to notice, not to score."
+     ]
+    },
+    {
+     "h": "THE MORNING ITEMS",
+     "paras": [
+      "Offered the day: \"May my work today be Yours\" (Gita 9.27, the spirit of offering). Set one intention: choose one task to do with full attention and respect, in the spirit of Holy Mother's teaching. Began the first task before opening messages, so the day starts from the offering and not from reaction."
+     ]
+    },
+    {
+     "h": "THE ITEMS DURING THE DAY",
+     "paras": [
+      "Paused three times for one breath and one silent word, as the maidservant and the tortoise keep the mind on home. Did my best at each task without rehearsing the result (Gita 2.47). Saw the Lord in at least one person I served (Śiva-jñāne jīva-sevā). Treated one small task with respect."
+     ]
+    },
+    {
+     "h": "THE EVENING ITEMS",
+     "paras": [
+      "Released the results: \"Done, offered.\" Noticed where I was master and where slave (Vivekananda). Noticed a pitfall (indifference, hidden hope for thanks, burnout, resentment or pride) without scolding myself. Offered the day and set one intention for tomorrow."
+     ]
+    },
+    {
+     "h": "HOW TO MARK IT",
+     "paras": [
+      "Tick when you did the item with some attention, even if imperfectly. Mark a dash when you did it partly. Leave blank when it did not happen. A blank is information, not failure."
+     ]
+    },
+    {
+     "h": "HOW MANY TICKS?",
+     "paras": [
+      "Do not aim for twelve ticks. Begin with three or four items for a week, then add. A day with a few honest ticks is worth more than a day of hurried ticks."
+     ]
+    },
+    {
+     "h": "IF YOU MISS A DAY",
+     "paras": [
+      "Do not catch up and do not scold. Begin again the next morning with the offering."
+     ]
+    },
+    {
+     "h": "REFLECT",
+     "paras": [
+      "Which three items will I begin with this week?"
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "WHERE EACH ITEM COMES FROM",
+     "paras": [
+      "The morning offering comes from Gita 9.27. The three pauses come from Sri Ramakrishna's images of the maidservant and the tortoise. Doing one's best without rehearsing the result comes from Gita 2.47. Seeing the Lord in the one served comes from Śiva-jñāne jīva-sevā. Respect for small tasks comes from Holy Mother. Master and slave come from Vivekananda. The pitfalls are those on slide 16."
+     ]
+    },
+    {
+     "h": "USING THE CHECKLIST WITH OTHERS",
+     "paras": [
+      "Families and small groups can use the checklist together. A couple might share one item each evening: 'Today I saw the Lord in...' A group might take one item each week and report at the next gathering. Sharing keeps the practice warm and honest, and prevents it from becoming a private score."
+     ]
+    },
+    {
+     "h": "WHEN AN ITEM FEELS FALSE",
+     "paras": [
+      "If you tick an item and feel it was hollow, that is useful to notice. Mark a dash instead, and be curious about it. Honesty with oneself is part of the practice."
+     ]
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "t": "Weekly tracker",
+   "on": [
+    "A seven-day grid for six practices: morning offering, pause in the day, released the result, saw the Lord in one person served, respect for a small task, and evening review. Mark it each evening during your review: tick for done with attention, dash for partly, blank for not today. A printable version is in the Study Companion.",
+    "At the end of the week read the pattern. Mostly blank rows may be too hard or badly timed, so make them smaller. Always-ticked rows have become natural, so you may add another. Write three lines: what helped, what got in the way, one adjustment. Notice any pride in a full row or disappointment in an empty one. That is the practice again."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "THE IDEA IN PLAIN WORDS",
+     "paras": [
+      "The weekly tracker takes the daily checklist and shows it over seven days. Patterns appear that a single day hides. Use it for one week, then reflect, then adjust. Print it or copy it into your notebook. A printable version appears in the Study Companion."
+     ]
+    },
+    {
+     "h": "THE SIX ROWS",
+     "paras": [
+      "Morning offering. Pause in the day (the three-breath remembrance). Released the result. Saw the Lord in one person served. Respect for a small task. Evening review. These match the daily practice on slide 17 and the checklist on slide 19."
+     ]
+    },
+    {
+     "h": "HOW TO MARK IT",
+     "paras": [
+      "A tick for done with attention, a dash for done partly, blank for not today. Mark it at the end of each day, during the evening review, so that the tracker supports the review and does not replace it."
+     ]
+    },
+    {
+     "h": "READING THE WEEK",
+     "paras": [
+      "Look for rows that are mostly blank: that practice may be too hard for now or may not fit your day. Make it smaller, or move it to a different time. Look for rows that are always ticked: that practice has become natural, and you may add another. Look for days with many blanks: what was different about those days? Often it is tiredness, travel or conflict, and the answer is to be gentler, not stricter."
+     ]
+    },
+    {
+     "h": "THE WEEKLY QUESTIONS",
+     "paras": [
+      "What helped this week? What got in the way? What is one small adjustment for next week? Write a line for each at the foot of the tracker."
+     ]
+    },
+    {
+     "h": "A NOTE ON ATTACHMENT TO THE TRACKER",
+     "paras": [
+      "There is a gentle irony here: a Niṣkāma Karma tracker can become a fresh object of craving for results. Notice if you feel pride at a full row or disappointment at an empty one. That is the same practice again, offered at a finer level."
+     ]
+    },
+    {
+     "h": "REFLECT",
+     "paras": [
+      "What would a \"good enough\" week look like for me?"
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "A SAMPLE WEEK",
+     "paras": [
+      "Suppose in one week the morning offering is ticked on five days, the midday pause on two, release of results on three, seeing the Lord on four, small task respect on six, and the evening review on seven. The reading might be: the pause is hard in the middle of busy days, so set a phone reminder or link it to a routine such as stepping out for lunch. The tracker has done its job."
+     ]
+    },
+    {
+     "h": "KEEPING IT LIGHT",
+     "paras": [
+      "The tracker is a mirror and not a report card. Do not share it to impress, and do not compare it with others. If it begins to create anxiety, put it away for a week and keep only the evening offering."
+     ]
+    },
+    {
+     "h": "MOVING FROM WEEKS TO MONTHS",
+     "paras": [
+      "After four weeks, review the four trackers together with the monthly questions on the next slide. Note which rows have become natural. Replace those with a new practice, or deepen them: for example, extend the pause from one breath to a full minute."
+     ]
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "t": "Signs of progress and the monthly review",
+   "on": [
+    "Signs of progress are small and quiet: the pause comes more easily; praise and blame disturb the mind less and for less time; work is steadier; patience with difficult people grows; recovery after a slip is quicker; service brings gratitude and not a sense of being owed. A monthly review helps us see them.",
+    "Monthly questions: which practice has become natural? Which pitfall keeps returning? Where did work feel like worship? What was my hardest moment and how did I meet it? What one adjustment next month? Gita 6.35 reminds us the mind is held by practice and detachment together. If life is overwhelming, speak with a trusted teacher, friend or qualified professional."
+   ],
+   "vs": [
+    {
+     "ref": "Bhagavad Gita 6.35",
+     "dev": "असंशयं महाबाहो मनो दुर्निग्रहं चलम् ।\nअभ्यासेन तु कौन्तेय वैराग्येण च गृह्यते ॥ ३५ ॥",
+     "iast": "asaṃśayaṃ mahābāho mano durnigrahaṃ calam\nabhyāsena tu kaunteya vairāgyeṇa ca gṛhyate",
+     "en": "Without doubt, O mighty-armed, the mind is restless and hard to control. But by practice and by detachment, O Kaunteya, it is held."
+    }
+   ],
+   "gl": [
+    [
+     "abhyāsa / अभ्यास",
+     "practice, repeated effort"
+    ],
+    [
+     "vairāgya / वैराग्य",
+     "detachment, dispassion"
+    ],
+    [
+     "durnigraham / दुर्निग्रहम्",
+     "hard to control"
+    ],
+    [
+     "calam / चलम्",
+     "restless"
+    ],
+    [
+     "gṛhyate / गृह्यते",
+     "is held, is grasped"
+    ]
+   ],
+   "base": [
+    {
+     "h": "THE IDEA IN PLAIN WORDS",
+     "paras": [
+      "Progress on this path is gradual, uneven and mostly quiet. A monthly look back helps us see it, and a few signs show that the teaching is taking root."
+     ]
+    },
+    {
+     "h": "SIGNS OF PROGRESS",
+     "paras": [
+      "The pause comes more easily, and sometimes comes by itself. Praise and blame disturb the mind a little less, and for less time. Work is done with a steadier mind and often with better quality. There is more patience with difficult people, and a quicker return to respect. Recovery after a slip is faster, with less self-criticism. Service brings gratitude rather than a sense of being owed. These signs are small, and that is how they arrive."
+     ]
+    },
+    {
+     "h": "QUESTIONS FOR THE MONTHLY REVIEW",
+     "paras": [
+      "Which practice has become natural? Which pitfall keeps returning, and what does it want me to see? Where did work feel like worship this month? What was my hardest moment, and how did I meet it? What one adjustment will I make for next month?"
+     ]
+    },
+    {
+     "h": "PRACTICE AND DETACHMENT",
+     "paras": [
+      "Gita 6.35: asaṃśayaṃ mahābāho mano durnigrahaṃ calam | abhyāsena tu kaunteya vairāgyeṇa ca gṛhyate. Without doubt the mind is restless and hard to hold, but by practice (abhyāsa) and detachment (vairāgya) it is held. The two work together. Practice builds the habit, and detachment loosens the grip on results. The checklist is practice, and the release of results is detachment."
+     ]
+    },
+    {
+     "h": "PLATEAUS AND SETBACKS",
+     "paras": [
+      "There will be weeks when nothing seems to change, and weeks when old habits return strongly. This is normal. Return to the offering, keep the practice small, and continue."
+     ]
+    },
+    {
+     "h": "WELLBEING NOTE",
+     "paras": [
+      "If work or life is overwhelming, or if reflection brings up persistent distress, speak with a trusted teacher, friend or a qualified professional. This practice supports wellbeing, and it does not replace professional care when that is needed."
+     ]
+    },
+    {
+     "h": "REFLECT",
+     "paras": [
+      "What is one small sign of change I have already noticed?"
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "PRACTICE AND DETACHMENT TOGETHER",
+     "paras": [
+      "In the Gita (6.35) and in Patanjali's Yoga Sutras (1.12), abhyāsa and vairāgya are named as the two supports of a steady mind. Practice without detachment becomes strained and ambitious. Detachment without practice becomes vague. Together they produce steady progress without strain. This is the same balance as in Niṣkāma Karma: wholehearted effort with a loosened grip."
+     ]
+    },
+    {
+     "h": "WHEN PROGRESS STALLS",
+     "paras": [
+      "Early enthusiasm fades and a plateau follows; that is the expected shape and not a failure. When it happens, reduce the practice to its smallest form, such as one breath and one offering a day. The tradition speaks of long, steady, loving practice (dīrgha-kāla-nairantarya-satkāra-āsevitaḥ, Yoga Sutra 1.14) as what makes practice firm."
+     ]
+    },
+    {
+     "h": "A MONTHLY ROUTINE",
+     "paras": [
+      "Choose a regular day each month, such as the first Wednesday after this class. Sit with the four weekly trackers and your notebook lines. Answer the monthly questions in writing. Choose one adjustment. Bring one real experience to the next class for the Q and A."
+     ]
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "t": "Guided meditation for beginners",
+   "on": [
+    "The Centre's guided meditation for beginners, about fifteen minutes. Sit upright and breathe slowly, with Om for the count. Pray for the welfare of all beings. Turn within and see a lotus in the heart, with a light at its centre filling body and mind. Rest the mind on the light or on the form you love. When it wanders, bring it back gently.",
+    "Close by offering the results of the meditation to the Divine for the welfare of all, then keep silence for a while before resuming your routine. Best times are morning and evening, in a regular seat and a clean, quiet place. Wandering is not failure; each gentle return strengthens concentration. If you are new, start with five minutes."
+   ],
+   "vs": [
+    {
+     "ref": "Traditional peace prayer",
+     "dev": "सर्वे भवन्तु सुखिनः सर्वे सन्तु निरामयाः ।\nसर्वे भद्राणि पश्यन्तु मा कश्चिद्दुःखभाग्भवेत् ॥",
+     "iast": "sarve bhavantu sukhinaḥ sarve santu nirāmayāḥ\nsarve bhadrāṇi paśyantu mā kaścid duḥkha-bhāg bhavet",
+     "en": "May all be happy. May all be free from illness. May all see what is auspicious. May no one suffer."
+    }
+   ],
+   "gl": [
+    [
+     "Dhyāna / ध्यान",
+     "meditation, sustained flow of attention"
+    ],
+    [
+     "Nididhyāsana / निदिध्यासन",
+     "deep meditation on what has been understood"
+    ],
+    [
+     "Om / ॐ",
+     "the sacred syllable, name of the Divine"
+    ],
+    [
+     "Japa / जप",
+     "repetition of a name or mantra"
+    ],
+    [
+     "Dhāraṇā / धारणा",
+     "holding the mind on one point"
+    ]
+   ],
+   "base": [
+    {
+     "h": "THE IDEA IN PLAIN WORDS",
+     "paras": [
+      "This page is the Centre's own guided meditation for beginners, as taught in its school and community programmes. It is a complete short practice of about fifteen minutes. Niṣkāma Karma gives the mind its orientation (work as offering), and meditation is where that orientation is rehearsed in silence. In the classical order of Vedantic learning, listening (śravaṇa) and reflection (manana) are completed by meditation (nididhyāsana). This page is that third step."
+     ]
+    },
+    {
+     "h": "THE TEN STEPS",
+     "paras": [
+      "1. Sit steady. Close the eyes. Keep the head, neck and chest relaxed and upright.\n2. Breathe. Breathe in and out deeply, slowly and rhythmically. Instead of counting one, two, three, repeat Om: breathe in for four counts of Om and out for four counts of Om.\n3. Pray for all. Send a current of good will to all beings: \"May all beings be happy, peaceful and blissful.\" Turn in thought to the east, south, north and west.\n4. Turn within. Gradually withdraw the mind from the outer world and focus it on your true nature, the Divinity within you.\n5. The lotus and the light. In the region of the heart, see a fresh, fully bloomed lotus. From its centre a light shines and fills the whole body and mind. In the centre of the light is a divine flame, the nature of peace, knowledge, goodness, strength and fearlessness.\n6. Breathe in the light. With each breath, feel the light of knowledge dispel ignorance, the light of peace remove disturbance, the light of purity remove imperfection, the light of bliss fill you with joy, and the light of strength remove weakness. You are full of light, knowledge, strength, purity and peace.\n7. Anchor the mind. In a relaxed way, rest the whole mind on this inner light, or on the form of the Divine that you love, and repeat Om if you wish.\n8. Bring it back. When the mind wanders, and it will, bring it back gently to the light or the form. Meditate in this way for about fifteen minutes.\n9. Offer. Offer the results of the meditation to the Divine for the welfare of all. This is Niṣkāma Karma applied to the sitting itself.\n10. Open the eyes. Keep silence for a while before resuming your routine."
+     ]
+    },
+    {
+     "h": "PREPARATION: TIME, PLACE AND SEAT",
+     "paras": [
+      "The Centre's guide recommends practising twice a day, towards morning and evening, when night passes into day and day into night and the mind is naturally calm. A fixed place helps: a quiet corner, kept clean, with a flower or a picture that pleases you. Choose a regular seat in which you can sit comfortably without strain. If you cannot sit cross-legged, sit on a chair without leaning back, with chest, neck and head in a straight line. Those who cannot set aside a room can practise anywhere and try to feel the living presence of the Divine in that place."
+     ]
+    },
+    {
+     "h": "SWAMI VIVEKANANDA'S IMAGE OF THE LAKE",
+     "paras": [
+      "The Centre's handout quotes Swami Vivekananda: the mind is like a lake, and every stone that drops into it raises waves. The full moon is reflected in the lake, but the surface is so disturbed that we do not see the reflection clearly. Let it be calm, and keep quiet, and after a little while nature will give us up. Then we know what we are. Meditation stills the waves so that the reflection can be seen."
+     ]
+    },
+    {
+     "h": "WHEN THE MIND WANDERS",
+     "paras": [
+      "Wandering is not failure. It is the exercise itself: each time you notice and return, concentration grows, as a muscle grows with each repetition. Return without scolding. Sri Ramakrishna's teaching quoted in the same handout: \"There is great power in the seed of the Divine name. It destroys ignorance.\""
+     ]
+    },
+    {
+     "h": "HOW THIS LINKS TO THE THEME",
+     "paras": [
+      "Step 3 is service in thought: wishing well for all. Step 9 is the offering of results. Together they place Seva and Niṣkāma Karma inside the sitting. People who sit regularly often find the pause during the day (slide 17) comes more naturally, because the mind already knows the way back."
+     ]
+    },
+    {
+     "h": "A NOTE FOR SELF-STUDY",
+     "paras": [
+      "If you are new to meditation, start with five minutes and extend gradually. If sitting brings up distress, stop, open the eyes and breathe naturally, and speak with a teacher or a qualified professional."
+     ]
+    },
+    {
+     "h": "REFLECT",
+     "paras": [
+      "At what time and in what place could I sit for even five minutes tomorrow?"
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "THE ORDER OF VEDANTIC LEARNING",
+     "paras": [
+      "Śravaṇa (listening), manana (reflection) and nididhyāsana (meditation) are the classical three stages. Listening to the talk gives the framework, reflection tests it against life, and meditation lets it settle into experience. This is why the evening has a meditation both before and after the talk."
+     ]
+    },
+    {
+     "h": "THE BREATH WITH OM",
+     "paras": [
+      "Counting numbers occupies the mind with arithmetic, while the syllable Om gives it something meaningful to rest on, and the breath gives the syllable a rhythm. Breath and mind are closely linked, and steadying one steadies the other."
+     ]
+    },
+    {
+     "h": "CHOOSING THE FORM",
+     "paras": [
+      "Some people love a particular form of the Divine, such as Sri Ramakrishna, Holy Mother, Krishna, Christ or the Mother. Others prefer pure light. The guide allows either, and the choice is yours. What matters is that the mind rests on something that evokes love and peace."
+     ]
+    },
+    {
+     "h": "SHORT VERSION FOR BUSY DAYS",
+     "paras": [
+      "Sit upright. Three Om-breaths. One thought for the welfare of all. See the light in the heart for one minute. Offer it. About three minutes in all, and still a real practice."
+     ]
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "t": "Guided meditation: offering the day's work",
+   "on": [
+    "A guided meditation of about ten minutes that can be repeated at the start of any working day. Sit comfortably and let the breath settle. Bring to mind the tasks of the coming day. Picture each placed, like a flower, at the feet of the Divine, in whatever form you love. Feel the grip on results loosen.",
+    "Silently repeat, \"Whatever I do, I offer to You\" (the spirit of Gita 9.27). Rest in the stillness beneath the activity. The activity comes and goes, and the stillness remains. Close with Om śāntiḥ śāntiḥ śāntiḥ. If the mind wanders, return gently to the breath or the flower. Every return is practice."
+   ],
+   "vs": [
+    {
+     "ref": "Bhagavad Gita 9.27",
+     "dev": "यत्करोषि यदश्नासि यज्जुहोषि ददासि यत् ।\nयत्तपस्यसि कौन्तेय तत्कुरुष्व मदर्पणम् ॥ २७ ॥",
+     "iast": "yat karoṣi yad aśnāsi yaj juhoṣi dadāsi yat\nyat tapasyasi kaunteya tat kuruṣva mad-arpaṇam",
+     "en": "Whatever you do, whatever you eat, whatever you offer in sacrifice, give, or practise as austerity, do that as an offering to Me."
+    },
+    {
+     "dev": "ॐ शान्तिः शान्तिः शान्तिः",
+     "iast": "oṃ śāntiḥ śāntiḥ śāntiḥ",
+     "en": "Om, peace, peace, peace."
+    }
+   ],
+   "gl": [],
+   "base": [
+    {
+     "h": "HOW TO USE THIS MEDITATION",
+     "paras": [
+      "This is a short guided practice that can be repeated at the start of any working day. It takes about ten minutes. Read each step slowly and pause for several breaths between them."
+     ]
+    },
+    {
+     "h": "THE STEPS",
+     "paras": [
+      "1. Sit comfortably, spine upright but relaxed. Let the breath settle without forcing it.\n2. Bring to mind the tasks of the coming day: the meetings, the cooking, the calls, the care of others.\n3. Picture each task placed like a flower at the feet of the Divine, in whatever form you love. This is arpaṇa, offering.\n4. Feel the grip on the results loosen. Notice any tension about the outcome and let it soften.\n5. Silently repeat: \"Whatever I do, I offer to You\" (the spirit of Gita 9.27).\n6. Rest for a few minutes in the stillness beneath the activity. The activity will come and go, and this stillness remains."
+     ]
+    },
+    {
+     "h": "CLOSING",
+     "paras": [
+      "Close by silently repeating \"Om Shanti, Shanti, Shanti\" (peace in body, mind and spirit), and carry the attitude into the first task of the day."
+     ]
+    },
+    {
+     "h": "IF THE MIND WANDERS",
+     "paras": [
+      "Wandering is normal. Gently return to the breath or to the image of the flower. Every return is practice."
+     ]
+    },
+    {
+     "h": "REFLECT",
+     "paras": [
+      "After the meditation, notice how the first task of the day feels. Is there any difference in the grip?"
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "PREPARING FOR THE MEDITATION",
+     "paras": [
+      "Choose a quiet place and sit with the spine upright and the body relaxed. Take a few slow breaths. If you have a favourite form of the Divine, such as Sri Ramakrishna, the Holy Mother, Krishna or an inner light, call it to mind. If not, imagine a quiet radiance. The offering is made to whatever you consider highest."
+     ]
+    },
+    {
+     "h": "THE MEANING OF THE CLOSING WORDS",
+     "paras": [
+      "Śāntiḥ means peace. It is repeated three times, traditionally for peace from the three kinds of disturbance: those arising from oneself, in body and mind (ādhyātmika), those arising from other beings and the environment (ādhibhautika), and those arising from natural and cosmic forces (ādhidaivika). Closing in this way carries the settled attitude into the first task of the day."
+     ]
+    },
+    {
+     "h": "WHEN THE MIND WANDERS",
+     "paras": [
+      "Wandering is normal and not a failure. Notice it, smile, and return. Over time the returning becomes easier. If strong worries arise about the day's tasks, offer each worry as you offered the tasks, and let it go."
+     ]
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "t": "Questions for reflection",
+   "on": [
+    "Five questions for reflection after the class or in a weekly review. Take one a day and write a few lines. Where does my work feel like bondage, and where like freedom? What result am I most attached to right now? Who can I begin to see as God in my daily life? What small task can I do today with Holy Mother's respect for even insignificant work?",
+    "How can I keep one hand on duty and one on the Divine? There are no right answers. For group study, work in pairs: one person speaks for two minutes while the other listens without comment, then swap. If one question is uncomfortable, that may be the one to stay with."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "HOW TO USE THESE QUESTIONS",
+     "paras": [
+      "These five questions are for reflection after the class or for a weekly review. Take one question per day, write a few lines, and notice what comes up. There are no correct answers."
+     ]
+    },
+    {
+     "h": "THE QUESTIONS WITH PROMPTS",
+     "paras": [
+      "1. Where does my work feel like bondage, and where like freedom? Notice the difference between tasks that are driven by fear or approval and tasks done from interest and offering.\n2. What result am I most attached to right now? Name it. Ask what peace would look like if I did my best and released it (Gita 2.47).\n3. Who can I begin to see as God in my daily life? Choose one person and try for a week (Śiva-jñāne jīva-sevā).\n4. What small task can I do today with Holy Mother's respect for \"even insignificant work\"? Choose one and do it with full attention.\n5. How can I keep one hand on duty and one on the Divine? Think of the maidservant and the tortoise. What is my practical reminder: a word, a breath, an image?"
+     ]
+    },
+    {
+     "h": "FOR GROUP STUDY",
+     "paras": [
+      "These questions work well in pairs or in small groups. One person speaks for two minutes while the other listens without commenting. Then switch."
+     ]
+    },
+    {
+     "h": "REFLECT",
+     "paras": [
+      "Which of these questions made me most uncomfortable? That may be the one to stay with."
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "HOW TO WORK WITH THE QUESTIONS",
+     "paras": [
+      "Take each question for a full day. Write a few lines in the morning and a few in the evening, then compare. Notice patterns across the days. Often one question keeps returning, and that is the one to carry into your practice."
+     ]
+    },
+    {
+     "h": "TIPS FOR GROUP STUDY",
+     "paras": [
+      "A small group of three to six people can meet monthly. Begin with a few minutes of silence. Each person speaks about one question for a few minutes while others listen without advice. End with a short silent sitting. Confidentiality and kindness are the ground rules."
+     ]
+    },
+    {
+     "h": "WHEN A QUESTION STIRS DIFFICULT FEELINGS",
+     "paras": [
+      "Some questions may touch painful areas, such as resentment or burnout. These are signs of where attention is needed. Be gentle with yourself. If feelings become overwhelming, speak with a trusted teacher, friend or a qualified professional."
+     ]
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "t": "Thank you: reading and next classes",
+   "on": [
+    "A six-week plan: Gita 2.47 to 2.50, then Gita chapter 3, the Īśā Upanishad, Karma-Yoga (The Secret of Work), the Gospel on work and the world, then Holy Mother's sayings and a review of your notebook. Choose one practice from this class to continue each week, and keep a line in your notebook each evening.",
+    "The Hamilton class meets on the first Wednesday of each month: 4 November, 2 December and 6 January. Register at www.vedanta.nz/event-list. Entry is free and donations are welcome. Questions and requests for further study are welcome at mail@vedanta.nz. Please share these slides with friends and family."
+   ],
+   "vs": [
+    {
+     "ref": "Traditional peace prayer",
+     "dev": "सर्वे भवन्तु सुखिनः सर्वे सन्तु निरामयाः ।\nसर्वे भद्राणि पश्यन्तु मा कश्चिद्दुःखभाग्भवेत् ॥",
+     "iast": "sarve bhavantu sukhinaḥ sarve santu nirāmayāḥ\nsarve bhadrāṇi paśyantu mā kaścid duḥkha-bhāg bhavet",
+     "en": "May all be happy. May all be free from illness. May all see what is auspicious. May no one suffer."
+    }
+   ],
+   "gl": [],
+   "base": [
+    {
+     "h": "SUGGESTED READING AND HOW TO USE IT",
+     "paras": [
+      "Karma-Yoga by Swami Vivekananda (Complete Works, volume 1). Begin with the chapter The Secret of Work, then We Help Ourselves, Not the World. The full text is in the public domain and is available online.\nThe Bhagavad Gita, translated by Swami Gambhirananda with the commentary of Shankara. Read chapters 2, 3, 4, 5 and 18 in connection with this class.\nThe Gospel of Sri Ramakrishna, translated by Swami Nikhilananda. Read it slowly, a few pages a day, and look for the images of work and the world.\nSri Sarada Devi, the Holy Mother: her teachings and biographies published by the Ramakrishna Order.\nThe Upanishads, especially the Īśā Upaniṣad, which is short enough to read in one sitting."
+     ]
+    },
+    {
+     "h": "A SUGGESTED SIX-WEEK PLAN",
+     "paras": [
+      "Week 1: Gita chapter 2, verses 47 to 50. Week 2: Gita chapter 3. Week 3: Īśā Upaniṣad. Week 4: Karma-Yoga, The Secret of Work. Week 5: Gospel of Sri Ramakrishna, selected conversations on work and the world. Week 6: Holy Mother's sayings, and review of your notebook."
+     ]
+    },
+    {
+     "h": "NEXT CLASSES",
+     "paras": [
+      "The Hamilton Vedanta-Meditation Study Circle meets on the first Wednesday of every month: 4 November, 2 December and 6 January. Entry is free and donations are welcome. Registration is at www.vedanta.nz/event-list."
+     ]
+    },
+    {
+     "h": "CONTACT",
+     "paras": [
+      "Swami Tadananda, Ramakrishna Vedanta Centre, Auckland. mail@vedanta.nz."
+     ]
+    },
+    {
+     "h": "A CLOSING PRAYER",
+     "paras": [
+      "May all beings be happy. May all be free from suffering. May the work of our hands become an offering to the Divine."
+     ]
+    }
+   ],
+   "deeper": [
+    {
+     "h": "HOW TO MAKE THE PLAN WORK",
+     "paras": [
+      "Choose the same time each day and keep it modest, ten minutes is enough. Write one line in your notebook after each reading. If you can, read with a friend and compare one line each week. Take a rest week if life gets busy and resume without scolding yourself. At the end of week 6, choose one practice from this class to continue."
+     ]
+    },
+    {
+     "h": "ABOUT THE CLOSING PRAYER",
+     "paras": [
+      "The closing verse, 'Sarve bhavantu sukhinaḥ', is a well-known peace prayer from the Hindu tradition. It wishes happiness, health, auspiciousness and freedom from suffering for all beings. It expresses the same spirit as the motto of the Ramakrishna Mission: that our own wellbeing and the welfare of all are not separate."
+     ]
+    },
+    {
+     "h": "STAYING IN TOUCH",
+     "paras": [
+      "Questions, comments and requests for further study are welcome at mail@vedanta.nz. Details of the Hamilton monthly class and other events at the Ramakrishna Vedanta Centre are on www.vedanta.nz/event-list."
+     ]
+    }
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "t": "mc",
+   "q": "Two ideas carry the whole of this class. Which pair are they?",
+   "o": [
+    "Bhakti Yoga and Haṭha Yoga",
+    "Niṣkāma Karma and Seva Yoga",
+    "Jñāna Yoga and Rāja Yoga",
+    "Dharma and Artha"
+   ],
+   "a": 1,
+   "e": "Niṣkāma Karma is action done wholeheartedly without craving for the result. Seva Yoga is work offered as service, seeing the Divine in the one served.",
+   "r": "Which of my daily hours feels most separate from my spiritual life?",
+   "s": 1
+  },
+  {
+   "t": "mc",
+   "q": "In the classical order of Vedantic learning, the talk at the class corresponds to which stage?",
+   "o": [
+    "Renunciation (saṃnyāsa)",
+    "Reflection (manana)",
+    "Meditation (nididhyāsana)",
+    "Listening (śravaṇa)"
+   ],
+   "a": 3,
+   "e": "The talk is listening (śravaṇa). The question time is reflection (manana). The two guided sittings are meditation (nididhyāsana), where the teaching begins to be absorbed.",
+   "r": "What do I usually do in the first five minutes of a study session, and does it prepare my mind?",
+   "s": 2
+  },
+  {
+   "t": "mc",
+   "q": "Vedanta says that when everyday work becomes spiritual life, what changes?",
+   "o": [
+    "The occupation: we must give up our job",
+    "The hours: we must work less",
+    "The place: we must move to a forest",
+    "The inner attitude, while the tasks stay the same"
+   ],
+   "a": 3,
+   "e": "The cooking, the emails and the caring stay. What changes is the attitude, from “this is mine, and I must succeed” to “this is offered, and I will do my best”. The Gita is spoken on a battlefield, not in a forest.",
+   "r": "Think of a recurring task I dislike. Is the discomfort in the task, or in my resistance to it?",
+   "s": 3
+  },
+  {
+   "t": "match",
+   "q": "Which knot is it? Choose one for each line.",
+   "rows": [
+    "“I am accomplishing this.”",
+    "“I must get the reward.”",
+    "Clinging to praise and to ownership of what we do",
+    "The sense of being the one who acts"
+   ],
+   "c": [
+    "Kartṛtva (the doer)",
+    "Bhoktṛtva (the enjoyer)",
+    "Saṅga (attachment)"
+   ],
+   "ans": [
+    0,
+    1,
+    2,
+    0
+   ],
+   "e": "Kartṛtva is the sense of being the doer, bhoktṛtva the sense of being the enjoyer who must receive the reward, and saṅga is clinging to outcomes, praise and ownership. It is not action itself that binds, but this way of relating to action. Together they bring anxiety before the task and elation or disappointment after it.",
+   "r": "Which of the three knots is strongest in me this week?",
+   "s": 4
+  },
+  {
+   "t": "mc",
+   "q": "Gita 2.47 begins “karmaṇy evādhikāras te mā … kadācana”. Which word completes the line, “never to its ______”?",
+   "o": [
+    "kāmeṣu (the desires)",
+    "karmaṇi (the action)",
+    "phaleṣu (the fruits)",
+    "yajñeṣu (the offerings)"
+   ],
+   "a": 2,
+   "e": "“You have a right to action alone, never to its fruits.” In Devanagari: कर्मण्येवाधिकारस्ते मा फलेषु कदाचन. The verse gives four instructions: act; do not claim the fruit; do not make the fruit your motive; do not drift into inaction.",
+   "r": "What is one task where I confuse caring about the work with needing the result?",
+   "s": 5
+  },
+  {
+   "t": "mc",
+   "q": "In Gita 2.48, how is yoga defined?",
+   "o": [
+    "Strict fasting",
+    "Withdrawal from all work",
+    "Skill in speech",
+    "Equanimity, being level in success and failure"
+   ],
+   "a": 3,
+   "e": "Gita 2.48 says samatvaṁ yoga ucyate: evenness of mind is called yoga. Gita 2.50 adds that yoga is skill in action. Equanimity is the inner side of work and excellence the outer side.",
+   "r": "Recall a time I worked at my best. Was my mind on the task or on the result?",
+   "s": 6
+  },
+  {
+   "t": "mc",
+   "q": "According to Gita 3.9, what is the one kind of work that does not bind?",
+   "o": [
+    "Work done for payment",
+    "Work done quickly",
+    "Work done as an offering (yajña)",
+    "Work done alone"
+   ],
+   "a": 2,
+   "e": "Except for work done as an offering, this world is bound by action. The same work either binds or frees, depending on whether it is offered. Krishna also says no one can remain without action even for a moment.",
+   "r": "Where am I physically still but mentally busy, or the reverse?",
+   "s": 7
+  },
+  {
+   "t": "mc",
+   "q": "Swami Vivekananda quotes the opening of the Īśā Upaniṣad: “Whatever exists in this universe is to be covered with the …”",
+   "o": [
+    "Wealth of the world",
+    "Veil of māyā",
+    "Silence of the forest",
+    "Lord"
+   ],
+   "a": 3,
+   "e": "The vision of the Divine in all things is the ground of Karma Yoga. Seeing the world as pervaded by the Lord, we use what comes to us without ownership.",
+   "r": "What do I treat as “mine” in my work? What changes if I hold it as held on trust?",
+   "s": 8
+  },
+  {
+   "t": "mc",
+   "q": "Gita 5.10 says that a person who offers all actions to Brahman is untouched, like which image?",
+   "o": [
+    "A rock in a river",
+    "A tree in a storm",
+    "A candle in the wind",
+    "A lotus leaf in water"
+   ],
+   "a": 3,
+   "e": "The lotus leaf lives in water yet stays dry. The mind can be fully engaged in the world and remain unstained. Gita 9.27 adds that even eating can be offered, and 18.46 that the work itself is the worship.",
+   "r": "Is there one daily action I can begin to treat as worship this week?",
+   "s": 9
+  },
+  {
+   "t": "match",
+   "q": "Master or slave? Choose one for each line (Swami Vivekananda, Karma-Yoga).",
+   "rows": [
+    "Works under compulsion, from need, fear of loss or craving for approval",
+    "Works from inner freedom and is not owned by the work",
+    "Is driven by the result and by what others will say",
+    "Can give himself fully to the work without being bound by it"
+   ],
+   "c": [
+    "The master",
+    "The slave"
+   ],
+   "ans": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "e": "Swami Vivekananda: “You should work like a master and not as a slave; work incessantly, but do not do slave’s work.” The slave works under compulsion. The master works from inner freedom. Freedom is not the absence of work but the absence of compulsion.",
+   "r": "Where in my own work do I feel like a slave, and where like a master?",
+   "s": 10
+  },
+  {
+   "t": "mc",
+   "q": "Swami Vivekananda: “It is not the receiver that is blessed, but it is the …”",
+   "o": [
+    "One who stays silent",
+    "One who prays loudest",
+    "Giver",
+    "One who gives the most"
+   ],
+   "a": 2,
+   "e": "He turns the usual picture of charity upside down. Service is an occasion for the giver to loosen selfishness and grow. Gratitude replaces superiority.",
+   "r": "Think of a recent act of help. Did I feel I was giving, or was I also receiving?",
+   "s": 11
+  },
+  {
+   "t": "mc",
+   "q": "In Sri Ramakrishna’s image, where is the mind of the maidservant in a rich man’s house?",
+   "o": [
+    "On her own home in the village",
+    "On her wages",
+    "On the next meal",
+    "On the master’s wealth"
+   ],
+   "a": 0,
+   "e": "She does all the household work attentively, yet her mind is on her own home. In the same way the devotee carries out all duties while the mind rests in God. The tortoise image teaches the same.",
+   "r": "What is my own “hand that holds on to God” while the other hand does the duties?",
+   "s": 12
+  },
+  {
+   "t": "mc",
+   "q": "What does the teaching Śiva-jñāne jīva-sevā ask of us?",
+   "o": [
+    "To serve only those who thank us",
+    "To serve each living being knowing it is Śiva, the Divine",
+    "To give money to temples",
+    "To show compassion from a height"
+   ],
+   "a": 1,
+   "e": "Compassion (dayā) can hide a sense of height. Service given in the knowledge that the other is Śiva keeps the giver in the position of a worshipper, which is why service becomes worship.",
+   "r": "Think of someone I find hard to serve. What changes if I try to see Śiva in them, even for one minute?",
+   "s": 13
+  },
+  {
+   "t": "mc",
+   "q": "What separates Seva Yoga from ordinary philanthropy?",
+   "o": [
+    "The size of the gift",
+    "The inner attitude: offering, selfless motive and seeing God in the one served",
+    "The number of people helped",
+    "Whether the work is public"
+   ],
+   "a": 1,
+   "e": "Without the inner attitude the same outer work is good philanthropy but not yet yoga. Swami Vivekananda founded the Ramakrishna Mission on 1 May 1897 so that service and spiritual practice would support each other.",
+   "r": "Do I have both halves, my own growth and the welfare of others, in my week?",
+   "s": 14
+  },
+  {
+   "t": "mc",
+   "q": "Holy Mother: “Through work alone one can remove the bondage of work, not by avoiding …”",
+   "o": [
+    "Work",
+    "The world",
+    "Prayer",
+    "Other people"
+   ],
+   "a": 0,
+   "e": "Holy Mother lived this teaching in cooking, nursing and running a household. Work purifies; avoiding work does not free us. She also taught that no one is a stranger and that the whole world is our own.",
+   "r": "What task do I habitually do carelessly because it seems small? What would change if I did it with respect?",
+   "s": 15
+  },
+  {
+   "t": "match",
+   "q": "Match each pitfall to its correction.",
+   "rows": [
+    "Detachment becomes indifference",
+    "Hidden hope for thanks",
+    "Resentment toward those served",
+    "Pride in being a giver"
+   ],
+   "c": [
+    "Care fully, hold lightly",
+    "Offer the work, then let it go",
+    "See them as the Lord",
+    "Remember that the giver is the one who is blessed"
+   ],
+   "ans": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "The path has five typical traps; the fifth is burnout, corrected by treating rest as part of the offering. They are not failures of character, only old habits of ego. Notice the trap without scolding yourself, smile, and return to the offering.",
+   "r": "Which of the five pitfalls is most familiar to me? What small correction can I try this week?",
+   "s": 16
+  },
+  {
+   "t": "mc",
+   "q": "Which step of the five-step daily practice is “Done, offered.”?",
+   "o": [
+    "Release the result",
+    "Morning offering",
+    "See the Lord in the one served",
+    "Remembrance in the middle of work"
+   ],
+   "a": 0,
+   "e": "Releasing the result at the end of a task is Gita 2.47 in practice. The five steps are: morning offering, remembrance in the middle of work, release the result, see the Lord in the one served, and evening review.",
+   "r": "Which step is easiest for me, and which is hardest? Begin with the easiest.",
+   "s": 17
+  },
+  {
+   "t": "mc",
+   "q": "What is the spirit of the evening review?",
+   "o": [
+    "A strict exam of the day",
+    "Witness, not judge",
+    "A list of other people’s faults",
+    "A way to plan tomorrow’s work only"
+   ],
+   "a": 1,
+   "e": "Vedanta describes the Self as the witness (sākṣī). The review borrows that standpoint modestly. Observation with kindness leads to learning; harsh judgement leads to discouragement. Keep it short: three lines are enough.",
+   "r": "When I look back on my day, do I observe like a witness or judge like a critic?",
+   "s": 18
+  },
+  {
+   "t": "match",
+   "q": "What does each mark on the daily checklist mean?",
+   "rows": [
+    "A tick",
+    "A dash",
+    "A blank",
+    "If you miss a whole day"
+   ],
+   "c": [
+    "Done with some attention, even if imperfectly",
+    "Done partly",
+    "Not today: it is information, not failure",
+    "Do not catch up and do not scold: begin again with the morning offering"
+   ],
+   "ans": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "A blank is information, not failure. Do not aim for twelve ticks: begin with three or four items for a week, then add more. A day with a few honest ticks is worth more than a day of hurried ticks.",
+   "r": "Which three items will I begin with this week?",
+   "s": 19
+  },
+  {
+   "t": "mc",
+   "q": "On the weekly tracker, a row that is always ticked suggests what?",
+   "o": [
+    "You should stop that practice",
+    "You are cheating",
+    "The practice has become natural and you may add another",
+    "The row is too hard"
+   ],
+   "a": 2,
+   "e": "Rows that are mostly blank may be too hard or badly timed: make them smaller. Always-ticked rows have become natural. Notice pride at a full row or disappointment at an empty one: that is the same practice again, at a finer level.",
+   "r": "What would a “good enough” week look like for me?",
+   "s": 20
+  },
+  {
+   "t": "mc",
+   "q": "Gita 6.35 says the restless mind is held by which two together?",
+   "o": [
+    "Silence and solitude",
+    "Practice (abhyāsa) and detachment (vairāgya)",
+    "Effort and reward",
+    "Study and debate"
+   ],
+   "a": 1,
+   "e": "Practice builds the habit and detachment loosens the grip on results. The checklist is practice; releasing the result is detachment. Plateaus and setbacks are normal: return to the offering and keep the practice small.",
+   "r": "Which practice has become natural for me, and which pitfall keeps returning?",
+   "s": 21
+  },
+  {
+   "t": "mc",
+   "q": "In the Centre’s guided meditation for beginners, what do you see in the region of the heart?",
+   "o": [
+    "A fresh, fully bloomed lotus with a light at its centre",
+    "A river",
+    "A mountain",
+    "A closed door"
+   ],
+   "a": 0,
+   "e": "From the centre of the lotus a light shines and fills the whole body and mind. With each breath you breathe in the light of knowledge, peace, purity, bliss and strength. The practice takes about fifteen minutes.",
+   "r": "When the mind wanders, can I return gently to the light, without scolding myself?",
+   "s": 22
+  },
+  {
+   "t": "mc",
+   "q": "In the meditation on offering the day’s work, each task is pictured as what?",
+   "o": [
+    "A flower placed at the feet of the Divine",
+    "A weight to put down",
+    "A letter to be posted",
+    "A seed to be planted"
+   ],
+   "a": 0,
+   "e": "This is arpaṇa, offering. Then silently repeat “Whatever I do, I offer to You”, in the spirit of Gita 9.27, and rest in the stillness beneath the activity. It takes about ten minutes.",
+   "r": "After the meditation, how does the first task of the day feel? Is there any difference in the grip?",
+   "s": 23
+  },
+  {
+   "t": "mc",
+   "q": "For group study of the reflection questions, how do pairs work together?",
+   "o": [
+    "They debate until one wins",
+    "They write answers for a teacher to mark",
+    "One speaks for two minutes while the other listens without comment, then they swap",
+    "They read the slides aloud"
+   ],
+   "a": 2,
+   "e": "There are no correct answers. Take one question a day and write a few lines. If one question is uncomfortable, that may be the one to stay with.",
+   "r": "Which of the five questions made me most uncomfortable?",
+   "s": 24
+  },
+  {
+   "t": "mc",
+   "q": "When is the next Hamilton Vedanta-Meditation class after HVM-001?",
+   "o": [
+    "Sunday 8 November",
+    "Wednesday 11 November",
+    "Wednesday 4 November",
+    "Wednesday 2 December"
+   ],
+   "a": 2,
+   "e": "The Hamilton class meets on the first Wednesday of each month: 4 November, 2 December and 6 January. Entry is free and donations are welcome. Register at www.vedanta.nz/event-list.",
+   "r": "Which one practice will I carry through the coming month?",
+   "s": 25
+  }
+ ]
+}
