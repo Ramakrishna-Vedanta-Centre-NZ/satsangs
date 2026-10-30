@@ -106,6 +106,50 @@ def study_step(d):
     return {"title": "Study the class: slides and handout" if d["noun"] == "class" else "Study the satsang: slides and handout",
             "details": json.dumps({"nodes": n, "metadata": {"version": 1}}, ensure_ascii=False)}
 
+
+# ---- Answers step (Satsang Study) -------------------------------------------
+INTRO = ("Read this after you have taken the quiz. For each question you will find the answer, a fuller explanation "
+         "of the teaching, and a question to reflect on in your own life. You may like to take one reflection each day, "
+         "write a few lines in a journal, and share an insight in the members\u2019 group.")
+
+def _t(text, bold=False, italic=False, color="#333333", bg=None, size=15):
+    dec = []
+    if bold: dec.append({"type": "BOLD", "fontWeightValue": 700})
+    cd = {"foreground": color}
+    if bg: cd["background"] = bg
+    dec.append({"type": "COLOR", "colorData": cd})
+    dec.append({"type": "FONT_SIZE", "fontSizeData": {"unit": "PX", "value": size}})
+    if italic: dec.append({"type": "ITALIC", "italicData": True})
+    return {"type": "TEXT", "id": "", "nodes": [], "textData": {"text": text, "decorations": dec}}
+
+def answers_step(d):
+    n = []
+    def P(*runs):
+        n.append({"type": "PARAGRAPH", "id": "a%d" % len(n), "nodes": list(runs), "paragraphData": {}})
+    L = "ABCD"
+    P(_t(INTRO)); P()
+    for i, x in enumerate(d["questions"], 1):
+        n.append({"type": "HEADING", "id": "a%d" % len(n), "nodes": [_t("Question %d" % i, color="#283593", size=22)],
+                  "headingData": {"level": 3}})
+        P(_t(x["q"], bold=True)); P()
+        if x["t"] == "mc":
+            P(_t("Answer choices:", bold=True))
+            for k, o in enumerate(x["o"]):
+                P(_t("%s. %s" % (L[k], o)))
+            P(); P(_t("Answer: ", bold=True, color="#00695C"), _t("%s. %s" % (L[x["a"]], x["o"][x["a"]])))
+        else:
+            P(_t("Choices: ", bold=True), _t(" / ".join(x["c"]))); P()
+            P(_t("Answer: ", bold=True, color="#00695C"))
+            for k, row in enumerate(x["rows"], 1):
+                P(_t("%d. %s \u2192 " % (k, row)), _t(x["c"][x["ans"][k - 1]]))
+        P(_t("%s (Slide %d)" % (x["e"], x["s"]))); P()
+        P(_t("Reflect: ", bold=True, color="#6A356A", bg="#F5F0F7"), _t(x["r"], italic=True))
+        P()
+        n.append({"type": "DIVIDER", "id": "a%d" % len(n), "nodes": [], "dividerData": {}}); P()
+    del n[-2:]  # no divider after the last question
+    return {"title": "Answers and reflections",
+            "details": json.dumps({"nodes": n, "metadata": {"version": 1}}, ensure_ascii=False)}
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("data"); ap.add_argument("--repo", required=True); ap.add_argument("--wix-out")
@@ -121,6 +165,7 @@ def main():
         os.makedirs(a.wix_out, exist_ok=True)
         json.dump(cms_row(d), open(os.path.join(a.wix_out, "cms_row.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         json.dump(study_step(d), open(os.path.join(a.wix_out, "study_step.ricos.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        json.dump(answers_step(d), open(os.path.join(a.wix_out, "answers_step.ricos.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         print("wrote Wix files in", a.wix_out)
 
 if __name__ == "__main__":
