@@ -10,3 +10,4 @@ The library with summaries, reflection questions, recordings and the question fo
 |---|---|---|
 | [SAT-001](SAT-001/) | The Divine Mother: The One Power That Became All | 25 October 2026 |
 | [HVM-001](HVM-001/) | Spiritualising Everyday Life: Niṣkāma Karma and Seva Yoga (Hamilton class) | 7 October 2026 |
+| [HVM-002](HVM-002/) | The Divine Mother Kali: Who She Is and Our Relationship with Her (Hamilton class) | 4 November 2026 |
