@@ -213,7 +213,8 @@ def lesson_step(d):
     if c.get("wix_cover_id"):
         n.append({"type": "IMAGE", "id": nid(), "nodes": [], "imageData": {"image": {"src": {"id": c["wix_cover_id"]}, "width": 1600, "height": 900},
                   "containerData": {"alignment": "CENTER", "width": {"size": "CONTENT"}, "textWrap": True}, "altText": d["qtitle"]}})
-    P(_run(c["place"], bold=True, color=BLACK)); P()
+    if not c.get("cover_has_details"):  # cover already shows date, time and place
+        P(_run(c["place"], bold=True, color=BLACK)); P()
     P(_run(c["intro"], color=BLACK)); P()
     H("Study")
     P(_run("Go through the slides at your own pace. Each slide has study notes, verses and songs.", color=BLACK))
