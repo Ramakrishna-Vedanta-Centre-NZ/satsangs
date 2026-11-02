@@ -68,13 +68,26 @@ def deck_checks(d, repo, errs):
     have = sorted(f for f in os.listdir(sl)) if os.path.isdir(sl) else []
     if len(have) == len(d["slides"]): ok("%d slide images" % len(have))
     else: fail("slide images %d but slides %d" % (len(have), len(d["slides"])), errs)
-    for f in ("logo.png", "cover.jpg", "index.html", os.path.join("quiz", "index.html")):
+    for f in ("logo.png", "cover.jpg", "index.html", os.path.join("quiz", "index.html"), os.path.join("answers", "index.html")):
         if os.path.exists(os.path.join(repo, d["code"], f)): ok("has " + f)
         else: fail("missing " + f, errs)
 
+def answers_checks(d, repo, errs):
+    p = os.path.join(repo, d["code"], "answers", "index.html")
+    if not os.path.exists(p): return
+    t = open(p, encoding="utf-8").read()
+    n = len(d["questions"])
+    ids = set(re.findall(r'<section class="card" id="q(\d+)"', t))
+    if ids == set(str(i) for i in range(1, n + 1)): ok("answers page has an anchor for each of the %d questions" % n)
+    else: fail("answers page anchors wrong: %s" % sorted(ids, key=int), errs)
+    if "\u2014" in t: fail("em dash on answers page", errs)
+    qz = open(os.path.join(repo, d["code"], "quiz", "index.html"), encoding="utf-8").read()
+    if "../answers/#q" in qz and 'href="../answers/"' in qz: ok("quiz links to the answers page (per question and on the result page)")
+    else: fail("quiz does not link to the answers page", errs)
+
 def links(d):
     base = "https://ramakrishna-vedanta-centre-nz.github.io/satsangs/" + d["code"]
-    return [base + "/", base + "/quiz/", d["handout_url"], d["cms"]["cover_url"], "https://www.vedanta.nz/quiz?q=" + d["code"]]
+    return [base + "/", base + "/quiz/", base + "/answers/", d["handout_url"], d["cms"]["cover_url"], "https://www.vedanta.nz/quiz?q=" + d["code"]]
 
 def online(d, errs):
     for u in links(d):
@@ -87,7 +100,7 @@ def online(d, errs):
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("data"); ap.add_argument("--repo", required=True); ap.add_argument("--online", action="store_true")
     a = ap.parse_args(); d = json.load(open(a.data, encoding="utf-8")); errs = []
-    data_checks(d, errs); deck_checks(d, a.repo, errs); quiz_test(d, a.repo, errs)
+    data_checks(d, errs); deck_checks(d, a.repo, errs); answers_checks(d, a.repo, errs); quiz_test(d, a.repo, errs)
     if a.online: online(d, errs)
     print("\nALL CHECKS PASSED" if not errs else "\n%d CHECK(S) FAILED" % len(errs))
     sys.exit(1 if errs else 0)

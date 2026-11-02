@@ -1,0 +1,51 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quiz answers | {{PAGE_KIND}} {{CODE}}</title>
+<meta name="description" content="Answers, explanations and reflection questions for the {{TITLE}} revision quiz.">
+<meta property="og:title" content="Quiz answers: {{TITLE}}">
+<meta property="og:image" content="https://ramakrishna-vedanta-centre-nz.github.io/satsangs/{{CODE}}/cover.jpg">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400..700;1,400..700&family=Noto+Sans:wght@400..700&display=swap">
+<link rel="stylesheet" href="../../assets/rvc-type.css?v=3">
+<style>
+:root{--navy:#12285A;--cream:#FBF5EA;--card:#FFFDF8;--gold:#C9A24A;--goldt:#6B4E0E;--green:#2F5A2E;--ink:#1E1E1E;--line:#E6DAC3}
+*{margin:0;box-sizing:border-box}
+body{background:var(--cream);color:var(--ink);font-family:'Noto Sans',Arial,sans-serif;font-size:var(--fs-body,15px);line-height:var(--lh-body,1.75);-webkit-text-size-adjust:100%}
+header{background:var(--navy);color:var(--cream);padding:18px 16px 22px;text-align:center}
+header img{width:56px;height:66px;object-fit:contain}
+.ey{font:700 11px 'Noto Sans',sans-serif;letter-spacing:3px;color:#E6C36A;margin-top:6px}
+h1{font:700 24px/1.2 'Noto Serif',serif;margin:6px 0 4px}
+header p{line-height:1.45;color:#F1ECDF}
+.jump{position:sticky;top:0;z-index:5;background:var(--navy);padding:8px 10px;display:flex;flex-wrap:nowrap;gap:6px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;box-shadow:0 2px 8px rgba(0,0,0,.25)}.jump::-webkit-scrollbar{display:none}
+.jump a{flex:0 0 auto;min-width:34px;text-align:center;padding:5px 6px;border-radius:7px;background:#1D3770;color:#FBF5EA;font:700 12.5px 'Noto Sans',sans-serif;text-decoration:none}
+.jump a:hover,.jump a:focus{background:var(--gold);color:var(--navy)}
+main{max-width:720px;margin:0 auto;padding:18px 14px 40px}
+.intro{margin:6px 0 18px}
+.acts{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 6px}
+.btn{display:inline-block;background:var(--navy);color:var(--cream);border-radius:10px;padding:11px 18px;font:700 14px 'Noto Sans',sans-serif;text-decoration:none}
+.btn.gold{background:var(--gold);color:var(--navy)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 16px;margin-bottom:16px;box-shadow:0 2px 8px rgba(19,41,91,.08);scroll-margin-top:58px}
+.card:target{border:2px solid var(--gold);box-shadow:0 0 0 4px rgba(201,162,74,.25)}
+.qn{font:700 11px 'Noto Sans',sans-serif;letter-spacing:2px;color:var(--goldt)}
+.q{font:700 16.5px/1.4 'Noto Serif',serif;color:#13295B;margin:6px 0 12px}
+.opt{padding:9px 12px;border:2px solid var(--line);border-radius:10px;margin-bottom:8px;background:#fff;font-size:14px;line-height:1.5}
+.opt.right{border-color:var(--green);background:#E3EDDF}
+.opt .tick{display:block;font:700 12px 'Noto Sans',sans-serif;color:var(--green);margin-top:2px}
+.match{border-collapse:collapse;width:100%;margin-bottom:10px;font-size:14px}
+.match td{border:1px solid var(--line);padding:8px 10px;vertical-align:top;background:#fff}
+.match td+td{background:#E3EDDF}
+.ex{margin-top:12px;line-height:1.7}
+.ex a{color:#13295B;font-weight:600}
+.refl{margin-top:12px;padding:10px 12px;background:#F3E6C4;border-radius:10px;line-height:1.65}
+.top{display:inline-block;margin-top:12px;font-size:12.5px;color:#5A5A5A}
+footer{text-align:center;font-size:12.5px;color:#5A5A5A;padding:0 16px 30px;line-height:1.7}
+footer a{color:#13295B}
+@media (max-width:600px){main{padding:12px 0 32px}.intro,.acts{margin-left:14px;margin-right:14px}.card{border-radius:0;border-left:0;border-right:0}}
+</style></head><body>
+<header><img src="../logo.png" alt="Ramakrishna Vedanta NZ emblem"><p class="ey">QUIZ ANSWERS · {{CODE}}</p><h1>{{TITLE}}</h1><p>Answers, explanations and reflections</p></header>
+<nav class="jump" aria-label="Jump to a question">{{CHIPS}}</nav>
+<main>
+<div class="intro"><p>Read this after you have taken the quiz. For each question you will find the answer, a fuller explanation of the teaching, and a question to reflect on in your own life. You may like to take one reflection each day, write a few lines in a journal, and share an insight in the members&rsquo; group.</p>
+<div class="acts"><a class="btn gold" href="../quiz/">Take the quiz</a><a class="btn" href="../">Open the slides</a></div></div>
+{{CARDS}}
+</main>
+<footer>Ramakrishna Vedanta Centre NZ · <a href="https://www.vedanta.nz/course/satsang-study" target="_top">Satsang Study</a> · <a href="https://www.vedanta.nz">www.vedanta.nz</a></footer>
+</body></html>

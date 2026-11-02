@@ -5,6 +5,7 @@
 
 Writes into the repository checkout:
   CODE/quiz/index.html   the revision quiz (from templates/quiz.template.html)
+  CODE/answers/index.html  answers, explanations and reflections, one anchor per question (templates/answers.template.html)
   CODE/index.html        the web deck: slide images, notes, reading view (from templates/deck.template.html)
 Writes into --wix-out (not published, for Claude to upload with the Wix API):
   cms_row.json           the row for the Wix CMS collection "Satsangs"
@@ -54,6 +55,32 @@ def build_quiz(d):
         "QTITLE_JSON": json.dumps(d["qtitle"], ensure_ascii=False).replace('"', "'")
             if "'" not in d["qtitle"] else json.dumps(d["qtitle"], ensure_ascii=False),
         "QPROG_JSON": "'" + d["program"] + "'"})
+
+def build_answers(d):
+    import html
+    h = lambda x: html.escape(x, quote=False)
+    L = "ABCD"
+    chips = "".join('<a href="#q%d">%d</a>' % (i, i) for i in range(1, len(d["questions"]) + 1))
+    cards = []
+    for i, x in enumerate(d["questions"], 1):
+        c = ['<section class="card" id="q%d"><p class="qn">QUESTION %d%s</p><p class="q">%s</p>' % (i, i, " · MATCHING" if x["t"] == "match" else "", h(x["q"]))]
+        if x["t"] == "mc":
+            for k, o in enumerate(x["o"]):
+                if k == x["a"]:
+                    c.append('<div class="opt right"><b>%s.</b> %s<span class="tick">\u2713 Correct answer</span></div>' % (L[k], h(o)))
+                else:
+                    c.append('<div class="opt"><b>%s.</b> %s</div>' % (L[k], h(o)))
+        else:
+            c.append('<table class="match">')
+            for k, row in enumerate(x["rows"]):
+                c.append("<tr><td>%d. %s</td><td>\u2713 %s</td></tr>" % (k + 1, h(row), h(x["c"][x["ans"][k]])))
+            c.append("</table>")
+        c.append('<p class="ex">%s <a href="../#%d">See slide %d</a>.</p>' % (h(x["e"]), x["s"], x["s"]))
+        c.append('<div class="refl"><b>Reflect:</b> <i>%s</i></div>' % h(x["r"]))
+        c.append('<a class="top" href="#top-of-page" onclick="window.scrollTo(0,0);return false">\u2191 Back to the top</a></section>')
+        cards.append("".join(c))
+    t = open(os.path.join(HERE, "templates", "answers.template.html"), encoding="utf-8").read()
+    return fill(t, {"PAGE_KIND": d["page_kind"], "CODE": d["code"], "TITLE": d["title"], "CHIPS": chips, "CARDS": "\n".join(cards)})
 
 def build_deck(d):
     data = json.dumps(d["slides"], ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
@@ -156,7 +183,7 @@ def main():
     a = ap.parse_args()
     d = json.load(open(a.data, encoding="utf-8"))
     check(d)
-    for sub, content in (("quiz/index.html", build_quiz(d)), ("index.html", build_deck(d))):
+    for sub, content in (("quiz/index.html", build_quiz(d)), ("answers/index.html", build_answers(d)), ("index.html", build_deck(d))):
         p = os.path.join(a.repo, d["code"], sub)
         os.makedirs(os.path.dirname(p), exist_ok=True)
         open(p, "w", encoding="utf-8").write(content)
