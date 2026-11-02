@@ -243,9 +243,11 @@ def lesson_step(d):
     B("take the quiz", "https://www.vedanta.nz/quiz?q=" + d["code"])
     P(T("After the quiz, read the answers with fuller explanations and a reflection for each question."))
     B("read the answers", base + "answers/")
-    ev = c.get("event_embed")
+    import datetime
+    over = datetime.date.fromisoformat(d["date"]) < datetime.date.today()
+    ev = None if over else c.get("event_embed")   # no point inviting people to an event that is over
     if ev or d.get("recording_url"):
-        H("Join us")
+        H("Recording" if over else "Join us")
         if ev:
             P(T(c.get("event_line") or "Come in person or join on Zoom. RSVP on the event page to receive the Zoom link."))
             n.append({"type": "APP_EMBED", "id": ev["id"], "nodes": [], "appEmbedData": {"type": "EVENT", "itemId": ev["id"], "name": ev["title"],
