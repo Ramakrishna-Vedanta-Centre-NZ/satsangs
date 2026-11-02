@@ -179,6 +179,61 @@ def answers_step(d):
     return {"title": "Answers and reflections",
             "details": json.dumps({"nodes": n, "metadata": {"version": 1}}, ensure_ascii=False)}
 
+# ---- One-lesson page (Satsang Study, one lesson per satsang) -----------------
+NAVY, TEAL = "#12285A", "#00695C"
+
+def _run(text, bold=False, italic=False, color=None, size=None):
+    dec = []
+    if bold: dec.append({"type": "BOLD", "fontWeightValue": 700})
+    if italic: dec.append({"type": "ITALIC", "italicData": True})
+    if color: dec.append({"type": "COLOR", "colorData": {"foreground": color}})
+    if size: dec.append({"type": "FONT_SIZE", "fontSizeData": {"unit": "PX", "value": size}})
+    return {"type": "TEXT", "id": "", "nodes": [], "textData": {"text": text, "decorations": dec}}
+
+def lesson_step(d):
+    c = d["cms"]; base = PAGES + d["code"] + "/"
+    n = []
+    def nid(): return "L%d" % len(n)
+    def P(*runs): n.append({"type": "PARAGRAPH", "id": nid(), "nodes": list(runs), "paragraphData": {}})
+    def H(text, level=3): n.append({"type": "HEADING", "id": nid(), "nodes": [_run(text, color=NAVY)], "headingData": {"level": level}})
+    def B(text, url): n.append(dict(button(text, url), id=nid(), nodes=[]))
+    def lst(kind, items):
+        n.append({"type": kind, "id": nid(), "nodes": [{"type": "LIST_ITEM", "id": "", "nodes": [
+            {"type": "PARAGRAPH", "id": "", "nodes": [_run(i)], "paragraphData": {}}]} for i in items],
+            ("orderedListData" if kind == "ORDERED_LIST" else "bulletedListData"): {"indentation": 0}})
+    if c.get("wix_cover_id"):
+        n.append({"type": "IMAGE", "id": nid(), "nodes": [], "imageData": {"image": {"src": {"id": c["wix_cover_id"]}, "width": 1600, "height": 900},
+                  "containerData": {"alignment": "CENTER", "width": {"size": "CONTENT"}, "textWrap": True}, "altText": d["qtitle"]}})
+    P(_run(c["place"], bold=True, color=TEAL)); P()
+    P(_run(c["intro"])); P()
+    H("Study")
+    P(_run("Go through the slides at your own pace. Each slide has study notes, verses and songs."))
+    B("open the slides", base)
+    P(_run("The Study Companion is a printable handout with the verses, key terms and commentary for every slide."))
+    B(d["handout_label"], d["handout_url"]); P()
+    H("Test yourself")
+    P(_run("A revision quiz of 25 questions. Sign in to keep your score under My Journey."))
+    B("take the quiz", "https://www.vedanta.nz/quiz?q=" + d["code"])
+    P(_run("After the quiz, read the answers with fuller explanations and a reflection for each question."))
+    B("read the answers", base + "answers/"); P()
+    H("Join us")
+    if c.get("event_link"):
+        P(_run("Come in person or join on Zoom. RSVP on the event page to receive the Zoom link."))
+        B("event page and RSVP", c["event_link"])
+    if d.get("recording_url"):
+        P(_run("Watch the recording of the satsang."))
+        B("watch the recording", d["recording_url"])
+    P()
+    H("Reflect")
+    lst("ORDERED_LIST", c["reflection_questions"])
+    P(_run("Share your reflections and questions in the members\u2019 group (Group Discussion below)."))
+    P()
+    H("Suggested reading")
+    lst("BULLETED_LIST", c["suggested_reading"])
+    return {"title": "%s: %s" % (d["code"], d["qtitle"]),
+            "details": json.dumps({"nodes": n, "metadata": {"version": 1}}, ensure_ascii=False)}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("data"); ap.add_argument("--repo", required=True); ap.add_argument("--wix-out")
@@ -194,6 +249,7 @@ def main():
         os.makedirs(a.wix_out, exist_ok=True)
         json.dump(cms_row(d), open(os.path.join(a.wix_out, "cms_row.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         json.dump(study_step(d), open(os.path.join(a.wix_out, "study_step.ricos.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        json.dump(lesson_step(d), open(os.path.join(a.wix_out, "lesson_step.ricos.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         json.dump(answers_step(d), open(os.path.join(a.wix_out, "answers_step.ricos.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         print("wrote Wix files in", a.wix_out)
 
