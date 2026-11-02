@@ -61,7 +61,7 @@ body.read .rv{display:block;background:#FBF5EA;color:#1E1E1E;min-height:100%}
 .rvfoot a{color:#13295B}
 .zoom{position:fixed;inset:0;background:rgba(11,26,61,.96);z-index:20;display:none;align-items:center;justify-content:center;padding:8px}
 .zoom.on{display:flex}.zoom img{max-width:100%;max-height:100%}
-</style></head><body>
+a.lsn{color:#f3d97a;font-size:.7em;font-weight:600;text-decoration:underline;white-space:nowrap}</style></head><body>
 <div class="stage"><img id="sl" alt="" src="slides/s-01.jpg"></div>
 <div class="notes" id="nb"><h4>NOTES</h4><div id="ntext"></div><p class="more">Open the reading view for the full study notes.</p></div>
 <div class="bar"><button id="prev" aria-label="Previous slide">‹ Prev</button><span class="count" id="count"></span><button id="next" aria-label="Next slide">Next ›</button><span class="ttl" id="ttl"></span><span class="spacer"></span><a class="gold" href="https://www.vedanta.nz/quiz?q={{CODE}}" target="_blank" rel="noopener">Quiz</a><a href="{{HANDOUT_URL}}" target="_blank" rel="noopener">Handout (PDF)</a><button id="rdb">Reading view</button><button id="nbb">Notes</button><button id="fs">Full screen</button></div>
@@ -77,8 +77,10 @@ body.read .rv{display:block;background:#FBF5EA;color:#1E1E1E;min-height:100%}
 const S=JSON.parse(document.getElementById('data').textContent);
 let i=0;const $=id=>document.getElementById(id),pad=n=>String(n).padStart(2,'0'),src=n=>'slides/s-'+pad(n)+'.jpg';
 function el(tag,cls,text){const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e}
+function lp(text){const p=document.createElement('p');text.split(/((?:https?:\/\/|youtu\.be\/)[^\s)]+)/).forEach(x=>{if(/^(https?:\/\/|youtu\.be\/)/.test(x)){const a=document.createElement('a');a.href=/^http/.test(x)?x:'https://'+x;a.target='_blank';a.rel='noopener';a.textContent=x;p.appendChild(a)}else if(x)p.appendChild(document.createTextNode(x))});return p}
+function listenUrl(s){for(const p of s.on){const m=p.match(/(?:https?:\/\/|youtu\.be\/)[^\s)]+/);if(m&&/youtu/.test(m[0]))return /^http/.test(m[0])?m[0]:'https://'+m[0]}return ''}
 function show(k){i=Math.max(0,Math.min(S.length-1,k));const s=S[i];const im=$('sl');im.src=src(s.n);im.alt='Slide '+s.n+': '+s.t;$('count').textContent=s.n+' / '+S.length;$('ttl').textContent=s.t;
- const nt=$('ntext');nt.textContent='';s.on.forEach(p=>nt.appendChild(el('p','',p)));
+ const nt=$('ntext');nt.textContent='';s.on.forEach(p=>nt.appendChild(lp(p)));const lu=listenUrl(s);if(lu){const a=document.createElement('a');a.href=lu;a.target='_blank';a.rel='noopener';a.className='lsn';a.textContent=' \u25B6 Listen';$('ttl').appendChild(a)}
  history.replaceState(null,'','#'+s.n);if(S[i+1])(new Image()).src=src(S[i+1].n)}
 $('prev').onclick=()=>show(i-1);$('next').onclick=()=>show(i+1);
 $('nbb').onclick=()=>$('nb').classList.toggle('on');
@@ -90,7 +92,7 @@ function buildRV(){if(built)return;built=true;const cards=$('cards'),toc=$('toc'
  S.forEach(s=>{const c=el('section','card');c.id='r'+s.n;c.appendChild(el('span','num',s.n+' / '+S.length));c.appendChild(el('h2','',s.t));
   const im=el('img');im.loading='lazy';im.src=src(s.n);im.alt='Slide '+s.n+': '+s.t;im.title='Tap to enlarge';im.onclick=()=>{$('zimg').src=im.src;$('zimg').alt=im.alt;$('zoom').classList.add('on')};c.appendChild(im);
   const t=el('div','txt');
-  const nb=el('div','nbox');s.on.forEach(p=>nb.appendChild(el('p','',p)));t.appendChild(nb);
+  const nb=el('div','nbox');s.on.forEach(p=>nb.appendChild(lp(p)));t.appendChild(nb);
   s.vs.forEach(v=>{const b=el('div','vs');if(v.ref)b.appendChild(el('div','r',v.ref));if(v.dev)b.appendChild(el('div','dv',v.dev));if(v.iast)b.appendChild(el('div','ia',v.iast));if(v.en)b.appendChild(el('div','en',v.en));t.appendChild(b)});
   if(s.gl.length){t.appendChild(el('h3','','Key terms'));const tb=el('table','gl');s.gl.forEach(g=>{const r=document.createElement('tr');r.appendChild(el('td','',g[0]));r.appendChild(el('td','',g[1]));tb.appendChild(r)});t.appendChild(tb)}
   s.base.forEach(b=>{if(b.h)t.appendChild(el('h3','',b.h));b.paras.forEach(p=>t.appendChild(el('p','',p)))});
