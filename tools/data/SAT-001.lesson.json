@@ -11,6 +11,17 @@
   "wix_cover_id": "1f559e_2a03ea0070bd4377956dbd3751313938~mv2.jpg",
   "place": "Sunday 25 October 2026, Ramakrishna Vedanta Centre, New Lynn",
   "intro": "The Divine Mother as the one power that became all. The slides carry the songs, chants and Swami's notes for self-study.",
-  "cover_has_details": true
+  "cover_has_details": true,
+  "event_embed": {
+   "id": "682e0956-2cfe-4377-8b22-96e70ab58bfa",
+   "title": "Sunday Satsang",
+   "slug": "sunday-satsang-18",
+   "image_id": "1f559e_20b19a3e5fee4ecfa5264f231b504ce1~mv2.jpg",
+   "w": 999,
+   "h": 563,
+   "scheduling": "25 October 2026, 11:00 am – 1:00 pm NZDT",
+   "location": "Ramakrishna Vedanta Centre + Zoom"
+  },
+  "event_line": "The event page for this satsang."
  }
 }

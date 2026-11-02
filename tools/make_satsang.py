@@ -196,54 +196,87 @@ def lesson_title(d):
     return "%s - %s (%s)" % (d["code"].split("-", 1)[1], d["title"], dt.strftime("%d %b %y").upper())
 
 
+BLUE = "#116DFF"   # headings and divider lines in the lesson (the Centre's standard, 3 Nov 2026)
+SITE_ID = "8902ede3-28da-4abb-829e-7338609acebf"
+DONATE_URL = "https://www.vedanta.nz/donate"
+
+
 def lesson_step(d):
+    """The standard one-lesson layout (set by Swamiji on 3 Nov 2026):
+    cover image, short intro, then Study, Test yourself, Join us (event card), Reflect,
+    Suggested reading and Support the Vedanta Services, each under a blue divider line.
+    Small teal buttons, black body text, blue headings, a blank line after every button."""
     c = d["cms"]; base = PAGES + d["code"] + "/"
     n = []
     def nid(): return "L%d" % len(n)
     def P(*runs): n.append({"type": "PARAGRAPH", "id": nid(), "nodes": list(runs), "paragraphData": {}})
-    def H(text, level=3):
-        if n:
-            n.append({"type": "DIVIDER", "id": nid(), "nodes": [], "dividerData": {"lineStyle": "SINGLE", "width": "LARGE", "alignment": "CENTER"}})
-        n.append({"type": "HEADING", "id": nid(), "nodes": [_run(text, color=NAVY)], "headingData": {"level": level}})
-    def B(text, url): n.append(dict(button(text[:1].upper() + text[1:], url), id=nid(), nodes=[]))
+    def T(text): return _run(text, color=BLACK)
+    def divider():
+        n.append({"type": "DIVIDER", "id": nid(), "nodes": [], "dividerData": {"lineStyle": "SINGLE", "width": "LARGE", "alignment": "CENTER",
+                  "styles": {"color": BLUE, "lineCap": "SQUARE", "lineThickness": []}}})
+    def H(text):
+        if n: divider()
+        n.append({"type": "HEADING", "id": nid(), "nodes": [_run(text, color=BLUE)], "headingData": {"level": 3}})
+    def B(text, url):
+        n.append({"type": "BUTTON", "id": nid(), "nodes": [], "buttonData": {
+            "containerData": {"width": {"size": "ORIGINAL"}, "alignment": "LEFT", "textWrap": False}, "type": "LINK",
+            "styles": {"borderRadius": 6, "textColor": "#FFFFFF", "buttonSize": "SMALL", "background": {"type": "COLOR", "color": TEAL}},
+            "text": text[:1].upper() + text[1:], "link": {"url": url, "target": "BLANK"}}})
+        P()
     def lst(kind, items):
         n.append({"type": kind, "id": nid(), "nodes": [{"type": "LIST_ITEM", "id": "", "nodes": [
-            {"type": "PARAGRAPH", "id": "", "nodes": [_run(i, color=BLACK)], "paragraphData": {}}]} for i in items],
+            {"type": "PARAGRAPH", "id": "", "nodes": [T(i)], "paragraphData": {}}]} for i in items],
             ("orderedListData" if kind == "ORDERED_LIST" else "bulletedListData"): {"indentation": 0}})
     if c.get("wix_cover_id"):
         n.append({"type": "IMAGE", "id": nid(), "nodes": [], "imageData": {"image": {"src": {"id": c["wix_cover_id"]}, "width": 1600, "height": 900},
-                  "containerData": {"alignment": "CENTER", "width": {"size": "CONTENT"}, "textWrap": True}, "altText": d["qtitle"]}})
+                  "containerData": {"alignment": "CENTER", "width": {"size": "CONTENT"}, "textWrap": True}, "altText": lesson_title(d)}})
     if not c.get("cover_has_details"):  # cover already shows date, time and place
         P(_run(c["place"], bold=True, color=BLACK)); P()
-    P(_run(c["intro"], color=BLACK)); P()
+    P(T(c["intro"])); P()
     H("Study")
-    P(_run("Go through the slides at your own pace. Each slide has study notes, verses and songs.", color=BLACK))
+    P(T("Go through the slides at your own pace. Each slide has study notes, verses and songs."))
     B("open the slides", base)
-    P(_run("The Study Companion is a printable handout with the verses, key terms and commentary for every slide.", color=BLACK))
-    B(d["handout_label"], d["handout_url"]); P()
+    P(T("The Study Companion is a printable handout with the verses, key terms and commentary."))
+    B(d["handout_label"], d["handout_url"])
     H("Test yourself")
-    P(_run("A revision quiz of 25 questions. Sign in to keep your score under My Journey.", color=BLACK))
+    P(T("A revision quiz of 25 questions. Sign in to keep your score under My Journey."))
     B("take the quiz", "https://www.vedanta.nz/quiz?q=" + d["code"])
-    P(_run("After the quiz, read the answers with fuller explanations and a reflection for each question.", color=BLACK))
-    B("read the answers", base + "answers/"); P()
-    if c.get("event_link") or d.get("recording_url"):
+    P(T("After the quiz, read the answers with fuller explanations and a reflection for each question."))
+    B("read the answers", base + "answers/")
+    ev = c.get("event_embed")
+    if ev or d.get("recording_url"):
         H("Join us")
-        if c.get("event_link"):
-            P(_run("Come in person or join on Zoom. RSVP on the event page to receive the Zoom link.", color=BLACK))
-            B("event page and RSVP", c["event_link"])
+        if ev:
+            P(T(c.get("event_line") or "Come in person or join on Zoom. RSVP on the event page to receive the Zoom link."))
+            n.append({"type": "APP_EMBED", "id": ev["id"], "nodes": [], "appEmbedData": {"type": "EVENT", "itemId": ev["id"], "name": ev["title"],
+                "url": "https://www.wix.app/events/%s/%s/details?d=https://www.vedanta.nz/event-details/%s" % (SITE_ID, ev["id"], ev["slug"]),
+                "image": {"src": {"id": ev["image_id"]}, "width": ev["w"], "height": ev["h"]},
+                "eventData": {"scheduling": ev["scheduling"], "location": ev["location"]},
+                "buttonStyles": {"borderWidth": 1, "borderRadius": 5, "borderColor": "#00000054", "textColor": BLUE, "backgroundColor": "#FFFFFF", "buttonSize": "SMALL"},
+                "imageStyles": {"imagePosition": "START", "aspectRatio": "RECTANGLE", "resizing": "FILL"},
+                "cardStyles": {"backgroundColor": "#FFFFFF1A", "borderWidth": 1, "borderRadius": 9, "type": "CONTAINED", "alignment": "START",
+                               "titlePriceLayout": "STACKED", "titleColor": BLUE, "textColor": "#036556"},
+                "containerData": {"width": {"size": "CONTENT"}, "alignment": "CENTER", "textWrap": False}, "pricingData": {}}})
         if d.get("recording_url"):
-            P(_run("Watch the recording of the %s." % d.get("noun", "satsang"), color=BLACK))
+            P(T("Watch the recording of the %s." % d.get("noun", "satsang")))
             B("watch the recording", d["recording_url"])
-        P()
     H("Reflect")
     if c.get("reflection_questions"):
-        lst("ORDERED_LIST", c["reflection_questions"])
-    P(_run("Share your reflections and questions in the members\u2019 group (Group Discussion below).", color=BLACK))
+        lst("ORDERED_LIST", c["reflection_questions"]); P()
+    P(T("Share your reflections and questions in the members\u2019 group (Group Discussion below)."))
+    P()
     if c.get("suggested_reading"):
-        P(); H("Suggested reading")
-        lst("BULLETED_LIST", c["suggested_reading"])
+        H("Suggested reading")
+        lst("BULLETED_LIST", c["suggested_reading"]); P()
+    H("Support the Vedanta Services")
+    n.append({"type": "BUTTON", "id": nid(), "nodes": [], "buttonData": {
+        "containerData": {"width": {"custom": "173"}, "alignment": "LEFT", "spoiler": {}, "height": {}, "textWrap": True}, "type": "LINK",
+        "styles": {"borderWidth": 1, "borderRadius": 7, "borderColor": "#057434", "textColor": "#000000",
+                   "background": {"type": "COLOR", "color": "#11FFCF30"}, "backgroundHover": {"type": "COLOR", "color": "#91049A"}},
+        "text": "Make an offering", "link": {"url": DONATE_URL, "target": "BLANK", "rel": {"noreferrer": True}}}})
+    P()
     return {"title": lesson_title(d),
-            "details": json.dumps({"nodes": n, "metadata": {"version": 1}}, ensure_ascii=False)}
+            "details": json.dumps({"nodes": n, "metadata": {"version": 1}, "documentStyle": {}}, ensure_ascii=False)}
 
 
 def main():
