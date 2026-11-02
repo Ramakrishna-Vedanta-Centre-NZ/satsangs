@@ -75,7 +75,9 @@ def build_answers(d):
             for k, row in enumerate(x["rows"]):
                 c.append("<tr><td>%d. %s</td><td>\u2713 %s</td></tr>" % (k + 1, h(row), h(x["c"][x["ans"][k]])))
             c.append("</table>")
-        c.append('<p class="ex">%s <a href="../#%d">See slide %d</a>.</p>' % (h(x["e"]), x["s"], x["s"]))
+        lab = str(x["s"]); first = __import__("re").search(r"\d+", lab)
+        link = ('<a href="../#%s">See slide%s %s</a>.' % (first.group(0), "" if lab.isdigit() else "s", h(lab))) if first else ""
+        c.append('<p class="ex">%s %s</p>' % (h(x["e"]), link))
         c.append('<div class="refl"><b>Reflect:</b> <i>%s</i></div>' % h(x["r"]))
         c.append('<a class="top" href="#top-of-page" onclick="window.scrollTo(0,0);return false">\u2191 Back to the top</a></section>')
         cards.append("".join(c))

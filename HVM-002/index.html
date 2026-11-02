@@ -12,7 +12,7 @@
 *{margin:0;box-sizing:border-box}
 html,body{height:100%;background:#0B1A3D;color:#FBF5EA;font-family:'Noto Sans',Arial,sans-serif}
 .stage{position:fixed;inset:0 0 64px 0;display:flex;align-items:center;justify-content:center;overflow:hidden;padding:8px}
-.stage img{max-width:100%;max-height:100%;aspect-ratio:16/9;object-fit:contain;background:#FBF5EA;box-shadow:0 10px 40px rgba(0,0,0,.4)}
+#hot{position:fixed;display:none;z-index:5;border-radius:12px;cursor:pointer}#hot:hover{outline:3px solid #f3d97a}.stage img{max-width:100%;max-height:100%;aspect-ratio:16/9;object-fit:contain;background:#FBF5EA;box-shadow:0 10px 40px rgba(0,0,0,.4)}
 .bar{position:fixed;left:0;right:0;bottom:0;height:64px;display:flex;align-items:center;gap:10px;padding:0 14px;background:#12285A;border-top:1px solid #2B4686;overflow-x:auto}
 .bar button,.bar a{background:#1D3770;color:#FBF5EA;border:1px solid #3A5592;border-radius:8px;padding:8px 13px;font:600 15px 'Noto Sans',sans-serif;cursor:pointer;text-decoration:none;white-space:nowrap}
 .bar button:hover,.bar a:hover{background:#2B4686}
@@ -62,9 +62,9 @@ body.read .rv{display:block;background:#FBF5EA;color:#1E1E1E;min-height:100%}
 .zoom{position:fixed;inset:0;background:rgba(11,26,61,.96);z-index:20;display:none;align-items:center;justify-content:center;padding:8px}
 .zoom.on{display:flex}.zoom img{max-width:100%;max-height:100%}
 a.lsn{color:#f3d97a;font-size:.7em;font-weight:600;text-decoration:underline;white-space:nowrap}</style></head><body>
-<div class="stage"><img id="sl" alt="" src="slides/s-01.jpg"></div>
+<div class="stage"><img id="sl" alt="" src="slides/s-01.jpg"><a id="hot" target="_blank" rel="noopener" aria-label="Listen on YouTube" title="Listen on YouTube"></a></div>
 <div class="notes" id="nb"><h4>NOTES</h4><div id="ntext"></div><p class="more">Open the reading view for the full study notes.</p></div>
-<div class="bar"><button id="prev" aria-label="Previous slide">‹ Prev</button><span class="count" id="count"></span><button id="next" aria-label="Next slide">Next ›</button><span class="ttl" id="ttl"></span><span class="spacer"></span><a class="gold" href="https://www.vedanta.nz/quiz?q=HVM-002" target="_blank" rel="noopener">Quiz</a><a href="https://ramakrishna-vedanta-centre-nz.github.io/satsangs/HVM-002/HVM-002_The_Divine_Mother_Kali_Study_Companion.pdf" target="_blank" rel="noopener">Handout (PDF)</a><button id="rdb">Reading view</button><button id="nbb">Notes</button><button id="fs">Full screen</button></div>
+<div class="bar"><button id="prev" aria-label="Previous slide">‹ Prev</button><span class="count" id="count"></span><button id="next" aria-label="Next slide">Next ›</button><span class="ttl" id="ttl"></span><span class="spacer"></span><a class="gold" href="https://www.vedanta.nz/quiz?q=HVM-002" target="_blank" rel="noopener">Quiz</a><a href="answers/">Answers</a><a href="https://ramakrishna-vedanta-centre-nz.github.io/satsangs/HVM-002/HVM-002_The_Divine_Mother_Kali_Study_Companion.pdf" target="_blank" rel="noopener">Handout (PDF)</a><button id="rdb">Reading view</button><button id="nbb">Notes</button><button id="fs">Full screen</button></div>
 <div class="rv" id="rv">
 <div class="rvtop"><img src="logo.png" alt=""><b>The Divine Mother Kali</b><button id="ssb">Slide view</button></div>
 <div class="rvhero"><p class="ey">Hamilton class · HVM-002</p><h1>The Divine Mother Kali</h1><h2>Who She is, and our relationship with Her</h2><p>Wednesday 4 November 2026, Phoenix Community Hall, Frankton, and on Zoom. Swami Tadananda, Ramakrishna Vedanta Centre NZ.</p><p>Go through the slides at your own pace, read the study notes under each one, then test yourself with the quiz.</p><div class="acts"><a class="rvbtn" href="https://www.vedanta.nz/quiz?q=HVM-002" target="_blank" rel="noopener">Take the quiz</a><a class="rvbtn" href="https://ramakrishna-vedanta-centre-nz.github.io/satsangs/HVM-002/HVM-002_The_Divine_Mother_Kali_Study_Companion.pdf" target="_blank" rel="noopener">Download the Study Companion (PDF)</a></div></div>
@@ -79,9 +79,11 @@ let i=0;const $=id=>document.getElementById(id),pad=n=>String(n).padStart(2,'0')
 function el(tag,cls,text){const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e}
 function lp(text){const p=document.createElement('p');text.split(/((?:https?:\/\/|youtu\.be\/)[^\s)]+)/).forEach(x=>{if(/^(https?:\/\/|youtu\.be\/)/.test(x)){const a=document.createElement('a');a.href=/^http/.test(x)?x:'https://'+x;a.target='_blank';a.rel='noopener';a.textContent=x;p.appendChild(a)}else if(x)p.appendChild(document.createTextNode(x))});return p}
 function listenUrl(s){for(const p of s.on){const m=p.match(/(?:https?:\/\/|youtu\.be\/)[^\s)]+/);if(m&&/youtu/.test(m[0]))return /^http/.test(m[0])?m[0]:'https://'+m[0]}return ''}
+function placeHot(){const h=$('hot'),im=$('sl'),s=S[i],u=listenUrl(s);if(!u||!s.box||document.body.classList.contains('read')){h.style.display='none';return}const r=im.getBoundingClientRect();h.href=u;h.style.left=(r.left+r.width*0.756)+'px';h.style.top=(r.top+r.height*0.026)+'px';h.style.width=(r.width*0.218)+'px';h.style.height=(r.height*0.11)+'px';h.style.display='block'}
+addEventListener('resize',()=>placeHot());document.addEventListener('fullscreenchange',()=>setTimeout(placeHot,100));
 function show(k){i=Math.max(0,Math.min(S.length-1,k));const s=S[i];const im=$('sl');im.src=src(s.n);im.alt='Slide '+s.n+': '+s.t;$('count').textContent=s.n+' / '+S.length;$('ttl').textContent=s.t;
  const nt=$('ntext');nt.textContent='';s.on.forEach(p=>nt.appendChild(lp(p)));const lu=listenUrl(s);if(lu){const a=document.createElement('a');a.href=lu;a.target='_blank';a.rel='noopener';a.className='lsn';a.textContent=' \u25B6 Listen';$('ttl').appendChild(a)}
- history.replaceState(null,'','#'+s.n);if(S[i+1])(new Image()).src=src(S[i+1].n)}
+ history.replaceState(null,'','#'+s.n);placeHot();if(S[i+1])(new Image()).src=src(S[i+1].n)}
 $('prev').onclick=()=>show(i-1);$('next').onclick=()=>show(i+1);
 $('nbb').onclick=()=>$('nb').classList.toggle('on');
 $('fs').onclick=()=>{const d=document.documentElement;if(document.fullscreenElement)document.exitFullscreen();else if(d.requestFullscreen)d.requestFullscreen()};
