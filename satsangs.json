@@ -1,0 +1,36 @@
+{
+ "satsangs": [
+  {
+   "code": "SAT-002",
+   "title": "Lighting the Inner Lamp",
+   "date": "2026-11-08",
+   "series": "Auckland",
+   "lessonTitle": "002 - Lighting the Inner Lamp (08 NOV 26)",
+   "lessonStepId": "86890254-5d27-4606-ac97-c63a37bc3b94"
+  },
+  {
+   "code": "HVM-002",
+   "title": "The Divine Mother Kali",
+   "date": "2026-11-04",
+   "series": "Hamilton",
+   "lessonTitle": "002 - The Divine Mother Kali (04 NOV 26)",
+   "lessonStepId": "520f60c3-f534-415c-be65-6e77742020ca"
+  },
+  {
+   "code": "SAT-001",
+   "title": "The Divine Mother",
+   "date": "2026-10-25",
+   "series": "Auckland",
+   "lessonTitle": "001 - The Divine Mother (25 OCT 26)",
+   "lessonStepId": "3b57b65e-aad6-4c80-881b-15d73b81745a"
+  },
+  {
+   "code": "HVM-001",
+   "title": "Spiritualising Everyday Life",
+   "date": "2026-10-07",
+   "series": "Hamilton",
+   "lessonTitle": "001 - Spiritualising Everyday Life (07 OCT 26)",
+   "lessonStepId": "1b9bb87c-0423-445e-8da1-3950fd0eaf86"
+  }
+ ]
+}

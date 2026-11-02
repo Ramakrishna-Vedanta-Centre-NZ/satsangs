@@ -5,6 +5,7 @@
 
 import wixData from 'wix-data';
 import { currentMember } from 'wix-members-frontend';
+import { myCompletedSteps } from 'backend/satsangProgress.web'; // optional: lessons the member has marked complete
 
 $w.onReady(async function () {
   const member = await currentMember.getMember({ fieldsets: ['FULL'] });
@@ -19,11 +20,14 @@ $w.onReady(async function () {
       .descending('_createdDate')
       .limit(1000)
       .find();
+    let completedSteps;
+    try { completedSteps = await myCompletedSteps(); } catch (err) { console.error(err); } // if this fails the dashboard still works from quiz results
     const cd = member.contactDetails || {};
     const name = cd.firstName || (member.profile && member.profile.nickname) || '';
     $w('#journeyFrame').postMessage({
       type: 'journey',
       name: name,
+      completedSteps: completedSteps,
       results: res.items.map(r => ({
         code: r.title,
         title: r.quizTitle,
