@@ -180,7 +180,7 @@ def answers_step(d):
             "details": json.dumps({"nodes": n, "metadata": {"version": 1}}, ensure_ascii=False)}
 
 # ---- One-lesson page (Satsang Study, one lesson per satsang) -----------------
-NAVY, TEAL = "#12285A", "#00695C"
+NAVY, TEAL, BLACK = "#12285A", "#00695C", "#000000"
 
 def _run(text, bold=False, italic=False, color=None, size=None):
     dec = []
@@ -201,40 +201,43 @@ def lesson_step(d):
     n = []
     def nid(): return "L%d" % len(n)
     def P(*runs): n.append({"type": "PARAGRAPH", "id": nid(), "nodes": list(runs), "paragraphData": {}})
-    def H(text, level=3): n.append({"type": "HEADING", "id": nid(), "nodes": [_run(text, color=NAVY)], "headingData": {"level": level}})
-    def B(text, url): n.append(dict(button(text, url), id=nid(), nodes=[]))
+    def H(text, level=3):
+        if n:
+            n.append({"type": "DIVIDER", "id": nid(), "nodes": [], "dividerData": {"lineStyle": "SINGLE", "width": "LARGE", "alignment": "CENTER"}})
+        n.append({"type": "HEADING", "id": nid(), "nodes": [_run(text, color=NAVY)], "headingData": {"level": level}})
+    def B(text, url): n.append(dict(button(text[:1].upper() + text[1:], url), id=nid(), nodes=[]))
     def lst(kind, items):
         n.append({"type": kind, "id": nid(), "nodes": [{"type": "LIST_ITEM", "id": "", "nodes": [
-            {"type": "PARAGRAPH", "id": "", "nodes": [_run(i)], "paragraphData": {}}]} for i in items],
+            {"type": "PARAGRAPH", "id": "", "nodes": [_run(i, color=BLACK)], "paragraphData": {}}]} for i in items],
             ("orderedListData" if kind == "ORDERED_LIST" else "bulletedListData"): {"indentation": 0}})
     if c.get("wix_cover_id"):
         n.append({"type": "IMAGE", "id": nid(), "nodes": [], "imageData": {"image": {"src": {"id": c["wix_cover_id"]}, "width": 1600, "height": 900},
                   "containerData": {"alignment": "CENTER", "width": {"size": "CONTENT"}, "textWrap": True}, "altText": d["qtitle"]}})
-    P(_run(c["place"], bold=True, color=TEAL)); P()
-    P(_run(c["intro"])); P()
+    P(_run(c["place"], bold=True, color=BLACK)); P()
+    P(_run(c["intro"], color=BLACK)); P()
     H("Study")
-    P(_run("Go through the slides at your own pace. Each slide has study notes, verses and songs."))
+    P(_run("Go through the slides at your own pace. Each slide has study notes, verses and songs.", color=BLACK))
     B("open the slides", base)
-    P(_run("The Study Companion is a printable handout with the verses, key terms and commentary for every slide."))
+    P(_run("The Study Companion is a printable handout with the verses, key terms and commentary for every slide.", color=BLACK))
     B(d["handout_label"], d["handout_url"]); P()
     H("Test yourself")
-    P(_run("A revision quiz of 25 questions. Sign in to keep your score under My Journey."))
+    P(_run("A revision quiz of 25 questions. Sign in to keep your score under My Journey.", color=BLACK))
     B("take the quiz", "https://www.vedanta.nz/quiz?q=" + d["code"])
-    P(_run("After the quiz, read the answers with fuller explanations and a reflection for each question."))
+    P(_run("After the quiz, read the answers with fuller explanations and a reflection for each question.", color=BLACK))
     B("read the answers", base + "answers/"); P()
     if c.get("event_link") or d.get("recording_url"):
         H("Join us")
         if c.get("event_link"):
-            P(_run("Come in person or join on Zoom. RSVP on the event page to receive the Zoom link."))
+            P(_run("Come in person or join on Zoom. RSVP on the event page to receive the Zoom link.", color=BLACK))
             B("event page and RSVP", c["event_link"])
         if d.get("recording_url"):
-            P(_run("Watch the recording of the %s." % d.get("noun", "satsang")))
+            P(_run("Watch the recording of the %s." % d.get("noun", "satsang"), color=BLACK))
             B("watch the recording", d["recording_url"])
         P()
     H("Reflect")
     if c.get("reflection_questions"):
         lst("ORDERED_LIST", c["reflection_questions"])
-    P(_run("Share your reflections and questions in the members\u2019 group (Group Discussion below)."))
+    P(_run("Share your reflections and questions in the members\u2019 group (Group Discussion below).", color=BLACK))
     if c.get("suggested_reading"):
         P(); H("Suggested reading")
         lst("BULLETED_LIST", c["suggested_reading"])
