@@ -190,6 +190,12 @@ def _run(text, bold=False, italic=False, color=None, size=None):
     if size: dec.append({"type": "FONT_SIZE", "fontSizeData": {"unit": "PX", "value": size}})
     return {"type": "TEXT", "id": "", "nodes": [], "textData": {"text": text, "decorations": dec}}
 
+def lesson_title(d):
+    import datetime
+    dt = datetime.date.fromisoformat(d["date"])
+    return "%s - %s (%s)" % (d["code"].split("-", 1)[1], d["title"], dt.strftime("%d %b %y").upper())
+
+
 def lesson_step(d):
     c = d["cms"]; base = PAGES + d["code"] + "/"
     n = []
@@ -216,21 +222,23 @@ def lesson_step(d):
     B("take the quiz", "https://www.vedanta.nz/quiz?q=" + d["code"])
     P(_run("After the quiz, read the answers with fuller explanations and a reflection for each question."))
     B("read the answers", base + "answers/"); P()
-    H("Join us")
-    if c.get("event_link"):
-        P(_run("Come in person or join on Zoom. RSVP on the event page to receive the Zoom link."))
-        B("event page and RSVP", c["event_link"])
-    if d.get("recording_url"):
-        P(_run("Watch the recording of the satsang."))
-        B("watch the recording", d["recording_url"])
-    P()
+    if c.get("event_link") or d.get("recording_url"):
+        H("Join us")
+        if c.get("event_link"):
+            P(_run("Come in person or join on Zoom. RSVP on the event page to receive the Zoom link."))
+            B("event page and RSVP", c["event_link"])
+        if d.get("recording_url"):
+            P(_run("Watch the recording of the %s." % d.get("noun", "satsang")))
+            B("watch the recording", d["recording_url"])
+        P()
     H("Reflect")
-    lst("ORDERED_LIST", c["reflection_questions"])
+    if c.get("reflection_questions"):
+        lst("ORDERED_LIST", c["reflection_questions"])
     P(_run("Share your reflections and questions in the members\u2019 group (Group Discussion below)."))
-    P()
-    H("Suggested reading")
-    lst("BULLETED_LIST", c["suggested_reading"])
-    return {"title": "%s: %s" % (d["code"], d["qtitle"]),
+    if c.get("suggested_reading"):
+        P(); H("Suggested reading")
+        lst("BULLETED_LIST", c["suggested_reading"])
+    return {"title": lesson_title(d),
             "details": json.dumps({"nodes": n, "metadata": {"version": 1}}, ensure_ascii=False)}
 
 
@@ -239,6 +247,10 @@ def main():
     ap.add_argument("data"); ap.add_argument("--repo", required=True); ap.add_argument("--wix-out")
     a = ap.parse_args()
     d = json.load(open(a.data, encoding="utf-8"))
+    if d.get("lesson_only"):
+        os.makedirs(a.wix_out, exist_ok=True)
+        json.dump(lesson_step(d), open(os.path.join(a.wix_out, "lesson_step.ricos.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        print("wrote lesson only"); return
     check(d)
     for sub, content in (("quiz/index.html", build_quiz(d)), ("answers/index.html", build_answers(d)), ("index.html", build_deck(d))):
         p = os.path.join(a.repo, d["code"], sub)
