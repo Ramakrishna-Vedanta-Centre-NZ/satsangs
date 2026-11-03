@@ -7,6 +7,14 @@ import { participants, resolvedSteps, programs, sections, steps } from '@wix/onl
 
 const CACHE = {};
 
+// Courses always shown on the dashboard, whether or not the member has joined them (for now):
+// Advanced Mind, Parents, Beginners (conversational) Mind.
+const FEATURED = [
+  'd6827644-429a-40fb-9c0d-1cf1d5a5a3d2',
+  '7f5ad78b-461b-4c95-b070-4770e7d2e7eb',
+  'e40d25ac-688f-409d-9bef-a028d126d7f6'
+];
+
 async function all(res) {
   const out = res.items.slice();
   while (res.hasNext()) { res = await res.next(); out.push(...res.items); }
@@ -42,7 +50,7 @@ async function core() {
     const rows = await all(await qres().eq('participantId', me._id).limit(100).find());
     rows.filter(r => r.status === 'COMPLETED').forEach(r => completed.push(r.programStepId));
   }
-  const ids = [...new Set(mine.map(m => m.programId))];
+  const ids = [...new Set([...mine.map(m => m.programId), ...FEATURED])];
   const courses = (await Promise.all(ids.map(id => outline(id).catch(() => null)))).filter(Boolean);
   return { courses, completed };
 }
