@@ -108,7 +108,7 @@ function render(){
  else h+='<span class="done">I am up to date in this course. Thank you for studying with us.</span>';
  h+='</div>';
  const secs=[];c.sections.forEach(s=>{const its=items.filter(i=>i.sec===s.title);if(its.length)secs.push([s.title,its])});
- const big=n>40;
+ const big=n>40||window.innerWidth<560;
  secs.forEach(sc=>{
   const its=sc[1],dn=its.filter(i=>i.st==='done').length,hasNext=nxt&&its.indexOf(nxt)>=0;
   h+='<details'+((!big||hasNext)?' open':'')+'><summary>'+esc(sc[0])+'<span class="cnt">'+dn+' of '+its.length+' done</span></summary><div class="grid">';
