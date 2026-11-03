@@ -6,10 +6,10 @@
 :root{--navy:#12285A;--cream:#FBF5EA;--gold:#C9A24A;--goldt:#6B4E0E;--green:#2F5A2E;--pink:#C2557A;--ink:#1E1E1E;--line:#E6DAC3;--card:#FFFDF8}
 *{margin:0;box-sizing:border-box}
 body{background:var(--cream);color:var(--ink);font-family:'Noto Sans',Arial,sans-serif}
-header{background:var(--navy);color:var(--cream);text-align:center;padding:16px 16px 14px}
+header{background:var(--navy);color:var(--cream);text-align:center;padding:9px 16px}
 header img{width:44px;height:52px;object-fit:contain}
 .ey{font:700 var(--fs-micro,11px) 'Noto Sans',sans-serif;letter-spacing:4px;color:#E6C36A;margin-top:4px}
-h1{font:700 var(--fs-title,24px)/1.2 'Noto Serif',serif;margin-top:2px}
+h1{font:600 20px/1.2 'Noto Serif',serif}
 header p.hi{font:italic var(--fs-question,16px) 'Noto Serif',serif;color:#F3E6C4;margin-top:4px}
 main{max-width:1180px;margin:0 auto;padding:14px 16px 24px}
 .bar1{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;margin-bottom:12px}
@@ -18,20 +18,20 @@ main{max-width:1180px;margin:0 auto;padding:14px 16px 24px}
 .pick select{flex:1;min-width:0;font:600 var(--fs-question,16px) 'Noto Serif',serif;color:#13295B;background:var(--card);border:1px solid var(--gold);border-radius:10px;padding:9px 12px}
 .tiles{display:flex;flex-wrap:wrap;gap:8px}
 .tile{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:7px 14px;text-align:center;min-width:104px}
-.tile b{display:block;font:700 20px/1.1 'Noto Serif',serif;color:#13295B}
+.tile b{display:block;font:600 20px/1.1 'Noto Serif',serif;color:#13295B}
 .tile span{display:block;margin-top:2px;font-size:11px;color:#5A5A5A;letter-spacing:.4px}
 .prog{height:7px;background:#EEE6D6;border-radius:4px;overflow:hidden;margin:0 0 12px}
 .prog i{display:block;height:100%;background:var(--green);border-radius:4px}
 .next{background:var(--navy);color:var(--cream);border-radius:12px;padding:10px 14px;margin-bottom:12px;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center}
 .next .k{font:700 var(--fs-micro,11px) 'Noto Sans',sans-serif;letter-spacing:3px;color:#E6C36A}
-.next .t{font:700 var(--fs-question,16px)/1.3 "Noto Serif",serif;flex:1 1 240px;color:var(--cream)}
+.next .t{font:500 var(--fs-question,16px)/1.3 "Noto Serif",serif;flex:1 1 240px;color:var(--cream)}
 .next .done{font:italic var(--fs-question,16px) 'Noto Serif',serif;color:#F3E6C4}
 details{margin-bottom:10px}
-summary{cursor:pointer;list-style:none;font:700 var(--fs-heading,18px) 'Noto Serif',serif;color:#13295B;padding:6px 2px;display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+summary{cursor:pointer;list-style:none;font:600 var(--fs-heading,18px) 'Noto Serif',serif;color:#13295B;padding:6px 2px;display:flex;justify-content:space-between;gap:10px;align-items:baseline}
 summary::-webkit-details-marker{display:none}
 summary:before{content:'\25B8';margin-right:8px;color:var(--gold)}
 details[open]>summary:before{content:'\25BE'}
-summary .cnt{font:600 var(--fs-small,12.5px) 'Noto Sans',sans-serif;color:#5A5A5A;white-space:nowrap;margin-left:auto}
+summary .cnt{font:400 var(--fs-small,12.5px) 'Noto Sans',sans-serif;color:#5A5A5A;white-space:nowrap;margin-left:auto}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:8px;margin-top:4px}
 .item{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 10px;display:flex;gap:10px;align-items:center;min-width:0}
 .item.d{border-color:#9DBE98;background:#F3F9F0}
@@ -39,20 +39,20 @@ summary .cnt{font:600 var(--fs-small,12.5px) 'Noto Sans',sans-serif;color:#5A5A5
 .item.d .mk{background:var(--green);border-color:var(--green)}
 .item.p .mk{border-color:var(--gold);background:#FBF1D6;color:var(--goldt)}
 .tx{flex:1;min-width:0}
-.t{font:700 14px/1.3 'Noto Serif',serif;color:#13295B;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.t{font:400 14px/1.3 'Noto Serif',serif;color:#13295B;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .m{font-size:12px;line-height:1.35;color:#5A5A5A;margin-top:2px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.m b{font-weight:700}.ok{color:#2F5A2E}.no{color:#8A8A8A}
+.m b{font-weight:500}.ok{color:#2F5A2E}.no{color:#8A8A8A}
 .q{display:inline-block;height:6px;width:46px;background:#EEE6D6;border-radius:3px;overflow:hidden;vertical-align:middle;margin-left:4px}
 .q i{display:block;height:100%}
 .acts{display:flex;flex-direction:column;gap:4px;flex:0 0 auto}
-.acts a,.next a{text-decoration:none;font-weight:700;font-size:12.5px;border-radius:8px;padding:5px 11px;display:inline-block;text-align:center}
+.acts a,.next a{text-decoration:none;font-weight:400;font-size:12.5px;border-radius:8px;padding:5px 11px;display:inline-block;text-align:center}
 .next a{font-size:var(--fs-btn,14px);padding:8px 14px;border-radius:10px}
 .a1{background:var(--navy);color:var(--cream)}.a2{background:var(--gold);color:var(--navy)}
 .empty,.note{background:var(--card);border:1px dashed var(--gold);border-radius:14px;padding:18px;text-align:center;line-height:1.55}
 footer{text-align:center;font-size:var(--fs-small,12.5px);color:#5A5A5A;padding:0 16px 18px}
 @media (max-width:560px){.grid{grid-template-columns:1fr}main{padding:12px 10px 20px}.tile{flex:1;min-width:0}}
 </style></head><body>
-<header><img src="logo.png" alt="Ramakrishna Vedanta NZ emblem"><p class="ey">VEDANTA NZ</p><h1>My Course Dashboard</h1><p class="hi" id="hi">My lessons and quizzes</p></header>
+<header><h1>My Course Dashboard</h1></header>
 <main id="app"><div class="note">Loading my dashboard…</div></main>
 <footer>Ramakrishna Vedanta Centre NZ · <a href="https://www.vedanta.nz" target="_top" style="color:#13295B">www.vedanta.nz</a></footer>
 <script>
@@ -73,7 +73,7 @@ function courseList(d){
  return cs}
 function render(){
  if(!DATA||(!LIST&&!(DATA.courses&&DATA.courses.length)))return;
- const d=DATA; if(d.name)document.getElementById('hi').textContent='Namaste, '+d.name;
+ const d=DATA; 
  const done=new Set(d.completedSteps||[]);
  const cs=courseList(d);
  if(!cs.length){app.innerHTML='<div class="empty">I have not joined a course yet. Open <a href="'+SITE+'courses" target="_top">Courses</a> to begin.</div>';return}
