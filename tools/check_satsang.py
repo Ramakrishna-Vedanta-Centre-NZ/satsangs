@@ -34,6 +34,28 @@ def data_checks(d, errs):
     else: ok("names are written in full")
     if len(d["questions"]) == 25: ok("25 questions")
     else: fail("question count %d" % len(d["questions"]), errs)
+    quality_checks(d, errs)
+
+# Quiz quality rules (Ritam, 3 Nov 2026): questions must test understanding and application, must still make sense
+# months later, and must not be answerable by length or position. See README, "Writing the quiz questions".
+BAD_Q = re.compile(r"next (class|satsang|session|event|meeting)|when is the next|what time|what day|which date|"
+                   r"which word completes|completes the line|fill in the|how many (slides|steps|minutes)|"
+                   r"according to (the )?slide|on which slide|who is (the )?(speaker|presenter)", re.I)
+
+def quality_checks(d, errs):
+    qs = d["questions"]
+    bad = [x["q"][:70] for x in qs if BAD_Q.search(x["q"])]
+    if bad: fail("question(s) that are time-bound or pure recall: %s" % bad, errs)
+    else: ok("no time-bound or pure-recall questions")
+    mc = [x for x in qs if x["t"] == "mc"]
+    longest = sum(1 for x in mc if len(x["o"][x["a"]]) >= max(len(o) for o in x["o"]))
+    if mc and longest > 0.5 * len(mc):
+        fail("the correct answer is the longest option in %d of %d questions: balance the options" % (longest, len(mc)), errs)
+    else: ok("correct answer is the longest option in %d of %d questions" % (longest, len(mc)))
+    short = [x["q"][:60] for x in mc if len(x["q"]) < 70]
+    if short: print("warn very short question stems (check they test understanding, not recall):", short)
+    scen = sum(1 for x in qs if re.search(r"\b(A |An |Two |One |Someone|Imagine|When |After |Before |During |At the )", x["q"]) and len(x["q"]) > 90)
+    if scen < 0.6 * len(qs): print("warn only %d of %d questions look like situations or applications; aim for most" % (scen, len(qs)))
 
 def quiz_test(d, repo, errs):
     """Click the correct answer on every question in a real headless browser; the page must show 100."""

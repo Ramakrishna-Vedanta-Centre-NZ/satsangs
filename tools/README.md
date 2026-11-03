@@ -30,3 +30,15 @@ Run on `data/HVM-001.json`, the output is byte for byte identical to the live HV
 Set `"allow_bare_names": true` only for an old satsang published before the naming rule (HVM-001); new ones must write "Swami Vivekananda" in full.
 
 Not yet automated: sending the Wix files (Claude does this with the Wix API, after approval), tracker and README rows.
+
+## Writing the quiz questions (standing rules from Swami Tadananda, 3 Nov 2026)
+The quiz must serve a purpose: it tests that the person has understood the teaching and can apply it. Recall of facts is not enough.
+- Test comprehension (why, how, what follows) and application (a realistic situation, a common misunderstanding, a choice the person might face). At least two thirds of the questions should be a situation, a misunderstanding to correct, or a "what would follow" question.
+- Make every question stand on its own months later, for someone who was not there. Never ask about the next class or satsang, dates, times, venues, who attended, slide numbers or the running order of the evening.
+- Do not ask for a bare fact: no "which word completes the verse", no "which number", no "which teacher said X" unless knowing the teacher changes the meaning. A verse or a Sanskrit term may appear, but the question must ask what it means or how it applies.
+- Matching questions are allowed only when the person must decide which idea fits a situation (for example, which knot or which pitfall is at work in a described case). No matching of term to definition, or name to quotation.
+- Wrong options must be real misunderstandings that a thoughtful person might hold, written with the same length, tone and detail as the right one. Do not make the correct answer the longest, the most qualified, or the only one that sounds spiritual. The check fails if the correct answer is the longest option in more than half the questions.
+- Spread the correct answers over A, B, C and D (the check refuses a badly skewed spread).
+- Each explanation says why the right answer is right and why the tempting wrong ones are not, and gives the teaching behind it. Each reflection question turns the teaching to the person's own life.
+- Quote only from the Centre's three publications when quoting teachers (The Gospel of Sri Ramakrishna, The Gospel of Holy Mother, The Complete Works of Swami Vivekananda). Paraphrase everything else and label it as such. No em dashes. Write "Swami Vivekananda" in full.
+- Before sending, read each question and ask: could someone who had not studied answer it from common sense, or from the length of the options? Could someone who studied it well and thought deeply answer it? Then it is a good question.
