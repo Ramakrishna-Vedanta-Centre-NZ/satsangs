@@ -6,96 +6,129 @@
 :root{--navy:#12285A;--cream:#FBF5EA;--gold:#C9A24A;--goldt:#6B4E0E;--green:#2F5A2E;--pink:#C2557A;--ink:#1E1E1E;--line:#E6DAC3;--card:#FFFDF8}
 *{margin:0;box-sizing:border-box}
 body{background:var(--cream);color:var(--ink);font-family:'Noto Sans',Arial,sans-serif}
-header{background:var(--navy);color:var(--cream);text-align:center;padding:26px 16px 22px}
-header img{width:64px;height:76px;object-fit:contain}
-.ey{font:700 var(--fs-micro,11px) 'Noto Sans',sans-serif;letter-spacing:4px;color:#E6C36A;margin-top:8px}
-h1{font:700 var(--fs-title,24px)/1.2 'Noto Serif',serif;margin-top:4px}
-header p.hi{font:italic var(--fs-question,16px) 'Noto Serif',serif;color:#F3E6C4;margin-top:6px}
-main{max-width:760px;margin:0 auto;padding:20px 16px 30px}
-.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:20px}
-.tile{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 8px;text-align:center;box-shadow:0 2px 8px rgba(19,41,91,.06)}
-.tile b{display:block;font:700 28px/1.1 'Noto Serif',serif;color:#13295B}
-.tile span{display:block;margin-top:4px;font-size:var(--fs-small,12.5px);color:#5A5A5A;letter-spacing:.5px}
-h2{font:700 var(--fs-heading,21px) 'Noto Serif',serif;color:#13295B;margin:22px 0 10px}
-.next{background:var(--navy);color:var(--cream);border-radius:14px;padding:16px 18px;margin-bottom:6px}
+header{background:var(--navy);color:var(--cream);text-align:center;padding:16px 16px 14px}
+header img{width:44px;height:52px;object-fit:contain}
+.ey{font:700 var(--fs-micro,11px) 'Noto Sans',sans-serif;letter-spacing:4px;color:#E6C36A;margin-top:4px}
+h1{font:700 var(--fs-title,24px)/1.2 'Noto Serif',serif;margin-top:2px}
+header p.hi{font:italic var(--fs-question,16px) 'Noto Serif',serif;color:#F3E6C4;margin-top:4px}
+main{max-width:1180px;margin:0 auto;padding:14px 16px 24px}
+.bar1{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;margin-bottom:12px}
+.pick{display:flex;align-items:center;gap:8px;flex:1 1 360px;min-width:0}
+.pick label{font:700 var(--fs-micro,11px) 'Noto Sans',sans-serif;letter-spacing:2px;color:var(--goldt);white-space:nowrap}
+.pick select{flex:1;min-width:0;font:600 var(--fs-question,16px) 'Noto Serif',serif;color:#13295B;background:var(--card);border:1px solid var(--gold);border-radius:10px;padding:9px 12px}
+.tiles{display:flex;flex-wrap:wrap;gap:8px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:7px 14px;text-align:center;min-width:104px}
+.tile b{display:block;font:700 20px/1.1 'Noto Serif',serif;color:#13295B}
+.tile span{display:block;margin-top:2px;font-size:11px;color:#5A5A5A;letter-spacing:.4px}
+.prog{height:7px;background:#EEE6D6;border-radius:4px;overflow:hidden;margin:0 0 12px}
+.prog i{display:block;height:100%;background:var(--green);border-radius:4px}
+.next{background:var(--navy);color:var(--cream);border-radius:12px;padding:10px 14px;margin-bottom:12px;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center}
 .next .k{font:700 var(--fs-micro,11px) 'Noto Sans',sans-serif;letter-spacing:3px;color:#E6C36A}
-.next .t{font:700 var(--fs-question,16px)/1.35 "Noto Serif",serif;margin:4px 0 10px;color:var(--cream)}
+.next .t{font:700 var(--fs-question,16px)/1.3 "Noto Serif",serif;flex:1 1 240px;color:var(--cream)}
 .next .done{font:italic var(--fs-question,16px) 'Noto Serif',serif;color:#F3E6C4}
-.row{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:10px;box-shadow:0 2px 8px rgba(19,41,91,.06)}
-.row .top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
-.code{font:700 var(--fs-micro,11px) 'Noto Sans',sans-serif;letter-spacing:2px;color:var(--goldt)}
-.t{font:700 var(--fs-question,16px)/1.35 'Noto Serif',serif;color:#13295B;margin:2px 0 4px}
-.dt{font-size:var(--fs-small,12.5px);color:#5A5A5A}
-.badge{font:700 var(--fs-small,12.5px) 'Noto Sans',sans-serif;border-radius:999px;padding:4px 11px;white-space:nowrap;border:1px solid}
-.b-done{color:#2F5A2E;border-color:#2F5A2E;background:#EAF3E6}
-.b-prog{color:#6B4E0E;border-color:#C9A24A;background:#FBF1D6}
-.b-pend{color:#5A5A5A;border-color:#BDB4A0;background:#F4EFE4}
-.b-soon{color:#13295B;border-color:#13295B;background:#E7ECF7}
-.chips{display:flex;flex-wrap:wrap;gap:8px 18px;margin:10px 0 6px;font-size:var(--fs-small,12.5px)}
-.chips span{color:#5A5A5A}.chips b{font-weight:700}
-.ok{color:#2F5A2E}.no{color:#8A8A8A}
-.bar{height:8px;background:#EEE6D6;border-radius:4px;overflow:hidden;margin-top:4px}
-.bar i{display:block;height:100%;border-radius:4px}
-.acts{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
-.acts a,.next a{text-decoration:none;font-weight:700;font-size:var(--fs-btn,14px);border-radius:10px;padding:9px 14px;display:inline-block}
+details{margin-bottom:10px}
+summary{cursor:pointer;list-style:none;font:700 var(--fs-heading,18px) 'Noto Serif',serif;color:#13295B;padding:6px 2px;display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+summary::-webkit-details-marker{display:none}
+summary:before{content:'\25B8';margin-right:8px;color:var(--gold)}
+details[open]>summary:before{content:'\25BE'}
+summary .cnt{font:600 var(--fs-small,12.5px) 'Noto Sans',sans-serif;color:#5A5A5A;white-space:nowrap;margin-left:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:8px;margin-top:4px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 10px;display:flex;gap:10px;align-items:center;min-width:0}
+.item.d{border-color:#9DBE98;background:#F3F9F0}
+.mk{flex:0 0 22px;height:22px;border-radius:50%;border:2px solid #BDB4A0;color:#fff;font:700 13px/18px 'Noto Sans',sans-serif;text-align:center}
+.item.d .mk{background:var(--green);border-color:var(--green)}
+.item.p .mk{border-color:var(--gold);background:#FBF1D6;color:var(--goldt)}
+.tx{flex:1;min-width:0}
+.t{font:700 14px/1.3 'Noto Serif',serif;color:#13295B;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.m{font-size:12px;line-height:1.35;color:#5A5A5A;margin-top:2px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.m b{font-weight:700}.ok{color:#2F5A2E}.no{color:#8A8A8A}
+.q{display:inline-block;height:6px;width:46px;background:#EEE6D6;border-radius:3px;overflow:hidden;vertical-align:middle;margin-left:4px}
+.q i{display:block;height:100%}
+.acts{display:flex;flex-direction:column;gap:4px;flex:0 0 auto}
+.acts a,.next a{text-decoration:none;font-weight:700;font-size:12.5px;border-radius:8px;padding:5px 11px;display:inline-block;text-align:center}
+.next a{font-size:var(--fs-btn,14px);padding:8px 14px;border-radius:10px}
 .a1{background:var(--navy);color:var(--cream)}.a2{background:var(--gold);color:var(--navy)}
-.next .a2{margin-right:8px}
 .empty,.note{background:var(--card);border:1px dashed var(--gold);border-radius:14px;padding:18px;text-align:center;line-height:1.55}
-footer{text-align:center;font-size:var(--fs-small,12.5px);color:#5A5A5A;padding:0 16px 24px}
-@media (max-width:520px){.tiles{grid-template-columns:repeat(2,1fr)}main{padding:16px 10px 24px}}
+footer{text-align:center;font-size:var(--fs-small,12.5px);color:#5A5A5A;padding:0 16px 18px}
+@media (max-width:560px){.grid{grid-template-columns:1fr}main{padding:12px 10px 20px}.tile{flex:1;min-width:0}}
 </style></head><body>
 <header><img src="logo.png" alt="Ramakrishna Vedanta NZ emblem"><p class="ey">VEDANTA NZ</p><h1>My Course Dashboard</h1><p class="hi" id="hi">My lessons and quizzes</p></header>
 <main id="app"><div class="note">Loading my dashboard…</div></main>
 <footer>Ramakrishna Vedanta Centre NZ · <a href="https://www.vedanta.nz" target="_top" style="color:#13295B">www.vedanta.nz</a></footer>
 <script>
 const app=document.getElementById('app');
-const esc=s=>String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
-const LESSON='https://www.vedanta.nz/participant-page/satsang-study/step/';
-const QUIZ='https://www.vedanta.nz/quiz?q=';
-let LIST=null, DATA=null;
+const esc=s=>String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const SITE='https://www.vedanta.nz/';
+const QUIZ=SITE+'quiz?q=';
+let LIST=null,DATA=null,SEL=null;
 function colour(p){return p>=70?'#2F5A2E':p>=50?'#6B4E0E':'#C2557A'}
 function fmt(d){return new Date(d+'T00:00:00').toLocaleDateString('en-NZ',{day:'numeric',month:'short',year:'numeric'})}
+function lessonUrl(c,id){return SITE+'participant-page/'+encodeURIComponent(c.slug)+'/step/'+encodeURIComponent(id)}
+function courseList(d){
+ let cs=(d.courses||[]).filter(c=>c.sections.some(s=>s.steps.length));
+ if(!cs.length&&LIST){cs=[{id:'sat',slug:'satsang-study',title:'Satsang Study',sections:[
+  {title:'Auckland satsangs',steps:LIST.filter(x=>x.series==='Auckland').map(x=>[x.lessonStepId,x.lessonTitle,'ARTICLE'])},
+  {title:'Hamilton satsangs',steps:LIST.filter(x=>x.series==='Hamilton').map(x=>[x.lessonStepId,x.lessonTitle,'ARTICLE'])}]}]}
+ cs.sort((a,b)=>(a.slug==='satsang-study'?-1:b.slug==='satsang-study'?1:a.title.localeCompare(b.title)));
+ return cs}
 function render(){
- if(!LIST||!DATA)return;
+ if(!DATA||(!LIST&&!(DATA.courses&&DATA.courses.length)))return;
  const d=DATA; if(d.name)document.getElementById('hi').textContent='Namaste, '+d.name;
- const known=Array.isArray(d.completedSteps);
+ const done=new Set(d.completedSteps||[]);
+ const cs=courseList(d);
+ if(!cs.length){app.innerHTML='<div class="empty">I have not joined a course yet. Open <a href="'+SITE+'courses" target="_top">Courses</a> to begin.</div>';return}
+ let saved=null;try{saved=sessionStorage.getItem('rvcCourse')}catch(e){}
+ if(!SEL||!cs.some(c=>c.id===SEL))SEL=(cs.some(c=>c.id===saved)?saved:cs[0].id);
+ const c=cs.find(x=>c0(x)===SEL)||cs[0];
  const best={},tries={};
  (d.results||[]).forEach(r=>{tries[r.code]=(tries[r.code]||0)+1;if(!best[r.code]||r.percent>best[r.code].percent)best[r.code]=r});
+ const meta={};(LIST||[]).forEach(x=>meta[x.lessonStepId]=x);
  const today=new Date().toISOString().slice(0,10);
- const rows=LIST.map(s=>{
-  const b=best[s.code], studied=known&&d.completedSteps.indexOf(s.lessonStepId)>=0, quiz=!!b, upcoming=s.date>today;
-  let st=known?((studied&&quiz)?'done':((studied||quiz)?'prog':'pend')):(quiz?'done':'pend');
-  return Object.assign({},s,{b:b,studied:studied,quiz:quiz,upcoming:upcoming,st:st,tries:tries[s.code]||0});
- });
- const nDone=rows.filter(r=>r.st==='done').length, nStudied=rows.filter(r=>r.studied).length, nQuiz=rows.filter(r=>r.quiz).length;
- const avg=nQuiz?Math.round(rows.filter(r=>r.quiz).reduce((s,r)=>s+r.b.percent,0)/nQuiz):null;
- let h='<div class="tiles"><div class="tile"><b>'+nDone+' of '+rows.length+'</b><span>SATSANGS COMPLETED</span></div>'
-  +(known?'<div class="tile"><b>'+nStudied+'</b><span>LESSONS STUDIED</span></div>':'')
-  +'<div class="tile"><b>'+nQuiz+'</b><span>QUIZZES DONE</span></div>'
-  +'<div class="tile"><b>'+(avg==null?'–':avg+'%')+'</b><span>AVERAGE BEST SCORE</span></div></div>';
- const nxt=rows.find(r=>r.st!=='done'&&!r.upcoming);
- h+='<div class="next"><p class="k">MY NEXT STEP</p>';
- if(nxt){const what=(known&&!nxt.studied)?'Study the lesson':(!nxt.quiz?'Take the quiz':'Finish this satsang');
-  h+='<p class="t">'+esc(nxt.lessonTitle)+'</p><a class="a2" href="'+LESSON+esc(nxt.lessonStepId)+'" target="_top">'+(known&&!nxt.studied?'Open the lesson':'Open lesson')+'</a>'+(nxt.quiz?'':'<a class="a1" style="background:#2A4180" href="'+QUIZ+esc(nxt.code)+'" target="_top">Take the quiz</a>')+'</div>';}
- else h+='<p class="done">I am up to date with every satsang so far. Thank you for studying with us.</p></div>';
- ['Auckland','Hamilton'].forEach(series=>{
-  const rs=rows.filter(r=>r.series===series); if(!rs.length)return;
-  h+='<h2>My '+series+' satsangs</h2>';
-  rs.forEach(r=>{
-   const badge=r.st==='done'?['b-done','Completed']:(r.upcoming&&r.st==='pend'?['b-soon','Upcoming']:(r.st==='prog'?['b-prog','In progress']:['b-pend','Pending']));
-   h+='<div class="row"><div class="top"><div><p class="code">'+esc(r.code)+'</p><p class="t">'+esc(r.title)+'</p><p class="dt">'+fmt(r.date)+'</p></div><span class="badge '+badge[0]+'">'+badge[1]+'</span></div>';
-   h+='<div class="chips">'+(known?'<span>Lesson: <b class="'+(r.studied?'ok':'no')+'">'+(r.studied?'✓ Studied':'Not yet')+'</b></span>':'')
-    +'<span>Quiz: '+(r.quiz?'<b class="ok">'+r.b.percent+'%</b> ('+r.b.score+' / '+r.b.maxScore+(r.tries>1?', '+r.tries+' attempts':'')+')':'<b class="no">Not taken</b>')+'</span></div>';
-   if(r.quiz)h+='<div class="bar"><i style="width:'+Math.max(2,r.b.percent)+'%;background:'+colour(r.b.percent)+'"></i></div>';
-   h+='<div class="acts"><a class="a1" href="'+LESSON+esc(r.lessonStepId)+'" target="_top">Open lesson</a><a class="a2" href="'+QUIZ+esc(r.code)+'" target="_top">'+(r.quiz?'Retake quiz':'Take quiz')+'</a></div></div>';
+ const sat=c.slug==='satsang-study';
+ let items=[];
+ c.sections.forEach(sec=>sec.steps.forEach(st=>{
+  const id=st[0],m=sat?meta[id]:null,isQuiz=st[2]==='QUIZ';
+  const b=m?best[m.code]:null,studied=done.has(id);
+  items.push({sec:sec.title,id:id,title:m?m.title:st[1],code:m&&m.code,date:m&&m.date,series:m&&m.series,studied:studied,isQuiz:isQuiz,b:b,tries:m?(tries[m.code]||0):0,
+   upcoming:!!(m&&m.date>today),st:isQuiz?(studied?'done':'pend'):(m?((studied&&b)?'done':((studied||b)?'prog':'pend')):(studied?'done':'pend'))});
+ }));
+ const n=items.length,les=items.filter(i=>!i.isQuiz),nStud=items.filter(i=>!i.isQuiz&&i.studied).length;
+ const quizzes=sat?items.filter(i=>i.b):items.filter(i=>i.isQuiz&&i.studied);
+ const avg=sat&&quizzes.length?Math.round(quizzes.reduce((s,i)=>s+i.b.percent,0)/quizzes.length):null;
+ const nDone=items.filter(i=>i.st==='done').length;
+ let h='<div class="bar1"><div class="pick"><label for="cs">MY COURSE</label><select id="cs">'+cs.map(x=>'<option value="'+esc(c0(x))+'"'+(c0(x)===c0(c)?' selected':'')+'>'+esc(x.title)+'</option>').join('')+'</select></div><div class="tiles">'
+  +'<div class="tile"><b>'+(sat?nDone+' of '+n:nStud+' of '+les.length)+'</b><span>'+(sat?'SATSANGS COMPLETED':'LESSONS STUDIED')+'</span></div>'
+  +(sat?'<div class="tile"><b>'+nStud+'</b><span>LESSONS STUDIED</span></div>':'')
+  +(sat||quizzes.length||items.some(i=>i.isQuiz)?'<div class="tile"><b>'+quizzes.length+'</b><span>QUIZZES DONE</span></div>':'')
+  +(avg==null?'':'<div class="tile"><b>'+avg+'%</b><span>AVERAGE BEST SCORE</span></div>')+'</div></div>';
+ h+='<div class="prog"><i style="width:'+Math.round(100*nDone/Math.max(1,n))+'%"></i></div>';
+ const nxt=items.find(i=>i.st!=='done'&&!i.upcoming);
+ h+='<div class="next"><span class="k">MY NEXT STEP</span>';
+ if(nxt){h+='<span class="t">'+esc(nxt.title)+'</span><a class="a2" href="'+lessonUrl(c,nxt.id)+'" target="_top">'+(nxt.studied?'Continue':'Open lesson')+'</a>'+(nxt.code&&!nxt.b?'<a class="a1" style="background:#2A4180" href="'+QUIZ+esc(nxt.code)+'" target="_top">Take the quiz</a>':'')}
+ else h+='<span class="done">I am up to date in this course. Thank you for studying with us.</span>';
+ h+='</div>';
+ const secs=[];c.sections.forEach(s=>{const its=items.filter(i=>i.sec===s.title);if(its.length)secs.push([s.title,its])});
+ const big=n>40;
+ secs.forEach(sc=>{
+  const its=sc[1],dn=its.filter(i=>i.st==='done').length,hasNext=nxt&&its.indexOf(nxt)>=0;
+  h+='<details'+((!big||hasNext)?' open':'')+'><summary>'+esc(sc[0])+'<span class="cnt">'+dn+' of '+its.length+' done</span></summary><div class="grid">';
+  its.forEach(i=>{
+   const cls=i.st==='done'?'d':(i.st==='prog'?'p':'');
+   let m;
+   if(i.code){m=[i.series,fmt(i.date)].join(' · ')+' · Lesson '+(i.studied?'<b class="ok">✓</b>':'<b class="no">–</b>')+' · Quiz '+(i.b?'<b class="ok">'+i.b.percent+'%</b><span class="q"><i style="width:'+Math.max(4,i.b.percent)+'%;background:'+colour(i.b.percent)+'"></i></span>':'<b class="no">not taken</b>')}
+   else m=(i.isQuiz?'Quiz · ':'')+(i.studied?'<b class="ok">✓ Completed</b>':'<b class="no">Not yet</b>');
+   h+='<div class="item '+cls+'"><span class="mk">'+(i.st==='done'?'✓':(i.st==='prog'?'…':''))+'</span><div class="tx"><p class="t">'+esc(i.title)+'</p><p class="m">'+m+'</p></div><div class="acts"><a class="a1" href="'+lessonUrl(c,i.id)+'" target="_top">Lesson</a>'+(i.code?'<a class="a2" href="'+QUIZ+esc(i.code)+'" target="_top">'+(i.b?'Retake':'Quiz')+'</a>':'')+'</div></div>';
   });
+  h+='</div></details>';
  });
  app.innerHTML=h;
+ document.getElementById('cs').onchange=function(){SEL=this.value;try{sessionStorage.setItem('rvcCourse',SEL)}catch(e){}render()};
 }
+function c0(c){return c.id}
 window.addEventListener('message',e=>{const d=e.data||{};
  if(d.type==='journey'){DATA=d;render()}
  else if(d.type==='notMember')app.innerHTML='<div class="note">Please sign in to vedanta.nz to see my dashboard.</div>'});
-fetch('../satsangs.json').then(r=>r.json()).then(j=>{LIST=j.satsangs||[];render()}).catch(()=>{app.innerHTML='<div class="note">I could not load the satsang list just now. Please try again in a moment.</div>'});
+fetch('../satsangs.json').then(r=>r.json()).then(j=>{LIST=j.satsangs||[];render()}).catch(()=>{LIST=[];render()});
 if(window.self===window.top){app.innerHTML='<div class="note">My Course Dashboard shows my own progress when I open it on <a href="https://www.vedanta.nz/my-course-dashboard">vedanta.nz</a> while signed in.</div>'}
 else{let got=false,n=0;window.addEventListener('message',e=>{if(e.data&&(e.data.type==='journey'||e.data.type==='notMember'))got=true});const ping=()=>{if(got||n++>15)return;try{window.parent.postMessage({type:'ready'},'*')}catch(e){}setTimeout(ping,1000)};ping()}
 </script></body></html>
