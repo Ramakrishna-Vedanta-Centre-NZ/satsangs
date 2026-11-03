@@ -1,5 +1,5 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>My Journey | Vedanta NZ</title>
+<title>My Course Dashboard | Vedanta NZ</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400..700;1,400..700&family=Noto+Sans:wght@400..700&display=swap">
 <link rel="stylesheet" href="../assets/rvc-type.css?v=3">
 <style>
@@ -44,8 +44,8 @@ h2{font:700 var(--fs-heading,21px) 'Noto Serif',serif;color:#13295B;margin:22px 
 footer{text-align:center;font-size:var(--fs-small,12.5px);color:#5A5A5A;padding:0 16px 24px}
 @media (max-width:520px){.tiles{grid-template-columns:repeat(2,1fr)}main{padding:16px 10px 24px}}
 </style></head><body>
-<header><img src="logo.png" alt="Ramakrishna Vedanta NZ emblem"><p class="ey">VEDANTA NZ</p><h1>My Journey</h1><p class="hi" id="hi">My satsangs, studies and quizzes</p></header>
-<main id="app"><div class="note">Loading my journey…</div></main>
+<header><img src="logo.png" alt="Ramakrishna Vedanta NZ emblem"><p class="ey">VEDANTA NZ</p><h1>My Course Dashboard</h1><p class="hi" id="hi">My lessons and quizzes</p></header>
+<main id="app"><div class="note">Loading my dashboard…</div></main>
 <footer>Ramakrishna Vedanta Centre NZ · <a href="https://www.vedanta.nz" target="_top" style="color:#13295B">www.vedanta.nz</a></footer>
 <script>
 const app=document.getElementById('app');
@@ -94,8 +94,8 @@ function render(){
 }
 window.addEventListener('message',e=>{const d=e.data||{};
  if(d.type==='journey'){DATA=d;render()}
- else if(d.type==='notMember')app.innerHTML='<div class="note">Please sign in to vedanta.nz to see my journey.</div>'});
+ else if(d.type==='notMember')app.innerHTML='<div class="note">Please sign in to vedanta.nz to see my dashboard.</div>'});
 fetch('../satsangs.json').then(r=>r.json()).then(j=>{LIST=j.satsangs||[];render()}).catch(()=>{app.innerHTML='<div class="note">I could not load the satsang list just now. Please try again in a moment.</div>'});
-if(window.self===window.top){app.innerHTML='<div class="note">My Journey shows my own progress when I open it on <a href="https://www.vedanta.nz/my-journey">vedanta.nz</a> while signed in.</div>'}
+if(window.self===window.top){app.innerHTML='<div class="note">My Course Dashboard shows my own progress when I open it on <a href="https://www.vedanta.nz/my-course-dashboard">vedanta.nz</a> while signed in.</div>'}
 else{let got=false,n=0;window.addEventListener('message',e=>{if(e.data&&(e.data.type==='journey'||e.data.type==='notMember'))got=true});const ping=()=>{if(got||n++>15)return;try{window.parent.postMessage({type:'ready'},'*')}catch(e){}setTimeout(ping,1000)};ping()}
 </script></body></html>

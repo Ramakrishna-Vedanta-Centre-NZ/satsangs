@@ -239,10 +239,12 @@ def lesson_step(d):
     P(T("The Study Companion is a printable handout with the verses, key terms and commentary."))
     B(d["handout_label"], d["handout_url"])
     H("Test yourself")
-    P(T("A revision quiz of 25 questions. Sign in to keep your score under My Journey."))
+    P(T("A revision quiz of 25 questions. Sign in to keep your score; it will show on your dashboard."))
     B("take the quiz", "https://www.vedanta.nz/quiz?q=" + d["code"])
     P(T("After the quiz, read the answers with fuller explanations and a reflection for each question."))
     B("read the answers", base + "answers/")
+    P(T("See which lessons and quizzes you have completed."))
+    B("my course dashboard", "https://www.vedanta.nz/my-course-dashboard")
     import datetime
     over = datetime.date.fromisoformat(d["date"]) < datetime.date.today()
     ev = None if over else c.get("event_embed")   # no point inviting people to an event that is over
