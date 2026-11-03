@@ -60,6 +60,8 @@ const esc=s=>String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').rep
 const SITE='https://www.vedanta.nz/';
 const QUIZ=SITE+'quiz?q=';
 let LIST=null,DATA=null,SEL=null;
+const PRAC=new Set('1-1 1-2 1-3 1-5 1-6 2-1 2-2 2-3 2-4 2-5 2-6 2-7 3-1 3-3 3-4 3-5 3-6 3-7 4-3 4-4 4-5 4-6 5-1 5-2 5-4 5-5 5-7'.split(' ')); // Advanced Mind lessons that have a practice quiz
+function advQs(title){const m=/^(\d+)\.(\d+)\s/.exec(title||'');if(!m)return [];const k=m[1]+'-'+m[2];const q=[{code:'ADV-'+k,label:'Check'}];if(PRAC.has(k))q.push({code:'ADV-P-'+k,label:'Practice'});return q}
 function colour(p){return p>=70?'#2F5A2E':p>=50?'#6B4E0E':'#C2557A'}
 function fmt(d){return new Date(d+'T00:00:00').toLocaleDateString('en-NZ',{day:'numeric',month:'short',year:'numeric'})}
 function lessonUrl(c,id){return SITE+'participant-page/'+encodeURIComponent(c.slug)+'/step/'+encodeURIComponent(id)}
@@ -83,23 +85,26 @@ function render(){
  (d.results||[]).forEach(r=>{tries[r.code]=(tries[r.code]||0)+1;if(!best[r.code]||r.percent>best[r.code].percent)best[r.code]=r});
  const meta={};(LIST||[]).forEach(x=>meta[x.lessonStepId]=x);
  const today=new Date().toISOString().slice(0,10);
- const sat=c.slug==='satsang-study';
+ const sat=c.slug==='satsang-study',adv=c.slug==='know-thy-mind';
  let items=[];
  c.sections.forEach(sec=>sec.steps.forEach(st=>{
   const id=st[0],m=sat?meta[id]:null,isQuiz=st[2]==='QUIZ';
   const b=m?best[m.code]:null,studied=done.has(id);
-  items.push({sec:sec.title,id:id,title:m?m.title:st[1],code:m&&m.code,date:m&&m.date,series:m&&m.series,studied:studied,isQuiz:isQuiz,b:b,tries:m?(tries[m.code]||0):0,
+  const qb=adv?advQs(st[1]).map(q=>({code:q.code,label:q.label,b:best[q.code]||null})):[];
+  items.push({qb:qb,sec:sec.title,id:id,title:m?m.title:st[1],code:m&&m.code,date:m&&m.date,series:m&&m.series,studied:studied,isQuiz:isQuiz,b:b,tries:m?(tries[m.code]||0):0,
    upcoming:!!(m&&m.date>today),st:isQuiz?(studied?'done':'pend'):(m?((studied&&b)?'done':((studied||b)?'prog':'pend')):(studied?'done':'pend'))});
  }));
  const n=items.length,les=items.filter(i=>!i.isQuiz),nStud=items.filter(i=>!i.isQuiz&&i.studied).length;
  const quizzes=sat?items.filter(i=>i.b):items.filter(i=>i.isQuiz&&i.studied);
  const avg=sat&&quizzes.length?Math.round(quizzes.reduce((s,i)=>s+i.b.percent,0)/quizzes.length):null;
  const nDone=items.filter(i=>i.st==='done').length;
+ const qAll=items.reduce((a,i)=>a.concat(i.qb||[]),[]),qDone=qAll.filter(x=>x.b);
+ const qAvg=qDone.length?Math.round(qDone.reduce((s,x)=>s+x.b.percent,0)/qDone.length):null;
  let h='<div class="bar1"><div class="pick"><label for="cs">MY COURSE</label><select id="cs">'+cs.map(x=>'<option value="'+esc(c0(x))+'"'+(c0(x)===c0(c)?' selected':'')+'>'+esc(x.title)+'</option>').join('')+'</select></div><div class="tiles">'
   +'<div class="tile"><b>'+(sat?nDone+' of '+n:nStud+' of '+les.length)+'</b><span>'+(sat?'SATSANGS COMPLETED':'LESSONS STUDIED')+'</span></div>'
   +(sat?'<div class="tile"><b>'+nStud+'</b><span>LESSONS STUDIED</span></div>':'')
-  +(sat||quizzes.length||items.some(i=>i.isQuiz)?'<div class="tile"><b>'+quizzes.length+'</b><span>QUIZZES DONE</span></div>':'')
-  +(avg==null?'':'<div class="tile"><b>'+avg+'%</b><span>AVERAGE BEST SCORE</span></div>')+'</div></div>';
+  +(adv&&qAll.length?'<div class="tile"><b>'+qDone.length+' of '+qAll.length+'</b><span>QUIZZES DONE</span></div>':(sat||quizzes.length||items.some(i=>i.isQuiz)?'<div class="tile"><b>'+quizzes.length+'</b><span>QUIZZES DONE</span></div>':''))
+  +(adv&&qAvg!=null?'<div class="tile"><b>'+qAvg+'%</b><span>AVERAGE BEST SCORE</span></div>':(avg==null?'':'<div class="tile"><b>'+avg+'%</b><span>AVERAGE BEST SCORE</span></div>'))+'</div></div>';
  h+='<div class="prog"><i style="width:'+Math.round(100*nDone/Math.max(1,n))+'%"></i></div>';
  const nxt=items.find(i=>i.st!=='done'&&!i.upcoming);
  h+='<div class="next"><span class="k">MY NEXT STEP</span>';
@@ -115,8 +120,9 @@ function render(){
    const cls=i.st==='done'?'d':(i.st==='prog'?'p':'');
    let m;
    if(i.code){m=[i.series,fmt(i.date)].join(' · ')+' · Lesson '+(i.studied?'<b class="ok">✓</b>':'<b class="no">–</b>')+' · Quiz '+(i.b?'<b class="ok">'+i.b.percent+'%</b><span class="q"><i style="width:'+Math.max(4,i.b.percent)+'%;background:'+colour(i.b.percent)+'"></i></span>':'<b class="no">not taken</b>')}
+   else if(i.qb&&i.qb.length)m='Lesson '+(i.studied?'<b class="ok">✓</b>':'<b class="no">–</b>')+i.qb.map(x=>' · '+x.label+' '+(x.b?'<b class="ok">'+x.b.percent+'%</b>':'<b class="no">not taken</b>')).join('');
    else m=(i.isQuiz?'Quiz · ':'')+(i.studied?'<b class="ok">✓ Completed</b>':'<b class="no">Not yet</b>');
-   h+='<div class="item '+cls+'"><span class="mk">'+(i.st==='done'?'✓':(i.st==='prog'?'…':''))+'</span><div class="tx"><p class="t">'+esc(i.title)+'</p><p class="m">'+m+'</p></div><div class="acts"><a class="a1" href="'+lessonUrl(c,i.id)+'" target="_top">Lesson</a>'+(i.code?'<a class="a2" href="'+QUIZ+esc(i.code)+'" target="_top">'+(i.b?'Retake':'Quiz')+'</a>':'')+'</div></div>';
+   h+='<div class="item '+cls+'"><span class="mk">'+(i.st==='done'?'✓':(i.st==='prog'?'…':''))+'</span><div class="tx"><p class="t">'+esc(i.title)+'</p><p class="m">'+m+'</p></div><div class="acts"><a class="a1" href="'+lessonUrl(c,i.id)+'" target="_top">Lesson</a>'+(i.code?'<a class="a2" href="'+QUIZ+esc(i.code)+'" target="_top">'+(i.b?'Retake':'Quiz')+'</a>':(i.qb&&i.qb.length?'<a class="a2" href="'+lessonUrl(c,i.id)+'" target="_top" title="The quizzes are inside the lesson">'+(i.qb.some(x=>x.b)?'Retake':'Quiz')+'</a>':''))+'</div></div>';
   });
   h+='</div></details>';
  });
