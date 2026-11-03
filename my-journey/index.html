@@ -39,6 +39,7 @@ summary .cnt{font:400 var(--fs-small,12.5px) 'Noto Sans',sans-serif;color:#5A5A5
 .item.d .mk{background:var(--green);border-color:var(--green)}
 .item.p .mk{border-color:var(--gold);background:#FBF1D6;color:var(--goldt)}
 .tx{flex:1;min-width:0}
+.ql{color:inherit;text-decoration:underline;text-decoration-color:#B99A4A;text-underline-offset:2px}
 .t{font:400 14px/1.3 'Noto Serif',serif;color:#13295B;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .m{font-size:12px;line-height:1.35;color:#5A5A5A;margin-top:2px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .m b{font-weight:500}.ok{color:#2F5A2E}.no{color:#8A8A8A}
@@ -61,6 +62,8 @@ const SITE='https://www.vedanta.nz/';
 const QUIZ=SITE+'quiz?q=';
 let LIST=null,DATA=null,SEL=null;
 const PRAC=new Set('1-1 1-2 1-3 1-5 1-6 2-1 2-2 2-3 2-4 2-5 2-6 2-7 3-1 3-3 3-4 3-5 3-6 3-7 4-3 4-4 4-5 4-6 5-1 5-2 5-4 5-5 5-7'.split(' ')); // Advanced Mind lessons that have a practice quiz
+const ADVQ='https://www.vedanta.nz/understanding-check?q=';
+function advUrl(code){let m=/^ADV-P-(\d+)-(\d+)$/.exec(code);if(m)return ADVQ+m[1]+'.'+m[2]+'&kind=practice';m=/^ADV-M(\d)$/.exec(code);if(m)return ADVQ+'m'+m[1];m=/^ADV-(\d+)-(\d+)$/.exec(code);return m?ADVQ+m[1]+'.'+m[2]:''}
 function advQs(title){const m=/^(\d+)\.(\d+)\s/.exec(title||'');if(!m)return [];const k=m[1]+'-'+m[2];const q=[{code:'ADV-'+k,label:'Check'}];if(PRAC.has(k))q.push({code:'ADV-P-'+k,label:'Practice'});return q}
 function colour(p){return p>=70?'#2F5A2E':p>=50?'#6B4E0E':'#C2557A'}
 function fmt(d){return new Date(d+'T00:00:00').toLocaleDateString('en-NZ',{day:'numeric',month:'short',year:'numeric'})}
@@ -94,10 +97,12 @@ function render(){
   items.push({qb:qb,sec:sec.title,id:id,title:m?m.title:st[1],code:m&&m.code,date:m&&m.date,series:m&&m.series,studied:studied,isQuiz:isQuiz,b:b,tries:m?(tries[m.code]||0):0,
    upcoming:!!(m&&m.date>today),st:isQuiz?(studied?'done':'pend'):(m?((studied&&b)?'done':((studied||b)?'prog':'pend')):(studied?'done':'pend'))});
  }));
- const n=items.length,les=items.filter(i=>!i.isQuiz),nStud=items.filter(i=>!i.isQuiz&&i.studied).length;
+ if(adv)c.sections.forEach(sec=>{const mm=/^0?(\d)\s*-/.exec(sec.title||'');if(!mm)return;const code='ADV-M'+mm[1];items.push({mod:true,isQuiz:true,studied:false,sec:sec.title,id:null,title:'Module '+mm[1]+' understanding check',qb:[{code:code,label:'Module check',b:best[code]||null}],st:best[code]?'done':'pend'})});
+ const core=items.filter(i=>!i.mod);
+ const n=core.length,les=items.filter(i=>!i.isQuiz),nStud=items.filter(i=>!i.isQuiz&&i.studied).length;
  const quizzes=sat?items.filter(i=>i.b):items.filter(i=>i.isQuiz&&i.studied);
  const avg=sat&&quizzes.length?Math.round(quizzes.reduce((s,i)=>s+i.b.percent,0)/quizzes.length):null;
- const nDone=items.filter(i=>i.st==='done').length;
+ const nDone=core.filter(i=>i.st==='done').length;
  const qAll=items.reduce((a,i)=>a.concat(i.qb||[]),[]),qDone=qAll.filter(x=>x.b);
  const qAvg=qDone.length?Math.round(qDone.reduce((s,x)=>s+x.b.percent,0)/qDone.length):null;
  let h='<div class="bar1"><div class="pick"><label for="cs">MY COURSE</label><select id="cs">'+cs.map(x=>'<option value="'+esc(c0(x))+'"'+(c0(x)===c0(c)?' selected':'')+'>'+esc(x.title)+'</option>').join('')+'</select></div><div class="tiles">'
@@ -106,7 +111,7 @@ function render(){
   +(adv&&qAll.length?'<div class="tile"><b>'+qDone.length+' of '+qAll.length+'</b><span>QUIZZES DONE</span></div>':(sat||quizzes.length||items.some(i=>i.isQuiz)?'<div class="tile"><b>'+quizzes.length+'</b><span>QUIZZES DONE</span></div>':''))
   +(adv&&qAvg!=null?'<div class="tile"><b>'+qAvg+'%</b><span>AVERAGE BEST SCORE</span></div>':(avg==null?'':'<div class="tile"><b>'+avg+'%</b><span>AVERAGE BEST SCORE</span></div>'))+'</div></div>';
  h+='<div class="prog"><i style="width:'+Math.round(100*nDone/Math.max(1,n))+'%"></i></div>';
- const nxt=items.find(i=>i.st!=='done'&&!i.upcoming);
+ const nxt=core.find(i=>i.st!=='done'&&!i.upcoming);
  h+='<div class="next"><span class="k">MY NEXT STEP</span>';
  if(nxt){h+='<span class="t">'+esc(nxt.title)+'</span><a class="a2" href="'+lessonUrl(c,nxt.id)+'" target="_top">'+(nxt.studied?'Continue':'Open lesson')+'</a>'+(nxt.code&&!nxt.b?'<a class="a1" style="background:#2A4180" href="'+QUIZ+esc(nxt.code)+'" target="_top">Take the quiz</a>':'')}
  else h+='<span class="done">I am up to date in this course. Thank you for studying with us.</span>';
@@ -114,15 +119,15 @@ function render(){
  const secs=[];c.sections.forEach(s=>{const its=items.filter(i=>i.sec===s.title);if(its.length)secs.push([s.title,its])});
  const big=n>40||window.innerWidth<560;
  secs.forEach(sc=>{
-  const its=sc[1],dn=its.filter(i=>i.st==='done').length,hasNext=nxt&&its.indexOf(nxt)>=0;
-  h+='<details'+((!big||hasNext)?' open':'')+'><summary>'+esc(sc[0])+'<span class="cnt">'+dn+' of '+its.length+' done</span></summary><div class="grid">';
+  const its=sc[1],cn=its.filter(i=>!i.mod),dn=cn.filter(i=>i.st==='done').length,hasNext=nxt&&its.indexOf(nxt)>=0;
+  h+='<details'+((!big||hasNext)?' open':'')+'><summary>'+esc(sc[0])+'<span class="cnt">'+dn+' of '+cn.length+' done</span></summary><div class="grid">';
   its.forEach(i=>{
    const cls=i.st==='done'?'d':(i.st==='prog'?'p':'');
    let m;
-   if(i.code){m=[i.series,fmt(i.date)].join(' · ')+' · Lesson '+(i.studied?'<b class="ok">✓</b>':'<b class="no">–</b>')+' · Quiz '+(i.b?'<b class="ok">'+i.b.percent+'%</b><span class="q"><i style="width:'+Math.max(4,i.b.percent)+'%;background:'+colour(i.b.percent)+'"></i></span>':'<b class="no">not taken</b>')}
-   else if(i.qb&&i.qb.length)m='Lesson '+(i.studied?'<b class="ok">✓</b>':'<b class="no">–</b>')+i.qb.map(x=>' · '+x.label+' '+(x.b?'<b class="ok">'+x.b.percent+'%</b>':'<b class="no">not taken</b>')).join('');
-   else m=(i.isQuiz?'Quiz · ':'')+(i.studied?'<b class="ok">✓ Completed</b>':'<b class="no">Not yet</b>');
-   h+='<div class="item '+cls+'"><span class="mk">'+(i.st==='done'?'✓':(i.st==='prog'?'…':''))+'</span><div class="tx"><p class="t">'+esc(i.title)+'</p><p class="m">'+m+'</p></div><div class="acts"><a class="a1" href="'+lessonUrl(c,i.id)+'" target="_top">Lesson</a>'+(i.code?'<a class="a2" href="'+QUIZ+esc(i.code)+'" target="_top">'+(i.b?'Retake':'Quiz')+'</a>':(i.qb&&i.qb.length?'<a class="a2" href="'+lessonUrl(c,i.id)+'" target="_top" title="The quizzes are inside the lesson">'+(i.qb.some(x=>x.b)?'Retake':'Quiz')+'</a>':''))+'</div></div>';
+   if(i.code){m=[i.series,fmt(i.date)].join(' · ')+' · '+(i.studied?'<b class="ok">✓ Completed</b>':'<b class="no">Not started</b>')+' · Quiz: '+(i.b?'<b class="ok">'+i.b.percent+'%</b><span class="q"><i style="width:'+Math.max(4,i.b.percent)+'%;background:'+colour(i.b.percent)+'"></i></span>':'<b class="no">to do</b>')}
+   else if(i.qb&&i.qb.length){const ql=i.qb.map(x=>'<a class="ql" href="'+advUrl(x.code)+'" target="_top">'+x.label+'</a>: '+(x.b?'<b class="ok">'+x.b.percent+'%</b>':'<b class="no">to do</b>'));m=(i.mod?'':(i.studied?'<b class="ok">✓ Completed</b>':'<b class="no">Not started</b>')+' · ')+ql.join(' · ')}
+   else m=(i.isQuiz?'Quiz · ':'')+(i.studied?'<b class="ok">✓ Completed</b>':'<b class="no">Not started</b>');
+   h+='<div class="item '+cls+'"><span class="mk">'+(i.st==='done'?'✓':(i.st==='prog'?'…':''))+'</span><div class="tx"><p class="t">'+esc(i.title)+'</p><p class="m">'+m+'</p></div><div class="acts">'+(i.mod?'':'<a class="a1" href="'+lessonUrl(c,i.id)+'" target="_top">Lesson</a>')+(i.code?'<a class="a2" href="'+QUIZ+esc(i.code)+'" target="_top">'+(i.b?'Retake':'Quiz')+'</a>':(i.qb&&i.qb.length?'<a class="a2" href="'+advUrl((i.qb.find(x=>!x.b)||i.qb[0]).code)+'" target="_top">'+(i.qb.every(x=>x.b)?'Retake':'Quiz')+'</a>':''))+'</div></div>';
   });
   h+='</div></details>';
  });
