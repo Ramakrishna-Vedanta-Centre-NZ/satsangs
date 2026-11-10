@@ -1,0 +1,1285 @@
+{
+ "series": "NZICA Retreat",
+ "program": "Satsang Study",
+ "code": "RET-001",
+ "page_kind": "Retreat",
+ "noun": "retreat",
+ "title": "Yajña: The Spirit of Seva",
+ "subtitle": "The Art of Giving: Harmonising Heart, Head and Hands",
+ "qtitle": "Yajña: The Spirit of Seva",
+ "date": "2026-11-15",
+ "when_where": "NZICA Wellness Retreat, Sunday 15 November 2026, Vedanta Retreat Centre, Glen Murray, and on Zoom. Session 1, talk by Swami Tadananda, Ramakrishna Vedanta Centre NZ.",
+ "quiz": {
+  "marks_per_question": 4,
+  "total": 100,
+  "desc": "Twenty-five question quiz on Yajña: The Spirit of Seva, the talk at the NZICA Wellness Retreat, Ramakrishna Vedanta Centre NZ. It asks you to understand and apply the teaching.",
+  "og_title": "Quiz: Yajña, the Spirit of Seva",
+  "og_desc": "Twenty-five questions that ask you to understand and apply the teaching on yajña and seva.",
+  "hero_line": "25 questions · 100 marks · explanations and reflections",
+  "blessing": "May all your work become an offering, for the good of many and the joy of many."
+ },
+ "questions": [
+  {
+   "t": "mc",
+   "q": "Kavita says: “I joined NZICA to serve others. My own spiritual growth is a private matter for my prayers at home.” How does the talk respond?",
+   "o": [
+    "Growth and service are separate, and keeping them apart stops the motive for service from getting mixed.",
+    "Service offered in the right spirit is itself a means of growth, so her two reasons are one path.",
+    "Growth must come first, because only a person who is already realised can serve others well.",
+    "Service matters more, and wanting personal growth is a selfish aim that a sevak should give up."
+   ],
+   "a": 1,
+   "e": "The motto ātmano mokṣārthaṁ jagad-hitāya ca joins “one’s own liberation” and “the welfare of the world” with the small word ca, “and”. To grow means expansion from the small self to the larger Self; to serve is to acknowledge our oneness with all. When work is offered as yajña it purifies the mind, so service becomes growth. Waiting for realisation first, or setting growth aside as selfish, both miss this.",
+   "r": "Where in my life do I keep “my spiritual practice” and “my service” in separate boxes?",
+   "s": 8
+  },
+  {
+   "t": "mc",
+   "q": "Priya cooks for a branch lunch, thinking of the guests and quietly offering the work to the Lord. In the Gītā’s sense, is this yajña?",
+   "o": [
+    "Yes, because action offered without selfishness, for the good of others and as worship, is yajña.",
+    "Only if mantras are chanted and the offering is made into a sacred fire by a priest.",
+    "No, because cooking is a household duty and belongs to ordinary life, not to spiritual life, however lovingly it is done.",
+    "Only if she also gives money, since yajña always involves some material sacrifice."
+   ],
+   "a": 0,
+   "e": "In Vedic times yajña meant the fire ritual. Sri Krishna widens it: any action done as an offering, without selfishness, for the good of all, is yajña. The kitchen stove can be the sacred fire. Verse 3.13 even speaks of cooking: those who cook only for themselves eat sin, while those who share what remains after offering are freed from faults.",
+   "r": "Which ordinary task tomorrow could I turn into an offering?",
+   "s": 12
+  },
+  {
+   "t": "mc",
+   "q": "The root yaj carries three meanings: worship, coming together and giving. What follows for an association like NZICA?",
+   "o": [
+    "Because yajña means worship, the association should begin every meeting with a fire ceremony.",
+    "An association is a social body; yajña is something each person does privately at home.",
+    "Giving counts as yajña only when it is done alone and no one else is involved in it.",
+    "Members coming together to give is itself a form of yajña, not only a social activity."
+   ],
+   "a": 3,
+   "e": "Deva-pūjā (worship), saṅgati-karaṇa (coming together) and dāna (giving) all belong to yajña. When members come together to give for the good of the community, the association itself becomes a place of offering, a yajña-śālā. A ritual at every meeting is not what is meant, and yajña is not only private.",
+   "r": "When I come to a branch meeting, do I come to give or only to receive?",
+   "s": 12
+  },
+  {
+   "t": "mc",
+   "q": "A friend says: “I have worked hard for everything I have. I owe nothing to anyone.” Which teaching speaks most directly to this?",
+   "o": [
+    "The three kinds of food in chapter 17, which show that what we eat and how we earn it shape the mind.",
+    "Japa as the highest yajña, since the holy name can be repeated anywhere at any time.",
+    "The wheel of yajña (3.12 to 3.16): we live on what others give, and giving back is our share.",
+    "The yajña of knowledge in 4.33, which is higher than any offering of material things."
+   ],
+   "a": 2,
+   "e": "The Gītā describes life as a wheel: beings live on food, food comes from rain, rain from yajña, yajña from action (3.14). Nothing lives only for itself. Our effort is real, but it rests on what parents, teachers, the land and the community have given. One who does not help turn the wheel lives in vain (3.16).",
+   "r": "List five things I received this week without paying for them.",
+   "s": 13
+  },
+  {
+   "t": "mc",
+   "q": "Verse 3.12 calls one who enjoys life’s gifts without giving anything in return “a thief”. What is the best understanding?",
+   "o": [
+    "It warns that the devas will punish anyone who forgets to perform the prescribed fire rituals.",
+    "It calls us to gratitude: what we have came from others, so taking without giving back is a kind of taking.",
+    "It sets a firm rule that each of us must give back exactly as much as we have received, no more and no less.",
+    "It is meant mainly for the wealthy, because they have received far more than other people."
+   ],
+   "a": 1,
+   "e": "The strong word is meant to wake us up, not to frighten us. The gifts of life come through nature, family and society; to enjoy them while giving nothing back is a kind of taking. The answer is gratitude and sharing, not exact accounting or fear of punishment, and it applies to everyone, not only the rich.",
+   "r": "Where am I only taking, at home, at work or in my community?",
+   "s": 14
+  },
+  {
+   "t": "mc",
+   "q": "Offering food before eating and sharing prasāda (3.13) mainly trains us to:",
+   "o": [
+    "see what we receive as a gift to be shared, not as something that exists for ourselves alone.",
+    "make the meal more pleasant, and help the whole family sit down to eat together at the same time each day.",
+    "earn merit that automatically cancels the effects of our past wrong actions.",
+    "keep an old custom alive out of respect, though it has little to do with the inner life."
+   ],
+   "a": 0,
+   "e": "Those who eat what remains after yajña are freed from faults; those who cook only for themselves eat sin (3.13). The practice changes the attitude of the one who eats: food becomes a gift received and shared, prasāda. It is an inner training, not a mechanical way to cancel karma or only a custom.",
+   "r": "Can I pause before my next meal to remember where it came from?",
+   "s": 14
+  },
+  {
+   "t": "mc",
+   "q": "While serving at a food drive, Raj feels proud: “I am the one helping these poor people.” Which verse corrects this most directly?",
+   "o": [
+    "Gītā 17.13: a yajña done carelessly and without faith is called tāmasika, or dull.",
+    "Gītā 10.25: among all the forms of yajña, the Lord is japa, the repetition of the holy name, the simplest offering.",
+    "Gītā 3.14: food comes from rain, and rain comes from yajña performed by human beings.",
+    "Gītā 4.24: the giver, the gift and the receiver are all Brahman, so there is no high and low."
+   ],
+   "a": 3,
+   "e": "Brahmārpaṇam: the offering, the fire, the one who offers and the act are all Brahman. Raj, the food and the people he serves are waves of one ocean. The pride of “I am helping them” dissolves when he sees the Divine in those he serves; as Swami Vivekananda said, we should be grateful to them.",
+   "r": "Whom do I sometimes look down on while helping?",
+   "s": 15
+  },
+  {
+   "t": "mc",
+   "q": "Swami Vivekananda said that one who sees Shiva only in the image has a worship that is “but preliminary”. What does this mean?",
+   "o": [
+    "Image worship is a good beginning that should grow into seeing and serving the Divine in people.",
+    "Image worship is useless and should be given up in favour of social work for the poor.",
+    "Serving people is only a preparation for the real worship of the Lord that happens in the temple before His image.",
+    "Only monks can see Shiva in the poor; householders should keep to worship of images."
+   ],
+   "a": 0,
+   "e": "“He who sees Shiva in the poor, in the weak, and in the diseased, really worships Shiva; and if he sees Shiva only in the image, his worship is but preliminary.” Swami Vivekananda does not reject image worship; he calls it preliminary, a beginning. Its fulfilment is to see and serve the living God in human beings, which is open to everyone.",
+   "r": "If I truly saw the Divine in the next person I serve, what would change?",
+   "s": 16
+  },
+  {
+   "t": "mc",
+   "q": "Swami Vivekananda says: “It is not the receiver that is blessed, but it is the giver.” If this is true, how should a sevak feel towards the person helped?",
+   "o": [
+    "Superior, because the sevak has more to give and has generously chosen to share some of it with others.",
+    "Indifferent, since feelings do not matter as long as the service gets done well.",
+    "Grateful, because that person gives the sevak a chance to grow purer and more loving.",
+    "Anxious, in case the person does not show proper thanks for the help received."
+   ],
+   "a": 2,
+   "e": "In Karma-Yoga, “We Help Ourselves, Not the World”, Swami Vivekananda says the world is a moral gymnasium in which we grow strong, and that we should be grateful to the person we help and think of him as God. The giver gains more than the receiver, so gratitude, not superiority or a wish for thanks, is the right feeling.",
+   "r": "Whom do I owe thanks to for letting me serve them?",
+   "s": 17
+  },
+  {
+   "t": "mc",
+   "q": "Why does the Gītā say that yajña, giving and austerity purify “even the wise” (18.5)?",
+   "o": [
+    "Because the wise have gathered more past faults than others over many lives, and so need more cleansing.",
+    "Because service keeps loosening “I and mine” however far one has come, so it is never outgrown.",
+    "Because without service the wise would slowly forget what they learned from scripture.",
+    "Because the wise must set an outward example, even though service does them no good."
+   ],
+   "a": 1,
+   "e": "The ladder of purification rises from living for “I and mine” to seeing Brahman in all. At every step, offering our work keeps the mind clear, like cleaning a window. That is why Sri Krishna says these acts are not to be given up: they purify even the wise. Service is not only for beginners or only for show.",
+   "r": "On which step of the ladder do I usually stand when I serve?",
+   "s": 18
+  },
+  {
+   "t": "match",
+   "q": "Which step on the ladder of purification best describes each person? Choose one for each line.",
+   "rows": [
+    "Arun volunteers for the committee mainly because the role will look good to others.",
+    "Meena gives quietly every week and never mentions it, simply because it is right.",
+    "Hari offers each task of his day to the Lord, at work and at home alike.",
+    "Lila feels that the elder she cares for, the care and she herself are one Reality."
+   ],
+   "c": [
+    "Work as worship",
+    "Seeing Brahman in all",
+    "Giving for a return",
+    "Giving because it is right"
+   ],
+   "ans": [
+    2,
+    3,
+    0,
+    1
+   ],
+   "e": "Arun gives for a return: recognition (rājasika, 17.12). Meena gives because it is right, seeking nothing (sāttvika, 17.11). Hari offers all his work to the Lord (9.27). Lila sees giver, gift and receiver as one (4.24). Each step loosens “I and mine” a little more.",
+   "r": "Which person is most like me today, and which would I like to become?",
+   "s": 18
+  },
+  {
+   "t": "mc",
+   "q": "Anita says: “I have no money to give, so I cannot really do seva.” How does the teaching on the many forms of yajña answer her?",
+   "o": [
+    "She is right, because dravya-yajña, the offering of wealth, is the highest of all the forms.",
+    "She should wait until she can afford to give properly, and then join in the branch’s work after that.",
+    "Seva is for people with special skills, so she should keep to private prayer instead.",
+    "Time, skill, knowledge, care, study and even japa are all offerings; wealth is only one form."
+   ],
+   "a": 3,
+   "e": "Gītā 4.25 to 4.30 lists many yajñas: wealth, discipline, yoga, study, knowledge, breath, sense restraint. All of them purify. The Gītā ranks the yajña of knowledge above material offerings (4.33), and the Lord says among yajñas He is japa (10.25). Everyone has something to offer.",
+   "r": "What is my particular gift: time, skill, knowledge, wealth, care or prayer?",
+   "s": 19
+  },
+  {
+   "t": "mc",
+   "q": "The Gītā says the yajña of knowledge is higher than any yajña of material things (4.33). What is the wisest way for a branch to apply this?",
+   "o": [
+    "The branch should stop giving material help so that it can give all its time and energy to classes and lectures.",
+    "Knowledge belongs to scholars, so the branch should keep to food parcels and practical help.",
+    "Material help matters, but helping people grow in understanding lasts longer; the best seva joins both.",
+    "Knowledge here means scripture only, so practical skills such as tutoring do not count."
+   ],
+   "a": 2,
+   "e": "Swami Vivekananda describes physical, intellectual and spiritual help, with spiritual help the highest. A hungry person needs food first; but the gift that lasts is the one that makes a person strong within. Teaching a skill, mentoring a student or sharing wisdom is knowledge offered. The two kinds of help work together.",
+   "r": "What knowledge or skill could I share with someone this month?",
+   "s": 19
+  },
+  {
+   "t": "mc",
+   "q": "After agreeing to help at an event, Vikram works hard but complains about the organisers to others. In terms of thought, word and deed, what is happening?",
+   "o": [
+    "His deed is an offering but his words are grasping; yajña asks that all three be offered.",
+    "Since he helped with the work itself, the words he says afterwards do not really affect the offering at all.",
+    "Only his thoughts need attention; words are neutral and simply express what he feels.",
+    "He should stop helping altogether until his thoughts and feelings are completely pure."
+   ],
+   "a": 0,
+   "e": "Manasā, vācā, karmaṇā: in thought, word and deed. Each offers the same choice, to grasp or to offer. Hard work offered while words divide the group is only partly yajña. The answer is not to stop serving, but to bring speech and thought into the offering too: truthful, kind and helpful words.",
+   "r": "Which of the three, thought, word or deed, do I find hardest to offer?",
+   "s": 21
+  },
+  {
+   "t": "mc",
+   "q": "A volunteer feels deeply for lonely elders but never plans any visits, so nothing happens. Which part of service is missing?",
+   "o": [
+    "The heart: she needs to feel more deeply for the elders before she can begin to help.",
+    "The head and the hands: understanding the need, making a plan and carrying it through.",
+    "Nothing is missing: feeling sincerely for them is already a complete form of seva, even without visits.",
+    "Only money: she should make a donation to an organisation that visits elders instead."
+   ],
+   "a": 1,
+   "e": "Swami Vivekananda taught that real service needs the heart that feels, the head that finds a practical way out, and the hands that carry it through. Heart alone becomes sentimental; head alone becomes cold; hands alone become tiring. Her feeling is precious, and it needs planning and steady action.",
+   "r": "In my own service, which is weakest: heart, head or hands?",
+   "s": 22
+  },
+  {
+   "t": "mc",
+   "q": "Two members organise the same Diwali event. One wants a title and a photograph in the newsletter; the other does it because it ought to be done. What would the Gītā say?",
+   "o": [
+    "Both are equal, because the community enjoys exactly the same event whatever the motive of the organisers.",
+    "The first is better, because a wish for recognition makes people work harder and longer.",
+    "Both are tāmasika, because any public event is bound to be done mostly for show.",
+    "The outward act is the same, but the first is rājasika and the second sāttvika; the spirit decides."
+   ],
+   "a": 3,
+   "e": "Gītā 17.11 and 17.12: yajña offered without seeking reward, because it ought to be done, is sāttvika; yajña offered for reward or show is rājasika. The same act can be of different qualities. The community may benefit either way, but only the sāttvika offering purifies the one who offers.",
+   "r": "Think of one recent act of service. What was its quality, and what would make it purer?",
+   "s": 23
+  },
+  {
+   "t": "mc",
+   "q": "A branch keeps competing with another branch to hold the biggest event. Which remedy does the talk suggest?",
+   "o": [
+    "Make the competition fairer by giving a prize each year to the branch with the best event.",
+    "Avoid joint events altogether so that comparisons between branches cannot arise at all.",
+    "Remember we are waves of one ocean, so another branch’s success is ours; share ideas and plan together.",
+    "Let the larger branch decide for the smaller ones, so that there is less disagreement."
+   ],
+   "a": 2,
+   "e": "Comparing and competing is a sign of ego in seva, and between groups it is the ego of a group. The remedy is the oneness of existence: we are waves of the same ocean. Like the devas who each took up their own share, each branch offers its best to a common purpose, coordinated rather than competing.",
+   "r": "Where do I notice competition rather than harmony, and how could I help?",
+   "s": 24
+  },
+  {
+   "t": "mc",
+   "q": "Gītā 12.13 describes one dear to the Lord as nirmama and nirahaṅkāra. For a sevak this means:",
+   "o": [
+    "owning nothing at all and leaving family life in order to serve full time.",
+    "serving without the sense of “mine” and without the ego of “I am the doer”.",
+    "never accepting any position of responsibility in an association or branch.",
+    "hiding one’s real abilities from others so as to appear humble and modest."
+   ],
+   "a": 1,
+   "e": "Nirmama means free from “mine”; nirahaṅkāra means free from ego. These are inner attitudes, not outer renunciation. A householder can hold a committee role and use every talent, as long as the work is not “my project” and “my credit”. Giving up “I and mine” is how the wave merges in the ocean.",
+   "r": "Where in my service do I most often say “my”?",
+   "s": 25
+  },
+  {
+   "t": "mc",
+   "q": "NZICA’s President asked what a day looks like in the life of a person dedicated to seva. Which summary is closest to the talk?",
+   "o": [
+    "A day lived as one continuous yajña, from the morning offering through work and home to the evening offering.",
+    "A day spent mostly at community events, leaving little time for family or for paid work.",
+    "A day of strict rules about food and fasting, with service kept for the weekends.",
+    "An ordinary day lived for oneself, with an hour of volunteering added in the evening."
+   ],
+   "a": 0,
+   "e": "The key is Gītā 9.27: whatever you do, eat, offer, give or practise, do it as an offering to Me. The fire is lit at dawn and kept burning all day: prayer and meditation, the family as the first field of seva, work done well, time for the community, an evening offering and review.",
+   "r": "Which part of my day is already an offering, and which is most “for me alone”?",
+   "s": 27
+  },
+  {
+   "t": "mc",
+   "q": "Deepak skips his morning prayer so that he can start volunteering earlier. Why does the talk begin a sevak’s day with prayer and meditation?",
+   "o": [
+    "Because service done before prayer brings no merit and is counted as ordinary work.",
+    "To finish one’s spiritual duty early, so that the rest of the day is free for other things.",
+    "Because meditation done well removes the need for any practical service of others.",
+    "Meditation fills the cup that seva pours out; without inner renewal, service becomes tiring and ego-driven."
+   ],
+   "a": 3,
+   "e": "Meditation and service are like two wings of a bird. Meditation turns the wave towards the ocean within and gives strength and purity; service lets it see the same ocean in others and tests the meditation. Without meditation, seva becomes tiring and ego-driven; without seva, meditation can become self-centred.",
+   "r": "What small morning practice would fill my cup before the day begins?",
+   "s": 28
+  },
+  {
+   "t": "mc",
+   "q": "Sunita is a nurse who feels she has no time left for seva. How does “work as worship” (Gītā 2.50 and 9.27) apply to her?",
+   "o": [
+    "She would need to give up nursing in order to find time for real service of others.",
+    "Paid work can never be seva, because it brings a salary and is done for a reward.",
+    "Her daily work, done with care and offered to the Lord, is itself her main field of seva.",
+    "She should keep seva for her days off, when she is free from the demands of work."
+   ],
+   "a": 2,
+   "e": "“Yoga is skill in action” (2.50), and whatever we do can be offered (9.27). For most of us the greatest field of seva is the ordinary day. A salary does not stop work from being an offering; what matters is the spirit: care, excellence and the attitude “I am an instrument; this is Your work”.",
+   "r": "How could I offer my own work tomorrow as worship?",
+   "s": 29
+  },
+  {
+   "t": "mc",
+   "q": "At his evening review, Rohan notices he was impatient twice during the day. What is the spirit of the review?",
+   "o": [
+    "Firm self-criticism, so that the memory of the mistake stops it from happening again.",
+    "Gentle and honest: notice where “I and mine” crept in, offer the day, and resolve to do better.",
+    "A list of the day’s good deeds, so that he can end the day feeling satisfied.",
+    "A search for whoever caused his impatience, so that he can avoid them in future."
+   ],
+   "a": 1,
+   "e": "The evening offering hands over the whole day, its successes and failures, to the Lord (9.27). The review is gentle, not harsh: it notices where the ego came in and resolves to do better tomorrow. Holy Mother’s counsel to see our own faults rather than others’ is the spirit of it.",
+   "r": "What three questions will I ask myself each evening this week?",
+   "s": 30
+  },
+  {
+   "t": "mc",
+   "q": "“Many offerings, one sacred fire.” What makes an association a powerful force for collective good?",
+   "o": [
+    "Having the largest membership and the biggest budget of any community group in the country.",
+    "One strong leader who makes all the important decisions so that work is done quickly.",
+    "Every branch running exactly the same activities in exactly the same way each year.",
+    "Members and branches, each giving their own share, aligned in one purpose and one spirit of service."
+   ],
+   "a": 3,
+   "e": "Ṛg Veda 10.191.3: “I worship with your common offering.” Each member brings a different offering, as the devas each took up their own share, and all go into one fire with one purpose, bahujana hitāya, bahujana sukhāya. Outwardly the community is uplifted; inwardly each member is purified.",
+   "r": "What is my branch’s particular share to offer to the whole of NZICA?",
+   "s": 31
+  },
+  {
+   "t": "match",
+   "q": "Which teaching of the Gītā speaks most directly to each situation? Choose one for each line.",
+   "rows": [
+    "Someone enjoys the community’s support for years but never helps with anything.",
+    "A volunteer asks whether her service is pure when no one ever sees it.",
+    "A member wonders whom he is really serving when he helps a stranger.",
+    "A busy mother thinks her cooking and caring for the family do not count as seva."
+   ],
+   "c": [
+    "Gītā 4.24: the giver, the gift and the receiver are all Brahman",
+    "Gītā 9.27: whatever you do, do it as an offering",
+    "Gītā 3.12: do not take without giving",
+    "Gītā 17.11: offered seeking no reward, it is sāttvika"
+   ],
+   "ans": [
+    2,
+    3,
+    0,
+    1
+   ],
+   "e": "Taking without giving is the warning of 3.12. Service done unseen, seeking nothing, is sāttvika (17.11). The stranger, the helper and the help are one Reality (4.24). Whatever we do, including cooking and caring, can be offered (9.27).",
+   "r": "Which of these four verses do I most need to remember this week?",
+   "s": 31
+  },
+  {
+   "t": "mc",
+   "q": "Śravaṇa, manana and nididhyāsana are the three stages of learning. After the retreat, what does manana ask of a member?",
+   "o": [
+    "To reflect on the teaching, question it and make it one’s own, for example with the study paper and its questions.",
+    "To listen to the talk again and again until the words can be repeated from memory.",
+    "To begin teaching the material to others straight away, before thinking it through.",
+    "To put the teaching into practice at once, without spending time thinking about it."
+   ],
+   "a": 0,
+   "e": "Śravaṇa is hearing with attention: the talk. Manana is reflection, questioning until the teaching is understood and accepted: the study paper, its reflection questions and the quiz. Nididhyāsana is living it until it becomes part of us: the thirty days of yajña. Memorising is not reflection.",
+   "r": "Which section of the study paper will I reflect on first?",
+   "s": 32
+  }
+ ],
+ "handout_url": "https://ramakrishna-vedanta-centre-nz.github.io/satsangs/RET-001/RET-001-Yajna-Study.pdf",
+ "handout_label": "Download the study paper (PDF)",
+ "recording_url": null,
+ "deck": {
+  "meta_desc": "Self-study slides and notes for the talk Yajña: The Spirit of Seva, NZICA Wellness Retreat, Ramakrishna Vedanta Centre NZ.",
+  "og_desc": "NZICA Wellness Retreat, 15 November 2026. Self-study slides with notes, a study paper and a quiz, Ramakrishna Vedanta Centre NZ."
+ },
+ "cms": {
+  "place": "NZICA Wellness Retreat, Sunday 15 November 2026, 7:00 am to 3:00 pm, Vedanta Retreat Centre, 166 Waikaretu Valley Road, Glen Murray, and on Zoom",
+  "intro": "Yajña, life lived as an offering, is the spirit of seva. This talk from the NZICA Wellness Retreat, The Art of Giving, shows how serving others with the right attitude purifies our own minds and hearts, and how many members giving together become a powerful force for the good of many. Study the slides, read the study paper slowly, then reflect with the quiz.",
+  "series": "NZICA Retreat",
+  "themes": [
+   "Yajña",
+   "Seva",
+   "Karma Yoga",
+   "Bhagavad Gita",
+   "Community"
+  ],
+  "cover_url": "",
+  "slides_download": "https://ramakrishna-vedanta-centre-nz.github.io/satsangs/RET-001/RET-001-Yajna-Study.pdf",
+  "event_link": "https://www.vedanta.nz/event-details/the-art-of-giving-nzica-wellness-retreat",
+  "summary": "Yajña, life lived as an offering, is the spirit of seva. Starting from the two reasons people join a community, to grow and to serve, the talk shows they are one path. It explores the Bhagavad Gītā’s wheel of giving and receiving, the Divine in every part of the offering, how yajña purifies mind and heart, the many forms of yajña, the quality of our offering, and a day in the life of a sevak as one continuous yajña. It closes with the collective yajña of an association: many offerings, one sacred fire, for the good of many and the joy of many.",
+  "reflection_questions": [
+   "Why did I join NZICA, and how are my reasons to grow and to serve connected?",
+   "What have I received this week without paying for it, and what could I give back?",
+   "On which step of the ladder of purification do I usually stand when I serve?",
+   "Which part of my day could become an offering tomorrow?",
+   "What is my branch’s particular share to offer to the whole of NZICA?"
+  ],
+  "suggested_reading": [
+   "The Bhagavad Gītā, chapters 3, 4, 9, 12 and 17",
+   "Complete Works of Swami Vivekananda: Karma-Yoga",
+   "Complete Works of Swami Vivekananda: Address at the Rameswaram Temple on Real Worship",
+   "The study paper Yajña: The Spirit of Seva (RET-001)"
+  ]
+ },
+ "slides": [
+  {
+   "n": 1,
+   "t": "Session 1: Why we serve",
+   "on": [
+    "The session title with both emblems, the Ramakrishna Vedanta Centre NZ and the NZ Indian Central Association, over an aerial view of the Vedanta Retreat Centre at Glen Murray."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "Welcome everyone, in the hall and on Zoom. Session 1 runs from 8:30 to 10:00 am: the lighting of the lamps, welcomes, the talk on the art of giving, seva stories, questions, and the seva tree before tea."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 2,
+   "t": "Lighting of the lamps",
+   "on": [
+    "The prayer asato mā sad gamaya, chanted while the lamps are lit jointly."
+   ],
+   "vs": [
+    {
+     "ref": "Bṛhadāraṇyaka Upaniṣad 1.3.28",
+     "dev": "असतो मा सद्गमय ।\nतमसो मा ज्योतिर्गमय ।\nमृत्योर्मा अमृतं गमय ॥",
+     "iast": "asato mā sad gamaya, tamaso mā jyotir gamaya,\nmṛtyor mā amṛtaṁ gamaya",
+     "en": "Lead me from the unreal to the Real, from darkness to Light, from death to Immortality."
+    }
+   ],
+   "gl": [],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "The lamps are lit jointly. We chant this prayer together while the lamps are lit: the outer light as a symbol of the inner light we seek, and the light of knowledge we hope to share with others."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 3,
+   "t": "Words of welcome",
+   "on": [
+    "Welcomes from Veer Khar, President of the NZ Indian Central Association, and Shefali Mehta, Chair of the NZICA Health and Wellness Sub-Committee."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "About three minutes each. Veer first, then Shefali."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 4,
+   "t": "Our retreat theme: verse 1 of 3",
+   "on": [
+    "The first verse of the Saṁjñāna Sūkta in Devanagari and transliteration, with the meaning of each word, for all to read and chant together."
+   ],
+   "vs": [
+    {
+     "ref": "Saṁjñāna Sūkta, Ṛg Veda 10.191.2",
+     "dev": "सं गच्छध्वं सं वदध्वं सं वो मनांसि जानताम् ।\nदेवा भागं यथा पूर्वे संजानाना उपासते ॥",
+     "iast": "saṁ gacchadhvaṁ saṁ vadadhvaṁ saṁ vo manāṁsi jānatām,\ndevā bhāgaṁ yathā pūrve saṁjānānā upāsate.",
+     "en": "Walk together, speak together, let your minds know one another, as the devas of old, in harmony, each took up their own share."
+    }
+   ],
+   "gl": [
+    [
+     "saṁ / सं",
+     "together, in harmony"
+    ],
+    [
+     "bhāga / भाग",
+     "share, portion"
+    ]
+   ],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "The theme of the whole day: the Saṁjñāna Sūkta, the hymn of harmony that closes the Rig Veda. Invite everyone, in the hall and on Zoom, to read and repeat each line after you, slowly, twice. Point to the word cards: saṁ, together, repeats three times in the first line: together in walking (action), in speaking (words) and in knowing (minds). \"Each took up their own share\": unity is not sameness; each person and each branch offers its own gifts to the common purpose."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 5,
+   "t": "Our retreat theme: verse 2 of 3",
+   "on": [
+    "The second verse with word meanings. A gold card links it to the day: our seva together is the common offering."
+   ],
+   "vs": [
+    {
+     "ref": "Saṁjñāna Sūkta, Ṛg Veda 10.191.3",
+     "dev": "समानो मन्त्रः समितिः समानी समानं मनः सह चित्तमेषाम् ।\nसमानं मन्त्रमभि मन्त्रये वः समानेन वो हविषा जुहोमि ॥",
+     "iast": "samāno mantraḥ samitiḥ samānī samānaṁ manaḥ saha cittam eṣām,\nsamānaṁ mantram abhi mantraye vaḥ samānena vo haviṣā juhomi.",
+     "en": "Common be your counsel, one your assembly, alike your minds, joined your thoughts. I place before you a common purpose, and worship with your common offering."
+    }
+   ],
+   "gl": [
+    [
+     "havis / हविस्",
+     "the offering poured into the sacred fire"
+    ],
+    [
+     "samiti / समिति",
+     "assembly, gathering"
+    ]
+   ],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "Read and repeat. A shared purpose (mantra), a shared gathering (samiti), minds and hearts joined (manas, citta), and a shared offering (havis). In the Vedic fire ritual, everyone's offering goes into one fire. Our seva together is that common offering."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 6,
+   "t": "Our retreat theme: verse 3 of 3",
+   "on": [
+    "The third verse with word meanings, closing with Om śāntiḥ śāntiḥ śāntiḥ."
+   ],
+   "vs": [
+    {
+     "ref": "Saṁjñāna Sūkta, Ṛg Veda 10.191.4",
+     "dev": "समानी व आकूतिः समाना हृदयानि वः ।\nसमानमस्तु वो मनो यथा वः सुसहासति ॥",
+     "iast": "samānī va ākūtiḥ samānā hṛdayāni vaḥ,\nsamānam astu vo mano yathā vaḥ susahāsati.",
+     "en": "One be your intention, united your hearts, one your mind, so that you may live and work happily together."
+    }
+   ],
+   "gl": [
+    [
+     "ākūti / आकूति",
+     "intention, resolve"
+    ],
+    [
+     "hṛdaya / हृदय",
+     "heart"
+    ]
+   ],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "Read and repeat, then close with Om śāntiḥ śāntiḥ śāntiḥ. Four words to carry through the day: ākūti, intention (why did I come?); manas, mind (how do I think?); hṛdaya, heart (how do I feel toward others?); bhāga, share (what part do I offer?). Su-saha: su, well; saha, together. We will chant the whole hymn again at the close of the retreat."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 7,
+   "t": "Yajña: The Spirit of Seva",
+   "on": [
+    "The title of Swami Tadananda’s talk: growing through giving, for ourselves and for the good of many."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "About 40 minutes. The central idea: yajña, life lived as an offering, is the spirit of seva. At the individual level it purifies the mind and heart so the inner light shines through; when many minds offer together, bahujana hitāya bahujana sukhāya, the association becomes a powerful force for collective good. A day in the life of a sevak is one continuous yajña."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 8,
+   "t": "Why did you join NZICA?",
+   "on": [
+    "Two cards, To grow and To serve, each with its half of the motto ātmano mokṣārthaṁ jagad-hitāya ca."
+   ],
+   "vs": [
+    {
+     "ref": "Motto of the Ramakrishna Order",
+     "dev": "आत्मनो मोक्षार्थं जगद्धिताय च",
+     "iast": "ātmano mokṣārthaṁ jagad-hitāya ca",
+     "en": "For one’s own liberation, and for the welfare of the world."
+    }
+   ],
+   "gl": [
+    [
+     "Paramātman / परमात्मन्",
+     "the universal, supreme Self"
+    ]
+   ],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "Invite a show of hands: who joined mainly to grow? Mainly to serve? Both? Then reveal that these two reasons are the two halves of the motto Swami Vivekananda gave the Ramakrishna Order, which the Vedanta Centre follows. To grow (ātmano mokṣārtham) means expansion: the small self opening into the larger Self, becoming unselfish, manifesting the divinity within. To serve (jagad-hitāya ca) means acknowledging our oneness with everyone: we are all waves of the same ocean, so in serving others we serve our own universal higher Self, the Paramātman. The small word \"ca\", \"and\", joins them: the more we grow, the more naturally we serve; the more we serve, the more we grow. The next slides unfold this through the two pillars of Vedanta and the waves and the ocean."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 9,
+   "t": "Serving the living God, we grow",
+   "on": [
+    "Swami Vivekananda on the privilege of serving God in man; Swami Ranganathananda’s question, Are you growing spiritually?; and meditation and service as partners."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "vyaktitva / व्यक्तित्व",
+     "individuality, the narrow self"
+    ],
+    [
+     "vikasita vyaktitva",
+     "the expanded, developed personality"
+    ]
+   ],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "Swami Vivekananda called service a privilege: we are allowed to worship the living God, present in every human being. In his letter of 1897 he goes further: he would gladly be born again and again to worship \"the only God that exists, the sum total of all souls\", \"my God the wicked, my God the miserable, my God the poor of all races\". Swami Ranganathananda, the much-loved teacher of the Ramakrishna Order, put a simple question to everyone: are you growing spiritually? He described growth as moving \"from individuality to personality, from vyaktitva to vikasita vyaktitva\": from the narrow, self-centred ego to an expanded self that includes others. The test is practical: is my love widening, my ego shrinking, my mind calmer? Meditation and service go together like two wings of a bird. Meditation turns the wave toward the ocean within; service lets it see the ocean in every other wave. Without meditation, service becomes tiring and ego-driven; without service, meditation can become self-centred. Please check Swami Ranganathananda's exact wording of the question, and the full wording of the 1897 letter, before the retreat."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 10,
+   "t": "The two pillars of Vedanta",
+   "on": [
+    "The divinity of the soul and the oneness of existence, with what each means for the person who serves."
+   ],
+   "vs": [
+    {
+     "ref": "Īśa Upaniṣad 6",
+     "dev": "यस्तु सर्वाणि भूतान्यात्मन्येवानुपश्यति ।\nसर्वभूतेषु चात्मानं ततो न विजुगुप्सते ॥",
+     "iast": "yas tu sarvāṇi bhūtāny ātmany evānupaśyati,\nsarva-bhūteṣu cātmānaṁ tato na vijugupsate",
+     "en": "One who sees all beings in the Self, and the Self in all beings, hates none."
+    }
+   ],
+   "gl": [],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "Everything in this talk rests on these two pillars. First: every soul is divine. The divinity is already there, only covered; life is the process of uncovering it. Second: existence is one. There is one Reality appearing as many. If these two are true, then serving another is worship (because they are divine), and serving another is serving myself (because we are one). Seva is not charity from above; it is worship and it is self-discovery."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 11,
+   "t": "Many waves, one ocean",
+   "on": [
+    "A drawn ocean with waves of many sizes: the waves are each of us; the ocean is the one divine Reality, sat-cit-ānanda."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "sat-cit-ānanda / सच्चिदानन्द",
+     "existence, consciousness and bliss"
+    ]
+   ],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "Every wave looks separate. One is tall, one is small; one is rising, one is breaking on the shore. Yet every wave is made of the same water and rests on the same ocean. We are all different waves on the one ocean of the Divine. The small wave who thinks \"I am only this little wave\" feels limited, anxious and alone. The wave who knows \"I am the ocean\" feels infinite existence, knowledge and bliss: sat-cit-ānanda. Sat: existence that never ends. Cit: consciousness, knowledge. Ānanda: bliss, a joy that depends on nothing outside."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 12,
+   "t": "What is yajña?",
+   "on": [
+    "The three meanings of the root yaj, worship, coming together and giving, and how the Gītā widens yajña from the fire ritual to a way of life."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "deva-pūjā",
+     "worship"
+    ],
+    [
+     "saṅgati-karaṇa",
+     "coming together, association"
+    ],
+    [
+     "dāna",
+     "giving"
+    ]
+   ],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "The classical list of Sanskrit roots gives yaj three meanings: worship (deva-pūjā), coming together or association (saṅgati-karaṇa) and giving (dāna). All three belong to seva: when we give, we worship; when we come together to give, we become a living community. An association like NZICA is, in this sense, a yajña in itself. In Vedic times yajña was the fire ritual. Sri Krishna widens it in the Gītā: the fire may be the kitchen stove, the office desk, the hospital ward or the community hall; the offering may be time, skill, wealth, knowledge or simple care. In one sentence: yajña is life lived as an offering."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 13,
+   "t": "The wheel of yajña",
+   "on": [
+    "A diagram of two wheels: the wheel of yajña in the Gītā (3.14 to 3.16) and the same wheel turning in NZICA."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "Beings live on food, food comes from rain, rain from yajña, yajña from action, and Brahman is ever present in yajña (3.14, 3.15). Nothing in nature lives only for itself. The same wheel turns in an association: members offer time, skill and care; branch activities serve the community; the community is uplifted; trust grows and new members join and give in their turn. At the centre is one shared ideal: bahujana hitāya, the good of many. Verse 3.16: one who does not help turn the wheel lives in vain."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 14,
+   "t": "Do not take without giving",
+   "on": [
+    "Gītā 3.12 and 3.13 in Devanagari with their meaning, and three cards: gratitude first, share the food, give back."
+   ],
+   "vs": [
+    {
+     "ref": "Bhagavad Gītā 3.12",
+     "dev": "इष्टान्भोगान्हि वो देवा दास्यन्ते यज्ञभाविताः ।\nतैर्दत्तानप्रदायैभ्यो यो भुङ्क्ते स्तेन एव सः ॥",
+     "iast": "iṣṭān bhogān hi vo devā dāsyante yajña-bhāvitāḥ,\ntair dattān apradāyaibhyo yo bhuṅkte stena eva saḥ",
+     "en": "Nourished by yajña, the devas will give you the good things you desire. One who enjoys what they give without offering anything in return is nothing but a thief."
+    },
+    {
+     "ref": "Bhagavad Gītā 3.13",
+     "dev": "यज्ञशिष्टाशिनः सन्तो मुच्यन्ते सर्वकिल्बिषैः ।\nभुञ्जते ते त्वघं पापा ये पचन्त्यात्मकारणात् ॥",
+     "iast": "yajña-śiṣṭāśinaḥ santo mucyante sarva-kilbiṣaiḥ,\nbhuñjate te tv aghaṁ pāpā ye pacanty ātma-kāraṇāt",
+     "en": "The good who eat what remains after yajña are freed from all faults. But those who cook only for themselves eat sin."
+    }
+   ],
+   "gl": [
+    [
+     "prasāda / प्रसाद",
+     "blessed food, what remains after offering"
+    ]
+   ],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "Strong words from Sri Krishna, but the point is gratitude, not guilt. Each of us has received far more than we can count: from parents and teachers, from the land and its people, from those who came to Aotearoa before us and built the community we enjoy. Verse 3.13 is the origin of offering food before eating and sharing prasāda. Ask: what have I received this week without paying for it, and what could I give back? Giving back is our share in turning the wheel."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 15,
+   "t": "The Divine in every part of the offering",
+   "on": [
+    "Gītā 4.24, often chanted before meals, with four cards: the giver, the gift and the receiver are waves; all are one ocean."
+   ],
+   "vs": [
+    {
+     "ref": "Bhagavad Gītā 4.24",
+     "dev": "ब्रह्मार्पणं ब्रह्म हविर्ब्रह्माग्नौ ब्रह्मणा हुतम् ।\nब्रह्मैव तेन गन्तव्यं ब्रह्मकर्मसमाधिना ॥",
+     "iast": "brahmārpaṇaṁ brahma havir brahmāgnau brahmaṇā hutam,\nbrahmaiva tena gantavyaṁ brahma-karma-samādhinā",
+     "en": "The act of offering is Brahman, the offering is Brahman, it is offered by Brahman into the fire that is Brahman. One who sees Brahman in every action reaches Brahman alone."
+    }
+   ],
+   "gl": [],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "Chanted before meals in many homes and in the ashrams of the Ramakrishna Order. It brings together the two pillars: every part of the act is the one Brahman. Giver, gift and receiver are waves of the same ocean; in serving others we serve our own universal Self, the Paramātman. Suggest everyone chant this verse before meals for one week and notice what changes."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 16,
+   "t": "Real worship",
+   "on": [
+    "Swami Vivekananda at the Rameswaram temple: seeing Shiva in the poor, the weak and the diseased is real worship."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "Swami Vivekananda spoke these words in 1897 at the great Rameswaram temple, in a place of pilgrimage, to people who had come to worship the image. He did not belittle the image: worship there is a beginning, a preparation. The fulfilment is to see the same Shiva, the same Divine, living and suffering in human beings, and to serve them. This is the heart of the Ramakrishna Order's ideal of service: serving the Divine in human beings."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 17,
+   "t": "Giver or receiver: who gains more?",
+   "on": [
+    "Swami Vivekananda in Karma-Yoga: the giver is blessed; we owe everything to the one we help; the world as a moral gymnasium."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "This turns ordinary thinking upside down. We usually think the giver is doing a favour. Swami Vivekananda says the opposite: the one we serve gives us the chance to grow purer, more loving, less selfish. The world does not need our help as much as we need to give it. Hence gratitude: \"Be grateful that the poor man is there, so that by making a gift to him you are able to help yourself.\" And: \"we must work and constantly do good, because it is a blessing to ourselves. That is the only way we can become perfect.\""
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 18,
+   "t": "The ladder of purification",
+   "on": [
+    "A diagram of six steps, from living for “I and mine” to the inner light, each with its Gītā verse."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "citta-śuddhi / चित्तशुद्धि",
+     "purification of the mind"
+    ]
+   ],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "This is how we grow through service. From living for I and mine (3.12, 3.16), to giving for a return (rājasika, 17.12), to giving because it is right (sāttvika, 17.11), to work as worship (9.27), to seeing Brahman in all (4.24), to the inner light: all action fulfilled in knowledge (4.33). Each offering loosens I and mine; the mind grows clear like a clean window, and the light that was always within shines through. Yajña, giving and austerity purify even the wise (18.5)."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 19,
+   "t": "Many forms of yajña",
+   "on": [
+    "Six forms of yajña from Gītā 4.25 to 4.33 and 10.25, and the question: what is my particular offering?"
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "dravya",
+     "wealth, material things"
+    ],
+    [
+     "tapas",
+     "self-discipline, austerity"
+    ],
+    [
+     "svādhyāya",
+     "study of scripture"
+    ],
+    [
+     "japa",
+     "repetition of the holy name"
+    ]
+   ],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "Sri Krishna lists many kinds of yajña in 4.25 to 4.30: wealth, austerity, yoga, study, knowledge, breath control, sense restraint. All purify. The yajña of knowledge is higher than any offering of material things (4.33), and among all yajñas the Lord is japa, the repetition of the holy name (10.25), which anyone can offer anywhere. Swami Vivekananda in Karma-Yoga speaks of the same ladder in the help we give: physical, then intellectual, then spiritual help, the highest. Each member has a particular gift to offer."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 20,
+   "t": "The five daily offerings",
+   "on": [
+    "A diagram of widening circles of offering, from the self to all beings, beside the five daily offerings, pañca mahāyajña."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "pañca mahāyajña",
+     "the five great daily offerings"
+    ]
+   ],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "Our spiritual tradition gives every householder five daily offerings: to the Divine (deva yajña), to the sages through study (ṛṣi yajña), to parents and ancestors (pitṛ yajña), to fellow human beings through service and hospitality (nṛ yajña), and to animals and nature (bhūta yajña). Each circle widens the self: from I to family, to our branch, to society, to all beings. NZICA work is nṛ yajña."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 21,
+   "t": "Yajña in thought, word and deed",
+   "on": [
+    "A diagram contrasting grasping and offering in thought, word and deed: manasā, vācā, karmaṇā."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "Manasā, vācā, karmaṇā. Yajña is not only what we do. Each moment offers the same choice: to grasp or to offer. Thought: what do I get, or how can I help? Word: gossip and criticism, or truthful, kind, encouraging speech. Deed: taking without giving, or work done as worship. Invite members to notice which of the three is hardest for them."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 22,
+   "t": "Heart, head and hands",
+   "on": [
+    "Swami Vivekananda’s three steps: feel, think, act."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "\"Feel, therefore, my would-be reformers, my would-be patriots! Do you feel?\" Swami Vivekananda then asks whether we have found a way out, a practical solution, and whether we have the will to carry it through. The second and third questions are given here in brief; please check the exact wording in Complete Works Vol. 3 before quoting them. Heart alone becomes sentimental; head alone becomes cold; hands alone become tiring. All three together make giving an art."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 23,
+   "t": "The quality of our offering",
+   "on": [
+    "A table of sāttvika, rājasika and tāmasika offering from Gītā 17.11 to 17.13, applied to an association."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "guṇa / गुण",
+     "quality of nature: sattva, rajas, tamas"
+    ]
+   ],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "The Gītā describes yajña of the three guṇas in 17.11 to 17.13; the same applies to every act of seva, and to giving (17.20 to 17.22). The Gītā also warns of yajña done in name only, out of show, by those intoxicated with wealth and pride (16.17). These are checks for ourselves, never for judging others. Invite members to think of one recent act of service: which quality was it, and what would make it purer?"
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 24,
+   "t": "When the ego creeps into seva",
+   "on": [
+    "Five signs of ego in seva, each with its remedy, and Matthew 6:3."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "These are gentle checks for ourselves, never for judging others. In organisations, ego shows up as competition between groups and branches, and it quietly destroys collective work. The remedy is always the same: remember the two pillars. They are divine, and we are one. Swami Vivekananda in Karma-Yoga: \"Do not stand on a high pedestal and take five cents in your hand and say, 'Here, my poor man'\", \"but be grateful that the poor man is there, so that by making a gift to him you are able to help yourself.\""
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 25,
+   "t": "The Gītā’s ideal sevak",
+   "on": [
+    "Gītā 12.13 with seven qualities of one dear to the Lord."
+   ],
+   "vs": [
+    {
+     "ref": "Bhagavad Gītā 12.13",
+     "dev": "अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च ।\nनिर्ममो निरहङ्कारः समदुःखसुखः क्षमी ॥",
+     "iast": "adveṣṭā sarva-bhūtānāṁ maitraḥ karuṇa eva ca,\nnirmamo nirahaṅkāraḥ sama-duḥkha-sukhaḥ kṣamī",
+     "en": "One who hates no being, who is friendly and compassionate to all, free from the sense of “mine” and from ego, even in pain and pleasure, and forgiving."
+    }
+   ],
+   "gl": [
+    [
+     "nirmama",
+     "free from “mine”"
+    ],
+    [
+     "nirahaṅkāra",
+     "free from ego"
+    ]
+   ],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "Gītā 12.13 to 20 is the Lord's portrait of the devotee \"dear to Me\". Read as a portrait of the ideal sevak: one who hates no being, is friendly and compassionate to all, is free from the sense of \"mine\" (nirmama) and from ego (nirahaṅkāra), stays even in pain and pleasure, and forgives. Note nirmama and nirahaṅkāra: giving up \"I and mine\" is exactly how the wave merges in the ocean."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 26,
+   "t": "Qualities to cultivate",
+   "on": [
+    "Twelve qualities of a sevak in three rows: the heart, the character and the sevak in a team."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "Three rows: the heart of the sevak (love, humility, reverence, gratitude); the character of the sevak (purity, patience, perseverance, cheerfulness, echoing Swami Vivekananda's \"purity, patience and perseverance... and, above all, love\"); and the sevak in a team (listening, discretion, team spirit, self-care). Self-care matters: a sevak who never renews will burn out. Meditation and prayer are the fuel for seva. Invite members to choose one quality to work on this year."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 27,
+   "t": "A sevak’s day: one continuous yajña",
+   "on": [
+    "A diagram of the sevak’s day from dawn to night, with Gītā 9.27."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "Veer's question: what does a day look like in the life of a person dedicated to seva? The answer of the Gītā is 9.27: whatever you do, eat, offer, give or practise, do it as an offering to Me. The fire is lit at dawn and kept burning all day: dawn, morning practice, home, work, community, evening offering, night. The next three slides take each part in turn."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 28,
+   "t": "Morning: begin with the Lord",
+   "on": [
+    "Five parts of the morning: on waking, prayer and meditation, a page of wisdom, the intention, and at home first."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "Seva is not only an event on a weekend. It begins in the morning, in the mind. A sevak who starts the day by remembering the Divine within sees the Divine more easily in others. Meditation and seva support each other: meditation fills the cup; seva pours it out."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 29,
+   "t": "During the day: work as worship",
+   "on": [
+    "Five parts of the day: work or study, with people, a pause, in the community, when it goes wrong. Yogaḥ karmasu kauśalam (Gītā 2.50)."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "yogaḥ karmasu kauśalam",
+     "yoga is skill in action (2.50)"
+    ]
+   ],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "Yogaḥ karmasu kauśalam (Gītā 2.50): yoga is skill in action, doing work so well and so selflessly that it does not bind us. For most of us, the greatest field of seva is not a special project but our ordinary day: our job, our home, the people we meet. Real worship, as Swami Vivekananda said at Rameswaram, is seeing Shiva in them."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 30,
+   "t": "Evening: offer it all",
+   "on": [
+    "Gītā 9.27, three questions for a quiet evening review, and Holy Mother’s counsel."
+   ],
+   "vs": [
+    {
+     "ref": "Bhagavad Gītā 9.27",
+     "dev": "यत्करोषि यदश्नासि यज्जुहोषि ददासि यत् ।\nयत्तपस्यसि कौन्तेय तत्कुरुष्व मदर्पणम् ॥",
+     "iast": "yat karoṣi yad aśnāsi yaj juhoṣi dadāsi yat,\nyat tapasyasi kaunteya tat kuruṣva mad-arpaṇam",
+     "en": "Whatever you do, whatever you eat, whatever you offer in worship, whatever you give, whatever discipline you practise, O son of Kuntī, do it as an offering to Me."
+    }
+   ],
+   "gl": [],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "At the end of the day, the sevak offers everything, the successes and the failures, at the feet of the Lord. Nothing is kept as \"my achievement\". The evening review is gentle, not harsh: we notice where the ego came in, and resolve to do better tomorrow. Holy Mother's last advice completes the picture: when the whole world is my own, seva becomes as natural as caring for my own family. Please check the wording of Holy Mother's words against The Gospel of Holy Mother before the retreat."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 31,
+   "t": "Many offerings, one sacred fire",
+   "on": [
+    "A diagram of many members’ offerings going into one sacred fire, with its two fruits: the good of many outwardly and the inner light within."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "bahujana hitāya, bahujana sukhāya",
+     "for the good of many, for the joy of many"
+    ]
+   ],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "Return to verse 2 of our theme mantra: samānena vo haviṣā juhomi, I worship with your common oblation. A collective yajña: each member brings a different offering (time, skills, knowledge, wealth, care, prayer), like the devas who each took up their own share, and all of it goes into one fire with one purpose. Outward, the fruit is bahujana hitāya, bahujana sukhāya: the good of many, the joy of many (the Buddha's words, an ideal Swami Vivekananda held up for all who serve). Inward, every member who offers is purified, and the inner light shines through. This is how NZICA becomes a powerful force for collective good."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 32,
+   "t": "Hear, reflect, live",
+   "on": [
+    "Śravaṇa, manana and nididhyāsana: the talk today, the study paper and quiz, and thirty days of yajña."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "śravaṇa",
+     "hearing"
+    ],
+    [
+     "manana",
+     "reflection"
+    ],
+    [
+     "nididhyāsana",
+     "deep, sustained practice"
+    ]
+   ],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "The talk is only the first of three steps. Śravaṇa is hearing: today. Manana is reflecting: the study paper, read one section a day, with its reflection questions and the quiz. Nididhyāsana is living it: the thirty days of yajña in Section 11 of the paper, and the seva tree note each person writes today. Branches may also study the paper together."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 33,
+   "t": "Seva stories from our elders",
+   "on": [
+    "Two questions on screen while senior members share their stories of seva."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "About 15 minutes. Two or three senior members each share a short story of seva from their own lives. Keep this slide on screen while they speak."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 34,
+   "t": "Your questions",
+   "on": [
+    "Questions from the hall and from Zoom."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "About 15 minutes. A volunteer reads out questions from the Zoom chat."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 35,
+   "t": "The seva tree",
+   "on": [
+    "Three questions for the sticky notes members paste on the seva tree on their way to tea."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "Hand out sticky notes and pens during Q&amp;A so people are ready. Give two or three minutes of quiet to write, then invite everyone to paste their note on the seva tree as they go out to tea. A volunteer copies the Zoom chat answers onto notes. The tree stays up for the rest of the day."
+     ]
+    }
+   ],
+   "deeper": []
+  },
+  {
+   "n": 36,
+   "t": "Tea break",
+   "on": [
+    "Tea from 10:00 to 10:30 am, then Session 2 in the forest."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "COMMENTARY",
+     "paras": [
+      "Online participants: please stay connected; we will go live again from the forest at 10:30."
+     ]
+    }
+   ],
+   "deeper": []
+  }
+ ]
+}

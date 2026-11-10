@@ -12,3 +12,4 @@ The library with summaries, reflection questions, recordings and the question fo
 | [HVM-001](HVM-001/) | Spiritualising Everyday Life: Niṣkāma Karma and Seva Yoga (Hamilton class) | 7 October 2026 |
 | [HVM-002](HVM-002/) | The Divine Mother Kali: Who She Is and Our Relationship with Her (Hamilton class) | 4 November 2026 |
 | [SAT-002](SAT-002/) | Lighting the Inner Lamp: The Light of Diwali Within (New Lynn Diwali satsang) | 8 November 2026 |
+| [RET-001](RET-001/) | Yajña: The Spirit of Seva (NZICA Wellness Retreat, Session 1; [study paper](RET-001/article/)) | 15 November 2026 |
