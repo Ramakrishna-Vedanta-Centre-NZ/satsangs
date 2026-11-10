@@ -241,7 +241,7 @@ def lesson_step(d):
     H("Study")
     P(T("Go through the slides at your own pace. Each slide has study notes, verses and songs."))
     B("open the slides", base)
-    P(T("The Study Companion is a printable handout with the verses, key terms and commentary."))
+    P(T(d.get("handout_desc") or "The Study Companion is a printable handout with the verses, key terms and commentary."))
     B(d["handout_label"], d["handout_url"])
     H("Test yourself")
     P(T("A revision quiz of 25 questions. Sign in to keep your score; it will show on your dashboard."))
