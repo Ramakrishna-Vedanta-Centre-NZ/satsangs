@@ -33,6 +33,18 @@ Not yet automated: sending the Wix files (Claude does this with the Wix API, aft
 
 ## Writing the quiz questions (standing rules from Swami Tadananda, 3 Nov 2026)
 The quiz must serve a purpose: it tests that the person has understood the teaching and can apply it. Recall of facts is not enough.
+
+### Test assimilation, not information (Swami Tadananda, 11 Nov 2026)
+Swami Vivekananda: "Education is not the amount of information that is put into your brain and runs riot there, undigested, all your life. We must have life-building, man-making, character-making assimilation of ideas. If you have assimilated five ideas and made them your life and character, you have more education than any man who has got by heart a whole library." (The Future of India, Lectures from Colombo to Almora, Complete Works Vol. 3)
+
+Bloom's six levels are information (remembering), understanding, application, analysis, synthesis and evaluation. The last three are what Swami Vivekananda calls assimilation: the idea has become part of the way we see, judge and act. Our quizzes test assimilation, so that the ideas grow into the personality and help each person manifest the inner light more and more.
+- Tag every question with its level in `lv`: `understand`, `apply`, `analyse`, `evaluate` or `synthesise`. Never `remember`. The check fails if a level is missing, if more than 2 are `understand`, if fewer than 60% are `analyse`, `evaluate` or `synthesise`, or if any of those three has fewer than 3. Aim for about 4 apply, 7 analyse, 7 evaluate, 6 synthesise, with 0 to 1 understand. The level is shown on the answers page only.
+- **Apply**: a realistic situation the person might face; choose what the teaching asks here.
+- **Analyse**: diagnose what is really happening in a case: the hidden motive, the root error, which principle is at work, where an offering is incomplete. Matching questions belong here (which idea fits which person).
+- **Evaluate**: judge between responses that all sound good, or assess someone's reasoning or decision. The wrong options are half-truths and over-corrections that sincere people hold (too lax, too harsh, one half of the truth without the other).
+- **Synthesise**: bring two or more teachings together to plan something new: a practice, a branch decision, a change of culture, a next step in one's own growth.
+- Include at least one question on how a person can tell that an idea has become part of their character (signs of growth, not amounts of activity), and one on moving from hearing and reading to living (śravaṇa, manana, nididhyāsana).
+- Each explanation teaches: why the right answer is right, why each tempting option falls short, and the teaching behind it. Each reflection turns the idea into the person's own life and character, never back to a fact.
 - Test comprehension (why, how, what follows) and application (a realistic situation, a common misunderstanding, a choice the person might face). At least two thirds of the questions should be a situation, a misunderstanding to correct, or a "what would follow" question.
 - Make every question stand on its own months later, for someone who was not there. Never ask about the next class or satsang, dates, times, venues, who attended, slide numbers or the running order of the evening.
 - Do not ask for a bare fact: no "which word completes the verse", no "which number", no "which teacher said X" unless knowing the teacher changes the meaning. A verse or a Sanskrit term may appear, but the question must ask what it means or how it applies.

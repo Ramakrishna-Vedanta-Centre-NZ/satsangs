@@ -52,10 +52,25 @@ def quality_checks(d, errs):
     if mc and longest > 0.5 * len(mc):
         fail("the correct answer is the longest option in %d of %d questions: balance the options" % (longest, len(mc)), errs)
     else: ok("correct answer is the longest option in %d of %d questions" % (longest, len(mc)))
+    # Assimilation (Swami Tadananda, 11 Nov 2026): every question carries a Bloom level in "lv".
+    # Most must test assimilation (analyse, evaluate, synthesise), not information.
+    lvs = [x.get("lv") for x in qs]
+    if all(v is None for v in lvs):
+        print("warn questions carry no Bloom level (lv); new quizzes must tag every question (README)")
+    else:
+        allowed = {"understand", "apply", "analyse", "evaluate", "synthesise"}
+        badlv = [i + 1 for i, v in enumerate(lvs) if v not in allowed]
+        if badlv: fail("question(s) %s have no valid level (lv must be one of %s)" % (badlv, sorted(allowed)), errs)
+        from collections import Counter
+        n = Counter(lvs); hi = n["analyse"] + n["evaluate"] + n["synthesise"]
+        if n["understand"] > 2: fail("%d questions at the understanding level; at most 2" % n["understand"], errs)
+        elif hi < 0.6 * len(qs): fail("only %d of %d questions test assimilation (analyse, evaluate, synthesise); at least 60%%" % (hi, len(qs)), errs)
+        elif min(n["analyse"], n["evaluate"], n["synthesise"]) < 3: fail("each of analyse, evaluate and synthesise needs at least 3 questions: %s" % dict(n), errs)
+        else: ok("assimilation levels: %s" % ", ".join("%s %d" % (k, n[k]) for k in ("understand", "apply", "analyse", "evaluate", "synthesise") if n[k]))
     short = [x["q"][:60] for x in mc if len(x["q"]) < 70]
     if short: print("warn very short question stems (check they test understanding, not recall):", short)
     scen = sum(1 for x in qs if re.search(r"\b(A |An |Two |One |Someone|Imagine|When |After |Before |During |At the )", x["q"]) and len(x["q"]) > 90)
-    if scen < 0.6 * len(qs): print("warn only %d of %d questions look like situations or applications; aim for most" % (scen, len(qs)))
+    if scen < 0.6 * len(qs) and all(v is None for v in lvs): print("warn only %d of %d questions look like situations or applications; aim for most" % (scen, len(qs)))
 
 def quiz_test(d, repo, errs):
     """Click the correct answer on every question in a real headless browser; the page must show 100."""

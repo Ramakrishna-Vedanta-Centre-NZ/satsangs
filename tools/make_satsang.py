@@ -56,6 +56,10 @@ def build_quiz(d):
             if "'" not in d["qtitle"] else json.dumps(d["qtitle"], ensure_ascii=False),
         "QPROG_JSON": "'" + d["program"] + "'"})
 
+# Bloom levels used in the quiz (see README, "Writing the quiz questions"). Shown on the answers page only.
+LEVEL_NAMES = {"understand": "Understanding", "apply": "Application", "analyse": "Analysis",
+               "evaluate": "Evaluation", "synthesise": "Synthesis"}
+
 def build_answers(d):
     import html
     h = lambda x: html.escape(x, quote=False)
@@ -63,7 +67,8 @@ def build_answers(d):
     chips = "".join('<a href="#q%d">%d</a>' % (i, i) for i in range(1, len(d["questions"]) + 1))
     cards = []
     for i, x in enumerate(d["questions"], 1):
-        c = ['<section class="card" id="q%d"><p class="qn">QUESTION %d%s</p><p class="q">%s</p>' % (i, i, " · MATCHING" if x["t"] == "match" else "", h(x["q"]))]
+        lv = LEVEL_NAMES.get(x.get("lv", ""), "")
+        c = ['<section class="card" id="q%d"><p class="qn">QUESTION %d%s%s</p><p class="q">%s</p>' % (i, i, " · MATCHING" if x["t"] == "match" else "", (" · " + lv.upper()) if lv else "", h(x["q"]))]
         if x["t"] == "mc":
             for k, o in enumerate(x["o"]):
                 if k == x["a"]:
