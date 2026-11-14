@@ -61,10 +61,15 @@ body.read .rv{display:block;background:#FBF5EA;color:#1E1E1E;min-height:100%}
 .rvfoot a{color:#13295B}
 .zoom{position:fixed;inset:0;background:rgba(11,26,61,.96);z-index:20;display:none;align-items:center;justify-content:center;padding:8px}
 .zoom.on{display:flex}.zoom img{max-width:100%;max-height:100%}
-a.lsn{color:#f3d97a;font-size:.7em;font-weight:600;text-decoration:underline;white-space:nowrap}</style></head><body>
+a.lsn{color:#f3d97a;font-size:.7em;font-weight:600;text-decoration:underline;white-space:nowrap}
+.aud{position:fixed;left:16px;bottom:76px;width:min(460px,calc(100% - 32px));background:#12285A;color:#FBF5EA;border:1px solid #C9A24A;border-radius:12px;padding:10px 14px;box-shadow:0 8px 30px rgba(0,0,0,.4);display:none;z-index:5}
+.aud.on{display:block}.aud b{display:block;font:600 15px 'Noto Serif',serif;margin-bottom:6px}.aud audio{width:100%;height:40px}.aud small{display:block;color:#e6c36a;font-size:12px;margin-top:4px}
+.bar button.aplay{background:#C9A24A;color:#12285A;border-color:#C9A24A;font-weight:700;display:none}.bar button.aplay.on{display:inline-block}
+.card audio{width:100%;margin:10px 0 4px}</style></head><body>
 <div class="stage"><img id="sl" alt="" src="slides/s-01.jpg"><a id="hot" target="_blank" rel="noopener" aria-label="Listen on YouTube" title="Listen on YouTube"></a></div>
 <div class="notes" id="nb"><h4>NOTES</h4><div id="ntext"></div><p class="more">Open the reading view for the full study notes.</p></div>
-<div class="bar"><button id="prev" aria-label="Previous slide">‹ Prev</button><span class="count" id="count"></span><button id="next" aria-label="Next slide">Next ›</button><span class="ttl" id="ttl"></span><span class="spacer"></span><a class="gold" href="https://www.vedanta.nz/quiz?q={{CODE}}" target="_blank" rel="noopener">Quiz</a><a href="answers/">Answers</a><a href="{{HANDOUT_URL}}" target="_blank" rel="noopener">Handout (PDF)</a><button id="rdb">Reading view</button><button id="nbb">Notes</button><button id="fs">Full screen</button></div>
+<div class="bar"><button id="prev" aria-label="Previous slide">‹ Prev</button><span class="count" id="count"></span><button id="next" aria-label="Next slide">Next ›</button><button id="audb" class="aplay">▶ Play chant</button><span class="ttl" id="ttl"></span><span class="spacer"></span><a class="gold" href="https://www.vedanta.nz/quiz?q={{CODE}}" target="_blank" rel="noopener">Quiz</a><a href="answers/">Answers</a><a href="{{HANDOUT_URL}}" target="_blank" rel="noopener">Handout (PDF)</a><button id="rdb">Reading view</button><button id="nbb">Notes</button><button id="fs">Full screen</button></div>
+<div class="aud" id="aud"><b id="audt"></b><audio id="aua" controls preload="none"></audio><small>Keeps playing as you move between slides.</small></div>
 <div class="rv" id="rv">
 <div class="rvtop"><img src="logo.png" alt=""><b>{{TITLE}}</b><button id="ssb">Slide view</button></div>
 <div class="rvhero"><p class="ey">{{PAGE_KIND}} · {{CODE}}</p><h1>{{TITLE}}</h1><h2>{{SUBTITLE}}</h2><p>{{WHEN_WHERE}}</p><p>Go through the slides at your own pace, read the study notes under each one, then test yourself with the quiz.</p><div class="acts"><a class="rvbtn" href="https://www.vedanta.nz/quiz?q={{CODE}}" target="_blank" rel="noopener">Take the quiz</a><a class="rvbtn" href="{{HANDOUT_URL}}" target="_blank" rel="noopener">Download the Study Companion (PDF)</a></div></div>
@@ -73,6 +78,7 @@ a.lsn{color:#f3d97a;font-size:.7em;font-weight:600;text-decoration:underline;whi
 </div>
 <div class="zoom" id="zoom"><img id="zimg" alt=""></div>
 <script type="application/json" id="data">{{DATA}}</script>
+<script type="application/json" id="audio">{{AUDIO}}</script>
 <script>
 const S=JSON.parse(document.getElementById('data').textContent);
 let i=0;const $=id=>document.getElementById(id),pad=n=>String(n).padStart(2,'0'),src=n=>'slides/s-'+pad(n)+'.jpg';
@@ -84,6 +90,16 @@ addEventListener('resize',()=>placeHot());document.addEventListener('fullscreenc
 function show(k){i=Math.max(0,Math.min(S.length-1,k));const s=S[i];const im=$('sl');im.src=src(s.n);im.alt='Slide '+s.n+': '+s.t;$('count').textContent=s.n+' / '+S.length;$('ttl').textContent=s.t;
  const nt=$('ntext');nt.textContent='';s.on.forEach(p=>nt.appendChild(lp(p)));const lu=listenUrl(s);if(lu){const a=document.createElement('a');a.href=lu;a.target='_blank';a.rel='noopener';a.className='lsn';a.textContent=' \u25B6 Listen';$('ttl').appendChild(a)}
  history.replaceState(null,'','#'+s.n);placeHot();if(S[i+1])(new Image()).src=src(S[i+1].n)}
+
+const AU=JSON.parse(document.getElementById('audio').textContent||'[]');let cur=null;
+function trackFor(n){return AU.find(a=>a.slides.includes(n))}
+function audUI(){const a=$('aua'),t=trackFor(S[i].n),playing=cur&&!a.paused;$('aud').classList.toggle('on',!!(playing||t)&&!document.body.classList.contains('read'));
+ if(!playing&&t&&cur!==t){$('audt').textContent=t.title}
+ const b=$('audb');b.classList.toggle('on',!!(t||playing));b.textContent=playing?'❚❚ Pause':'▶ Play '+((t||cur||{}).label||'audio')}
+$('audb').onclick=()=>{const a=$('aua');if(cur&&!a.paused){a.pause();return}const t=trackFor(S[i].n)||cur;if(!t)return;if(cur!==t){cur=t;a.src=t.src;$('audt').textContent=t.title}a.play()};
+['play','pause','ended'].forEach(e=>$('aua').addEventListener(e,audUI));
+$('aua').addEventListener('play',()=>{if(!cur){const t=trackFor(S[i].n);if(t){cur=t;$('audt').textContent=t.title}}});
+if(AU.length){const _show=show;show=function(k){_show(k);audUI()};const t0=AU[0];$('aua').src=t0.src;cur=t0;$('audt').textContent=t0.title}
 $('prev').onclick=()=>show(i-1);$('next').onclick=()=>show(i+1);
 $('nbb').onclick=()=>$('nb').classList.toggle('on');
 $('fs').onclick=()=>{const d=document.documentElement;if(document.fullscreenElement)document.exitFullscreen();else if(d.requestFullscreen)d.requestFullscreen()};
@@ -99,10 +115,11 @@ function buildRV(){if(built)return;built=true;const cards=$('cards'),toc=$('toc'
   if(s.gl.length){t.appendChild(el('h3','','Key terms'));const tb=el('table','gl');s.gl.forEach(g=>{const r=document.createElement('tr');r.appendChild(el('td','',g[0]));r.appendChild(el('td','',g[1]));tb.appendChild(r)});t.appendChild(tb)}
   s.base.forEach(b=>{if(b.h)t.appendChild(el('h3','',b.h));b.paras.forEach(p=>t.appendChild(el('p','',p)))});
   s.deeper.forEach(b=>{t.appendChild(el('h3','',b[0]));t.appendChild(el('p','',b[1]))});
+  AU.forEach(a=>{if(a.slides[0]===s.n){const au=el('audio');au.controls=true;au.preload='none';au.src=a.src;t.insertBefore(el('h3','',a.title),t.firstChild);t.insertBefore(au,t.children[1])}});
   c.appendChild(t);cards.appendChild(c);
   const a=el('a','',String(s.n));a.href='#r'+s.n;a.title=s.t;toc.appendChild(a)})}
 const mq=matchMedia('(max-width:900px) and (orientation:portrait)');
-function setMode(r){document.body.classList.toggle('read',r);if(r)buildRV()}
+function setMode(r){document.body.classList.toggle('read',r);if(r){buildRV();$('aua').pause()}if(AU.length)audUI()}
 $('rdb').onclick=()=>setMode(true);$('ssb').onclick=()=>setMode(false);
 mq.addEventListener&&mq.addEventListener('change',e=>setMode(e.matches));
 $('zoom').onclick=()=>$('zoom').classList.remove('on');

@@ -1464,5 +1464,17 @@
    ],
    "deeper": []
   }
+ ],
+ "audio": [
+  {
+   "src": "audio/samjnana-sukta.mp3",
+   "title": "Saṁjñāna Sūkta, chanted together",
+   "label": "chant",
+   "slides": [
+    4,
+    5,
+    6
+   ]
+  }
  ]
 }

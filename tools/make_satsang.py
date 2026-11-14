@@ -96,7 +96,8 @@ def build_deck(d):
         "DATA": data, "HANDOUT_URL": d["handout_url"], "TITLE": d["title"],
         "PAGE_KIND": d["page_kind"], "CODE": d["code"], "META_DESC": d["deck"]["meta_desc"],
         "QTITLE": d["qtitle"], "OG_DESC": d["deck"]["og_desc"], "SUBTITLE": d["subtitle"],
-        "WHEN_WHERE": d["when_where"]})
+        "WHEN_WHERE": d["when_where"],
+        "AUDIO": json.dumps(d.get("audio", []), ensure_ascii=False).replace("</", "<\\/")})
 
 def li(items, tag):
     return "<%s>%s</%s>" % (tag, "".join("<li>%s</li>" % i for i in items), tag)
