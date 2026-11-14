@@ -1,0 +1,30 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vedic Chanting | The Art of Giving retreat</title>
+<meta name="description" content="Slides for the Vedic chanting by Pavithra Sadashivam and Swami Shuklananda at the NZICA Wellness Retreat, 15 November 2026.">
+<style>
+*{box-sizing:border-box}html,body{margin:0;height:100%;background:#0b1838;overflow:hidden;font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+.stage{position:fixed;inset:0 0 56px 0;display:flex;align-items:center;justify-content:center}
+body.fs .stage{inset:0}
+.stage img{max-width:100%;max-height:100%;display:block;user-select:none;-webkit-user-drag:none}
+.bar{position:fixed;left:0;right:0;bottom:0;height:56px;display:flex;align-items:center;gap:10px;padding:0 14px;background:#12285A;border-top:1px solid #2B4686;transition:opacity .3s}
+body.fs .bar{opacity:0}body.fs .bar:hover{opacity:1}
+.bar button,.bar a{background:#1D3770;color:#FBF5EA;border:1px solid #3A5592;border-radius:8px;padding:8px 14px;font:600 15px system-ui,sans-serif;cursor:pointer;text-decoration:none;white-space:nowrap}
+.bar button:hover,.bar a:hover{background:#2B4686}
+.count{color:#e6c36a;font:700 15px system-ui,sans-serif;min-width:60px;text-align:center}
+.ttl{color:#c9c3b2;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1}
+.zone{position:fixed;top:0;bottom:56px;width:35%;cursor:pointer}body.fs .zone{bottom:0}
+#zl{left:0}#zr{right:0}
+@media (max-width:640px){.ttl{display:none}.bar{gap:6px;padding:0 8px}.bar button,.bar a{padding:8px 10px;font-size:14px}}
+</style></head><body>
+<div class="stage"><img id="sl" alt=""></div><div class="zone" id="zl" aria-hidden="true"></div><div class="zone" id="zr" aria-hidden="true"></div>
+<div class="bar"><button id="prev" aria-label="Previous slide">&lsaquo; Prev</button><span class="count" id="count"></span><button id="next" aria-label="Next slide">Next &rsaquo;</button><span class="ttl" id="ttl"></span><a href="Vedic-Chanting-15-Nov-2026.pptx" download>PowerPoint</a><button id="fs">Full screen</button></div>
+<script>
+const T=["Vedic Chanting", "INVOCATION", "Part I: Opening prayers", "PART I · 1 · GAṆAPATI PRAYER", "नारायण सूक्तम्", "PART I · 2 · SAHA NĀVAVATU", "PART I · 2 · NĀRĀYAṆA SŪKTAM · 1 OF 14", "PART I · 2 · NĀRĀYAṆA SŪKTAM · 2 OF 14", "PART I · 2 · NĀRĀYAṆA SŪKTAM · 3 OF 14", "PART I · 2 · NĀRĀYAṆA SŪKTAM · 4 OF 14", "PART I · 2 · NĀRĀYAṆA SŪKTAM · 5 OF 14", "PART I · 2 · NĀRĀYAṆA SŪKTAM · 6 OF 14", "PART I · 2 · NĀRĀYAṆA SŪKTAM · 7 OF 14", "PART I · 2 · NĀRĀYAṆA SŪKTAM · 8 OF 14", "PART I · 2 · NĀRĀYAṆA SŪKTAM · 9 OF 14", "PART I · 2 · NĀRĀYAṆA SŪKTAM · 10 OF 14", "PART I · 2 · NĀRĀYAṆA SŪKTAM · 11 OF 14", "PART I · 2 · NĀRĀYAṆA SŪKTAM · 12 OF 14", "PART I · 2 · NĀRĀYAṆA SŪKTAM · 13 OF 14", "PART I · 2 · NĀRĀYAṆA SŪKTAM · 14 OF 14", "PART I · 2 · NĀRĀYAṆA GĀYATRĪ", "PART I · 2 · NĀRĀYAṆA SŪKTAM · ŚĀNTI", "PART I · 3 · ŚAṂ NO MITRAḤ", "PART I · 4 · BHADRAṂ KARṆEBHIḤ · 1 OF 2", "PART I · 4 · BHADRAṂ KARṆEBHIḤ · 2 OF 2", "PART I · 5 · NAMO BRAHMAṆE", "PART I · 6 · PŪRṆAMADAḤ", "Part II: Closing prayers", "PART II · 1 · SARVE BHAVANTU · 1 OF 3", "PART II · 1 · SARVE BHAVANTU · 2 OF 3", "PART II · 1 · SARVE BHAVANTU · 3 OF 3", "PART II · 2 · ASATO MĀ SADGAMAYA", "PART II · 3 · DYAUḤ ŚĀNTIḤ", "CLOSING DEDICATION"];let i=0;const $=id=>document.getElementById(id),src=n=>'slides/s-'+String(n+1).padStart(2,'0')+'.jpg';
+function show(k){i=Math.max(0,Math.min(T.length-1,k));$('sl').src=src(i);$('sl').alt='Slide '+(i+1)+': '+T[i];$('count').textContent=(i+1)+' / '+T.length;$('ttl').textContent=T[i];history.replaceState(null,'','#'+(i+1));if(i+1<T.length)(new Image()).src=src(i+1)}
+$('prev').onclick=()=>show(i-1);$('next').onclick=()=>show(i+1);$('zl').onclick=()=>show(i-1);$('zr').onclick=()=>show(i+1);
+$('fs').onclick=()=>{if(document.fullscreenElement)document.exitFullscreen();else document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen()};
+document.addEventListener('fullscreenchange',()=>document.body.classList.toggle('fs',!!document.fullscreenElement));
+addEventListener('keydown',e=>{if(['ArrowRight','PageDown',' ','Enter','ArrowDown'].includes(e.key)){e.preventDefault();show(i+1)}else if(['ArrowLeft','PageUp','ArrowUp','Backspace'].includes(e.key)){e.preventDefault();show(i-1)}else if(e.key==='f'||e.key==='F')$('fs').click();else if(e.key==='Home')show(0);else if(e.key==='End')show(T.length-1)});
+let x0=null;addEventListener('touchstart',e=>x0=e.touches[0].clientX,{passive:true});addEventListener('touchend',e=>{if(x0===null)return;const d=e.changedTouches[0].clientX-x0;if(Math.abs(d)>50)show(i+(d<0?1:-1));x0=null});
+show((parseInt(location.hash.slice(1))||1)-1);
+</script></body></html>
