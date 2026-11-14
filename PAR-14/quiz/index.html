@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quiz: Lesson 14, The Parent’s Own Practice</title>
+<meta name="description" content="Ten questions on Lesson 14, The Parent’s Own Practice, from Ritam Wellness for Parents.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400..700;1,400..700&family=Noto+Sans:wght@400..700&display=swap">
+<style>
+:root{
+ --bg:#FBF5EA; --surface:#FFFDF8; --ink:#1E1E1E; --muted:#5A5A5A; --line:#E6DAC3; --tint:#F3EAD3;
+ --navy:#12285A; --gold:#C9A24A; --goldt:#6B4E0E; --qink:#13295B;
+ --res:#12285A; --ok:#2F5A2E; --okbg:#E3EDDF; --no:#C2557A; --nobg:#F6E3EA;
+ --display:"Noto Serif",Georgia,serif; --body:"Noto Sans",system-ui,-apple-system,"Segoe UI",sans-serif; --mono:"Noto Sans",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+ :root:not([data-theme="light"]){
+  --bg:#0B1A3D; --surface:#12285A; --ink:#FBF5EA; --muted:#C9C3B3; --line:#2B4686; --tint:#1D3770;
+  --goldt:#E6C36A; --qink:#FBF5EA; --res:#E6C36A; --ok:#8FD79A; --okbg:#1E3A2A; --no:#F08FB0; --nobg:#4A2236; color-scheme:dark;
+ }
+}
+:root[data-theme="dark"]{
+ --bg:#0B1A3D; --surface:#12285A; --ink:#FBF5EA; --muted:#C9C3B3; --line:#2B4686; --tint:#1D3770;
+ --goldt:#E6C36A; --qink:#FBF5EA; --res:#E6C36A; --ok:#8FD79A; --okbg:#1E3A2A; --no:#F08FB0; --nobg:#4A2236; color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;
+ padding:18px max(14px,env(safe-area-inset-right,0px)) 30px max(14px,env(safe-area-inset-left,0px))}
+.wrap{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+h1{font-family:var(--display);font-weight:500;font-size:clamp(24px,5vw,32px);line-height:1.15;margin:0}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.sub{color:var(--muted);margin:0}
+.bar{height:6px;background:var(--line);border-radius:3px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--res);transition:width .25s}
+.meta{display:flex;justify-content:space-between;font-size:13px;color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px 18px;display:flex;flex-direction:column;gap:14px}
+.qn{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0}
+.q{font-family:var(--display);font-size:clamp(19px,3.4vw,22px);line-height:1.35;margin:0}
+.opts{display:flex;flex-direction:column;gap:10px}
+.opt{font:inherit;text-align:left;color:var(--ink);background:var(--surface);border:2px solid var(--line);border-radius:10px;padding:12px 14px;cursor:pointer;width:100%}
+.opt:hover:not(:disabled){border-color:var(--res)}
+.opt.right{border-color:var(--ok);background:var(--okbg)}
+.opt.wrong{border-color:var(--no);background:var(--nobg)}
+.opt:disabled{cursor:default}
+input.fill{font:inherit;width:100%;padding:12px 14px;border:2px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink)}
+input.fill:focus{outline:none;border-color:var(--res)}
+.btn{font:inherit;font-weight:600;font-size:15px;color:var(--surface);background:var(--ink);border:0;border-radius:8px;padding:11px 20px;cursor:pointer;text-decoration:none;display:inline-block}
+.btn.alt{background:var(--surface);color:var(--ink);border:1px solid var(--ink)}
+button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--res);outline-offset:2px}
+.fb{display:none;padding:12px 14px;border-radius:10px;font-size:15.5px;line-height:1.5}
+.fb.ok{display:block;background:var(--okbg);border-left:5px solid var(--ok)}
+.fb.no{display:block;background:var(--nobg);border-left:5px solid var(--no)}
+.fb b{display:block;margin-bottom:2px}
+.nav{display:flex;justify-content:flex-end}
+.res{text-align:center}
+.score{font-family:var(--display);margin:4px 0}
+.score .big{font-size:60px;line-height:1}
+.score .of{font-size:26px;color:var(--muted)}
+.band{font-family:var(--display);font-size:22px;margin:0}
+.band.good{color:var(--ok)} .band.rev{color:var(--res)}
+.res p{margin:0}
+.revisit{text-align:left;background:var(--tint);border-radius:10px;padding:12px 14px}
+.revisit h2,.review h2{font-family:var(--display);font-size:18px;margin:0 0 6px}
+.revisit ul{margin:0;padding-left:20px}
+.review{text-align:left;display:flex;flex-direction:column;gap:8px}
+.review .item{padding:10px 12px;border-radius:8px;font-size:15px;line-height:1.45}
+.review .r{background:var(--okbg)} .review .w{background:var(--nobg)}
+.review .item small{display:block;color:var(--muted);margin-top:4px}
+.acts{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.saved{font-size:14px;color:var(--muted)}
+footer{text-align:center;font-size:13px;color:var(--muted)}
+footer a{color:var(--res)}
+.wrap header{background:#12285A;color:#FBF5EA;text-align:center;padding:18px 16px 20px;border-radius:14px}
+.wrap header img{width:56px;height:66px;object-fit:contain;display:block}
+.wrap header .logos{display:flex;align-items:center;justify-content:center;gap:18px}
+.wrap header img.rit{width:86px;height:65px}
+.wrap header .eyebrow{color:#E6C36A;font-weight:700;letter-spacing:3px;margin:8px 0 0}
+.wrap header h1{color:#FBF5EA;font-weight:700;margin:6px 0 4px}
+.wrap header .course{font-size:14px;color:#E6C36A;margin:0 0 8px;font-weight:600}
+.wrap header .sub{color:#F1ECDF;font-size:15px}
+.bar i{background:var(--gold)!important}
+.opt:hover:not(:disabled){border-color:var(--gold)!important}
+input.fill:focus{border-color:var(--gold)!important}
+.q{color:var(--qink)}
+.qn{color:var(--goldt);font-weight:700}
+.btn{background:var(--navy)!important;color:#FBF5EA!important}
+.btn.alt{background:transparent!important;color:var(--ink)!important;border:1px solid var(--navy)!important}
+.card{box-shadow:0 2px 8px rgba(19,41,91,.08)}
+.reflect{text-align:left;background:var(--tint);border-radius:10px;padding:12px 14px}
+.reflect h2{font-family:var(--display);font-size:18px;margin:0 0 6px}.reflect p{margin:0 0 6px}.note{font-size:14px;color:var(--muted);margin:0}
+</style>
+</head>
+<body>
+<div class="wrap">
+ <header>
+  <div class="logos"><img src="../../assets/vedantanz-logo.png" alt="Ramakrishna Vedanta NZ emblem" width="56" height="66"><img class="rit" src="../../assets/ritam-wordmark.png" alt="Ritam" width="86" height="65"></div>
+  <p class="eyebrow">Quiz · Lesson 14</p>
+  <h1>The Parent’s Own Practice</h1>
+  <p class="course">Ritam Wellness for Parents</p>
+  <p class="sub">Ten questions on the ideas in the lesson. Take them as often as you like; each answer comes with its explanation.</p>
+ </header>
+ <div class="bar"><i id="prog"></i></div>
+ <div class="meta"><span id="pos"></span><span id="sc"></span></div>
+ <div id="app"></div>
+ <footer>Quiz · <a href="https://www.vedanta.nz">www.vedanta.nz</a>. Privacy: when you are signed in, your name, email, answers and score are saved to your member record. Only you and the course instructors can see them. They are not shared or ranked.</footer>
+</div>
+<script>
+/* Types: mc (options o, correct index a; shuffled on display), judge (statement q; a: 0 True, 1 False, 2 True only in part).
+   e = explanation, c = idea to revisit, s = lesson section. Generated by tools/par_quiz/build_par.py from tools/par_quiz/data/PAR-14.json. */
+var META={"code": "PAR-14", "lesson": "14", "quizTitle": "Quiz: Lesson 14, The Parent’s Own Practice", "programme": "Ritam Wellness for Parents", "cut": 70};
+var REFLECT="Where in my day could ten undisturbed minutes be kept, and which one thing would I like to do with them?";
+var Q=[{"t": "mc", "q": "A father finds his morning sitting dull after a late night and a heavy dinner, and clear after good sleep and a light supper. What does Lesson 14 say this shows?", "o": ["That he has little talent for meditation, and should try another practice instead.", "That the mind settles only when the body, the hours and the day are in moderation.", "That food and sleep matter little, and that effort of will carries the sitting.", "That heavy meals are harmful only to those who are sitting for a long time."], "a": 1, "e": "Practice begins not with the mind but with the conditions in which the mind can settle: a time, a place, a seat, a body at ease, and a day lived in moderation. The Gītā warns against eating too much or too little, sleeping too long or too little. In time the moderation that prepared the practice becomes its fruit.", "c": "Practice begins with the conditions in which the mind can settle", "s": "Part 1"}, {"t": "mc", "q": "A mother meditates at eleven at night on the edge of her bed and falls asleep, and her morning try is lost to the alarm and the kettle. Which change fits Lesson 14?", "o": ["Sit for longer at night, until the sleepiness passes and the mind is clear.", "Give up the sitting until the children are older and the house is quiet.", "Keep it for the morning, early and before others wake, in a chair kept for the purpose.", "Sit with her daughter’s music playing, so that the sitting becomes a family time."], "a": 2, "e": "The best time is early in the morning before anyone else wakes, when nature is calm and one is undisturbed. A corner, a cushion or a chair kept for this alone serves as well as a room. Falling asleep at night shows that sleep and meditation do not share the same seat. On a chair, sit upright and do not lean back.", "c": "Early, undisturbed, in a corner kept for practice", "s": "Part 1"}, {"t": "mc", "q": "In Swami Vivekananda’s story of the minister in the tower, what does the silken thread stand for?", "o": ["The faith that the practice will work, held before any result is seen.", "The breath, the finest thread within reach, by which one draws up the rest.", "The guidance of a teacher, who pulls the student up step by step.", "The honey of peace ahead, which draws the mind patiently upward."], "a": 1, "e": "The breath is the silken thread: by laying hold of it we grasp the pack thread of the nerve currents, then the stout twine of the thoughts, and last the rope of prāṇa. The breath is light, ever present and within anyone’s reach. Each thread is held before the next is drawn, and the beetle (the honey) is the attraction of the peace ahead.", "c": "The breath is the silken thread within reach", "s": "Part 1"}, {"t": "mc", "q": "A mother sits down and finds her mind already racing with lists and messages. Where does Lesson 14 tell her to begin?", "o": ["Force the thoughts out, until the mind is quiet enough to meditate on the light.", "Let the thoughts run for a time, and then start by picturing the lotus.", "Begin with the slow, deep, even breath, and let the body and mind follow it.", "Begin with a prayer for all beings, until the lists no longer press so hard."], "a": 2, "e": "You begin with what is within reach: first the gross breath, slow, deep and rhythmical, for regular breathing puts the body in a harmonious condition and makes it easier to reach the mind. As the breath steadies, the subtle currents settle, and the thoughts settle with them. Holy Mother adds that the breath should be regulated only a little.", "c": "Begin with the breath, the finest thread within reach", "s": "Part 1"}, {"t": "judge", "q": "“If the mind wanders during the sitting, the sitting has failed, and one should begin again.”", "a": 1, "e": "The wandering is where the practice is. Meditation does not begin by fighting the mind but by gathering it in. Swami Vivekananda says to let the monkey jump and simply wait and watch. One part rests on the light; another, the witness, notices and brings it back. No scolding, only a return, and the witness grows stronger.", "c": "The wandering is the practice; only return", "s": "Part 2"}, {"t": "mc", "q": "A father notices that during the sitting four thoughts arrived, and he saw each one come. Which view fits Lesson 14?", "o": ["He has done well; seeing each visitor means the witness is growing stronger.", "He has done poorly; four thoughts show that the mind is not yet ready to sit.", "He should sit for twice as long next time, so that the thoughts have time to pass.", "He should say a mantra aloud next time, so that the thoughts have no room to enter."], "a": 0, "e": "Seeing each visitor arrive is the witness at work. The mind divides in two, the player and the witness. One part rests on the light; another quietly watches and brings it back whenever it strays. Strengthen the witness, and the player grows quieter day by day. Until you know what the mind is doing, you cannot guide it.", "c": "Strengthen the witness and the player grows quieter", "s": "Part 2"}, {"t": "mc", "q": "According to Lesson 14, why can repeating a sacred name or Om change the mind?", "o": ["Repetition tires the mind out, until it has no energy left over for wandering.", "Repeated with its meaning, the name wakes the spiritual impressions already within.", "Each repetition is a payment, which is added up and returned to the person later.", "A sound has power in itself, whatever the meaning that is held in the mind."], "a": 1, "e": "Om is the sound of the spiritual energy within us; when the mind resonates with it, calmness follows. Every good impression lies waiting in the mind for the right stimulus, and repetition is the greatest stimulus the spiritual impressions can receive. The name is repeated with its meaning, and Patanjali says introspection and the destruction of obstacles follow.", "c": "Repetition wakes the good impressions within", "s": "Part 3"}, {"t": "mc", "q": "A mother has ten minutes on the bus each day and none at home. Which view fits Lesson 14?", "o": ["Japa needs a quiet room, and so the bus time must be given to something else.", "Her ten minutes of japa are well used, and japa is most useful in the midst of the day.", "She should wait until she can sit for half an hour, so that it is done properly.", "She should say the name aloud on the bus, so that her mind is truly held."], "a": 1, "e": "Japa is most useful in the midst of the day. A part of the mind can stay in communion with the divine while the rest cooks the dinner, answers the emails or rides the bus: the hands are at work, the heart is at prayer. Silent repetition is best, and quality matters as much as the count.", "c": "Japa carries the practice into the day", "s": "Part 3"}, {"t": "judge", "q": "“Sleeplessness or anxiety that goes on for weeks can be cured by meditation alone.”", "a": 1, "e": "If sleeplessness or anxiety, in a parent or a young person, goes on for weeks, please see a doctor. That deserves a doctor’s care, with the practice alongside it. Care and practice go side by side.", "c": "Care and practice, side by side", "s": "Part 4"}, {"t": "mc", "q": "A father sits each evening, breathes, and feels that nothing is changing. Which view fits Lesson 14?", "o": ["Stop for a time, and begin again when the mind feels ready to receive it well.", "Shorten the sitting, since long sittings without any result do more harm than good.", "Do not relax the practice; glimpses come in time, often first in daily life.", "Change to another kind of practice, since this one is plainly not suited to him."], "a": 2, "e": "Sri Ramakrishna’s answer, as Holy Mother told it, was the angler, who does not catch a big fish each time he sits. Do not relax the practices for that reason; do more japa. A little glimpse comes, enough to give encouragement and hope, and it often shows first in the way we live, as in a son who says, “You’re calmer than you used to be.”", "c": "Keep tending the lamp; glimpses come in time", "s": "Part 4"}];
+(function(){
+ var q=new URLSearchParams(location.search);
+ if(q.get('theme')==='light')document.documentElement.setAttribute('data-theme','light');
+ if(q.get('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');
+})();
+var i=0,right=0,ans=[],started=false;
+var app=document.getElementById('app');
+var JL=['True','False','True only in part'];
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;')}
+function hdr(){
+ document.getElementById('pos').textContent=i<Q.length?'Question '+(i+1)+' of '+Q.length:'Finished';
+ document.getElementById('sc').textContent=i<Q.length?right+' right so far':'';
+ document.getElementById('prog').style.width=(100*Math.min(i,Q.length)/Q.length)+'%';
+}
+function send(m){try{window.parent.postMessage(m,'*')}catch(e){}}
+function ref(s){return s?'Lesson '+META.lesson+', '+s:'Lesson '+META.lesson}
+function show(){
+ hdr();
+ if(i>=Q.length){return result()}
+ var qq=Q[i];
+ var h='<div class="card"><p class="qn">Question '+(i+1)+'</p><p class="q">'+esc(qq.q)+'</p><div class="opts">';
+ if(qq.t==='mc'){var ord=qq.o.map(function(o,k){return k});for(var r=ord.length-1;r>0;r--){var s2=Math.floor(Math.random()*(r+1)),t2=ord[r];ord[r]=ord[s2];ord[s2]=t2}ord.forEach(function(k,pos){h+='<button class="opt" data-k="'+k+'">'+String.fromCharCode(65+pos)+'. '+esc(qq.o[k])+'</button>'})}
+ else{JL.forEach(function(o,k){h+='<button class="opt" data-k="'+k+'">'+o+'</button>'})}
+ h+='</div><div class="fb" id="fb" role="status"></div><div class="nav"><button class="btn" id="nx" style="display:none">'+(i===Q.length-1?'See my result':'Next question')+'</button></div></div>';
+ app.innerHTML=h;
+ app.querySelectorAll('.opt').forEach(function(b){b.onclick=function(){mark(+b.dataset.k===qq.a,b)}});
+ document.getElementById('nx').onclick=function(){i++;show();window.scrollTo(0,0)};
+}
+function mark(ok,btn){
+ started=true;
+ var qq=Q[i];if(ok)right++;ans.push({q:i+1,ok:ok,given:btn?btn.textContent:''});
+ app.querySelectorAll('.opt').forEach(function(b){b.disabled=true;if(+b.dataset.k===qq.a)b.classList.add('right')});
+ if(!ok&&btn)btn.classList.add('wrong');
+ var ra=qq.t==='mc'?qq.o[qq.a]:JL[qq.a];
+ var fb=document.getElementById('fb');fb.className='fb '+(ok?'ok':'no');
+ fb.innerHTML='<b>'+(ok?'Right.':'Not quite. The answer is: '+esc(ra))+'</b>'+esc(qq.e)+' <i>('+ref(qq.s)+'.)</i>';
+ document.getElementById('nx').style.display='inline-block';hdr();
+ send({type:'progress',code:META.code,state:{i:i+1,right:right,ans:ans}});
+}
+function result(){
+ var n=Q.length,p=Math.round(100*right/n),good=p>=META.cut;
+ var h='<div class="card res"><p class="qn">Your result</p><p class="score"><span class="big">'+p+'%</span></p>'+
+  '<p class="band '+(good?'good':'rev')+'">'+(good?'Well grasped':'Revisit these ideas')+'</p>'+
+  '<p>'+right+' of '+n+' questions right.</p><p class="note">This quiz is about the ideas in the lesson, not about how you parent.</p>';
+ var miss=[];Q.forEach(function(qq,k){if(!ans[k]||!ans[k].ok)miss.push(qq)});
+ if(miss.length){h+='<div class="revisit"><h2>Ideas to revisit</h2><ul>';miss.forEach(function(qq){h+='<li>'+esc(qq.c)+' <i>('+ref(qq.s)+')</i></li>'});h+='</ul></div>'}
+ else{h+='<div class="revisit"><h2>Nothing to revisit</h2><p>Every idea in this quiz was answered correctly.</p></div>'}
+ if(REFLECT){h+='<div class="reflect"><h2>A question to take home</h2><p>'+esc(REFLECT)+'</p><p class="note">Not scored. There is no right answer. Your own home is the best place to find out what works.</p></div>'}
+ h+='<div class="review"><h2>Every question, with its answer</h2>';
+ Q.forEach(function(qq,k){var ok=ans[k]&&ans[k].ok;var a=qq.t==='mc'?qq.o[qq.a]:JL[qq.a];
+  h+='<div class="item '+(ok?'r':'w')+'">'+(ok?'Right. ':'Not quite. ')+'<b>Q'+(k+1)+'</b> '+esc(qq.q)+'<br>Answer: '+esc(a)+'<small>'+esc(qq.e)+' ('+ref(qq.s)+')</small></div>'});
+ h+='</div><p class="saved" id="savedmsg"></p><div class="acts"><button class="btn" id="again">Take it again</button></div></div>';
+ app.innerHTML=h;
+ document.getElementById('again').onclick=function(){i=0;right=0;ans=[];show();window.scrollTo(0,0)};
+ send({type:'quizResult',code:META.code,title:META.quizTitle,programme:META.programme,score:right,maxScore:n,percent:p,questionsCorrect:right,questionCount:n,answers:ans});
+ send({type:'progress',code:META.code,state:null});
+}
+window.addEventListener('message',function(ev){
+ var d=ev.data;if(!d||!d.type)return;
+ var m=document.getElementById('savedmsg');
+ if(d.type==='saved'&&m){m.textContent='Your result has been saved to your member record.'}
+ if(d.type==='saveError'&&m){m.textContent='Your result could not be saved this time. You can take the quiz again.'}
+ if(d.type==='notMember'&&m){m.textContent='Sign in as a member to have your result saved.'}
+ if(d.type==='resume'&&d.state&&d.state.i>0&&d.state.i<Q.length&&!started){offerResume(d.state)}
+});
+function offerResume(st){
+ var h='<div class="card"><p class="qn">Welcome back</p><p class="q">You have answered '+st.i+' of '+Q.length+' questions so far.</p><p>Would you like to continue where you left off, or start again from the beginning?</p><div class="acts"><button class="btn" id="cont">Continue from question '+(st.i+1)+'</button><button class="btn alt" id="rest">Start again</button></div></div>';
+ app.innerHTML=h;
+ document.getElementById('cont').onclick=function(){i=st.i;right=st.right||0;ans=st.ans||[];started=true;show()};
+ document.getElementById('rest').onclick=function(){i=0;right=0;ans=[];started=true;show()};
+}
+show();
+send({type:'ready'});
+</script>
+</body>
+</html>

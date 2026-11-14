@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quiz: Lesson 9, Caring Without Clinging</title>
+<meta name="description" content="Ten questions on Lesson 9, Caring Without Clinging, from Ritam Wellness for Parents.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400..700;1,400..700&family=Noto+Sans:wght@400..700&display=swap">
+<style>
+:root{
+ --bg:#FBF5EA; --surface:#FFFDF8; --ink:#1E1E1E; --muted:#5A5A5A; --line:#E6DAC3; --tint:#F3EAD3;
+ --navy:#12285A; --gold:#C9A24A; --goldt:#6B4E0E; --qink:#13295B;
+ --res:#12285A; --ok:#2F5A2E; --okbg:#E3EDDF; --no:#C2557A; --nobg:#F6E3EA;
+ --display:"Noto Serif",Georgia,serif; --body:"Noto Sans",system-ui,-apple-system,"Segoe UI",sans-serif; --mono:"Noto Sans",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+ :root:not([data-theme="light"]){
+  --bg:#0B1A3D; --surface:#12285A; --ink:#FBF5EA; --muted:#C9C3B3; --line:#2B4686; --tint:#1D3770;
+  --goldt:#E6C36A; --qink:#FBF5EA; --res:#E6C36A; --ok:#8FD79A; --okbg:#1E3A2A; --no:#F08FB0; --nobg:#4A2236; color-scheme:dark;
+ }
+}
+:root[data-theme="dark"]{
+ --bg:#0B1A3D; --surface:#12285A; --ink:#FBF5EA; --muted:#C9C3B3; --line:#2B4686; --tint:#1D3770;
+ --goldt:#E6C36A; --qink:#FBF5EA; --res:#E6C36A; --ok:#8FD79A; --okbg:#1E3A2A; --no:#F08FB0; --nobg:#4A2236; color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;
+ padding:18px max(14px,env(safe-area-inset-right,0px)) 30px max(14px,env(safe-area-inset-left,0px))}
+.wrap{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+h1{font-family:var(--display);font-weight:500;font-size:clamp(24px,5vw,32px);line-height:1.15;margin:0}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.sub{color:var(--muted);margin:0}
+.bar{height:6px;background:var(--line);border-radius:3px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--res);transition:width .25s}
+.meta{display:flex;justify-content:space-between;font-size:13px;color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px 18px;display:flex;flex-direction:column;gap:14px}
+.qn{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0}
+.q{font-family:var(--display);font-size:clamp(19px,3.4vw,22px);line-height:1.35;margin:0}
+.opts{display:flex;flex-direction:column;gap:10px}
+.opt{font:inherit;text-align:left;color:var(--ink);background:var(--surface);border:2px solid var(--line);border-radius:10px;padding:12px 14px;cursor:pointer;width:100%}
+.opt:hover:not(:disabled){border-color:var(--res)}
+.opt.right{border-color:var(--ok);background:var(--okbg)}
+.opt.wrong{border-color:var(--no);background:var(--nobg)}
+.opt:disabled{cursor:default}
+input.fill{font:inherit;width:100%;padding:12px 14px;border:2px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink)}
+input.fill:focus{outline:none;border-color:var(--res)}
+.btn{font:inherit;font-weight:600;font-size:15px;color:var(--surface);background:var(--ink);border:0;border-radius:8px;padding:11px 20px;cursor:pointer;text-decoration:none;display:inline-block}
+.btn.alt{background:var(--surface);color:var(--ink);border:1px solid var(--ink)}
+button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--res);outline-offset:2px}
+.fb{display:none;padding:12px 14px;border-radius:10px;font-size:15.5px;line-height:1.5}
+.fb.ok{display:block;background:var(--okbg);border-left:5px solid var(--ok)}
+.fb.no{display:block;background:var(--nobg);border-left:5px solid var(--no)}
+.fb b{display:block;margin-bottom:2px}
+.nav{display:flex;justify-content:flex-end}
+.res{text-align:center}
+.score{font-family:var(--display);margin:4px 0}
+.score .big{font-size:60px;line-height:1}
+.score .of{font-size:26px;color:var(--muted)}
+.band{font-family:var(--display);font-size:22px;margin:0}
+.band.good{color:var(--ok)} .band.rev{color:var(--res)}
+.res p{margin:0}
+.revisit{text-align:left;background:var(--tint);border-radius:10px;padding:12px 14px}
+.revisit h2,.review h2{font-family:var(--display);font-size:18px;margin:0 0 6px}
+.revisit ul{margin:0;padding-left:20px}
+.review{text-align:left;display:flex;flex-direction:column;gap:8px}
+.review .item{padding:10px 12px;border-radius:8px;font-size:15px;line-height:1.45}
+.review .r{background:var(--okbg)} .review .w{background:var(--nobg)}
+.review .item small{display:block;color:var(--muted);margin-top:4px}
+.acts{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.saved{font-size:14px;color:var(--muted)}
+footer{text-align:center;font-size:13px;color:var(--muted)}
+footer a{color:var(--res)}
+.wrap header{background:#12285A;color:#FBF5EA;text-align:center;padding:18px 16px 20px;border-radius:14px}
+.wrap header img{width:56px;height:66px;object-fit:contain;display:block}
+.wrap header .logos{display:flex;align-items:center;justify-content:center;gap:18px}
+.wrap header img.rit{width:86px;height:65px}
+.wrap header .eyebrow{color:#E6C36A;font-weight:700;letter-spacing:3px;margin:8px 0 0}
+.wrap header h1{color:#FBF5EA;font-weight:700;margin:6px 0 4px}
+.wrap header .course{font-size:14px;color:#E6C36A;margin:0 0 8px;font-weight:600}
+.wrap header .sub{color:#F1ECDF;font-size:15px}
+.bar i{background:var(--gold)!important}
+.opt:hover:not(:disabled){border-color:var(--gold)!important}
+input.fill:focus{border-color:var(--gold)!important}
+.q{color:var(--qink)}
+.qn{color:var(--goldt);font-weight:700}
+.btn{background:var(--navy)!important;color:#FBF5EA!important}
+.btn.alt{background:transparent!important;color:var(--ink)!important;border:1px solid var(--navy)!important}
+.card{box-shadow:0 2px 8px rgba(19,41,91,.08)}
+.reflect{text-align:left;background:var(--tint);border-radius:10px;padding:12px 14px}
+.reflect h2{font-family:var(--display);font-size:18px;margin:0 0 6px}.reflect p{margin:0 0 6px}.note{font-size:14px;color:var(--muted);margin:0}
+</style>
+</head>
+<body>
+<div class="wrap">
+ <header>
+  <div class="logos"><img src="../../assets/vedantanz-logo.png" alt="Ramakrishna Vedanta NZ emblem" width="56" height="66"><img class="rit" src="../../assets/ritam-wordmark.png" alt="Ritam" width="86" height="65"></div>
+  <p class="eyebrow">Quiz · Lesson 9</p>
+  <h1>Caring Without Clinging</h1>
+  <p class="course">Ritam Wellness for Parents</p>
+  <p class="sub">Ten questions on the ideas in the lesson. Take them as often as you like; each answer comes with its explanation.</p>
+ </header>
+ <div class="bar"><i id="prog"></i></div>
+ <div class="meta"><span id="pos"></span><span id="sc"></span></div>
+ <div id="app"></div>
+ <footer>Quiz · <a href="https://www.vedanta.nz">www.vedanta.nz</a>. Privacy: when you are signed in, your name, email, answers and score are saved to your member record. Only you and the course instructors can see them. They are not shared or ranked.</footer>
+</div>
+<script>
+/* Types: mc (options o, correct index a; shuffled on display), judge (statement q; a: 0 True, 1 False, 2 True only in part).
+   e = explanation, c = idea to revisit, s = lesson section. Generated by tools/par_quiz/build_par.py from tools/par_quiz/data/PAR-09.json. */
+var META={"code": "PAR-09", "lesson": "9", "quizTitle": "Quiz: Lesson 9, Caring Without Clinging", "programme": "Ritam Wellness for Parents", "cut": 70};
+var REFLECT="Where do I hold on to a role my child no longer needs, and what would it be to offer it back as a blessing?";
+var Q=[{"t": "mc", "q": "What does the picture of scaffolding say about a child who no longer needs the parent as before?", "o": ["The parent’s part is now over, and the child will manage well enough alone.", "Its coming down shows the work has succeeded; the child still wants us in a new role.", "The builder has fallen short if the building ever needs support again later.", "The scaffolding should stay a little while, in case the building should shift."], "a": 1, "e": "Nobody says the builder has failed when the scaffolding comes down. It is the sign that the work has succeeded. A child who no longer needs us has not ceased to want us. They want us still, in another role: to clutch the old one invites conflict, and to release it graciously opens the way to a new relationship.", "c": "The scaffolding comes down: a child who no longer needs us still wants us", "s": "Part 1"}, {"t": "mc", "q": "A twenty-four-year-old tells his father, “I don’t need you to sort out my life, but I still want to ring you when something good happens.” Which response fits Lesson 9?", "o": ["Offer advice anyway, since a father’s guidance is still needed in a young man’s life.", "Step back completely, so that the young man has no sense of being managed.", "Be available as a sounding board: listen, and share experience when he reaches out.", "Offer more practical help, to show that he is still held in the family."], "a": 2, "e": "Beyond the teenage years presence matters more than direction. Rather than directing, disciplining and laying down rules, the parent remains available: ready, when the young person reaches out, to share the wisdom of experience, to listen, to counsel, to be a sounding board. This is love in its mature form.", "c": "Presence matters more than direction: be a sounding board", "s": "Part 1"}, {"t": "judge", "q": "“Loving a child with less of ‘mine’ in the love means that a parent loves the child less.”", "a": 1, "e": "A parent’s love matures as it moves from attachment toward compassion: the same love, with less of “mine” in it. Clinging draws love tight around one person and one old role. Mature love widens: “All love is expansion, all selfishness is contraction.” The love is not reduced.", "c": "Mature love is the same love with less of “mine” in it", "s": "Part 1"}, {"t": "mc", "q": "A parent is still driving her twenty-two-year-old everywhere, and he has begun to resent it. Which step fits Lesson 9?", "o": ["Stop at once and without a word, so that he learns at last to manage for himself.", "Ask whether he needs her here or wants her here, and let one old role go gracefully.", "Keep doing it, since he has not yet asked her to stop and may still need her help.", "Ask him to say plainly what he wants, and then do exactly what he says for good."], "a": 1, "e": "Think of one thing you still do for your child and ask, “Do they need me here, or do they want me here?” Then let one old role go, graciously. To cling to the old role or press it upon the young person invites conflict; to release it graciously opens the way to a new relationship.", "c": "Ask whether the child needs me here or wants me here", "s": "Design Your Own"}, {"t": "mc", "q": "What is the difference between worry and faith, according to Lesson 9?", "o": ["Worry is feeling for the child, while faith means feeling nothing at all for him.", "Worry sees only dangers ahead; faith sees the powers already within the child.", "Worry is about large dangers, while faith is about the small ones of every day life.", "Worry shows itself in action, while faith shows itself in thought and never in action."], "a": 1, "e": "Worry looks forward and sees only dangers. Faith looks inward and sees the powers already present in the child. A parent who has firm faith that the child carries within everything needed to meet life does not worry, and that conviction turns anxious watching into making room. Children feel what their parents believe about them.", "c": "Worry sees dangers; faith sees the child’s own strength", "s": "Part 2"}, {"t": "mc", "q": "A parent lies awake at two in the morning, running through everything that might go wrong for her fifteen-year-old. Which response fits Lesson 9?", "o": ["Check once more where her daughter is, so that she can finally settle down to rest tonight.", "Remind herself that her daughter is old enough, and then make herself go to sleep.", "Message her daughter at once, so as to be reassured that everything is all right for tonight.", "Breathe slowly, see her as a soul with her own strength, offer a good wish, and say, “I have done what I can.”"], "a": 3, "e": "Let the worry be there; you do not have to push it away. Bring your child to mind not as a list of dangers but as a soul with its own strength and its own path, offer a good wish or prayer, and say quietly, “I have done what I can. The rest I offer.” If worry keeps a parent from sleeping night after night for weeks, she should speak to her doctor.", "c": "Turn night-time worry into a blessing: “I have done what I can. The rest I offer.”", "s": "Part 2"}, {"t": "judge", "q": "“Loosening the grip means that a parent should wait and trust, even when there are real signs that a child is at risk.”", "a": 1, "e": "Loosening the grip never means stepping back from a child’s safety, or from warmth. If there are real signs that a child is at risk, a parent should act on them and seek help at once. Faith in the child’s strength sits alongside care, not in place of it.", "c": "Loosening the grip never means stepping back from safety", "s": "Part 2"}, {"t": "mc", "q": "A child comes home flat after a bad day, and her mother usually finds her own evening going flat with it. Which response fits the lotus leaf?", "o": ["Show no feeling at all, so that the child has nothing to take on.", "Take the mood fully on, to show the child how much she cares.", "Stay close, feel it with her, and remain the steady one she can lean on.", "Keep a little distance until the mood has passed, so as not to be drawn in."], "a": 2, "e": "The lotus leaf rests on the water and moves with every ripple on the surface, yet never takes the water in and never sinks. You stay close, you feel with her, and you remain the steady one she can lean on. A parent who sinks with the child cannot hold the child up. Detachment is never coldness.", "c": "The lotus leaf: feel it with the child without being soaked through", "s": "Part 3"}, {"t": "mc", "q": "In the picture of life as a school, what is a parent’s part?", "o": ["To be the teacher whose lessons will decide how the child turns out in the end.", "To keep painful experiences away, since they harm the child more than they ever teach.", "To keep the child company for a stretch, do their best, and leave the rest to many forces.", "To wait until the child has gone out into the world, and only then to offer help."], "a": 2, "e": "On that long journey a parent keeps the child company for a while, with a real part to play, but a limited one. The wise parent does their very best, and leaves the rest to the many other forces that shape the course of their child’s life. They do not blame themselves for their shortcomings, nor do they neglect a single duty.", "c": "Every life is a school: the parent’s part is real but limited", "s": "Part 4"}, {"t": "mc", "q": "A father’s son is struggling in a way the father cannot fix. Which view fits Lesson 9?", "o": ["Keep stepping in until it is solved, since a parent’s duty never really ends at all.", "Withdraw for a time, so that he is not drawn into the son’s trouble and hurt by it.", "Look back for his own mistakes, so that he can put them right with his son now.", "Do his best, accept what comes as the son’s education, and neglect no duty."], "a": 3, "e": "The wise parent, seeing with the eyes of Vedanta, accepts whatever comes in this light. They do their very best, and they leave the rest. They do not blame themselves for their so-called shortcomings, nor do they neglect a single duty or responsibility. Often the painful experiences teach most deeply.", "c": "Do your best and leave the rest, without self-blame or neglect", "s": "Part 4"}];
+(function(){
+ var q=new URLSearchParams(location.search);
+ if(q.get('theme')==='light')document.documentElement.setAttribute('data-theme','light');
+ if(q.get('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');
+})();
+var i=0,right=0,ans=[],started=false;
+var app=document.getElementById('app');
+var JL=['True','False','True only in part'];
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;')}
+function hdr(){
+ document.getElementById('pos').textContent=i<Q.length?'Question '+(i+1)+' of '+Q.length:'Finished';
+ document.getElementById('sc').textContent=i<Q.length?right+' right so far':'';
+ document.getElementById('prog').style.width=(100*Math.min(i,Q.length)/Q.length)+'%';
+}
+function send(m){try{window.parent.postMessage(m,'*')}catch(e){}}
+function ref(s){return s?'Lesson '+META.lesson+', '+s:'Lesson '+META.lesson}
+function show(){
+ hdr();
+ if(i>=Q.length){return result()}
+ var qq=Q[i];
+ var h='<div class="card"><p class="qn">Question '+(i+1)+'</p><p class="q">'+esc(qq.q)+'</p><div class="opts">';
+ if(qq.t==='mc'){var ord=qq.o.map(function(o,k){return k});for(var r=ord.length-1;r>0;r--){var s2=Math.floor(Math.random()*(r+1)),t2=ord[r];ord[r]=ord[s2];ord[s2]=t2}ord.forEach(function(k,pos){h+='<button class="opt" data-k="'+k+'">'+String.fromCharCode(65+pos)+'. '+esc(qq.o[k])+'</button>'})}
+ else{JL.forEach(function(o,k){h+='<button class="opt" data-k="'+k+'">'+o+'</button>'})}
+ h+='</div><div class="fb" id="fb" role="status"></div><div class="nav"><button class="btn" id="nx" style="display:none">'+(i===Q.length-1?'See my result':'Next question')+'</button></div></div>';
+ app.innerHTML=h;
+ app.querySelectorAll('.opt').forEach(function(b){b.onclick=function(){mark(+b.dataset.k===qq.a,b)}});
+ document.getElementById('nx').onclick=function(){i++;show();window.scrollTo(0,0)};
+}
+function mark(ok,btn){
+ started=true;
+ var qq=Q[i];if(ok)right++;ans.push({q:i+1,ok:ok,given:btn?btn.textContent:''});
+ app.querySelectorAll('.opt').forEach(function(b){b.disabled=true;if(+b.dataset.k===qq.a)b.classList.add('right')});
+ if(!ok&&btn)btn.classList.add('wrong');
+ var ra=qq.t==='mc'?qq.o[qq.a]:JL[qq.a];
+ var fb=document.getElementById('fb');fb.className='fb '+(ok?'ok':'no');
+ fb.innerHTML='<b>'+(ok?'Right.':'Not quite. The answer is: '+esc(ra))+'</b>'+esc(qq.e)+' <i>('+ref(qq.s)+'.)</i>';
+ document.getElementById('nx').style.display='inline-block';hdr();
+ send({type:'progress',code:META.code,state:{i:i+1,right:right,ans:ans}});
+}
+function result(){
+ var n=Q.length,p=Math.round(100*right/n),good=p>=META.cut;
+ var h='<div class="card res"><p class="qn">Your result</p><p class="score"><span class="big">'+p+'%</span></p>'+
+  '<p class="band '+(good?'good':'rev')+'">'+(good?'Well grasped':'Revisit these ideas')+'</p>'+
+  '<p>'+right+' of '+n+' questions right.</p><p class="note">This quiz is about the ideas in the lesson, not about how you parent.</p>';
+ var miss=[];Q.forEach(function(qq,k){if(!ans[k]||!ans[k].ok)miss.push(qq)});
+ if(miss.length){h+='<div class="revisit"><h2>Ideas to revisit</h2><ul>';miss.forEach(function(qq){h+='<li>'+esc(qq.c)+' <i>('+ref(qq.s)+')</i></li>'});h+='</ul></div>'}
+ else{h+='<div class="revisit"><h2>Nothing to revisit</h2><p>Every idea in this quiz was answered correctly.</p></div>'}
+ if(REFLECT){h+='<div class="reflect"><h2>A question to take home</h2><p>'+esc(REFLECT)+'</p><p class="note">Not scored. There is no right answer. Your own home is the best place to find out what works.</p></div>'}
+ h+='<div class="review"><h2>Every question, with its answer</h2>';
+ Q.forEach(function(qq,k){var ok=ans[k]&&ans[k].ok;var a=qq.t==='mc'?qq.o[qq.a]:JL[qq.a];
+  h+='<div class="item '+(ok?'r':'w')+'">'+(ok?'Right. ':'Not quite. ')+'<b>Q'+(k+1)+'</b> '+esc(qq.q)+'<br>Answer: '+esc(a)+'<small>'+esc(qq.e)+' ('+ref(qq.s)+')</small></div>'});
+ h+='</div><p class="saved" id="savedmsg"></p><div class="acts"><button class="btn" id="again">Take it again</button></div></div>';
+ app.innerHTML=h;
+ document.getElementById('again').onclick=function(){i=0;right=0;ans=[];show();window.scrollTo(0,0)};
+ send({type:'quizResult',code:META.code,title:META.quizTitle,programme:META.programme,score:right,maxScore:n,percent:p,questionsCorrect:right,questionCount:n,answers:ans});
+ send({type:'progress',code:META.code,state:null});
+}
+window.addEventListener('message',function(ev){
+ var d=ev.data;if(!d||!d.type)return;
+ var m=document.getElementById('savedmsg');
+ if(d.type==='saved'&&m){m.textContent='Your result has been saved to your member record.'}
+ if(d.type==='saveError'&&m){m.textContent='Your result could not be saved this time. You can take the quiz again.'}
+ if(d.type==='notMember'&&m){m.textContent='Sign in as a member to have your result saved.'}
+ if(d.type==='resume'&&d.state&&d.state.i>0&&d.state.i<Q.length&&!started){offerResume(d.state)}
+});
+function offerResume(st){
+ var h='<div class="card"><p class="qn">Welcome back</p><p class="q">You have answered '+st.i+' of '+Q.length+' questions so far.</p><p>Would you like to continue where you left off, or start again from the beginning?</p><div class="acts"><button class="btn" id="cont">Continue from question '+(st.i+1)+'</button><button class="btn alt" id="rest">Start again</button></div></div>';
+ app.innerHTML=h;
+ document.getElementById('cont').onclick=function(){i=st.i;right=st.right||0;ans=st.ans||[];started=true;show()};
+ document.getElementById('rest').onclick=function(){i=0;right=0;ans=[];started=true;show()};
+}
+show();
+send({type:'ready'});
+</script>
+</body>
+</html>

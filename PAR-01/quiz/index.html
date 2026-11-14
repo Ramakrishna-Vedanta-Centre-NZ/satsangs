@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quiz: Lesson 1, Who Is This Child?</title>
+<meta name="description" content="Ten questions on Lesson 1, Who Is This Child?, from Ritam Wellness for Parents.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400..700;1,400..700&family=Noto+Sans:wght@400..700&display=swap">
+<style>
+:root{
+ --bg:#FBF5EA; --surface:#FFFDF8; --ink:#1E1E1E; --muted:#5A5A5A; --line:#E6DAC3; --tint:#F3EAD3;
+ --navy:#12285A; --gold:#C9A24A; --goldt:#6B4E0E; --qink:#13295B;
+ --res:#12285A; --ok:#2F5A2E; --okbg:#E3EDDF; --no:#C2557A; --nobg:#F6E3EA;
+ --display:"Noto Serif",Georgia,serif; --body:"Noto Sans",system-ui,-apple-system,"Segoe UI",sans-serif; --mono:"Noto Sans",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+ :root:not([data-theme="light"]){
+  --bg:#0B1A3D; --surface:#12285A; --ink:#FBF5EA; --muted:#C9C3B3; --line:#2B4686; --tint:#1D3770;
+  --goldt:#E6C36A; --qink:#FBF5EA; --res:#E6C36A; --ok:#8FD79A; --okbg:#1E3A2A; --no:#F08FB0; --nobg:#4A2236; color-scheme:dark;
+ }
+}
+:root[data-theme="dark"]{
+ --bg:#0B1A3D; --surface:#12285A; --ink:#FBF5EA; --muted:#C9C3B3; --line:#2B4686; --tint:#1D3770;
+ --goldt:#E6C36A; --qink:#FBF5EA; --res:#E6C36A; --ok:#8FD79A; --okbg:#1E3A2A; --no:#F08FB0; --nobg:#4A2236; color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;
+ padding:18px max(14px,env(safe-area-inset-right,0px)) 30px max(14px,env(safe-area-inset-left,0px))}
+.wrap{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+h1{font-family:var(--display);font-weight:500;font-size:clamp(24px,5vw,32px);line-height:1.15;margin:0}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.sub{color:var(--muted);margin:0}
+.bar{height:6px;background:var(--line);border-radius:3px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--res);transition:width .25s}
+.meta{display:flex;justify-content:space-between;font-size:13px;color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px 18px;display:flex;flex-direction:column;gap:14px}
+.qn{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0}
+.q{font-family:var(--display);font-size:clamp(19px,3.4vw,22px);line-height:1.35;margin:0}
+.opts{display:flex;flex-direction:column;gap:10px}
+.opt{font:inherit;text-align:left;color:var(--ink);background:var(--surface);border:2px solid var(--line);border-radius:10px;padding:12px 14px;cursor:pointer;width:100%}
+.opt:hover:not(:disabled){border-color:var(--res)}
+.opt.right{border-color:var(--ok);background:var(--okbg)}
+.opt.wrong{border-color:var(--no);background:var(--nobg)}
+.opt:disabled{cursor:default}
+input.fill{font:inherit;width:100%;padding:12px 14px;border:2px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink)}
+input.fill:focus{outline:none;border-color:var(--res)}
+.btn{font:inherit;font-weight:600;font-size:15px;color:var(--surface);background:var(--ink);border:0;border-radius:8px;padding:11px 20px;cursor:pointer;text-decoration:none;display:inline-block}
+.btn.alt{background:var(--surface);color:var(--ink);border:1px solid var(--ink)}
+button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--res);outline-offset:2px}
+.fb{display:none;padding:12px 14px;border-radius:10px;font-size:15.5px;line-height:1.5}
+.fb.ok{display:block;background:var(--okbg);border-left:5px solid var(--ok)}
+.fb.no{display:block;background:var(--nobg);border-left:5px solid var(--no)}
+.fb b{display:block;margin-bottom:2px}
+.nav{display:flex;justify-content:flex-end}
+.res{text-align:center}
+.score{font-family:var(--display);margin:4px 0}
+.score .big{font-size:60px;line-height:1}
+.score .of{font-size:26px;color:var(--muted)}
+.band{font-family:var(--display);font-size:22px;margin:0}
+.band.good{color:var(--ok)} .band.rev{color:var(--res)}
+.res p{margin:0}
+.revisit{text-align:left;background:var(--tint);border-radius:10px;padding:12px 14px}
+.revisit h2,.review h2{font-family:var(--display);font-size:18px;margin:0 0 6px}
+.revisit ul{margin:0;padding-left:20px}
+.review{text-align:left;display:flex;flex-direction:column;gap:8px}
+.review .item{padding:10px 12px;border-radius:8px;font-size:15px;line-height:1.45}
+.review .r{background:var(--okbg)} .review .w{background:var(--nobg)}
+.review .item small{display:block;color:var(--muted);margin-top:4px}
+.acts{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.saved{font-size:14px;color:var(--muted)}
+footer{text-align:center;font-size:13px;color:var(--muted)}
+footer a{color:var(--res)}
+.wrap header{background:#12285A;color:#FBF5EA;text-align:center;padding:18px 16px 20px;border-radius:14px}
+.wrap header img{width:56px;height:66px;object-fit:contain;display:block}
+.wrap header .logos{display:flex;align-items:center;justify-content:center;gap:18px}
+.wrap header img.rit{width:86px;height:65px}
+.wrap header .eyebrow{color:#E6C36A;font-weight:700;letter-spacing:3px;margin:8px 0 0}
+.wrap header h1{color:#FBF5EA;font-weight:700;margin:6px 0 4px}
+.wrap header .course{font-size:14px;color:#E6C36A;margin:0 0 8px;font-weight:600}
+.wrap header .sub{color:#F1ECDF;font-size:15px}
+.bar i{background:var(--gold)!important}
+.opt:hover:not(:disabled){border-color:var(--gold)!important}
+input.fill:focus{border-color:var(--gold)!important}
+.q{color:var(--qink)}
+.qn{color:var(--goldt);font-weight:700}
+.btn{background:var(--navy)!important;color:#FBF5EA!important}
+.btn.alt{background:transparent!important;color:var(--ink)!important;border:1px solid var(--navy)!important}
+.card{box-shadow:0 2px 8px rgba(19,41,91,.08)}
+.reflect{text-align:left;background:var(--tint);border-radius:10px;padding:12px 14px}
+.reflect h2{font-family:var(--display);font-size:18px;margin:0 0 6px}.reflect p{margin:0 0 6px}.note{font-size:14px;color:var(--muted);margin:0}
+</style>
+</head>
+<body>
+<div class="wrap">
+ <header>
+  <div class="logos"><img src="../../assets/vedantanz-logo.png" alt="Ramakrishna Vedanta NZ emblem" width="56" height="66"><img class="rit" src="../../assets/ritam-wordmark.png" alt="Ritam" width="86" height="65"></div>
+  <p class="eyebrow">Quiz · Lesson 1</p>
+  <h1>Who Is This Child?</h1>
+  <p class="course">Ritam Wellness for Parents</p>
+  <p class="sub">Ten questions on the ideas in the lesson. Take them as often as you like; each answer comes with its explanation.</p>
+ </header>
+ <div class="bar"><i id="prog"></i></div>
+ <div class="meta"><span id="pos"></span><span id="sc"></span></div>
+ <div id="app"></div>
+ <footer>Quiz · <a href="https://www.vedanta.nz">www.vedanta.nz</a>. Privacy: when you are signed in, your name, email, answers and score are saved to your member record. Only you and the course instructors can see them. They are not shared or ranked.</footer>
+</div>
+<script>
+/* Types: mc (options o, correct index a; shuffled on display), judge (statement q; a: 0 True, 1 False, 2 True only in part).
+   e = explanation, c = idea to revisit, s = lesson section. Generated by tools/par_quiz/build_par.py from tools/par_quiz/data/PAR-01.json. */
+var META={"code": "PAR-01", "lesson": "1", "quizTitle": "Quiz: Lesson 1, Who Is This Child?", "programme": "Ritam Wellness for Parents", "cut": 70};
+var REFLECT="Which idea from this lesson spoke to you, and in what situation at home might it change the way you see your child?";
+var Q=[{"t": "mc", "q": "According to Lesson 1, why do two children from the same home shine so differently?", "o": ["One child carries a brighter light than the other, and that is simply how the two of them were made.", "The parents gave each child a different amount of love and attention, usually without even knowing it.", "The light is the same in each, and the glass, the mind’s clarity, differs.", "The difference belongs to age, and it evens out once both children are grown."], "a": 2, "e": "The light in one child is exactly as bright as the light in another, and in the parent. The difference between people is not in the light but in the glass, in how clear the mind is and so in how the light shows. No one is a dimmer bulb.", "c": "The same light in every child; the glass decides how it shows", "s": "Part 1"}, {"t": "judge", "q": "“Once a parent notices that a teenager sleeps late and seems heavy and dull, it is fair to describe that teenager as a tamasic child.”", "a": 1, "e": "The three states, sattva, rajas and tamas, are not boxes for people. They move through all of us, children and parents alike, many times in a day. A teenager who sleeps late may be growing, unwell or low in mood, and that needs care, not a label.", "c": "The three states are passing weather, never a label for a child", "s": "Part 1"}, {"t": "mc", "q": "What do the five layers of the Self (body, energy, mind, understanding and deep joy) give a parent in practice?", "o": ["A ranking of the layers, so that a parent knows which one to develop first in a child.", "A checklist for finding out which part of a child is not working as it should.", "A way of measuring how much of the light is covered in one child compared with another.", "Five windows to look through, so that the child is seen as a whole house and not a single room."], "a": 3, "e": "The five dimensions of a child, physical, intellectual, emotional, moral and spiritual, sit on these layers. They give a parent five windows to look through instead of one. A person is a whole house, not a single room.", "c": "The five windows for looking at a child", "s": "Part 1"}, {"t": "mc", "q": "A parent notices that, all day, the only questions asked about a seven-year-old concern food, tiredness and shoes. Which response fits Lesson 1?", "o": ["Carry on as before, since a child’s body must be settled before any other need can be met at all.", "Look through each of the five windows every day, and fix whatever is found wanting in each of them.", "Notice a window rarely opened, such as fairness, and tend one small thing there.", "Ask the child which of the five windows needs the most work, and then follow whatever the child says."], "a": 2, "e": "A parent usually looks through one window all the time and almost never opens another. The lesson suggests finding the forgotten window and choosing one small thing to tend there, such as asking a child what is fair about bedtime.", "c": "Find the window you usually forget and tend one small thing there", "s": "Design Your Own"}, {"t": "mc", "q": "A parent has begun to see a twelve-year-old’s restlessness and lost belongings as a fault to be fixed. Which view fits Lesson 1?", "o": ["It is a habit that will set hard and stay for life unless it is trained out of the child early.", "It is a tendency the child has brought; guide where its energy goes, do not erase it.", "It is simply who the child is, so there is little a parent can do about it.", "It most likely comes from something in the home that a parent should look for, find and put right."], "a": 1, "e": "Restlessness may be something the child has brought with them, something to guide and not erase. A restless mind can become a tireless one. The energy is not the problem; the work is in where it goes.", "c": "A child arrives as themselves; guide the tendencies, do not erase them", "s": "Part 2"}, {"t": "judge", "q": "“A parent who does not hold that a child has lived before cannot make use of the lesson’s teaching about respecting the child’s own nature.”", "a": 1, "e": "The lesson does not ask for belief. Two children from the same parents and the same house arrive as two different people, and whatever we call the source, the response is the same: respect for who they are and humility about how much of it is ours.", "c": "Respect and humility, whatever one believes about where a child’s tendencies come from", "s": "Part 2"}, {"t": "judge", "q": "“When a parent has given a child patience and honesty and the child still struggles, the soil must have been poor.”", "a": 1, "e": "A parent can give the soil, the water and the shelter, but cannot be the seed. When a child struggles in spite of all that, it is not proof that the soil was poor, and the lesson asks a parent to put down the half that was never theirs to carry.", "c": "A parent is not totally responsible for what a child grows into", "s": "Part 3"}, {"t": "mc", "q": "A parent had planned a career for a child, and the child, now grown, has chosen a different path. Which response fits the picture of the gardener and the sculptor?", "o": ["Offer support only once the child’s choice has proved to be a safe one for the long term.", "See that the plan was still sound, and keep gently steering the child back towards it over time.", "Regard the child’s choice as a verdict on the whole of the years of parenting.", "Put down the chisel, and ask how to give good soil to what the child already is."], "a": 3, "e": "A sculptor decides what the stone will become. A gardener gives good soil, water, light and shelter so the plant becomes the best of what it already is. Many loving parents hold a chisel, often out of love and fear. The child’s own life, well lived, is the aim.", "c": "The gardener and the seed: give good soil, do not decide the shape", "s": "Part 3"}, {"t": "mc", "q": "A parent hears herself say, “If only he were a bit more like his sister.” What does Lesson 1 suggest she do next?", "o": ["Show him gently how his sister goes about things, so that he can learn from her.", "Pause, and ask what he shows her that his sister never does.", "Say nothing aloud, since a thought that is never spoken cannot reach him.", "Praise him more often for a while, to make up for the comparison."], "a": 1, "e": "Comparison asks a child to be someone else’s light. The question “what is he showing me that his sister never does?” turns it back into his own. He will feel the difference, even if the parent never says a word.", "c": "Comparison asks a child to be someone else’s light", "s": "Part 2"}, {"t": "mc", "q": "A parent notices that her daughter is patient with a neighbour’s small boy and never with her. Which response fits what Lesson 1 says about the child as teacher?", "o": ["Ask her daughter to show her the same patience, and explain that it is only fair.", "Take it as a sign that her daughter cares less for her than for the neighbour’s boy.", "Meet the stubbornness with more firmness, so that her daughter learns respect.", "Wonder whether her daughter might be teaching her something about patience."], "a": 3, "e": "The tradition asks not only what we can teach our children but what this child has come to teach us. Perhaps the daughter is teaching her mother patience. When two stubborn people are in the same house, they are both in a good school.", "c": "What might this child have come to teach me?", "s": "Part 3"}];
+(function(){
+ var q=new URLSearchParams(location.search);
+ if(q.get('theme')==='light')document.documentElement.setAttribute('data-theme','light');
+ if(q.get('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');
+})();
+var i=0,right=0,ans=[],started=false;
+var app=document.getElementById('app');
+var JL=['True','False','True only in part'];
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;')}
+function hdr(){
+ document.getElementById('pos').textContent=i<Q.length?'Question '+(i+1)+' of '+Q.length:'Finished';
+ document.getElementById('sc').textContent=i<Q.length?right+' right so far':'';
+ document.getElementById('prog').style.width=(100*Math.min(i,Q.length)/Q.length)+'%';
+}
+function send(m){try{window.parent.postMessage(m,'*')}catch(e){}}
+function ref(s){return s?'Lesson '+META.lesson+', '+s:'Lesson '+META.lesson}
+function show(){
+ hdr();
+ if(i>=Q.length){return result()}
+ var qq=Q[i];
+ var h='<div class="card"><p class="qn">Question '+(i+1)+'</p><p class="q">'+esc(qq.q)+'</p><div class="opts">';
+ if(qq.t==='mc'){var ord=qq.o.map(function(o,k){return k});for(var r=ord.length-1;r>0;r--){var s2=Math.floor(Math.random()*(r+1)),t2=ord[r];ord[r]=ord[s2];ord[s2]=t2}ord.forEach(function(k,pos){h+='<button class="opt" data-k="'+k+'">'+String.fromCharCode(65+pos)+'. '+esc(qq.o[k])+'</button>'})}
+ else{JL.forEach(function(o,k){h+='<button class="opt" data-k="'+k+'">'+o+'</button>'})}
+ h+='</div><div class="fb" id="fb" role="status"></div><div class="nav"><button class="btn" id="nx" style="display:none">'+(i===Q.length-1?'See my result':'Next question')+'</button></div></div>';
+ app.innerHTML=h;
+ app.querySelectorAll('.opt').forEach(function(b){b.onclick=function(){mark(+b.dataset.k===qq.a,b)}});
+ document.getElementById('nx').onclick=function(){i++;show();window.scrollTo(0,0)};
+}
+function mark(ok,btn){
+ started=true;
+ var qq=Q[i];if(ok)right++;ans.push({q:i+1,ok:ok,given:btn?btn.textContent:''});
+ app.querySelectorAll('.opt').forEach(function(b){b.disabled=true;if(+b.dataset.k===qq.a)b.classList.add('right')});
+ if(!ok&&btn)btn.classList.add('wrong');
+ var ra=qq.t==='mc'?qq.o[qq.a]:JL[qq.a];
+ var fb=document.getElementById('fb');fb.className='fb '+(ok?'ok':'no');
+ fb.innerHTML='<b>'+(ok?'Right.':'Not quite. The answer is: '+esc(ra))+'</b>'+esc(qq.e)+' <i>('+ref(qq.s)+'.)</i>';
+ document.getElementById('nx').style.display='inline-block';hdr();
+ send({type:'progress',code:META.code,state:{i:i+1,right:right,ans:ans}});
+}
+function result(){
+ var n=Q.length,p=Math.round(100*right/n),good=p>=META.cut;
+ var h='<div class="card res"><p class="qn">Your result</p><p class="score"><span class="big">'+p+'%</span></p>'+
+  '<p class="band '+(good?'good':'rev')+'">'+(good?'Well grasped':'Revisit these ideas')+'</p>'+
+  '<p>'+right+' of '+n+' questions right.</p><p class="note">This quiz is about the ideas in the lesson, not about how you parent.</p>';
+ var miss=[];Q.forEach(function(qq,k){if(!ans[k]||!ans[k].ok)miss.push(qq)});
+ if(miss.length){h+='<div class="revisit"><h2>Ideas to revisit</h2><ul>';miss.forEach(function(qq){h+='<li>'+esc(qq.c)+' <i>('+ref(qq.s)+')</i></li>'});h+='</ul></div>'}
+ else{h+='<div class="revisit"><h2>Nothing to revisit</h2><p>Every idea in this quiz was answered correctly.</p></div>'}
+ if(REFLECT){h+='<div class="reflect"><h2>A question to take home</h2><p>'+esc(REFLECT)+'</p><p class="note">Not scored. There is no right answer. Your own home is the best place to find out what works.</p></div>'}
+ h+='<div class="review"><h2>Every question, with its answer</h2>';
+ Q.forEach(function(qq,k){var ok=ans[k]&&ans[k].ok;var a=qq.t==='mc'?qq.o[qq.a]:JL[qq.a];
+  h+='<div class="item '+(ok?'r':'w')+'">'+(ok?'Right. ':'Not quite. ')+'<b>Q'+(k+1)+'</b> '+esc(qq.q)+'<br>Answer: '+esc(a)+'<small>'+esc(qq.e)+' ('+ref(qq.s)+')</small></div>'});
+ h+='</div><p class="saved" id="savedmsg"></p><div class="acts"><button class="btn" id="again">Take it again</button></div></div>';
+ app.innerHTML=h;
+ document.getElementById('again').onclick=function(){i=0;right=0;ans=[];show();window.scrollTo(0,0)};
+ send({type:'quizResult',code:META.code,title:META.quizTitle,programme:META.programme,score:right,maxScore:n,percent:p,questionsCorrect:right,questionCount:n,answers:ans});
+ send({type:'progress',code:META.code,state:null});
+}
+window.addEventListener('message',function(ev){
+ var d=ev.data;if(!d||!d.type)return;
+ var m=document.getElementById('savedmsg');
+ if(d.type==='saved'&&m){m.textContent='Your result has been saved to your member record.'}
+ if(d.type==='saveError'&&m){m.textContent='Your result could not be saved this time. You can take the quiz again.'}
+ if(d.type==='notMember'&&m){m.textContent='Sign in as a member to have your result saved.'}
+ if(d.type==='resume'&&d.state&&d.state.i>0&&d.state.i<Q.length&&!started){offerResume(d.state)}
+});
+function offerResume(st){
+ var h='<div class="card"><p class="qn">Welcome back</p><p class="q">You have answered '+st.i+' of '+Q.length+' questions so far.</p><p>Would you like to continue where you left off, or start again from the beginning?</p><div class="acts"><button class="btn" id="cont">Continue from question '+(st.i+1)+'</button><button class="btn alt" id="rest">Start again</button></div></div>';
+ app.innerHTML=h;
+ document.getElementById('cont').onclick=function(){i=st.i;right=st.right||0;ans=st.ans||[];started=true;show()};
+ document.getElementById('rest').onclick=function(){i=0;right=0;ans=[];started=true;show()};
+}
+show();
+send({type:'ready'});
+</script>
+</body>
+</html>

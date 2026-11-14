@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quiz: Lesson 15, Practice with Children, Age by Age</title>
+<meta name="description" content="Ten questions on Lesson 15, Practice with Children, Age by Age, from Ritam Wellness for Parents.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400..700;1,400..700&family=Noto+Sans:wght@400..700&display=swap">
+<style>
+:root{
+ --bg:#FBF5EA; --surface:#FFFDF8; --ink:#1E1E1E; --muted:#5A5A5A; --line:#E6DAC3; --tint:#F3EAD3;
+ --navy:#12285A; --gold:#C9A24A; --goldt:#6B4E0E; --qink:#13295B;
+ --res:#12285A; --ok:#2F5A2E; --okbg:#E3EDDF; --no:#C2557A; --nobg:#F6E3EA;
+ --display:"Noto Serif",Georgia,serif; --body:"Noto Sans",system-ui,-apple-system,"Segoe UI",sans-serif; --mono:"Noto Sans",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+ :root:not([data-theme="light"]){
+  --bg:#0B1A3D; --surface:#12285A; --ink:#FBF5EA; --muted:#C9C3B3; --line:#2B4686; --tint:#1D3770;
+  --goldt:#E6C36A; --qink:#FBF5EA; --res:#E6C36A; --ok:#8FD79A; --okbg:#1E3A2A; --no:#F08FB0; --nobg:#4A2236; color-scheme:dark;
+ }
+}
+:root[data-theme="dark"]{
+ --bg:#0B1A3D; --surface:#12285A; --ink:#FBF5EA; --muted:#C9C3B3; --line:#2B4686; --tint:#1D3770;
+ --goldt:#E6C36A; --qink:#FBF5EA; --res:#E6C36A; --ok:#8FD79A; --okbg:#1E3A2A; --no:#F08FB0; --nobg:#4A2236; color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;
+ padding:18px max(14px,env(safe-area-inset-right,0px)) 30px max(14px,env(safe-area-inset-left,0px))}
+.wrap{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+h1{font-family:var(--display);font-weight:500;font-size:clamp(24px,5vw,32px);line-height:1.15;margin:0}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.sub{color:var(--muted);margin:0}
+.bar{height:6px;background:var(--line);border-radius:3px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--res);transition:width .25s}
+.meta{display:flex;justify-content:space-between;font-size:13px;color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px 18px;display:flex;flex-direction:column;gap:14px}
+.qn{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0}
+.q{font-family:var(--display);font-size:clamp(19px,3.4vw,22px);line-height:1.35;margin:0}
+.opts{display:flex;flex-direction:column;gap:10px}
+.opt{font:inherit;text-align:left;color:var(--ink);background:var(--surface);border:2px solid var(--line);border-radius:10px;padding:12px 14px;cursor:pointer;width:100%}
+.opt:hover:not(:disabled){border-color:var(--res)}
+.opt.right{border-color:var(--ok);background:var(--okbg)}
+.opt.wrong{border-color:var(--no);background:var(--nobg)}
+.opt:disabled{cursor:default}
+input.fill{font:inherit;width:100%;padding:12px 14px;border:2px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink)}
+input.fill:focus{outline:none;border-color:var(--res)}
+.btn{font:inherit;font-weight:600;font-size:15px;color:var(--surface);background:var(--ink);border:0;border-radius:8px;padding:11px 20px;cursor:pointer;text-decoration:none;display:inline-block}
+.btn.alt{background:var(--surface);color:var(--ink);border:1px solid var(--ink)}
+button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--res);outline-offset:2px}
+.fb{display:none;padding:12px 14px;border-radius:10px;font-size:15.5px;line-height:1.5}
+.fb.ok{display:block;background:var(--okbg);border-left:5px solid var(--ok)}
+.fb.no{display:block;background:var(--nobg);border-left:5px solid var(--no)}
+.fb b{display:block;margin-bottom:2px}
+.nav{display:flex;justify-content:flex-end}
+.res{text-align:center}
+.score{font-family:var(--display);margin:4px 0}
+.score .big{font-size:60px;line-height:1}
+.score .of{font-size:26px;color:var(--muted)}
+.band{font-family:var(--display);font-size:22px;margin:0}
+.band.good{color:var(--ok)} .band.rev{color:var(--res)}
+.res p{margin:0}
+.revisit{text-align:left;background:var(--tint);border-radius:10px;padding:12px 14px}
+.revisit h2,.review h2{font-family:var(--display);font-size:18px;margin:0 0 6px}
+.revisit ul{margin:0;padding-left:20px}
+.review{text-align:left;display:flex;flex-direction:column;gap:8px}
+.review .item{padding:10px 12px;border-radius:8px;font-size:15px;line-height:1.45}
+.review .r{background:var(--okbg)} .review .w{background:var(--nobg)}
+.review .item small{display:block;color:var(--muted);margin-top:4px}
+.acts{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.saved{font-size:14px;color:var(--muted)}
+footer{text-align:center;font-size:13px;color:var(--muted)}
+footer a{color:var(--res)}
+.wrap header{background:#12285A;color:#FBF5EA;text-align:center;padding:18px 16px 20px;border-radius:14px}
+.wrap header img{width:56px;height:66px;object-fit:contain;display:block}
+.wrap header .logos{display:flex;align-items:center;justify-content:center;gap:18px}
+.wrap header img.rit{width:86px;height:65px}
+.wrap header .eyebrow{color:#E6C36A;font-weight:700;letter-spacing:3px;margin:8px 0 0}
+.wrap header h1{color:#FBF5EA;font-weight:700;margin:6px 0 4px}
+.wrap header .course{font-size:14px;color:#E6C36A;margin:0 0 8px;font-weight:600}
+.wrap header .sub{color:#F1ECDF;font-size:15px}
+.bar i{background:var(--gold)!important}
+.opt:hover:not(:disabled){border-color:var(--gold)!important}
+input.fill:focus{border-color:var(--gold)!important}
+.q{color:var(--qink)}
+.qn{color:var(--goldt);font-weight:700}
+.btn{background:var(--navy)!important;color:#FBF5EA!important}
+.btn.alt{background:transparent!important;color:var(--ink)!important;border:1px solid var(--navy)!important}
+.card{box-shadow:0 2px 8px rgba(19,41,91,.08)}
+.reflect{text-align:left;background:var(--tint);border-radius:10px;padding:12px 14px}
+.reflect h2{font-family:var(--display);font-size:18px;margin:0 0 6px}.reflect p{margin:0 0 6px}.note{font-size:14px;color:var(--muted);margin:0}
+</style>
+</head>
+<body>
+<div class="wrap">
+ <header>
+  <div class="logos"><img src="../../assets/vedantanz-logo.png" alt="Ramakrishna Vedanta NZ emblem" width="56" height="66"><img class="rit" src="../../assets/ritam-wordmark.png" alt="Ritam" width="86" height="65"></div>
+  <p class="eyebrow">Quiz · Lesson 15</p>
+  <h1>Practice with Children, Age by Age</h1>
+  <p class="course">Ritam Wellness for Parents</p>
+  <p class="sub">Ten questions on the ideas in the lesson. Take them as often as you like; each answer comes with its explanation.</p>
+ </header>
+ <div class="bar"><i id="prog"></i></div>
+ <div class="meta"><span id="pos"></span><span id="sc"></span></div>
+ <div id="app"></div>
+ <footer>Quiz · <a href="https://www.vedanta.nz">www.vedanta.nz</a>. Privacy: when you are signed in, your name, email, answers and score are saved to your member record. Only you and the course instructors can see them. They are not shared or ranked.</footer>
+</div>
+<script>
+/* Types: mc (options o, correct index a; shuffled on display), judge (statement q; a: 0 True, 1 False, 2 True only in part).
+   e = explanation, c = idea to revisit, s = lesson section. Generated by tools/par_quiz/build_par.py from tools/par_quiz/data/PAR-15.json. */
+var META={"code": "PAR-15", "lesson": "15", "quizTitle": "Quiz: Lesson 15, Practice with Children, Age by Age", "programme": "Ritam Wellness for Parents", "cut": 70};
+var REFLECT="What small thing could my youngest and I do together before the family’s corner, and how could I invite rather than tell?";
+var Q=[{"t": "mc", "q": "Why does Lesson 15 begin practice with a four-year-old through a picture, a bow, a flower and a lamp?", "o": ["A small child has to learn the correct ritual first, and the meaning can follow later.", "The picture is the Divine itself, and a child must be taught to honour it as such.", "A young child follows a pair of hands, and an image helps the mind to hold the idea.", "Children enjoy ceremony more than quiet, and so the ritual keeps them occupied for longer."], "a": 2, "e": "A child of that age does not follow an argument; he follows a pair of hands. The parent shows and the child imitates. The image is an aid to the mind: by the law of association, the material image calls up the mental idea. The parent only opens the door, and the child’s own growth does the rest.", "c": "The parent shows, the child imitates, the image aids the mind", "s": "Part 1"}, {"t": "mc", "q": "A four-year-old says he does not want to sit with his father before the shrine. Which response fits Lesson 15?", "o": ["Invite him gently, make it a happy time, and let him sit on a lap with his eyes open.", "Explain that the practice is good for him, and ask him to try it for one week.", "Let him skip it for now, and begin again only when he asks to join in himself.", "Insist for a few minutes, so that he learns that the family’s practice is not optional."], "a": 0, "e": "Then he is invited, not told: “Would you like to sit with me?” The parent makes it a pleasant, joyful time, something the child looks forward to. A very young child may sit on a lap, and his eyes may stay open on the image. All of it is welcome. The practice lasts as long as the child is comfortable.", "c": "Invite, never order; keep it happy and short", "s": "Part 1"}, {"t": "mc", "q": "What does the lesson say is the lasting fruit of doing the small practice daily with young children?", "o": ["They will remember the words of the prayers and songs for the rest of their lives.", "They will keep the habit of attending a shrine in all the years that follow.", "They will learn good manners and respect towards all those who are older than them.", "Deep impressions made by repetition build a relationship with the Divine."], "a": 3, "e": "What the mind keeps are the saṁskāras, made by what is done again and again. Done daily, the practice builds a relationship: the Divine becomes someone the child can approach for help, for knowledge, for protection and for guidance. That connection will be there all through life, even when the parents are not near.", "c": "Daily repetition builds a lasting connection", "s": "Part 1"}, {"t": "mc", "q": "An eleven-year-old tries to sit still for the short sitting, but he fidgets and giggles. Which response fits Lesson 15?", "o": ["Ask him to sit through to the end, so that he learns to finish what he has begun.", "Sing or chant first with clapping and keep it short; if it is a struggle, try tomorrow.", "Move him to a seat apart from the others, so that his giggles do not spoil it for them.", "Tell him the sitting can wait until he is a little older and more able to keep still."], "a": 1, "e": "Then nothing is forced. The family sings or chants together first, with clapping, so that the body has moved before it is asked to be still. The sitting can be shorter, with the eyes open, a hand on the heart and a short name to hold. If it becomes a struggle, they stop and try again tomorrow, and the child never feels he has failed.", "c": "Nothing forced; the child never feels he has failed", "s": "Part 2"}, {"t": "judge", "q": "“A teenager who says, ‘That’s nonsense, Gran,’ is rejecting the family’s values, and should be corrected firmly.”", "a": 1, "e": "When a young person does not take up an idea, there is a reason, and it is not defiance. The idea has not yet found resonance among that person’s saṁskāras; impressions of the same kind are still too few, and so it takes time. Nothing is being deliberately rejected. The way is patient: build such impressions gradually, and hear the young person to the end.", "c": "A “no” means the impressions are still too few, not defiance", "s": "Part 3"}, {"t": "mc", "q": "A seventeen-year-old stands in the doorway and says he does not want to sit. Which approach fits Lesson 15?", "o": ["Ask him to sit for one minute as a favour, and promise not to ask again.", "Remind him that the practice is part of the family’s way of life.", "Tell him that his sisters and cousins are sitting, and that he is the only one missing.", "Invite him to try it as an experiment, and share from your own experience, never as preaching."], "a": 3, "e": "Nothing is forced. The young person is invited to try, to see how it goes, and asked for one thing only: to give it a sincere chance, as one gives an experiment. Parents speak from their own lives, over a meal or the washing-up, of how they stay balanced and calm. What is shared from experience carries a stronger conviction than explanation alone.", "c": "Share from experience; invite an experiment", "s": "Part 3"}, {"t": "mc", "q": "How does Lesson 15 understand a teenager’s question, “Why am I doing this?”", "o": ["As an honest question from a mind whose reasoning has ripened, and to be welcomed.", "As a sign that the practice has been started too early, and should be paused.", "As a test of the parent’s authority, which should be met with a calm and firm answer.", "As a passing mood of the teenage years, which will fade if it is not answered."], "a": 0, "e": "At this age reasoning has ripened, and a young person wants to understand what is being asked of them. “Why am I doing this?” was never rebellion; it was the first honest question. Parents welcome it, talk at ordinary hours about what divinity means, offer ideas as suggestions, and ask for the young person’s own view.", "c": "Welcome the honest “why”", "s": "Part 3"}, {"t": "mc", "q": "A grandmother hears her eleven-year-old give away his last biscuit to his cousin. Which response fits Lesson 15?", "o": ["Praise him warmly on the spot, and hold up his kindness to his cousin as a model.", "Give him a small reward, so that he remembers how pleasing the act was.", "Say it truthfully to another person within his hearing, and never as a comparison.", "Say nothing, so that the kindness stays his own and is not turned into a performance."], "a": 2, "e": "Appreciation is itself a teacher. Parents notice the good that is growing and acknowledge it, in words of admiration and never as a comparison. It is even more powerful when they speak of it to other people within the children’s hearing: what a child overhears is more powerful than being told directly. It has to be true, for children hear that too.", "c": "What a child overhears, if true, stands him taller", "s": "Part 4"}, {"t": "judge", "q": "“Sharing practice with children works only in a family that follows one shared faith tradition.”", "a": 1, "e": "The technique is generic. It is the training of the mind and the unfolding of the Divine within, open to people of any faith, and to atheists and agnostics, so long as they believe in themselves. Each family uses what lives in its own tradition, its own prayers and symbols; a family without one can offer the sitting to divine light. The steps are the same; only the names change.", "c": "Only the names change; the steps are the same", "s": "Part 4"}, {"t": "mc", "q": "A grandmother’s thirteen-year-old granddaughter has parents who never did any practice. The grandmother asks if it is too late. Which view fits Lesson 15?", "o": ["It is probably too late now, since the early years lay down most of the impressions.", "Start where you are, since it is never too late; the same example and patience.", "Wait until her parents agree, and then begin with the practice for the little ones.", "Begin with a firm weekly sitting, so as to make up for the years that were missed."], "a": 1, "e": "Start where you are. It is never too late: the same conversation, the same example, the same patient building of impressions. A home that gathers for chores, meals, games and outings, where each hears and is heard, becomes a sanctuary the young keep returning to, because home is where they belong.", "c": "Start where you are; home as sanctuary", "s": "Part 4"}];
+(function(){
+ var q=new URLSearchParams(location.search);
+ if(q.get('theme')==='light')document.documentElement.setAttribute('data-theme','light');
+ if(q.get('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');
+})();
+var i=0,right=0,ans=[],started=false;
+var app=document.getElementById('app');
+var JL=['True','False','True only in part'];
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;')}
+function hdr(){
+ document.getElementById('pos').textContent=i<Q.length?'Question '+(i+1)+' of '+Q.length:'Finished';
+ document.getElementById('sc').textContent=i<Q.length?right+' right so far':'';
+ document.getElementById('prog').style.width=(100*Math.min(i,Q.length)/Q.length)+'%';
+}
+function send(m){try{window.parent.postMessage(m,'*')}catch(e){}}
+function ref(s){return s?'Lesson '+META.lesson+', '+s:'Lesson '+META.lesson}
+function show(){
+ hdr();
+ if(i>=Q.length){return result()}
+ var qq=Q[i];
+ var h='<div class="card"><p class="qn">Question '+(i+1)+'</p><p class="q">'+esc(qq.q)+'</p><div class="opts">';
+ if(qq.t==='mc'){var ord=qq.o.map(function(o,k){return k});for(var r=ord.length-1;r>0;r--){var s2=Math.floor(Math.random()*(r+1)),t2=ord[r];ord[r]=ord[s2];ord[s2]=t2}ord.forEach(function(k,pos){h+='<button class="opt" data-k="'+k+'">'+String.fromCharCode(65+pos)+'. '+esc(qq.o[k])+'</button>'})}
+ else{JL.forEach(function(o,k){h+='<button class="opt" data-k="'+k+'">'+o+'</button>'})}
+ h+='</div><div class="fb" id="fb" role="status"></div><div class="nav"><button class="btn" id="nx" style="display:none">'+(i===Q.length-1?'See my result':'Next question')+'</button></div></div>';
+ app.innerHTML=h;
+ app.querySelectorAll('.opt').forEach(function(b){b.onclick=function(){mark(+b.dataset.k===qq.a,b)}});
+ document.getElementById('nx').onclick=function(){i++;show();window.scrollTo(0,0)};
+}
+function mark(ok,btn){
+ started=true;
+ var qq=Q[i];if(ok)right++;ans.push({q:i+1,ok:ok,given:btn?btn.textContent:''});
+ app.querySelectorAll('.opt').forEach(function(b){b.disabled=true;if(+b.dataset.k===qq.a)b.classList.add('right')});
+ if(!ok&&btn)btn.classList.add('wrong');
+ var ra=qq.t==='mc'?qq.o[qq.a]:JL[qq.a];
+ var fb=document.getElementById('fb');fb.className='fb '+(ok?'ok':'no');
+ fb.innerHTML='<b>'+(ok?'Right.':'Not quite. The answer is: '+esc(ra))+'</b>'+esc(qq.e)+' <i>('+ref(qq.s)+'.)</i>';
+ document.getElementById('nx').style.display='inline-block';hdr();
+ send({type:'progress',code:META.code,state:{i:i+1,right:right,ans:ans}});
+}
+function result(){
+ var n=Q.length,p=Math.round(100*right/n),good=p>=META.cut;
+ var h='<div class="card res"><p class="qn">Your result</p><p class="score"><span class="big">'+p+'%</span></p>'+
+  '<p class="band '+(good?'good':'rev')+'">'+(good?'Well grasped':'Revisit these ideas')+'</p>'+
+  '<p>'+right+' of '+n+' questions right.</p><p class="note">This quiz is about the ideas in the lesson, not about how you parent.</p>';
+ var miss=[];Q.forEach(function(qq,k){if(!ans[k]||!ans[k].ok)miss.push(qq)});
+ if(miss.length){h+='<div class="revisit"><h2>Ideas to revisit</h2><ul>';miss.forEach(function(qq){h+='<li>'+esc(qq.c)+' <i>('+ref(qq.s)+')</i></li>'});h+='</ul></div>'}
+ else{h+='<div class="revisit"><h2>Nothing to revisit</h2><p>Every idea in this quiz was answered correctly.</p></div>'}
+ if(REFLECT){h+='<div class="reflect"><h2>A question to take home</h2><p>'+esc(REFLECT)+'</p><p class="note">Not scored. There is no right answer. Your own home is the best place to find out what works.</p></div>'}
+ h+='<div class="review"><h2>Every question, with its answer</h2>';
+ Q.forEach(function(qq,k){var ok=ans[k]&&ans[k].ok;var a=qq.t==='mc'?qq.o[qq.a]:JL[qq.a];
+  h+='<div class="item '+(ok?'r':'w')+'">'+(ok?'Right. ':'Not quite. ')+'<b>Q'+(k+1)+'</b> '+esc(qq.q)+'<br>Answer: '+esc(a)+'<small>'+esc(qq.e)+' ('+ref(qq.s)+')</small></div>'});
+ h+='</div><p class="saved" id="savedmsg"></p><div class="acts"><button class="btn" id="again">Take it again</button></div></div>';
+ app.innerHTML=h;
+ document.getElementById('again').onclick=function(){i=0;right=0;ans=[];show();window.scrollTo(0,0)};
+ send({type:'quizResult',code:META.code,title:META.quizTitle,programme:META.programme,score:right,maxScore:n,percent:p,questionsCorrect:right,questionCount:n,answers:ans});
+ send({type:'progress',code:META.code,state:null});
+}
+window.addEventListener('message',function(ev){
+ var d=ev.data;if(!d||!d.type)return;
+ var m=document.getElementById('savedmsg');
+ if(d.type==='saved'&&m){m.textContent='Your result has been saved to your member record.'}
+ if(d.type==='saveError'&&m){m.textContent='Your result could not be saved this time. You can take the quiz again.'}
+ if(d.type==='notMember'&&m){m.textContent='Sign in as a member to have your result saved.'}
+ if(d.type==='resume'&&d.state&&d.state.i>0&&d.state.i<Q.length&&!started){offerResume(d.state)}
+});
+function offerResume(st){
+ var h='<div class="card"><p class="qn">Welcome back</p><p class="q">You have answered '+st.i+' of '+Q.length+' questions so far.</p><p>Would you like to continue where you left off, or start again from the beginning?</p><div class="acts"><button class="btn" id="cont">Continue from question '+(st.i+1)+'</button><button class="btn alt" id="rest">Start again</button></div></div>';
+ app.innerHTML=h;
+ document.getElementById('cont').onclick=function(){i=st.i;right=st.right||0;ans=st.ans||[];started=true;show()};
+ document.getElementById('rest').onclick=function(){i=0;right=0;ans=[];started=true;show()};
+}
+show();
+send({type:'ready'});
+</script>
+</body>
+</html>
