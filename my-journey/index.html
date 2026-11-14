@@ -63,8 +63,9 @@ const QUIZ=SITE+'quiz?q=';
 let LIST=null,DATA=null,SEL=null;
 const PRAC=new Set('1-1 1-2 1-3 1-5 1-6 2-1 2-2 2-3 2-4 2-5 2-6 2-7 3-1 3-3 3-4 3-5 3-6 3-7 4-3 4-4 4-5 4-6 5-1 5-2 5-4 5-5 5-7'.split(' ')); // Advanced Mind lessons that have a practice quiz
 const ADVQ='https://www.vedanta.nz/understanding-check?q=';
-function advUrl(code){let m=/^ADV-P-(\d+)-(\d+)$/.exec(code);if(m)return ADVQ+m[1]+'.'+m[2]+'&kind=practice';m=/^ADV-M(\d)$/.exec(code);if(m)return ADVQ+'m'+m[1];m=/^ADV-(\d+)-(\d+)$/.exec(code);return m?ADVQ+m[1]+'.'+m[2]:''}
+function advUrl(code){if(/^PAR-\d+$/.test(code))return QUIZ+code;let m=/^ADV-P-(\d+)-(\d+)$/.exec(code);if(m)return ADVQ+m[1]+'.'+m[2]+'&kind=practice';m=/^ADV-M(\d)$/.exec(code);if(m)return ADVQ+'m'+m[1];m=/^ADV-(\d+)-(\d+)$/.exec(code);return m?ADVQ+m[1]+'.'+m[2]:''}
 function advQs(title){const m=/^(\d+)\.(\d+)\s/.exec(title||'');if(!m)return [];const k=m[1]+'-'+m[2];const q=[{code:'ADV-'+k,label:'Check'}];if(PRAC.has(k))q.push({code:'ADV-P-'+k,label:'Practice'});return q}
+function parQs(title,ord){const m=/^\s*(?:Lesson\s+)?0?(\d{1,2})\b/i.exec(title||'');const n=m?+m[1]:ord;if(!(n>=1&&n<=20))return [];return [{code:'PAR-'+String(n).padStart(2,'0'),label:'Quiz'}]}
 function colour(p){return p>=70?'#2F5A2E':p>=50?'#6B4E0E':'#C2557A'}
 function fmt(d){return new Date(d+'T00:00:00').toLocaleDateString('en-NZ',{day:'numeric',month:'short',year:'numeric'})}
 function lessonUrl(c,id){return SITE+'participant-page/'+encodeURIComponent(c.slug)+'/step/'+encodeURIComponent(id)}
@@ -88,12 +89,12 @@ function render(){
  (d.results||[]).forEach(r=>{tries[r.code]=(tries[r.code]||0)+1;if(!best[r.code]||r.percent>best[r.code].percent)best[r.code]=r});
  const meta={};(LIST||[]).forEach(x=>meta[x.lessonStepId]=x);
  const today=new Date().toISOString().slice(0,10);
- const sat=c.slug==='satsang-study',adv=c.slug==='know-thy-mind';
+ const sat=c.slug==='satsang-study',adv=c.slug==='know-thy-mind',par=c.slug==='ritam-wellness-for-parents',parN=0;
  let items=[];
  c.sections.forEach(sec=>sec.steps.forEach(st=>{
   const id=st[0],m=sat?meta[id]:null,isQuiz=st[2]==='QUIZ';
   const b=m?best[m.code]:null,studied=done.has(id);
-  const qb=adv?advQs(st[1]).map(q=>({code:q.code,label:q.label,b:best[q.code]||null})):[];
+  const qb=adv?advQs(st[1]).map(q=>({code:q.code,label:q.label,b:best[q.code]||null})):(par&&!isQuiz?parQs(st[1],++parN).map(q=>({code:q.code,label:q.label,b:best[q.code]||null})):[]);
   items.push({qb:qb,sec:sec.title,id:id,title:m?m.title:st[1],code:m&&m.code,date:m&&m.date,series:m&&m.series,studied:studied,isQuiz:isQuiz,b:b,tries:m?(tries[m.code]||0):0,
    upcoming:!!(m&&m.date>today),st:isQuiz?(studied?'done':'pend'):(m?((studied&&b)?'done':((studied||b)?'prog':'pend')):(studied?'done':'pend'))});
  }));
@@ -108,8 +109,8 @@ function render(){
  let h='<div class="bar1"><div class="pick"><label for="cs">MY COURSE</label><select id="cs">'+cs.map(x=>'<option value="'+esc(c0(x))+'"'+(c0(x)===c0(c)?' selected':'')+'>'+esc(x.title)+'</option>').join('')+'</select></div><div class="tiles">'
   +'<div class="tile"><b>'+(sat?nDone+' of '+n:nStud+' of '+les.length)+'</b><span>'+(sat?'SATSANGS COMPLETED':'LESSONS STUDIED')+'</span></div>'
   +(sat?'<div class="tile"><b>'+nStud+'</b><span>LESSONS STUDIED</span></div>':'')
-  +(adv&&qAll.length?'<div class="tile"><b>'+qDone.length+' of '+qAll.length+'</b><span>QUIZZES DONE</span></div>':(sat||quizzes.length||items.some(i=>i.isQuiz)?'<div class="tile"><b>'+quizzes.length+'</b><span>QUIZZES DONE</span></div>':''))
-  +(adv&&qAvg!=null?'<div class="tile"><b>'+qAvg+'%</b><span>AVERAGE BEST SCORE</span></div>':(avg==null?'':'<div class="tile"><b>'+avg+'%</b><span>AVERAGE BEST SCORE</span></div>'))+'</div></div>';
+  +((adv||par)&&qAll.length?'<div class="tile"><b>'+qDone.length+' of '+qAll.length+'</b><span>QUIZZES DONE</span></div>':(sat||quizzes.length||items.some(i=>i.isQuiz)?'<div class="tile"><b>'+quizzes.length+'</b><span>QUIZZES DONE</span></div>':''))
+  +((adv||par)&&qAvg!=null?'<div class="tile"><b>'+qAvg+'%</b><span>AVERAGE BEST SCORE</span></div>':(avg==null?'':'<div class="tile"><b>'+avg+'%</b><span>AVERAGE BEST SCORE</span></div>'))+'</div></div>';
  h+='<div class="prog"><i style="width:'+Math.round(100*nDone/Math.max(1,n))+'%"></i></div>';
  const nxt=core.find(i=>i.st!=='done'&&!i.upcoming);
  h+='<div class="next"><span class="k">MY NEXT STEP</span>';
