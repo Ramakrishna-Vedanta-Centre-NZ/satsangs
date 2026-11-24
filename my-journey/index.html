@@ -89,7 +89,7 @@ function render(){
  (d.results||[]).forEach(r=>{tries[r.code]=(tries[r.code]||0)+1;if(!best[r.code]||r.percent>best[r.code].percent)best[r.code]=r});
  const meta={};(LIST||[]).forEach(x=>meta[x.lessonStepId]=x);
  const today=new Date().toISOString().slice(0,10);
- const sat=c.slug==='satsang-study',adv=c.slug==='know-thy-mind',par=c.slug==='ritam-wellness-for-parents',parN=0;
+ const sat=c.slug==='satsang-study',adv=c.slug==='know-thy-mind',par=c.slug==='ritam-wellness-for-parents';let parN=0;
  let items=[];
  c.sections.forEach(sec=>sec.steps.forEach(st=>{
   const id=st[0],m=sat?meta[id]:null,isQuiz=st[2]==='QUIZ';
@@ -132,6 +132,7 @@ function render(){
   });
   h+='</div></details>';
  });
+ if(par){const HB=[['Start here: how to use the handbooks','https://8902ede3-28da-4abb-829e-7338609acebf.usrfiles.com/ugd/af2af0_049bd3ea3c194d04af0f8558ed8b64bc.pdf'],['Module 1: Foundations','https://8902ede3-28da-4abb-829e-7338609acebf.usrfiles.com/ugd/af2af0_7901f79b7bed40498e34cbf807d59cac.pdf'],['Module 2: Through the Stages','https://8902ede3-28da-4abb-829e-7338609acebf.usrfiles.com/ugd/af2af0_96ea5bb682b54de0916ddf6bb486cd66.pdf'],['Module 3: The Parent\u2019s Own Wellbeing','https://8902ede3-28da-4abb-829e-7338609acebf.usrfiles.com/ugd/af2af0_5c7073fb4bc24421873b6d4381b14d8f.pdf'],['Module 4: Connection and the Home','https://8902ede3-28da-4abb-829e-7338609acebf.usrfiles.com/ugd/af2af0_f22f71c5b3764bb3b177c8eb639582fa.pdf'],['Module 5: The Flowering of the Spirit','https://8902ede3-28da-4abb-829e-7338609acebf.usrfiles.com/ugd/af2af0_f70671b7102b48c3ade5cbd692419d8c.pdf'],['Module 6: Strength and the Modern World','https://8902ede3-28da-4abb-829e-7338609acebf.usrfiles.com/ugd/af2af0_47e57c768eee422f9d4c1ed90c93bbce.pdf'],['Module 7: Character Formation in Action: Family Projects','https://8902ede3-28da-4abb-829e-7338609acebf.usrfiles.com/ugd/af2af0_dda72d235c8549979b037dd58f5632bb.pdf']];h+='<details class="hbk"><summary>My handbooks<span class="cnt">'+HB.length+' PDFs to download and print</span></summary><div class="grid">'+HB.map(x=>'<div class="item"><span class="mk">\u{1F4D6}</span><div class="tx"><p class="t">'+esc(x[0])+'</p><p class="m">Pages to write on, at your own pace</p></div><div class="acts"><a class="a2" href="'+x[1]+'" target="_blank" rel="noopener">Download</a></div></div>').join('')+'</div></details>'}
  app.innerHTML=h;
  document.getElementById('cs').onchange=function(){SEL=this.value;try{sessionStorage.setItem('rvcCourse',SEL)}catch(e){}render()};
 }
