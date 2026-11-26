@@ -207,7 +207,7 @@
    "live": {
     "n": 1,
     "title": "The stroboscope",
-    "url": "interactives/index.html#only=strobe"
+    "url": "interactives/1-stroboscope/index.html"
    },
    "n": 6
   },
@@ -259,7 +259,7 @@
    "live": {
     "n": 3,
     "title": "The dial of the mind",
-    "url": "interactives/index.html#only=dial"
+    "url": "interactives/3-dial-of-the-mind/index.html"
    },
    "n": 8
   },
@@ -381,7 +381,7 @@
    "live": {
     "n": 2,
     "title": "The beat of the vṛtti",
-    "url": "interactives/index.html#only=beat"
+    "url": "interactives/2-beat/index.html"
    },
    "n": 12
   },
@@ -476,7 +476,7 @@
    "live": {
     "n": 5,
     "title": "The dial of experience",
-    "url": "interactives/index.html#only=experience"
+    "url": "interactives/5-dial-of-experience/index.html"
    },
    "n": 16
   },
@@ -602,7 +602,7 @@
    "live": {
     "n": 6,
     "title": "Libet's experiment",
-    "url": "interactives/index.html#only=libet"
+    "url": "interactives/6-libet/index.html"
    },
    "n": 20
   },
@@ -678,7 +678,7 @@
    "live": {
     "n": 4,
     "title": "Two wills",
-    "url": "interactives/index.html#only=wills"
+    "url": "interactives/4-two-wills/index.html"
    },
    "n": 23
   },
