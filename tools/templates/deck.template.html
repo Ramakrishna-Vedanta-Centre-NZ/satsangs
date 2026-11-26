@@ -65,10 +65,17 @@ a.lsn{color:#f3d97a;font-size:.7em;font-weight:600;text-decoration:underline;whi
 .aud{position:fixed;left:16px;bottom:76px;width:min(460px,calc(100% - 32px));background:#12285A;color:#FBF5EA;border:1px solid #C9A24A;border-radius:12px;padding:10px 14px;box-shadow:0 8px 30px rgba(0,0,0,.4);display:none;z-index:5}
 .aud.on{display:block}.aud b{display:block;font:600 15px 'Noto Serif',serif;margin-bottom:6px}.aud audio{width:100%;height:40px}.aud small{display:block;color:#e6c36a;font-size:12px;margin-top:4px}
 .bar button.aplay{background:#C9A24A;color:#12285A;border-color:#C9A24A;font-weight:700;display:none}.bar button.aplay.on{display:inline-block}
-.card audio{width:100%;margin:10px 0 4px}</style></head><body>
+.card audio{width:100%;margin:10px 0 4px}
+.bar button.lvb{background:#6B1414;color:#fff;border-color:#6B1414;font-weight:700;display:none}.bar button.lvb.on{display:inline-block}
+.lvo{position:fixed;inset:0;z-index:60;background:#FBF7EE;display:none;flex-direction:column}.lvo.on{display:flex}
+.lvo .lvh{display:flex;align-items:center;gap:12px;padding:8px 14px;background:#6B1414;color:#fff;font:600 15px 'Noto Sans',sans-serif}.lvo .lvh span{flex:1}
+.lvo .lvh a,.lvo .lvh button{color:#fff;background:transparent;border:1px solid #fff8;border-radius:6px;padding:5px 12px;font:600 14px 'Noto Sans',sans-serif;text-decoration:none;cursor:pointer}
+.lvo iframe{flex:1;border:0;width:100%;background:#fff}
+.card a.lvl{display:inline-block;margin:6px 0 10px;background:#6B1414;color:#fff;text-decoration:none;border-radius:8px;padding:8px 14px;font:600 15px 'Noto Sans',sans-serif}
+</style></head><body>
 <div class="stage"><img id="sl" alt="" src="slides/s-01.jpg"><a id="hot" target="_blank" rel="noopener" aria-label="Listen on YouTube" title="Listen on YouTube"></a></div>
 <div class="notes" id="nb"><h4>NOTES</h4><div id="ntext"></div><p class="more">Open the reading view for the full study notes.</p></div>
-<div class="bar"><button id="prev" aria-label="Previous slide">‹ Prev</button><span class="count" id="count"></span><button id="next" aria-label="Next slide">Next ›</button><button id="audb" class="aplay">▶ Play chant</button><span class="ttl" id="ttl"></span><span class="spacer"></span><a class="gold" href="https://www.vedanta.nz/quiz?q={{CODE}}" target="_blank" rel="noopener">Quiz</a><a href="answers/">Answers</a><a href="{{HANDOUT_URL}}" target="_blank" rel="noopener">Handout (PDF)</a><button id="rdb">Reading view</button><button id="nbb">Notes</button><button id="fs">Full screen</button></div>
+<div class="bar"><button id="prev" aria-label="Previous slide">‹ Prev</button><span class="count" id="count"></span><button id="next" aria-label="Next slide">Next ›</button><button id="audb" class="aplay">▶ Play chant</button><button id="lvb" class="lvb">▶ Live interactive</button><span class="ttl" id="ttl"></span><span class="spacer"></span><a class="gold" href="https://www.vedanta.nz/quiz?q={{CODE}}" target="_blank" rel="noopener">Quiz</a><a href="answers/">Answers</a><a href="{{HANDOUT_URL}}" target="_blank" rel="noopener">Handout (PDF)</a><button id="rdb">Reading view</button><button id="nbb">Notes</button><button id="fs">Full screen</button></div>
 <div class="aud" id="aud"><b id="audt"></b><audio id="aua" controls preload="none"></audio><small>Keeps playing as you move between slides.</small></div>
 <div class="rv" id="rv">
 <div class="rvtop"><img src="logo.png" alt=""><b>{{TITLE}}</b><button id="ssb">Slide view</button></div>
@@ -76,6 +83,7 @@ a.lsn{color:#f3d97a;font-size:.7em;font-weight:600;text-decoration:underline;whi
 <div class="toc" id="toc"></div><div id="cards"></div>
 <div class="rvfoot">Ramakrishna Vedanta Centre NZ · <a href="https://www.vedanta.nz/course/satsang-study" target="_top">Satsang Study course</a> · <a href="https://www.vedanta.nz">www.vedanta.nz</a></div>
 </div>
+<div class="lvo" id="lvo"><div class="lvh"><span id="lvt"></span><a id="lvn" target="_blank" rel="noopener">Open in new tab</a><button id="lvx">✕ Back to slides</button></div><iframe id="lvf" title="Live interactive" allow="fullscreen"></iframe></div>
 <div class="zoom" id="zoom"><img id="zimg" alt=""></div>
 <script type="application/json" id="data">{{DATA}}</script>
 <script type="application/json" id="audio">{{AUDIO}}</script>
@@ -89,7 +97,7 @@ function placeHot(){const h=$('hot'),im=$('sl'),s=S[i],u=listenUrl(s);if(!u||!s.
 addEventListener('resize',()=>placeHot());document.addEventListener('fullscreenchange',()=>setTimeout(placeHot,100));
 function show(k){i=Math.max(0,Math.min(S.length-1,k));const s=S[i];const im=$('sl');im.src=src(s.n);im.alt='Slide '+s.n+': '+s.t;$('count').textContent=s.n+' / '+S.length;$('ttl').textContent=s.t;
  const nt=$('ntext');nt.textContent='';s.on.forEach(p=>nt.appendChild(lp(p)));const lu=listenUrl(s);if(lu){const a=document.createElement('a');a.href=lu;a.target='_blank';a.rel='noopener';a.className='lsn';a.textContent=' \u25B6 Listen';$('ttl').appendChild(a)}
- history.replaceState(null,'','#'+s.n);placeHot();if(S[i+1])(new Image()).src=src(S[i+1].n)}
+ history.replaceState(null,'','#'+s.n);placeHot();const lb=$('lvb');lb.classList.toggle('on',!!s.live);if(s.live)lb.textContent='\u25B6 Live interactive '+s.live.n;if(S[i+1])(new Image()).src=src(S[i+1].n)}
 
 const AU=JSON.parse(document.getElementById('audio').textContent||'[]');let cur=null;
 function trackFor(n){return AU.find(a=>a.slides.includes(n))}
@@ -100,17 +108,21 @@ $('audb').onclick=()=>{const a=$('aua');if(cur&&!a.paused){a.pause();return}cons
 ['play','pause','ended'].forEach(e=>$('aua').addEventListener(e,audUI));
 $('aua').addEventListener('play',()=>{if(!cur){const t=trackFor(S[i].n);if(t){cur=t;$('audt').textContent=t.title}}});
 if(AU.length){const _show=show;show=function(k){_show(k);audUI()};const t0=AU[0];$('aua').src=t0.src;cur=t0;$('audt').textContent=t0.title}
+
+function openLive(s){if(!s.live)return;$('lvt').textContent='Live interactive '+s.live.n+' \u00b7 '+s.live.title;$('lvn').href=s.live.url;$('lvf').src=s.live.url;$('lvo').classList.add('on')}
+function closeLive(){$('lvo').classList.remove('on');$('lvf').src='about:blank'}
+$('lvb').onclick=()=>openLive(S[i]);$('lvx').onclick=closeLive;
 $('prev').onclick=()=>show(i-1);$('next').onclick=()=>show(i+1);
 $('nbb').onclick=()=>$('nb').classList.toggle('on');
 $('fs').onclick=()=>{const d=document.documentElement;if(document.fullscreenElement)document.exitFullscreen();else if(d.requestFullscreen)d.requestFullscreen()};
-addEventListener('keydown',e=>{if(document.body.classList.contains('read'))return;if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();show(i+1)}if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();show(i-1)}if(e.key==='n')$('nb').classList.toggle('on')});
-let x0=null;addEventListener('touchstart',e=>x0=e.touches[0].clientX,{passive:true});addEventListener('touchend',e=>{if(x0===null||document.body.classList.contains('read'))return;const d=e.changedTouches[0].clientX-x0;if(Math.abs(d)>50)show(i+(d<0?1:-1));x0=null});
+addEventListener('keydown',e=>{if($('lvo').classList.contains('on')){if(e.key==='Escape')closeLive();return}if(document.body.classList.contains('read'))return;if(e.key==='l'&&S[i].live){openLive(S[i]);return}if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();show(i+1)}if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();show(i-1)}if(e.key==='n')$('nb').classList.toggle('on')});
+let x0=null;addEventListener('touchstart',e=>x0=e.touches[0].clientX,{passive:true});addEventListener('touchend',e=>{if(x0===null||document.body.classList.contains('read')||$('lvo').classList.contains('on'))return;const d=e.changedTouches[0].clientX-x0;if(Math.abs(d)>50)show(i+(d<0?1:-1));x0=null});
 let built=false;
 function buildRV(){if(built)return;built=true;const cards=$('cards'),toc=$('toc');
  S.forEach(s=>{const c=el('section','card');c.id='r'+s.n;c.appendChild(el('span','num',s.n+' / '+S.length));c.appendChild(el('h2','',s.t));
   const im=el('img');im.loading='lazy';im.src=src(s.n);im.alt='Slide '+s.n+': '+s.t;im.title='Tap to enlarge';im.onclick=()=>{$('zimg').src=im.src;$('zimg').alt=im.alt;$('zoom').classList.add('on')};c.appendChild(im);
   const t=el('div','txt');
-  const nb=el('div','nbox');s.on.forEach(p=>nb.appendChild(lp(p)));t.appendChild(nb);
+  const nb=el('div','nbox');s.on.forEach(p=>nb.appendChild(lp(p)));t.appendChild(nb);if(s.live){const a=el('a','lvl','\u25B6 Open live interactive '+s.live.n+': '+s.live.title);a.href=s.live.url;a.target='_blank';a.rel='noopener';t.appendChild(a)}
   s.vs.forEach(v=>{const b=el('div','vs');if(v.ref)b.appendChild(el('div','r',v.ref));if(v.dev)b.appendChild(el('div','dv',v.dev));if(v.iast)b.appendChild(el('div','ia',v.iast));if(v.en)b.appendChild(el('div','en',v.en));t.appendChild(b)});
   if(s.gl.length){t.appendChild(el('h3','','Key terms'));const tb=el('table','gl');s.gl.forEach(g=>{const r=document.createElement('tr');r.appendChild(el('td','',g[0]));r.appendChild(el('td','',g[1]));tb.appendChild(r)});t.appendChild(tb)}
   s.base.forEach(b=>{if(b.h)t.appendChild(el('h3','',b.h));b.paras.forEach(p=>t.appendChild(el('p','',p)))});

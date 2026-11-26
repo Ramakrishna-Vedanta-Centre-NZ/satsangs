@@ -1,0 +1,1303 @@
+{
+ "code": "HVM-003",
+ "series": "HVM",
+ "page_kind": "Hamilton satsang",
+ "noun": "satsang",
+ "title": "Free Will and Divine Will",
+ "subtitle": "Am I the Doer?",
+ "qtitle": "Free Will and Divine Will: Am I the Doer?",
+ "date": "2026-12-02",
+ "when_where": "Wednesday 2 December 2026, Park View Motor Lodge, Hamilton, and on Zoom. Swami Tadananda, Ramakrishna Vedanta Centre NZ.",
+ "program": "Satsang Study",
+ "handout_url": "https://ramakrishna-vedanta-centre-nz.github.io/satsangs/HVM-003/HVM-003-Free-Will-and-Divine-Will.pdf",
+ "handout_label": "Download the study article (PDF)",
+ "handout_desc": "The study article sets out the whole argument with figures, Going deeper panels, practices, the Sanskrit texts and sources. Six live interactives let you try the ideas for yourself.",
+ "recording_url": null,
+ "quiz": {
+  "marks_per_question": 4,
+  "total": 100,
+  "desc": "Twenty-five question quiz for the Hamilton satsang Free Will and Divine Will, Ramakrishna Vedanta Centre NZ. It asks you to apply the teaching, not to remember it.",
+  "og_title": "Quiz: Free Will and Divine Will",
+  "og_desc": "Twenty-five questions that ask you to understand and apply the satsang.",
+  "hero_line": "25 questions · 100 marks · explanations and reflections",
+  "blessing": "I move as Thou movest me."
+ },
+ "deck": {
+  "meta_desc": "Self-study slides and notes for the Hamilton satsang Free Will and Divine Will: Am I the Doer?, Ramakrishna Vedanta Centre NZ.",
+  "og_desc": "Hamilton satsang, 2 December 2026. Self-study slides with notes and live interactives, Ramakrishna Vedanta Centre NZ."
+ },
+ "cms": {
+  "series": "Hamilton Vedanta-Meditation class",
+  "themes": [
+   "Free will",
+   "Divine Will",
+   "Surrender",
+   "Mind and time",
+   "Vak",
+   "Libet",
+   "Bhagavad Gita"
+  ],
+  "cover_url": "https://ramakrishna-vedanta-centre-nz.github.io/satsangs/HVM-003/cover.jpg",
+  "slides_download": "https://ramakrishna-vedanta-centre-nz.github.io/satsangs/HVM-003/HVM-003-Free-Will-and-Divine-Will.pdf",
+  "event_link": null,
+  "summary": "Did you choose your last thought, or did it simply arrive? This satsang brings Sri Ramakrishna, Holy Mother, Swami Vivekananda, the Bhagavad Gita and the Yoga Sūtras together with modern science, from the stroboscope to Benjamin Libet's experiment on the timing of decisions. Free will and Divine Will turn out to be one power seen from two places. Their felt conflict is the gap between them, two dials govern it (Δf, felt as time, and Δφ, felt as \"I am the doer\"), and true freedom is the little \"i\" coherent with the universal \"I\". Surrender is the discipline that brings it about.",
+  "reflection_questions": [
+   "Did I choose my last thought, or did it arrive? What does that suggest about who acts?",
+   "Where in my week does time drag most, and what is my mind fighting there?",
+   "After my best work, whose work do I take it to be?",
+   "Where do I use \"it is all decided anyway\" to avoid an effort I should make?",
+   "Which one practice will I use this week to turn the two dials?"
+  ],
+  "suggested_reading": [
+   "The study article Free Will and Divine Will: Am I the Doer?, with figures, practices and sources",
+   "Complete Works of Swami Vivekananda: Jnana-Yoga, \"Maya and Freedom\" and \"The Real and the Apparent Man\"; Karma-Yoga, \"Karma in its Effect on Character\" and \"Freedom\"",
+   "The Gospel of Sri Ramakrishna: the conversations with Vaidyanath and with Mahimacharan",
+   "The Gospel of Holy Mother: the story of the fish at Kamarpukur",
+   "Bhagavad Gita 3.27, 11.33, 18.59 to 61 and 18.66"
+  ],
+  "intro": "Did you choose your last thought, or did it simply arrive? Free will and Divine Will are one power seen from two places, and surrender is the discipline that brings the little \"i\" into coherence with the universal \"I\".",
+  "place": "Wednesday 2 December 2026, Park View Motor Lodge, Hamilton, and on Zoom",
+  "cover_has_details": false
+ },
+ "slides": [
+  {
+   "t": "Free Will and Divine Will: Am I the Doer?",
+   "on": [
+    "This evening asks one of the oldest questions in human life: when I act, who is really acting? Free will and Divine Will are usually thought of as two rival powers. We will see that they are one power seen from two places: from inside the little \"i\", and from the Source from which every impulse flows.",
+    "In these notes the little \"i\" in quotation marks stands for the ego, the I-maker (ahaṁkāra), and the capital \"I\" for the Self, the Ātman, the witness behind it."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "Ahaṁkāra / अहंकार",
+     "the I-maker: the function that turns an experience into my experience and an action into my action"
+    ],
+    [
+     "Ātman / आत्मन्",
+     "the Self, the witness behind the mind"
+    ]
+   ],
+   "base": [
+    {
+     "h": "WHAT THIS EVENING IS ABOUT",
+     "paras": [
+      "The talk brings together the Yoga-Vedanta spiritual tradition (Sri Ramakrishna, Holy Mother Sri Sarada Devi, Swami Vivekananda, the Bhagavad Gita and the Yoga Sūtras) and modern science, from a mechanic's stroboscope to Benjamin Libet's famous experiment on the timing of decisions. The study article that goes with it sets out the whole argument with figures, sources and practices, and six live interactives let you feel the ideas for yourself."
+     ]
+    }
+   ],
+   "deeper": [],
+   "n": 1
+  },
+  {
+   "t": "Our evening together",
+   "on": [
+    "We begin with a guided meditation, then the talk, then questions and conversation, and we close with meditation. Please bring your own questions: the session is as much yours as the speaker's.",
+    "Everything shown tonight stays online: these slides with study notes, the study article, the interactives and a 25-question quiz."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "HOW TO USE THESE SLIDES AT HOME",
+     "paras": [
+      "Go through the slides at your own pace, read the notes under each one, and open the live interactives where they are marked. Then take the quiz, which asks you to apply the ideas rather than remember them, and read the answers with their reflections."
+     ]
+    }
+   ],
+   "deeper": [],
+   "n": 2
+  },
+  {
+   "t": "Did you choose your last thought?",
+   "on": [
+    "Sit quietly for a moment and wait for your next thought. When it comes, ask: did I choose it, or did it simply arrive?",
+    "Most of us find that thoughts arrive on their own. So do many of our actions: the hand is already reaching for the biscuit tin, the sharp word has already left the mouth. Only afterwards does a voice inside say, \"I did that.\" Yet in the same breath we feel free. Both experiences are real. The question is how they fit together."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "WHY THE QUESTION MATTERS",
+     "paras": [
+      "If I alone am the doer, every success feeds pride and every failure feeds guilt and anxiety. If everything is fated, we may slide into helplessness. The great teachers of the Yoga-Vedanta spiritual tradition offer a third way: we act fully and responsibly, yet without the burden of being the sole doer. That freedom comes through surrender."
+     ]
+    }
+   ],
+   "deeper": [],
+   "n": 3
+  },
+  {
+   "t": "Three questions",
+   "on": [
+    "Behind the title lie three questions that every thoughtful person asks sooner or later. Who really starts my actions? Is the future already fixed? And where, then, are my freedom and my responsibility?",
+    "The whole evening answers these three questions in turn, and the conclusion gathers the answers together."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "THE SHAPE OF THE TALK",
+     "paras": [
+      "Parts 1 to 3 look at time: how it is felt in the mind, what a stroboscope teaches, and what the illumined report. Part 4 brings in the mind-wave model from our course, which separates two gaps: Δf, felt as time, and Δφ, felt as \"I am the doer\". Parts 5 and 6 follow an action from its Source to its appearance, with the four levels of Vāk and Libet's experiment. Part 7 gathers everything into two dials. Part 8 asks about responsibility, and Part 9 about surrender, the discipline that turns both dials."
+     ]
+    }
+   ],
+   "deeper": [],
+   "n": 4
+  },
+  {
+   "t": "Time is felt in the mind",
+   "on": [
+    "Four everyday observations. Waiting for news, a few minutes feel like an hour. Absorbed in a film, two hours vanish. A few minutes of dream can hold days. In deep sleep there is no time at all.",
+    "The clock ran at the same rate in all four. What changed was the state of the mind. Time as we live it is not a fixed river outside us; it is an experience in the mind."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "A FIRST CONCLUSION",
+     "paras": [
+      "Swami Vivekananda calls time, space and causation the walls within which the mind is bound: \"A few steps, and there arises the wall of beginningless and endless time which we cannot surmount\" (Jnana-Yoga, \"Maya and Freedom\"). The next parts show what happens when the mind goes beyond those walls."
+     ]
+    }
+   ],
+   "deeper": [
+    [
+     "A NOTE ON PHYSICS",
+     "Einstein's relativity is about the time measured by clocks, which runs at different rates for different observers. Our subject is time as it is lived in the mind, so we leave relativity aside."
+    ]
+   ],
+   "n": 5
+  },
+  {
+   "t": "The stroboscope: reality unchanged, experience changed",
+   "on": [
+    "A stroboscope is a lamp that flashes very briefly at a frequency you can set. Shine it on a fan spinning five times a second, with one blade painted red. Strobe slightly slower than the fan: the fan seems to creep forward. Exactly matched: it seems to stand still. Slightly faster: it seems to turn backwards.",
+    "Throughout, the real fan never changed. Stand in front of it and you would feel the breeze even while your eyes told you it was standing still. Open the live interactive and slide the strobe yourself."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "Stroboscope",
+     "a lamp that flashes at an adjustable rate; mechanics use it to make spinning parts appear still"
+    ]
+   ],
+   "base": [
+    {
+     "h": "WHY ONE BLADE IS RED",
+     "paras": [
+      "With three identical blades the pattern repeats every third of a turn, so the fan would seem frozen at other settings too. The red blade stands still only when the strobe exactly matches the fan."
+     ]
+    }
+   ],
+   "deeper": [],
+   "live": {
+    "n": 1,
+    "title": "The stroboscope",
+    "url": "interactives/index.html#only=strobe"
+   },
+   "n": 6
+  },
+  {
+   "t": "What we see is a difference",
+   "on": [
+    "The motion we see is not the fan's motion. It is the difference between the fan's rhythm and the strobe's rhythm, written Δf = f_f − fₛ. Large Δf: it seems to move quickly. Small Δf: slowly. Zero: it seems to stand still. Past zero: backwards.",
+    "What we experience is never the object alone. It is the meeting of the object with the instrument that perceives it. Change the instrument and the same reality is experienced as fast, slow, still or even reversed. The mind, as we shall see, is such an instrument."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "Δf (delta f)",
+     "a difference in frequency between two rhythms"
+    ]
+   ],
+   "base": [],
+   "deeper": [
+    [
+     "THE MATHEMATICS",
+     "If the fan turns at f_f and the strobe flashes at fₛ, the apparent rotation is Δf = f_f − fₛ turns per second, for small differences. Its sign gives the direction. In signal-processing language the strobe samples the fan and the slow motion is called aliasing. The same difference frequency appears when two waves are added, as Part 4 shows."
+    ]
+   ],
+   "n": 7
+  },
+  {
+   "t": "The mind is like a dial",
+   "on": [
+    "Think of the mind as a dial. Turned one way, it lives life as a long stream of separate moments. Turned the other way, it holds more and more of time at once, until at the highest setting all of time is present together.",
+    "The spiritual tradition speaks of three spaces: Mahākāśa, the outer space of the physical world; Chitākāśa, the inner space of the mind; and Chidākāśa, the space of pure Consciousness. They are one continuum, from the grossest to the finest. Turn the live dial and tap each case."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "Mahākāśa / महाकाश",
+     "the outer space of the physical world"
+    ],
+    [
+     "Chitākāśa / चित्ताकाश",
+     "the inner space of the mind"
+    ],
+    [
+     "Chidākāśa / चिदाकाश",
+     "the space of pure Consciousness"
+    ]
+   ],
+   "base": [],
+   "deeper": [],
+   "live": {
+    "n": 3,
+    "title": "The dial of the mind",
+    "url": "interactives/index.html#only=dial"
+   },
+   "n": 8
+  },
+  {
+   "t": "Narada: half an hour becomes twelve years",
+   "on": [
+    "Swami Vivekananda tells the story in his London lecture \"Maya and Freedom\". Narada asks Sri Krishna to show him Maya. Sent to fetch water, he meets a girl, marries, has children, inherits a farm, and loses everything in a flood. Weeping on the bank, he hears a gentle voice: \"My child, where is the water? ... you have been gone for quite half an hour.\"",
+    "The same span is half an hour for Sri Krishna and twelve years for Narada. Neither is wrong. As Narada's mind falls into Maya, the dial turns down. Notice too that Narada never decided to forget his errand: one thing led to another."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "Māyā / माया",
+     "the power by which the One appears as the many, and the unreal seems real"
+    ]
+   ],
+   "base": [
+    {
+     "h": "THE WORDS BEFORE THE STORY",
+     "paras": [
+      "\"With every breath, with every pulsation of the heart with every one of our movements, we think we are free, and the very same moment we are shown that we are not. Bound slaves, nature's bond-slaves, in body, in mind, in all our thoughts, in all our feelings. And this is Maya.\" (Complete Works of Swami Vivekananda, Vol. 2, Jnana-Yoga, \"Maya and Freedom\")"
+     ]
+    }
+   ],
+   "deeper": [],
+   "n": 9
+  },
+  {
+   "t": "Arjuna: the war already fought",
+   "on": [
+    "Given the divine eye (Gita 11.8), Arjuna sees the warriors of both armies rushing into the Lord's mouths, before the battle has begun on the field. Sri Krishna says, \"I am Time\" (11.32), and then the verse on the slide.",
+    "Notice what Sri Krishna does not say. He does not tell Arjuna to sit down and let fate unfold. He says \"arise\" and \"be an instrument\". The vision removes the claim \"I am the doer\", not the action."
+   ],
+   "vs": [
+    {
+     "ref": "Bhagavad Gita 11.33",
+     "dev": "मयैवैते निहताः पूर्वमेव निमित्तमात्रं भव सव्यसाचिन्",
+     "iast": "mayaivaite nihatāḥ pūrvam eva nimitta-mātraṁ bhava savyasācin",
+     "en": "By Me indeed have these already been slain; be merely an instrument, O Savyasācin."
+    }
+   ],
+   "gl": [
+    [
+     "Nimitta-mātra / निमित्तमात्र",
+     "merely an instrument"
+    ],
+    [
+     "Savyasācin / सव्यसाचिन्",
+     "one who can draw the bow with either hand: Arjuna"
+    ]
+   ],
+   "base": [
+    {
+     "h": "THE WHOLE VERSE",
+     "paras": [
+      "\"Therefore arise and win glory. Conquer your enemies and enjoy a prosperous kingdom. By Me indeed have these already been slain; be merely an instrument, O Savyasācin.\" (our rendering) When the vision ends, Arjuna's mind returns to its ordinary state (11.51), and the same events once again lie in the future."
+     ]
+    }
+   ],
+   "deeper": [],
+   "n": 10
+  },
+  {
+   "t": "Sri Ramakrishna: universes rising like waves",
+   "on": [
+    "Speaking with Mahimacharan about Om, Sri Ramakrishna gives the image of a gong's sound fading into silence, and says: \"I have clearly perceived all these things. It has been revealed to me that there exists an Ocean of Consciousness without limit. From It come all things of the relative plane, and in It they merge again. Millions of Brahmandas rise in that Chidakasa and merge in It again.\"",
+    "This is the top of the dial. What would be unimaginable ages for us is seen as the rising and falling of waves on one ocean."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "Brahmāṇḍa / ब्रह्माण्ड",
+     "a universe, literally the cosmic egg"
+    ],
+    [
+     "Līlā and Nitya",
+     "the play of the relative, and the eternal"
+    ]
+   ],
+   "base": [
+    {
+     "h": "WHAT THE THREE CASES SHARE",
+     "paras": [
+      "In every case the reality is one and the experience of time differs with the state of the mind. The lower the dial, the longer and more fragmented time feels, and the more the \"i\" seems to be the one acting. The higher the dial, the more is held at once, until events are seen as already complete and the \"i\" as an instrument. If Arjuna saw the war already accomplished, is the future fixed? We hold that question until Part 8."
+     ]
+    }
+   ],
+   "deeper": [],
+   "n": 11
+  },
+  {
+   "t": "Every experience is a meeting of two waves",
+   "on": [
+    "Yoga calls each moment of experience a vṛtti, a wave in the field of the mind. Our course models it as the meeting of two waves: the object wave (ψₓ, frequency fₛ), what is actually present, and the attention wave (ψₘ, frequency fₘ), what we bring to it, set by manas and shaped by mood and habit.",
+    "Added together they make two layers: a fast carrier, the content of the experience, and a slow envelope, its clarity. The envelope swells and fades at the difference Δf = |fₛ − fₘ|. Each swell is a beat. Tune the mind towards the object in the live interactive and watch the beat slow."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "Vṛtti / वृत्ति",
+     "a wave or modification in the mind: one moment of experience"
+    ],
+    [
+     "Manas / मनस्",
+     "the attending mind"
+    ],
+    [
+     "Citta / चित्त",
+     "the field of the mind"
+    ]
+   ],
+   "base": [],
+   "deeper": [
+    [
+     "THE EQUATION OF THE MEETING",
+     "For two waves of equal strength A: A cos(2πfₛt) + A cos(2πfₘt) = 2A cos(2π(Δf/2)t) cos(2π((fₛ + fₘ)/2)t). The second factor is the carrier at the mean frequency, the content. The first is the envelope, the clarity; its felt pulse, the beat, runs at Δf. When Δf = 0 and the waves are in phase, the result is a single wave at the object's own frequency at double strength: the course calls this the object alone shining."
+    ]
+   ],
+   "live": {
+    "n": 2,
+    "title": "The beat of the vṛtti",
+    "url": "interactives/index.html#only=beat"
+   },
+   "n": 12
+  },
+  {
+   "t": "Time is the beat",
+   "on": [
+    "Here is the link to Part 1: the felt passage of time is the beat. Large Δf, the mind out of tune: many thin beats, and time drags. Small Δf, the mind closely tuned: few full beats, and time flies. Δf = 0: no beat at all, no passage of time felt, the whole content present at once.",
+    "The object's own unfolding never changes, just as the fan never changed. What changes is how the mind divides it: into many thin moments, a few full ones, or one undivided whole."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [],
+   "deeper": [
+    [
+     "THREE EXACT RELATIONS",
+     "Over a stretch τ of the object's unfolding, the number of beats is N = Δf · τ, the length of one felt moment is T = 1/Δf, and the content held in one moment is f̄/Δf. As Δf falls to zero, felt passage falls to zero while the felt moment widens without limit. That is why one state of mind can be described both as \"time stops\" and \"time expands\". This time interpretation is our extension of the course model."
+    ]
+   ],
+   "n": 13
+  },
+  {
+   "t": "Two gaps: time and the claim",
+   "on": [
+    "The course adds what colours the meeting: saṁskāra, the impressions of the past, h(t); the body and prāṇa, G(t); and noise, n(t). And one more, the most important for our question: ahaṁkāra's tilt, Δφ, a standing slant towards \"me and mine\".",
+    "So there are two gaps. Δf, the gap between knower and known, is felt as time. Δφ, the tilt of the I-maker, is felt as \"I am the doer\". Keeping them apart is the key to everything that follows."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "Saṁskāra / संस्कार",
+     "the impressions left by past experience"
+    ],
+    [
+     "Prāṇa / प्राण",
+     "vital energy, breath"
+    ],
+    [
+     "Δφ (delta phi)",
+     "a difference in phase: here, the tilt of the I-maker"
+    ]
+   ],
+   "base": [],
+   "deeper": [
+    [
+     "THE FULL MIND-WAVE EQUATION",
+     "ψexp(t) = [ψₓ(t) * h(t)] + G(t) · ψₘ(t) + n(t). The asterisk means convolution: every arrival is reshaped by the echo of every arrival before it. With matched frequencies the fullness scales as cos(Δφ/2). The course states openly that this is a precise model of experience, not a claim about neurons."
+    ]
+   ],
+   "n": 14
+  },
+  {
+   "t": "Same speed, different setting",
+   "on": [
+    "Frequency is how fast a wave turns; phase is where it stands in its turn. Two clocks run at exactly the same speed, but one is set five minutes ahead. Adjusting the speed never corrects the setting. The setting must be corrected on its own.",
+    "So it is in the mind. Δf can close while Δφ stays: a person completely absorbed in a task, with time vanishing, can still come out of it saying \"Look what I achieved.\" Concentration alone does not remove the claim."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "WHERE Δφ SHOWS ITSELF",
+     "paras": [
+      "Δφ is felt most in action: as pride when things go well, as guilt and anxiety when they go badly, and as the weight of having to hold everything together. It is the mechanism of what Yoga Sūtra 1.4 calls sārūpya: the Seer appearing to take the form of the vṛtti."
+     ]
+    }
+   ],
+   "deeper": [],
+   "n": 15
+  },
+  {
+   "t": "One object, four settings",
+   "on": [
+    "Put the two gaps together and a simple truth appears: experience is a variable. The same object, met with a different Δf and Δφ, is lived as a different experience. Left to right in the figure is tuning the mind (Δf); top to bottom is releasing the claim (Δφ).",
+    "Restless and claimed: time drags and every result is mine. Restless but offered: the heart is given, the mind still wanders. Tuned but claimed: steady, but dimmed by the claim. Tuned and offered: the object alone shines, full and steady. Only the Seer who knows every setting does not change. Try the live dial of experience."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "A NOTE ON THE MODEL",
+     "paras": [
+      "The figure and interactive follow strict wave physics, in which a fixed phase difference matters fully only when the frequencies match. The insight this adds is one the spiritual tradition knows well: the subtle ego shows itself most clearly in a concentrated mind."
+     ]
+    }
+   ],
+   "deeper": [
+    [
+     "THE YOGA SŪTRAS",
+     "1.42: in early concentration the object is known mixed with word, meaning and idea. 1.43: with memory purified, the mind, as if empty of its own form, shines with the object alone. 3.3: the same phrase describes samādhi. 1.4: at other times the Seer appears to take the form of the vṛtti (sārūpya). 1.3: then the Seer abides in its own nature (svarūpa)."
+    ]
+   ],
+   "live": {
+    "n": 5,
+    "title": "The dial of experience",
+    "url": "interactives/index.html#only=experience"
+   },
+   "n": 16
+  },
+  {
+   "t": "Will is a power, not a thing",
+   "on": [
+    "In the spiritual tradition the power of willing is Icchā Śakti, the Divine Mother's power of will. Swami Vivekananda: \"There is something which is not will, but is manifesting itself as will.\" In us it appears as a reaction in the mind: \"When the mind perceives, then, as the reaction, it wills. The will is in the mind.\"",
+    "So every vṛtti carries a little will: a content, a push towards doing it, and a claim. For the Divine Mother, will comes first: Icchā, then Jñāna, then Kriyā. For the individual mind, knowledge comes first and will follows as its reaction. Both are true."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "Icchā Śakti / इच्छाशक्ति",
+     "the power of will"
+    ],
+    [
+     "Jñāna Śakti / ज्ञानशक्ति",
+     "the power of knowledge"
+    ],
+    [
+     "Kriyā Śakti / क्रियाशक्ति",
+     "the power of action"
+    ]
+   ],
+   "base": [
+    {
+     "h": "SOURCES",
+     "paras": [
+      "\"There is something which is not will...\": Complete Works of Swami Vivekananda, Vol. 5, \"Buddhism and Vedanta\". \"When the mind perceives...\": letter to E. T. Sturdy, Vol. 8. Swami Vivekananda also calls the will \"the 'still small voice', the real Ruler who says 'do' and 'do not'\" (Inspired Talks, Vol. 7)."
+     ]
+    },
+    {
+     "h": "EDUCATION IS THE TRAINING OF THE WILL",
+     "paras": [
+      "\"The training by which the current and expression of will are brought under control and become fruitful is called education\" (Vol. 4, \"Our Present Social Problems\"). Every practice at the end of this evening is such a training."
+     ]
+    }
+   ],
+   "deeper": [],
+   "n": 17
+  },
+  {
+   "t": "Scattered wills cancel; aligned wills add",
+   "on": [
+    "Most of the time our little wills pull in different directions: I want to meditate, I want to sleep, I want to check my phone. They largely cancel, and we call the result a weak will. When they line up, they add. A hundred waves out of step add up to only about ten times one; a hundred in step add up to a hundred times.",
+    "Swami Vivekananda: \"This self-control will tend to produce a mighty will, a character which makes a Christ or a Buddha\" (Karma-Yoga). Yet a strong will is still bound: \"The will is not free, it is a phenomenon bound by cause and effect, but there is something behind the will which is free.\""
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "HOW A WILL GROWS STRONG",
+     "paras": [
+      "\"This will is caused by character, and character is manufactured by Karma. As is Karma, so is the manifestation of the will\" (Karma-Yoga, \"Karma in its Effect on Character\"). And it has two directions: \"The ignorant will leads to bondage, the knowing will can free us\" (Inspired Talks). The ignorant will gathers our little wills around the \"i\"; the knowing will lines them up with Her will."
+     ]
+    }
+   ],
+   "deeper": [],
+   "n": 18
+  },
+  {
+   "t": "The four levels of Vāk",
+   "on": [
+    "The spiritual tradition of Kashmir Shaivism maps how every impulse descends from the Source. Parā, the Supreme: Her will as pure potential. Paśyantī, \"the one who sees\": Icchā, the first stirring, whole and wordless. Madhyamā, \"the middle\": Jñāna, the impulse taking shape as an idea, where the I-maker's tilt attaches: \"I want\". Vaikharī, \"the outward\": Kriyā, speech and action in space and time.",
+    "Watch it when you speak: first you know what you mean, whole; then words form inwardly; then they leave the mouth one by one. The sense \"I am going to say this\" arrives only with the inner words."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "Vāk / वाक्",
+     "the Word, the creative power of the Divine Mother"
+    ],
+    [
+     "Parā / परा",
+     "the Supreme level"
+    ],
+    [
+     "Paśyantī / पश्यन्ती",
+     "the seeing level: will"
+    ],
+    [
+     "Madhyamā / मध्यमा",
+     "the middle level: knowledge"
+    ],
+    [
+     "Vaikharī / वैखरी",
+     "the outward level: action"
+    ]
+   ],
+   "base": [
+    {
+     "h": "WHAT THE DESCENT SHOWS",
+     "paras": [
+      "The impulse does not begin with the \"i\". It begins at the Source and passes through will and knowledge before it becomes action. The \"i\" steps in midway, at Madhyamā, and claims what was already moving. \"My free will\" and \"Divine Will\" are one movement seen from two places. This is a contemplative map drawn from spiritual experience, not a scientific finding."
+     ]
+    }
+   ],
+   "deeper": [],
+   "n": 19
+  },
+  {
+   "t": "Libet's experiment: the late arrival of the \"i\"",
+   "on": [
+    "In 1983 Benjamin Libet asked volunteers to flex a wrist whenever they felt like it and to note, on a fast clock, when they first felt the urge. Electrodes recorded the readiness potential. It began about 0.55 seconds before the movement; the urge was felt only about 0.2 seconds before. The brain had begun preparing about a third of a second before the person knew of deciding.",
+    "Move through the experiment in the live interactive, with Libet's clock, the brain signal and the four levels of Vāk side by side, and try the veto switch."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "Readiness potential",
+     "a slow build-up of brain activity before a voluntary movement, first described by Kornhuber and Deecke in 1965"
+    ]
+   ],
+   "base": [
+    {
+     "h": "SOURCES",
+     "paras": [
+      "Libet, Gleason, Wright and Pearl (1983), Brain 106; Libet (1985), Behavioral and Brain Sciences 8; Schurger, Sitt and Dehaene (2012), PNAS 109; Schultze-Kraft and colleagues (2016), PNAS 113."
+     ]
+    }
+   ],
+   "deeper": [],
+   "live": {
+    "n": 6,
+    "title": "Libet's experiment",
+    "url": "interactives/index.html#only=libet"
+   },
+   "n": 20
+  },
+  {
+   "t": "What the clock caught",
+   "on": [
+    "Science reads the result in several ways: the brain decides and consciousness reports; or we cannot start impulses but can veto them (\"free won't\"); or the readiness potential is background activity drifting to a threshold. Science has not settled whether we have free will. But in every reading, much of what leads to an action happens before the \"i\" knows of it.",
+    "Yoga-Vedanta reads it this way: the vṛtti forms first, then ahaṁkāra's tilt attaches to it at Madhyamā: \"I decided to move.\" Paśyantī matches the rising readiness potential, Madhyamā the felt urge, Vaikharī the movement."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "WHY THE READING DOES NOT DEPEND ON WHICH SCIENCE WINS",
+     "paras": [
+      "If the brain decides first, the vṛtti forms before the I-maker claims it. If the decision happens at the threshold, the background fluctuations are the vast field of impressions and conditions, and the threshold is where they come together into one act. Either way, the doer the ego claims to be arrives late."
+     ]
+    }
+   ],
+   "deeper": [],
+   "n": 21
+  },
+  {
+   "t": "The veto: a resolve from ego does not hold",
+   "on": [
+    "Libet's \"free won't\" matches the yogic pause, the moment of discrimination (viveka) in which a rising impulse can be seen and not followed. But the veto is not the \"i\" overruling the Source. It is a second impulse, discrimination, which also descends from the Source and meets the first at Madhyamā, carried by the impressions of practice.",
+    "Science finds the veto real but limited: people could cancel a movement only up to a point of no return about 0.2 seconds before the muscles moved (Schultze-Kraft and colleagues, 2016). The Gita states the limit of the ego's own resolve plainly."
+   ],
+   "vs": [
+    {
+     "ref": "Bhagavad Gita 18.59",
+     "dev": "यदहङ्कारमाश्रित्य न योत्स्य इति मन्यसे । मिथ्यैष व्यवसायस्ते प्रकृतिस्त्वां नियोक्ष्यति ॥",
+     "iast": "yad ahaṅkāram āśritya na yotsya iti manyase / mithyaiṣa vyavasāyas te prakṛtis tvāṁ niyokṣyati",
+     "en": "If, relying on egoism, you think \"I will not fight\", vain is this resolve of yours: your nature will compel you. (our rendering)"
+    }
+   ],
+   "gl": [
+    [
+     "Viveka / विवेक",
+     "discrimination between the real and the unreal, the right and the merely pleasant"
+    ]
+   ],
+   "base": [
+    {
+     "h": "AND 18.60",
+     "paras": [
+      "\"Bound by your own karma, born of your nature, O son of Kuntī, what you do not wish to do through delusion, you will do, even against your will\" (our rendering). A veto made from ego, against one's nature, does not hold. A veto rooted in discrimination, grown through practice, does, because it too comes from deeper than the \"i\"."
+     ]
+    }
+   ],
+   "deeper": [],
+   "n": 22
+  },
+  {
+   "t": "My will within Thy will",
+   "on": [
+    "Now apply the model to will itself. The individual will is the attention wave of the person, fₘ: my wishes, plans and fears. The Divine Will is the one reality actually unfolding, fₛ. When they are far apart, Δf is large, and we feel the familiar struggle of my will against God's will. As they come closer, life begins to flow.",
+    "So the conflict between free will and Divine Will is the beat produced by the gap between them: real as experience, like the fan's apparent motion, but not the deepest truth. My will is not a rival outside Thy will; it lives within it, small and off-centre. Move the live slider from struggle to surrender."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "Abhyāsa / अभ्यास",
+     "steady practice"
+    ],
+    [
+     "Parāśakti / पराशक्ति",
+     "the Supreme Power, the Divine Mother"
+    ]
+   ],
+   "base": [],
+   "deeper": [],
+   "live": {
+    "n": 4,
+    "title": "Two wills",
+    "url": "interactives/index.html#only=wills"
+   },
+   "n": 23
+  },
+  {
+   "t": "Who is the doer?",
+   "on": [
+    "The second dial, Δφ, explains the feeling \"I did it\". The Gita states it directly in the verse on the slide. And it says where the true Doer dwells: \"The Lord dwells in the hearts of all beings, O Arjuna, causing them all to revolve by His Māyā, as if mounted on a machine\" (18.61, our rendering)."
+   ],
+   "vs": [
+    {
+     "ref": "Bhagavad Gita 3.27, tr. Swami Swarupananda",
+     "dev": "प्रकृतेः क्रियमाणानि गुणैः कर्माणि सर्वशः । अहङ्कारविमूढात्मा कर्ताहमिति मन्यते ॥",
+     "iast": "prakṛteḥ kriyamāṇāni guṇaiḥ karmāṇi sarvaśaḥ / ahaṅkāra-vimūḍhātmā kartāham iti manyate",
+     "en": "The Gunas of Prakriti perform all action. With the understanding deluded by egoism, man thinks, \"I am the doer.\""
+    }
+   ],
+   "gl": [
+    [
+     "Guṇa / गुण",
+     "the three qualities of Nature: sattva, rajas, tamas"
+    ],
+    [
+     "Prakṛti / प्रकृति",
+     "Nature, the field of all action"
+    ]
+   ],
+   "base": [],
+   "deeper": [],
+   "n": 24
+  },
+  {
+   "t": "The machine and the Operator",
+   "on": [
+    "Asked by Vaidyanath whether we are really free, Sri Ramakrishna answered: \"Everything depends on the will of God. ... As long as a man has not realized God, he thinks he is free. It is God Himself who keeps this error in man. Otherwise sin would have multiplied.\"",
+    "And of the one who has realised God, the words on the slide. Notice the compassion in \"It is God Himself who keeps this error in man.\" At our present setting the feeling of being a free doer is necessary: it keeps us responsible and careful until we see more truly."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "SOURCE",
+     "paras": [
+      "The Gospel of Sri Ramakrishna, tr. Swami Nikhilananda: the conversation with Vaidyanath, and the conversations with Keshab Chandra Sen, to whom he said: \"Not even a leaf moves except by the will of God.\""
+     ]
+    }
+   ],
+   "deeper": [],
+   "n": 25
+  },
+  {
+   "t": "The will is bound; the Self is free",
+   "on": [
+    "Swami Vivekananda takes the argument to its root. Will, like everything we know, is moulded by time, space and causation: \"Free will is a misnomer. Will can never be free\" (Jnana-Yoga, \"The Real and the Apparent Man\").",
+    "But he does not stop at bondage. In the words on the slide, freedom belongs to the Self behind the will. We were looking for freedom in the wrong place: not in the late \"i\" that claims the action, but in the Self that witnesses it."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "MORE FROM THE COMPLETE WORKS",
+     "paras": [
+      "In Karma-Yoga (\"Freedom\") he says there cannot be any such thing as free will, because the very words are a contradiction. In \"The Free Soul\" (New York, 1896): \"Will is a portion of that being, caught in the network of Maya, and therefore 'free will' is a misnomer.\" The quotation on the slide is from his class notes, Complete Works, Vol. 6."
+     ]
+    }
+   ],
+   "deeper": [],
+   "n": 26
+  },
+  {
+   "t": "Four ways of living",
+   "on": [
+    "Because the two dials are separate, there are four broad ways of living, and most of us move between them several times a day. Restless and self-centred: struggle, and every result mine to carry. Focused but self-centred: excellent work, yet every success inflates and every failure wounds. Devoted but scattered: the heart offered, the mind not yet steady. Focused and surrendered: the instrument, full effort and no claim.",
+    "Concentration closes Δf and brings real gifts, but a sharp mind can still be a proud mind. Freedom needs the second dial too. The two dials help each other: a mind that has let go of the claim has less to defend and settles more easily."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [],
+   "deeper": [],
+   "n": 27
+  },
+  {
+   "t": "The little \"i\", coherent with the universal \"I\"",
+   "on": [
+    "In physics, two waves are coherent when they keep a fixed relationship in time, which needs the same frequency (Δf = 0). Coherence alone is not enough: two coherent waves held half a cycle apart cancel. When they are both coherent and in phase (Δφ = 0), they add fully.",
+    "So it is with the little \"i\" and the universal \"I\". Free will as an independent power is the late arrival Libet's clock caught. The Divine Will is not a foreign power imposed on us. True freedom is not independence from the Divine Will but coherence with it. \"Thy will be done\" is not defeat. It is coherence."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "Coherence",
+     "two waves keeping a fixed relationship in time; with no phase gap they add fully"
+    ]
+   ],
+   "base": [],
+   "deeper": [],
+   "n": 28
+  },
+  {
+   "t": "Two levels, not rivals",
+   "on": [
+    "Is everything fated? From an aeroplane the whole of a winding road can be seen at once; the driver must still steer every bend. What is complete to a mind at the top of the dial is, for us, a road still to be driven. Fatalism keeps the claim and turns it towards doing nothing; surrender is full effort with the claim given up.",
+    "A teaching of Sri Ramakrishna, often retold: a cow tied to a post is free within its rope and must graze by its own effort; when the grass is used up, the cowherd moves the post. Karma sets the post, effort works within it, and grace moves it. Act fully, as if you were the doer, and know all the while that God alone is the Doer, as a fine actor never forgets the role is a role."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [
+    {
+     "h": "EFFORT, KARMA AND GRACE",
+     "paras": [
+      "Karma is the shape of the field: the impressions, h(t), that colour every impulse. Effort is what we do within the field; it also lays down new impressions, so today's effort becomes tomorrow's field. Grace is the Divine Mother's movement towards us. Effort does not compel grace, but it prepares the mind to receive it. Effort is how the claim is gradually given up; grace is what is found when it is."
+     ]
+    }
+   ],
+   "deeper": [],
+   "n": 29
+  },
+  {
+   "t": "The fish at the Master's feet",
+   "on": [
+    "In the Gospel of Holy Mother, Holy Mother urges: \"Surrender, surrender. Then alone will She take compassion on you and leave your path open.\" She then tells how, in the monsoon at Kamarpukur, villagers were beating stranded fish in the flooded fields. One fish kept circling Sri Ramakrishna's feet. He set it free in the pond and said: \"Ah, if anyone could surrender in this manner, then alone can he find protection.\"",
+    "The other fish struggled and were caught. The one that stopped struggling and turned to the Master's feet was saved. It gave up the claim to save itself (Δφ released), and in the same act stopped fighting the current (Δf closing). Both dials turned together."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "Mahāmāyā / महामाया",
+     "the Divine Mother as the great power of Māyā"
+    ]
+   ],
+   "base": [],
+   "deeper": [],
+   "n": 30
+  },
+  {
+   "t": "Give up the claim, not the effort",
+   "on": [
+    "Surrender is not giving up effort: Arjuna fought, and Holy Mother worked tirelessly all her life. It is giving up the claim, Δφ: \"I alone am doing this, and the result must be mine.\" As the claim is released, resistance falls away, the mind grows steady, and Δf begins to close as well.",
+    "Mā śucaḥ, grieve not: freedom from grief and guilt is the fruit of surrender, because the burden of being the sole doer has been laid down. Swami Brahmananda: \"The breeze of grace is always blowing; unfurl your sails.\""
+   ],
+   "vs": [
+    {
+     "ref": "Bhagavad Gita 18.66",
+     "dev": "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज । अहं त्वा सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः ॥",
+     "iast": "sarva-dharmān parityajya mām ekaṁ śaraṇaṁ vraja / ahaṁ tvā sarva-pāpebhyo mokṣayiṣyāmi mā śucaḥ",
+     "en": "Relinquishing all dharmas, take refuge in Me alone. I will free you from all sins. Do not grieve."
+    }
+   ],
+   "gl": [
+    [
+     "Śaraṇāgati / शरणागति",
+     "taking refuge, surrender"
+    ],
+    [
+     "Mā śucaḥ / मा शुचः",
+     "do not grieve"
+    ]
+   ],
+   "base": [],
+   "deeper": [],
+   "n": 31
+  },
+  {
+   "t": "Turning the two dials",
+   "on": [
+    "Surrender is a discipline practised in small moments. Pause in the gap (Δφ): one breath before you speak or react, Libet's veto window made conscious. Offer before you begin (Δφ). Work as an instrument (Δφ): full effort, the result left to Her. Accept what comes (both): \"This is Your will for today.\"",
+    "Steady the rhythm (Δf): slow breathing, regular routines and japa. Evening review (both): where did I fight the current, where did I flow, who was the doer today? Meditation (Δf): daily dhāraṇā and dhyāna, which widen the present until moments of stillness appear. Choose one or two to begin with."
+   ],
+   "vs": [],
+   "gl": [
+    [
+     "Japa / जप",
+     "repetition of a sacred name or mantra"
+    ],
+    [
+     "Dhāraṇā / धारणा",
+     "concentration"
+    ],
+    [
+     "Dhyāna / ध्यान",
+     "meditation"
+    ]
+   ],
+   "base": [
+    {
+     "h": "SWAMI BRAHMANANDA'S THREEFOLD PRAYER FOR WORK",
+     "paras": [
+      "Before beginning, pray for strength to do it unselfishly; during it, for strength to do it well; and when it is done, offer the result to God."
+     ]
+    },
+    {
+     "h": "DESIGN YOUR OWN PRACTICE",
+     "paras": [
+      "Where in my week does the beat run hardest: a meeting, the commute, a difficult conversation? What will I do there: a breath, an offering, a silent phrase? How will I remember: a note on the phone, the moment of washing my hands? Share your practice and your experience of it in the members' group."
+     ]
+    }
+   ],
+   "deeper": [],
+   "n": 32
+  },
+  {
+   "t": "The gong fades into silence",
+   "on": [
+    "We began with three questions. Who really starts my actions? Not the little \"i\": every action descends from the Divine Source through will, knowledge and deed, and the \"i\" steps in midway to claim it. Is the future already fixed? To a mind at the top of the dial all is present at once, but for us the road must still be driven. Where are my freedom and responsibility? Freedom is in the Self behind the will; we move towards it by tuning the mind and releasing the claim, and until the claim is gone responsibility remains ours.",
+    "Sri Ramakrishna's gong gathers it all. Our lives, our choices and our struggles are the ringing. The Divine Will is the silence from which the sound arose and into which it returns. To surrender is to let the ringing settle, and to discover that the silence was never absent. With this, we enter meditation."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [],
+   "deeper": [],
+   "n": 33
+  },
+  {
+   "t": "Revision: five questions",
+   "on": [
+    "1. Time drags while you wait for news: Δf is wide; steadying the breath and attending to what is actually here narrows it. 2. \"Look what I achieved\" after absorbed work: Δf closed, but Δφ, the claim, is still turned. 3. On Libet's clock the \"i\" arrives at Madhyamā, with the felt urge, after the impulse has been descending through Paśyantī.",
+    "4. Fatalism keeps the claim and simply turns it towards doing nothing; surrender is full effort with the claim given up. 5. For Δf: meditation, japa, slow breathing, steady routine. For Δφ: offering before work, working as an instrument, the pause before reacting. Two marks each, ten in all. The full 25-question quiz is on vedanta.nz."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [],
+   "deeper": [],
+   "n": 34
+  },
+  {
+   "t": "Continue at home",
+   "on": [
+    "Read the study article for the full argument, figures and sources; try the six live interactives; take the quiz and read the answers with their reflections; and share your practice in the members' group.",
+    "The study article, slides, interactives and quiz are all in the Satsang Study course on vedanta.nz."
+   ],
+   "vs": [],
+   "gl": [],
+   "base": [],
+   "deeper": [],
+   "n": 35
+  }
+ ],
+ "questions": [
+  {
+   "t": "mc",
+   "q": "You are waiting in a hospital corridor for news, and ten minutes feel like an hour. In the language of this satsang, what is happening, and what would help most?",
+   "o": [
+    "The clock itself slows under stress, so nothing can help until the news finally arrives and the wait ends.",
+    "Δφ has grown too large, so the only remedy is to keep repeating to yourself, over and over, that you are not the doer.",
+    "The mind is far out of tune with what is present; steadying the breath and attending to what is here narrows Δf.",
+    "The future is already fixed, so the sense of dragging time is simply a sign that worrying is pointless."
+   ],
+   "a": 2,
+   "e": "Time drags when the mind beats against its situation: a large Δf gives many thin beats, each felt as a tick. Steady breathing and attention to what is actually present bring the mind's rhythm closer to what is unfolding, and the beat slows. The clock does not change (option A), and repeating a formula about the doer (B) works on the other dial, Δφ, not the restlessness. Fatalism (D) offers no help for the mind in front of us.",
+   "r": "Where in my week does time drag most, and what simple act of attention could I bring there?",
+   "s": 13,
+   "lv": "apply"
+  },
+  {
+   "t": "mc",
+   "q": "A surgeon is completely absorbed in a long operation; hours vanish. Afterwards she thinks, \"That was my finest work; no one else could have done it.\" What does the two-dial picture say about her?",
+   "o": [
+    "Δf closed during the work, but Δφ remained: deep concentration alone does not remove the claim.",
+    "Because time vanished for her, she must have been completely free of the ego all through the operation.",
+    "Her pride shows that she was never truly absorbed, since real concentration cannot exist alongside ego.",
+    "Nothing is amiss, because quiet pride in excellent work is exactly the same thing as offering it."
+   ],
+   "a": 0,
+   "e": "The two gaps are separate. Absorption closes Δf, so time vanishes, but the I-maker's tilt, Δφ, can stay and shows itself afterwards as \"my finest work\". This is why the satsang says concentration alone does not free us, and why the subtle ego shows itself most clearly in a concentrated mind. Her absorption was real (against C), but it did not remove the claim (against B), and pride is the claim, not an offering (against D).",
+   "r": "After my best work, what is the first thought that arises? Whose work do I take it to be?",
+   "s": 15,
+   "lv": "analyse"
+  },
+  {
+   "t": "mc",
+   "q": "A friend says: \"Arjuna saw the war as already fought. So the future is fixed, and nothing I do matters. I'll stop studying for my exam.\" Which response best fits the teaching?",
+   "o": [
+    "He is right in principle, but he should study anyway, simply to keep his parents and teachers content.",
+    "The whole may be seen from above, but the road must still be driven; refusing effort only turns the claim towards doing nothing.",
+    "Arjuna's vision is only a poetic image; the future is entirely open, and effort alone decides every result.",
+    "He should study hard, because results depend wholly on his own effort, and grace plays no part at all in what comes to any of us."
+   ],
+   "a": 1,
+   "e": "Sri Krishna showed Arjuna the war as accomplished and in the same verse told him to arise and be an instrument (Gita 11.33). The view from the aeroplane does not take the steering wheel from the driver. Fatalism keeps Δφ, the claim, and simply points it at inaction: \"I need not bother\" is still the little \"i\" deciding. Option A gives the right action for the wrong reason; C and D swing to the other extreme and leave no place for the Divine Will or grace.",
+   "r": "Where do I use \"it is all decided anyway\" to avoid an effort I know I should make?",
+   "s": 29,
+   "lv": "evaluate"
+  },
+  {
+   "t": "match",
+   "q": "Which of the four ways of living best describes each person?",
+   "rows": [
+    "A gifted manager runs a flawless project, then is shaken for weeks by one critical email.",
+    "A devotee prays sincerely every morning, but at work her mind darts from one worry to the next.",
+    "A nurse on a hard shift gives full attention to each patient and leaves the outcome with the Divine Mother.",
+    "An anxious, distracted student is sure that every poor mark proves he is a failure."
+   ],
+   "c": [
+    "Devoted but scattered",
+    "Focused and surrendered",
+    "Restless and self-centred",
+    "Focused but self-centred"
+   ],
+   "ans": [
+    3,
+    0,
+    1,
+    2
+   ],
+   "e": "The manager is focused (Δf closed while working) but still claims every result, so one criticism wounds: focused but self-centred. The devotee has offered her heart (Δφ released) but her mind is not yet steady: devoted but scattered. The nurse has both: full attention and no claim, the instrument. The student is restless (Δf wide) and holds every result as proof about himself: restless and self-centred. Most of us visit all four in a single day.",
+   "r": "Which of the four do I live in most often at work, and which at home?",
+   "s": 27,
+   "lv": "analyse"
+  },
+  {
+   "t": "mc",
+   "q": "In Libet's experiment the brain's readiness potential began about half a second before the movement, but the urge was felt only about 0.2 seconds before. Read with the four levels of Vāk, what does this suggest?",
+   "o": [
+    "Consciousness plays no part whatever in action, so all the moral teaching about effort, duty and choice turns out to be mistaken.",
+    "The volunteers simply misread the clock, so the result tells us nothing about where actions really begin.",
+    "The \"i\" is the true starting point, and the brain merely needs a little time to carry out its orders.",
+    "The impulse was already descending through Paśyantī before it took the form the \"i\" could recognise and claim at Madhyamā."
+   ],
+   "a": 3,
+   "e": "The satsang lays the levels of Vāk beside Libet's timeline: the rising readiness potential matches Paśyantī, whole and wordless; the felt urge matches Madhyamā, where the impulse first has a form the \"i\" can claim; the movement is Vaikharī. The \"i\" arrives midway (against C). This is a contemplative reading, and science still debates the details, but no reading shows that awareness and effort are meaningless (against A), and method questions do not erase the basic timing (against B).",
+   "r": "Can I catch, today, one impulse that was already moving before I said \"I want\"?",
+   "s": 21,
+   "lv": "analyse"
+  },
+  {
+   "t": "mc",
+   "q": "Someone argues: \"Libet's veto proves the ego is the real master. It can always overrule any impulse if it tries hard enough.\" Which reply is most accurate?",
+   "o": [
+    "The veto is real but limited: it is a second impulse, discrimination, also from the Source and grown through practice.",
+    "The veto is an illusion: once anything has begun at a subtler level, nothing at all can ever stop it.",
+    "He is right: willpower is the whole of spiritual life, and a determined ego can defeat any impulse that it chooses to oppose.",
+    "The veto belongs only in a laboratory and has no bearing on anger, habit or the way we speak to people."
+   ],
+   "a": 0,
+   "e": "Science finds the veto real but limited, with a point of no return (Schultze-Kraft and colleagues, 2016), so C overstates it and B denies it. The satsang reads the veto as a counter-impulse of discrimination that also descends from the Source and meets the first impulse at Madhyamā, carried by the impressions of practice. The Gita shows the limit of the ego's own resolve: a resolve made from egoism against one's nature is vain (18.59 to 60). The pause before reacting is exactly where this matters in daily life (against D).",
+   "r": "Which of my reactions have I learnt to pause before, and how did that pause grow?",
+   "s": 22,
+   "lv": "evaluate"
+  },
+  {
+   "t": "mc",
+   "q": "Which statement best distinguishes the two gaps of the mind-wave model?",
+   "o": [
+    "Δf and Δφ are two names for a single gap in the mind, and meditation alone closes it completely.",
+    "Δf is felt as \"I am the doer\", while Δφ, the standing tilt that the I-maker brings to every meeting, is felt as the passing of time.",
+    "Δf, the gap in rhythm between attention and its object, is felt as time; Δφ, the I-maker's tilt, is felt as \"I am the doer\".",
+    "Δf belongs only to the body and Δφ only to the mind, so only Δφ has any place in spiritual practice."
+   ],
+   "a": 2,
+   "e": "Δf is a difference in rate between the attention wave and the object wave; its beat is felt as the passage of time. Δφ is a standing offset that the I-maker brings to every meeting, felt as \"this is mine\" and \"I did it\". They are separate (against A): Δf can close while Δφ stays. Option B reverses them, and D misplaces both: both act in the meeting of mind and object, and both matter for practice.",
+   "r": "Today, when did I feel time dragging, and when did I feel \"I did that\"? Were they the same moment?",
+   "s": 14,
+   "lv": "understand"
+  },
+  {
+   "t": "mc",
+   "q": "A colleague criticises your work sharply in front of others. Which of the practices fits best in that very moment?",
+   "o": [
+    "Begin the evening review there and then, by mentally listing every mistake you have made that day.",
+    "Leave the room at once and do japa quietly until the feeling has passed completely, and only then come back to talk.",
+    "Accept what comes by agreeing at once with every criticism, so that the ego is thoroughly humbled.",
+    "Pause in the gap: one breath before replying, so that discrimination can act before the impulse becomes speech."
+   ],
+   "a": 3,
+   "e": "The pause is Libet's veto window made conscious: the impulse has taken form at Madhyamā but has not yet become words at Vaikharī. One breath lets discrimination meet it. The evening review (A) belongs to the evening and is not self-blame. Japa (B) steadies the rhythm, but walking out is avoidance, not practice in the moment. Accepting what comes (C) means accepting the situation as Her will for today, not agreeing with whatever is said.",
+   "r": "Where could one breath before speaking change the course of a conversation this week?",
+   "s": 32,
+   "lv": "apply"
+  },
+  {
+   "t": "mc",
+   "q": "A nurse works night shifts and wants a practice that turns both dials. Which plan brings the teaching together best?",
+   "o": [
+    "Offer the shift before it begins, give full attention to each patient, and review at the end who was the doer.",
+    "Meditate for two hours after each shift, and keep work and spiritual life in two quite separate compartments of the day.",
+    "Repeat \"I am not the doer\" during every task, so that real effort and attention are no longer needed.",
+    "Concentrate harder at work so that time flies, trusting the claim to fade away of its own accord."
+   ],
+   "a": 0,
+   "e": "The plan combines practices for each dial: the offering and the review work on Δφ, the claim; full attention to each patient narrows Δf. It brings practice into the shift itself rather than after it (against B). Repeating a formula while dropping effort (C) misunderstands surrender, which is full effort with the claim given up. Concentration alone (D) closes Δf but can leave the claim untouched.",
+   "r": "What would a practice for both dials look like in the busiest part of my own week?",
+   "s": 32,
+   "lv": "synthesise"
+  },
+  {
+   "t": "mc",
+   "q": "Narada lived twelve years in what was half an hour for Sri Krishna, and Sri Ramakrishna saw millions of universes rise and fall in Chidākāśa. What single principle explains both?",
+   "o": [
+    "Holy people live for longer than others, and so their sense of time is naturally stretched.",
+    "The reality is one, and the experience of time depends on the setting of the mind.",
+    "Both are symbolic stories and say nothing about what minds can actually experience.",
+    "Time runs faster in some places than in others, exactly as Einstein's relativity shows."
+   ],
+   "a": 1,
+   "e": "The three cases in Part 3 are read as data: the same span is a long stream of moments for a mind low on the dial and a single whole for a mind at the top. The satsang sets relativity aside (against D), since it concerns clock time, not lived time. Option A confuses length of life with breadth of awareness, and C ignores that the teachers report these states as experience.",
+   "r": "When has a short span held a great deal for me, or a long one held very little?",
+   "s": 8,
+   "lv": "analyse"
+  },
+  {
+   "t": "mc",
+   "q": "Which statement best expresses true freedom as this satsang presents it?",
+   "o": [
+    "Freedom is independence: the little \"i\" acting without any influence from anything outside it.",
+    "Freedom is a strong will, trained over many years, that can overcome every obstacle in life by sheer force.",
+    "Freedom is giving up all action entirely, so that only the Divine Will is left to act.",
+    "Freedom is the little \"i\" coherent with the universal \"I\": one rhythm, and no tilt of the claim."
+   ],
+   "a": 3,
+   "e": "Two waves add fully only when they are coherent (Δf = 0) and in phase (Δφ = 0). So it is with the little \"i\" and the universal \"I\": freedom is not independence from the Divine Will (against A) but coherence with it. A strong will is still bound by cause and effect (against B), as Swami Vivekananda says. Giving up action (C) is not surrender; surrender is full effort without the claim.",
+   "r": "In what part of my life do I still equate freedom with getting my own way?",
+   "s": 28,
+   "lv": "evaluate"
+  },
+  {
+   "t": "mc",
+   "q": "At six every morning a man wants to meditate, wants to sleep in, and wants to check his messages. Most mornings he does none of them well. What lies at the root of his \"weak will\"?",
+   "o": [
+    "His little wills pull in different directions and cancel; self-control and steady practice line them up.",
+    "He needs more desires, so that one of them grows strong enough to win out over the others.",
+    "He was simply born with a weak will, and nothing he does now can ever really change it.",
+    "His will is strong enough already, but his body is tired, so all that he needs is more sleep and a longer rest."
+   ],
+   "a": 0,
+   "e": "Scattered wills cancel and aligned wills add: a hundred waves out of step give only about ten times one, while a hundred in step give a hundred times. Swami Vivekananda teaches that self-control produces a mighty will, and that will is made by character, which is made by karma (Karma-Yoga). So the will can be trained (against C). More desires scatter it further (against B), and rest alone does not align it (against D).",
+   "r": "Which two of my wishes most often pull against each other, and which one would I rather align with?",
+   "s": 18,
+   "lv": "analyse"
+  },
+  {
+   "t": "mc",
+   "q": "Swami Vivekananda said that the will is not free, but the \"I\" behind the will is free. Someone concludes: \"Then I should stop making choices altogether.\" How should this be judged?",
+   "o": [
+    "It confuses two levels: the will is the instrument we must train, while freedom lies in the Self that good choices help reveal.",
+    "It is correct, since the will is bound and so every act of choosing is simply a waste of effort.",
+    "It is partly correct: one should choose carefully in spiritual matters, but leave all worldly matters entirely to fate and circumstance.",
+    "It is mistaken, because the will is fully free whenever we happen to act from good motives."
+   ],
+   "a": 0,
+   "e": "The teaching distinguishes the will, which belongs to the world of cause and effect, from the Self behind it, which is free. That does not make choosing pointless (against B and C): Swami Vivekananda defines education as the training of the will, and the knowing will can free us. Nor is the will itself free when motives are good (against D); good motives make it a better instrument, not an independent one.",
+   "r": "What choice am I avoiding by telling myself it does not matter?",
+   "s": 26,
+   "lv": "evaluate"
+  },
+  {
+   "t": "mc",
+   "q": "Someone has lost a job and is torn between fear and anger. How do Holy Mother's story of the fish and the Gita's \"grieve not\" come together for this person?",
+   "o": [
+    "Stop struggling against what has happened and simply wait, since the Divine will provide for you without any effort.",
+    "Struggle harder, as the fish that fought the hardest were showing the deepest faith of all.",
+    "Turn inwardly to the Divine and give full effort to the next step, without the burden of being the sole doer.",
+    "Grieve fully first, because surrender becomes possible only after every feeling has been spent."
+   ],
+   "a": 2,
+   "e": "The fish that stopped struggling and turned to the Master's feet was saved: it gave up the claim to save itself, and in the same act stopped fighting the current. The Gita's \"take refuge in Me alone ... do not grieve\" (18.66) promises freedom from grief when the burden of being the sole doer is laid down. Surrender is not passivity (against A); Arjuna fought and Holy Mother worked all her life. Struggle driven by the claim (B) is what the other fish did, and grief need not be exhausted before refuge is taken (D).",
+   "r": "Where in my life am I circling in struggle when I could turn to Her feet?",
+   "s": 30,
+   "lv": "synthesise"
+  },
+  {
+   "t": "mc",
+   "q": "Two friends watch the same football match. One is enthralled; the other keeps checking the time. What does the stroboscope experiment teach about this?",
+   "o": [
+    "The match is the same; each experience is the meeting of the match with a mind, so the two differ.",
+    "Football is enjoyable only to some people, so the experiment has nothing to say about this case.",
+    "One of the two friends must be wrong about how long the match actually lasted, and the clock settles who.",
+    "The enthralled friend's watch was running faster, which is why the match seemed to go so quickly."
+   ],
+   "a": 0,
+   "e": "Under the strobe the fan never changed; what changed was its meeting with the instrument. In the same way the match unfolds at one rate, while each mind meets it with its own rhythm. Neither friend is wrong about the clock (against C and D); each is right about his own experience. The point is general, not about football (against B).",
+   "r": "Which activity makes time vanish for me, and what does that tell me about my attention?",
+   "s": 7,
+   "lv": "apply"
+  },
+  {
+   "t": "mc",
+   "q": "Before an important sentence, you first know what you mean, whole; then words form inwardly; then you speak. Where does the sense \"I am going to say this\" appear, and why does it matter?",
+   "o": [
+    "At Vaikharī, only once the words are actually spoken aloud and heard by someone else.",
+    "At Parā, because the \"i\" is itself the original source of the whole meaning.",
+    "With the inner words, at Madhyamā; the meaning was already whole before the \"i\" claimed it.",
+    "It never appears at all, because speaking always happens without any sense of there being a speaker."
+   ],
+   "a": 2,
+   "e": "The meaning comes first, whole and wordless, with the flavour of Paśyantī. The sense of being the speaker arrives with the inner words at Madhyamā, and by the time the sentence is spoken the \"i\" is sure it was the author from the start. It is not at Vaikharī (A), which only unrolls what was already formed, nor at Parā (B), which is the Source, not the ego. Option D denies an experience everyone has.",
+   "r": "Next time I speak about something important, can I notice the moment before the words?",
+   "s": 19,
+   "lv": "analyse"
+  },
+  {
+   "t": "mc",
+   "q": "After years of meditation someone gains strong concentration and some unusual abilities, and begins to feel spiritually above others. How does the teaching assess this?",
+   "o": [
+    "The abilities prove that the goal has been reached, so the feeling of superiority is justified.",
+    "Concentration closed Δf, but without offering, Δφ grew; a sharp mind can still be a proud mind.",
+    "The concentration must have been false, since true concentration and pride can never coexist.",
+    "Feeling superior does no harm at all, provided the daily meditation simply carries on."
+   ],
+   "a": 1,
+   "e": "The satsang warns that powers gained through concentration can strengthen the ego rather than dissolve it. Concentration closes Δf, but freedom needs the second dial: the claim must be offered. The abilities are not freedom (against A). The concentration may be quite real (against C); the problem is the claim that rides on it. Pride is not harmless (against D): it is Δφ itself.",
+   "r": "What gift or ability of mine most easily becomes a source of pride?",
+   "s": 27,
+   "lv": "evaluate"
+  },
+  {
+   "t": "mc",
+   "q": "Using the image of the cow tied to a post, how can effort and grace both be true at once?",
+   "o": [
+    "The cow should not bother to graze, since the cowherd will feed it whatever it does.",
+    "The cow is free to pull up the post and wander wherever it likes, if only it pulls hard enough on the rope.",
+    "Within the rope the cow must graze by its own effort; when the grass is gone, the cowherd moves the post.",
+    "The rope shows that effort is useless, since the cow can never get beyond the post."
+   ],
+   "a": 2,
+   "e": "Within the length of its rope the cow is free, and if it is to eat it must make the effort; the post and the rope are set by past karma. The moving of the post is grace. So effort works within the field that karma sets, and grace changes the field. Effort is not useless (against A and D), and the ego cannot pull up the post by force (against B). Effort prepares the mind to receive grace; it does not compel it.",
+   "r": "Where is the grass within my rope that I have not yet grazed?",
+   "s": 29,
+   "lv": "synthesise"
+  },
+  {
+   "t": "match",
+   "q": "Each moment is part of one act of speaking to comfort a friend. At which level of Vāk does each belong?",
+   "rows": [
+    "You sense, before any words, exactly what you want your friend to feel.",
+    "You rehearse the sentence silently and change one word.",
+    "The sentence is spoken aloud and your friend hears it.",
+    "A thought arises: \"I am going to say this.\""
+   ],
+   "c": [
+    "Paśyantī (will)",
+    "Madhyamā (knowledge)",
+    "Vaikharī (action)"
+   ],
+   "ans": [
+    0,
+    1,
+    2,
+    1
+   ],
+   "e": "The whole meaning, before any word, has the flavour of Paśyantī. Inner words that can be heard and revised belong to Madhyamā, and so does the sense \"I am going to say this\", because the \"i\" attaches only when the impulse has a form it can recognise. The spoken sentence is Vaikharī. The meaning was complete at the start; speaking only unrolls it in time.",
+   "r": "What changes in my speech when I wait for the whole meaning before I start talking?",
+   "s": 19,
+   "lv": "analyse"
+  },
+  {
+   "t": "mc",
+   "q": "Bring together the stroboscope and the picture of my will within Thy will. What does the felt conflict between my will and God's will correspond to?",
+   "o": [
+    "A real battle between two independent powers, one of which must in the end defeat the other.",
+    "The beat produced by the gap between them: real as experience, like the strobe's motion, but not the deepest truth.",
+    "A plain error of perception that should simply be ignored, since nothing at all in the experience of conflict is real.",
+    "A test set by the Divine, so the conflict should be made as sharp and painful as possible."
+   ],
+   "a": 1,
+   "e": "Under the strobe, the apparent motion is the difference between two rhythms, and the fan itself never changes. In the same way, the struggle of my will against Thy will is the beat of the gap between them. It is real as an experience (against C), but the two are not rival powers (against A): my will lives within Thy will. As surrender grows, the gap closes and the conflict fades, so sharpening it (D) misses the point.",
+   "r": "Where do I most feel my will pulling against what life is bringing, and what would one step closer look like?",
+   "s": 23,
+   "lv": "synthesise"
+  },
+  {
+   "t": "mc",
+   "q": "Sri Ramakrishna said: \"It is God Himself who keeps this error in man. Otherwise sin would have multiplied.\" What follows for how we hold our own sense of being the doer?",
+   "o": [
+    "It is shameful, and from now on it should be firmly denied in every single situation that arises in life.",
+    "It is the final truth, so the teaching that God alone is the Doer can safely be set aside.",
+    "It is only a trick, so in fact we are not responsible for anything that we do.",
+    "At our present setting it is needed: it keeps us responsible and careful until we see more truly."
+   ],
+   "a": 3,
+   "e": "The feeling of being a free doer is not a mistake to be ashamed of (against A). At our present setting of the dial it keeps us responsible and careful. As long as we feel we are the doer, we must also feel responsible (against C). It is not the final truth (against B): the one who has realised God says, \"I am the machine, and Thou, O Lord, art the Operator.\" This is Δφ seen with compassion.",
+   "r": "Can I hold my sense of responsibility without either pride or self-reproach?",
+   "s": 25,
+   "lv": "evaluate"
+  },
+  {
+   "t": "mc",
+   "q": "After some months of practice, which sign best shows that this teaching is becoming part of one's character?",
+   "o": [
+    "One can now explain Δf, Δφ and the four levels of Vāk clearly and accurately to others.",
+    "One has read every source listed at the end of the study article, from the Bhagavad Gita to Libet's papers.",
+    "Praise and blame move one less, the pause before reacting comes easily, and effort goes on calmly.",
+    "One spends many more hours each week in meditation than one did at the start."
+   ],
+   "a": 2,
+   "e": "Swami Vivekananda says that assimilating five ideas and making them one's life and character is more education than a library learnt by heart. Explaining (A) and reading (B) are information. Hours of meditation (D) are good but measure activity, not growth. The signs that the claim is loosening are in life itself: less movement under praise and blame, the pause rising by itself, and effort without anxiety about results.",
+   "r": "Which small change in my reactions this month tells me the teaching is taking root?",
+   "s": 32,
+   "lv": "synthesise"
+  },
+  {
+   "t": "mc",
+   "q": "You have heard this satsang and read the article. In the order of śravaṇa, manana and nididhyāsana, what is the best next step for these ideas to become your own?",
+   "o": [
+    "Read further books on free will until every scientific and philosophical debate on the question has been settled.",
+    "Reflect on the ideas until doubts clear, test them in daily life, and practise one discipline steadily.",
+    "Memorise the key quotations, so that they can be recalled whenever a difficult moment comes.",
+    "Wait for a spiritual experience first, before attempting to apply any of it in daily life."
+   ],
+   "a": 1,
+   "e": "Hearing (śravaṇa) is done. Next comes reflection (manana), turning the ideas over until doubts clear and testing them in real situations, and then sustained contemplation and practice (nididhyāsana), until the idea becomes one's own. More reading (A) and memorising (C) stay at the level of information. Waiting for experience (D) reverses the order: practice prepares the mind for experience.",
+   "r": "Which one idea from this evening will I reflect on and practise this month?",
+   "s": 35,
+   "lv": "synthesise"
+  },
+  {
+   "t": "mc",
+   "q": "A friend says: \"Science has proved that free will is an illusion.\" Which assessment is fairest to the evidence?",
+   "o": [
+    "Science has proved that free will is real, because volunteers in the experiments could veto movements.",
+    "Science has proved there is no free will, so all spiritual teaching about choice is now out of date.",
+    "Science has nothing at all to say about the mind, and its findings can safely be ignored here.",
+    "Science has not settled it, but in every reading much happens before the \"i\" knows of it."
+   ],
+   "a": 3,
+   "e": "The experiments have been debated for forty years: some read them as the brain deciding first, Libet pointed to a veto window, Schurger and colleagues suggested the signal is background activity reaching a threshold, and others question the method. None settles the question either way (against A and B). Yet every reading agrees that much happens before awareness, which fits the teaching that the \"i\" arrives late. Science and the spiritual tradition can light each other (against C).",
+   "r": "How do I respond when science and my faith seem to disagree: with fear, dismissal or curiosity?",
+   "s": 21,
+   "lv": "evaluate"
+  },
+  {
+   "t": "mc",
+   "q": "Your carefully planned day collapses: the car breaks down and an important appointment is lost. Which response turns both dials together?",
+   "o": [
+    "Decide that planning is useless, and resolve never to make detailed plans again.",
+    "Replay who is to blame for the breakdown, over and over, until the frustration finally wears itself off.",
+    "Pretend not to mind in front of others while privately resenting the whole morning.",
+    "Say inwardly, \"This is Your will for today,\" then calmly do what the situation now needs."
+   ],
+   "a": 3,
+   "e": "Accepting what comes is the practice marked for both dials: releasing the claim that the day must go my way loosens Δφ, and as resistance falls the mind steadies and Δf narrows. Then full effort goes into what the situation now needs. Giving up planning (A) is fatalism, not surrender. Blame (B) feeds the claim, and suppressed resentment (C) keeps the beat running underneath.",
+   "r": "What disruption this week could I meet with \"This is Your will for today\"?",
+   "s": 32,
+   "lv": "apply"
+  }
+ ]
+}
