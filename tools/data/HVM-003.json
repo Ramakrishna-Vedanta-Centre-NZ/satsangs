@@ -37,9 +37,9 @@
    "Libet",
    "Bhagavad Gita"
   ],
-  "cover_url": "https://ramakrishna-vedanta-centre-nz.github.io/satsangs/HVM-003/cover.jpg",
-  "slides_download": "https://ramakrishna-vedanta-centre-nz.github.io/satsangs/HVM-003/HVM-003-Free-Will-and-Divine-Will.pdf",
-  "event_link": null,
+  "cover_url": "https://static.wixstatic.com/media/1f559e_c2874c3c20b840a9875e999a95a23fef~mv2.jpg",
+  "slides_download": "wix:document://v1/ugd/1f559e_32d623d41abc422faaf95bf07bdbdd91.pdf/HVM-003 Free Will and Divine Will.pdf",
+  "event_link": "https://www.vedanta.nz/event-details/free-will-and-divine-will-2026-12-02-18-30",
   "summary": "Did you choose your last thought, or did it simply arrive? This satsang brings Sri Ramakrishna, Holy Mother, Swami Vivekananda, the Bhagavad Gita and the Yoga Sūtras together with modern science, from the stroboscope to Benjamin Libet's experiment on the timing of decisions. Free will and Divine Will turn out to be one power seen from two places. Their felt conflict is the gap between them, two dials govern it (Δf, felt as time, and Δφ, felt as \"I am the doer\"), and true freedom is the little \"i\" coherent with the universal \"I\". Surrender is the discipline that brings it about.",
   "reflection_questions": [
    "Did I choose my last thought, or did it arrive? What does that suggest about who acts?",
@@ -57,7 +57,20 @@
   ],
   "intro": "Did you choose your last thought, or did it simply arrive? Free will and Divine Will are one power seen from two places, and surrender is the discipline that brings the little \"i\" into coherence with the universal \"I\".",
   "place": "Wednesday 2 December 2026, Park View Motor Lodge, Hamilton, and on Zoom",
-  "cover_has_details": false
+  "cover_has_details": false,
+  "lesson_step_id": "a9a6f667-0a05-4eeb-aa85-215354c2fc71",
+  "wix_cover_id": "1f559e_c2874c3c20b840a9875e999a95a23fef~mv2.jpg",
+  "event_line": "Come in person to the Park View Motor Lodge, Hamilton, or join on Zoom. RSVP on the event page to receive the Zoom link.",
+  "event_embed": {
+   "id": "52bf013e-09f0-4708-b633-ea4637c4448a",
+   "title": "Free Will and Divine Will",
+   "slug": "free-will-and-divine-will-2026-12-02-18-30",
+   "image_id": "1f559e_8be0433d2850425b94937c38690def05~mv2.png",
+   "w": 1344,
+   "h": 768,
+   "scheduling": "2 December 2026, 6:30 pm – 8:00 pm NZDT",
+   "location": "Park View Motor Lodge"
+  }
  },
  "slides": [
   {
