@@ -342,7 +342,7 @@
    "t": "Every experience is a meeting of two waves",
    "on": [
     "Yoga calls each moment of experience a vṛtti, a wave in the field of the mind. Our course models it as the meeting of two waves: the object wave (ψₓ, frequency fₛ), what is actually present, and the attention wave (ψₘ, frequency fₘ), what we bring to it, set by manas and shaped by mood and habit.",
-    "Added together they make two layers: a fast carrier, the content of the experience, and a slow envelope, its clarity. The envelope swells and fades at the difference Δf = |fₛ − fₘ|. Each swell is a beat. Tune the mind towards the object in the live interactive and watch the beat slow."
+    "Added together they make two layers: a fast carrier, the content of the experience, and a slow envelope, its clarity. The envelope swells and fades at the difference Δf = |fₛ − fₘ|. Each swell is a beat. Tune the mind towards the object in the live interactive and watch the beat slow. The next slide gives the full equation."
    ],
    "vs": [],
    "gl": [
@@ -363,7 +363,7 @@
    "deeper": [
     [
      "THE EQUATION OF THE MEETING",
-     "For two waves of equal strength A: A cos(2πfₛt) + A cos(2πfₘt) = 2A cos(2π(Δf/2)t) cos(2π((fₛ + fₘ)/2)t). The second factor is the carrier at the mean frequency, the content. The first is the envelope, the clarity; its felt pulse, the beat, runs at Δf. When Δf = 0 and the waves are in phase, the result is a single wave at the object's own frequency at double strength: the course calls this the object alone shining."
+     "For two waves of equal strength A, in the form used in our course (Lesson 3.2): A cos(2π fₛ t) + A cos(2π fₘ t) = 2A · cos(2π · (fₛ − fₘ)/2 · t) · cos(2π · (fₛ + fₘ)/2 · t). The second factor, from the sum, is the carrier at the mean frequency: the content. The first, at half the difference, is the envelope: the clarity. Its felt pulse, the beat, runs at Δf = |fₛ − fₘ|. When Δf = 0 and the waves are in phase, the result is a single wave at the object's own frequency at double strength: the course calls this the object alone shining."
     ]
    ],
    "n": 10,
@@ -376,6 +376,7 @@
   {
    "t": "Time is the beat",
    "on": [
+    "The full equation of an experience: ψₓ + ψₘ = A cos(2π fₛ t) + A cos(2π fₘ t) = 2A · cos(2π · (fₛ − fₘ)/2 · t) · cos(2π · (fₛ + fₘ)/2 · t). Nothing new is created: it is the same sum, seen in its anatomy. The envelope, at half the difference, is how clearly we experience; it swells and fades Δf = |fₛ − fₘ| times a second, and that beat is felt as time. The carrier, from the sum, is what we experience: the content.",
     "Here is the link to Part 1: the felt passage of time is the beat. Large Δf, the mind out of tune: many thin beats, and time drags. Small Δf, the mind closely tuned: few full beats, and time flies. Δf = 0: no beat at all, no passage of time felt, the whole content present at once.",
     "The object's own unfolding never changes, just as the fan never changed. What changes is how the mind divides it: into many thin moments, a few full ones, or one undivided whole."
    ],
@@ -394,7 +395,7 @@
    "t": "Two gaps: time and the claim",
    "on": [
     "The course adds what colours the meeting: saṁskāra, the impressions of the past, h(t); the body and prāṇa, G(t); and noise, n(t). And one more, the most important for our question: ahaṁkāra's tilt, Δφ, a standing slant towards \"me and mine\".",
-    "So there are two gaps. Δf, the gap between knower and known, is felt as time. Δφ, the tilt of the I-maker, is felt as \"I am the doer\". Keeping them apart is the key to everything that follows."
+    "So there are two gaps. Δf, the gap between knower and known, is felt as time. Δφ is the tilt of the I-sense: ahaṁkāra, the I-maker, adds a standing tilt to every meeting, whatever the rhythm. It is the small inner turn that says “this is happening to me”, “I am doing this”, “this result is mine”, and it is felt as “I am the doer”. Even when Δf = 0, it dims the experience by cos(Δφ/2). Keeping the two gaps apart is the key to everything that follows."
    ],
    "vs": [],
    "gl": [
@@ -632,7 +633,14 @@
     {
      "h": "AND 18.60",
      "paras": [
-      "\"Bound by your own karma, born of your nature, O son of Kuntī, what you do not wish to do through delusion, you will do, even against your will\" (our rendering). A veto made from ego, against one's nature, does not hold. A veto rooted in discrimination, grown through practice, does, because it too comes from deeper than the \"i\"."
+      "\"Bound by your own karma, born of your nature, O son of Kuntī, what you do not wish to do through delusion, you will do, even against your will\". A veto made from ego, against one's nature, does not hold. A veto rooted in discrimination, grown through practice, does, because it too comes from deeper than the \"i\"."
+     ]
+    },
+    {
+     "h": "YOUR VERY BONES WILL DO IT",
+     "paras": [
+      "Towards the end of Sri Ramakrishna's life, at the Cossipore garden house, the Master wrote on a piece of paper, “Naren will teach people.” Narendra refused. He later recalled to M.: “But I said to him, ‘I won't do any such thing.’ Thereupon he said, ‘Your very bones will do it.’” (The Gospel of Sri Ramakrishna, “After the Passing Away”).",
+      "The resolve “I will not” came from the little “i”; his nature, shaped by the Divine Will, carried him past it. As Swami Vivekananda he carried the message of Vedanta across the world."
      ]
     }
    ],
