@@ -102,7 +102,7 @@
    "n": 1
   },
   {
-   "t": "Our evening together",
+   "t": "Our evening",
    "on": [
     "We begin with a guided meditation, then the talk, then questions and conversation, and we close with meditation. Please bring your own questions: the session is as much yours as the speaker's.",
     "Everything shown tonight stays online: these slides with study notes, the study article, the interactives and a 25-question quiz."
@@ -134,20 +134,14 @@
      "paras": [
       "If I alone am the doer, every success feeds pride and every failure feeds guilt and anxiety. If everything is fated, we may slide into helplessness. The great teachers of the Yoga-Vedanta spiritual tradition offer a third way: we act fully and responsibly, yet without the burden of being the sole doer. That freedom comes through surrender."
      ]
-    }
-   ],
-   "deeper": [],
-   "n": 3
-  },
-  {
-   "t": "Three questions",
-   "on": [
-    "Behind the title lie three questions that every thoughtful person asks sooner or later. Who really starts my actions? Is the future already fixed? And where, then, are my freedom and my responsibility?",
-    "The whole evening answers these three questions in turn, and the conclusion gathers the answers together."
-   ],
-   "vs": [],
-   "gl": [],
-   "base": [
+    },
+    {
+     "h": "THREE QUESTIONS",
+     "paras": [
+      "Behind the title lie three questions that every thoughtful person asks sooner or later. Who really starts my actions? Is the future already fixed? And where, then, are my freedom and my responsibility?",
+      "The whole evening answers these three questions in turn, and the conclusion gathers the answers together."
+     ]
+    },
     {
      "h": "THE SHAPE OF THE TALK",
      "paras": [
@@ -156,10 +150,10 @@
     }
    ],
    "deeper": [],
-   "n": 4
+   "n": 3
   },
   {
-   "t": "Time is felt in the mind",
+   "t": "The clock is the same. The mind is not.",
    "on": [
     "Four everyday observations. Waiting for news, a few minutes feel like an hour. Absorbed in a film, two hours vanish. A few minutes of dream can hold days. In deep sleep there is no time at all.",
     "The clock ran at the same rate in all four. What changed was the state of the mind. Time as we live it is not a fixed river outside us; it is an experience in the mind."
@@ -180,10 +174,10 @@
      "Einstein's relativity is about the time measured by clocks, which runs at different rates for different observers. Our subject is time as it is lived in the mind, so we leave relativity aside."
     ]
    ],
-   "n": 5
+   "n": 4
   },
   {
-   "t": "The stroboscope: reality unchanged, experience changed",
+   "t": "The stroboscope: reality unchanged",
    "on": [
     "A stroboscope is a lamp that flashes very briefly at a frequency you can set. Shine it on a fan spinning five times a second, with one blade painted red. Strobe slightly slower than the fan: the fan seems to creep forward. Exactly matched: it seems to stand still. Slightly faster: it seems to turn backwards.",
     "Throughout, the real fan never changed. Stand in front of it and you would feel the breeze even while your eyes told you it was standing still. Open the live interactive and slide the strobe yourself."
@@ -193,6 +187,10 @@
     [
      "Stroboscope",
      "a lamp that flashes at an adjustable rate; mechanics use it to make spinning parts appear still"
+    ],
+    [
+     "Δf (delta f)",
+     "a difference in frequency between two rhythms"
     ]
    ],
    "base": [
@@ -201,37 +199,27 @@
      "paras": [
       "With three identical blades the pattern repeats every third of a turn, so the fan would seem frozen at other settings too. The red blade stands still only when the strobe exactly matches the fan."
      ]
+    },
+    {
+     "h": "WHAT WE SEE IS A DIFFERENCE",
+     "paras": [
+      "The motion we see is not the fan's motion. It is the difference between the fan's rhythm and the strobe's rhythm, written Δf = f_f − fₛ. Large Δf: it seems to move quickly. Small Δf: slowly. Zero: it seems to stand still. Past zero: backwards.",
+      "What we experience is never the object alone. It is the meeting of the object with the instrument that perceives it. Change the instrument and the same reality is experienced as fast, slow, still or even reversed. The mind, as we shall see, is such an instrument."
+     ]
     }
    ],
-   "deeper": [],
-   "live": {
-    "n": 1,
-    "title": "The stroboscope",
-    "url": "interactives/1-stroboscope/index.html"
-   },
-   "n": 6
-  },
-  {
-   "t": "What we see is a difference",
-   "on": [
-    "The motion we see is not the fan's motion. It is the difference between the fan's rhythm and the strobe's rhythm, written Δf = f_f − fₛ. Large Δf: it seems to move quickly. Small Δf: slowly. Zero: it seems to stand still. Past zero: backwards.",
-    "What we experience is never the object alone. It is the meeting of the object with the instrument that perceives it. Change the instrument and the same reality is experienced as fast, slow, still or even reversed. The mind, as we shall see, is such an instrument."
-   ],
-   "vs": [],
-   "gl": [
-    [
-     "Δf (delta f)",
-     "a difference in frequency between two rhythms"
-    ]
-   ],
-   "base": [],
    "deeper": [
     [
      "THE MATHEMATICS",
      "If the fan turns at f_f and the strobe flashes at fₛ, the apparent rotation is Δf = f_f − fₛ turns per second, for small differences. Its sign gives the direction. In signal-processing language the strobe samples the fan and the slow motion is called aliasing. The same difference frequency appears when two waves are added, as Part 4 shows."
     ]
    ],
-   "n": 7
+   "n": 5,
+   "live": {
+    "n": 1,
+    "title": "The stroboscope",
+    "url": "interactives/1-stroboscope/index.html"
+   }
   },
   {
    "t": "The mind is like a dial",
@@ -256,12 +244,12 @@
    ],
    "base": [],
    "deeper": [],
+   "n": 6,
    "live": {
     "n": 3,
     "title": "The dial of the mind",
     "url": "interactives/3-dial-of-the-mind/index.html"
-   },
-   "n": 8
+   }
   },
   {
    "t": "Narada: half an hour becomes twelve years",
@@ -285,7 +273,7 @@
     }
    ],
    "deeper": [],
-   "n": 9
+   "n": 7
   },
   {
    "t": "Arjuna: the war already fought",
@@ -320,10 +308,10 @@
     }
    ],
    "deeper": [],
-   "n": 10
+   "n": 8
   },
   {
-   "t": "Sri Ramakrishna: universes rising like waves",
+   "t": "Universes rising like waves",
    "on": [
     "Speaking with Mahimacharan about Om, Sri Ramakrishna gives the image of a gong's sound fading into silence, and says: \"I have clearly perceived all these things. It has been revealed to me that there exists an Ocean of Consciousness without limit. From It come all things of the relative plane, and in It they merge again. Millions of Brahmandas rise in that Chidakasa and merge in It again.\"",
     "This is the top of the dial. What would be unimaginable ages for us is seen as the rising and falling of waves on one ocean."
@@ -348,7 +336,7 @@
     }
    ],
    "deeper": [],
-   "n": 11
+   "n": 9
   },
   {
    "t": "Every experience is a meeting of two waves",
@@ -378,12 +366,12 @@
      "For two waves of equal strength A: A cos(2πfₛt) + A cos(2πfₘt) = 2A cos(2π(Δf/2)t) cos(2π((fₛ + fₘ)/2)t). The second factor is the carrier at the mean frequency, the content. The first is the envelope, the clarity; its felt pulse, the beat, runs at Δf. When Δf = 0 and the waves are in phase, the result is a single wave at the object's own frequency at double strength: the course calls this the object alone shining."
     ]
    ],
+   "n": 10,
    "live": {
     "n": 2,
     "title": "The beat of the vṛtti",
     "url": "interactives/2-beat/index.html"
-   },
-   "n": 12
+   }
   },
   {
    "t": "Time is the beat",
@@ -400,7 +388,7 @@
      "Over a stretch τ of the object's unfolding, the number of beats is N = Δf · τ, the length of one felt moment is T = 1/Δf, and the content held in one moment is f̄/Δf. As Δf falls to zero, felt passage falls to zero while the felt moment widens without limit. That is why one state of mind can be described both as \"time stops\" and \"time expands\". This time interpretation is our extension of the course model."
     ]
    ],
-   "n": 13
+   "n": 11
   },
   {
    "t": "Two gaps: time and the claim",
@@ -423,24 +411,14 @@
      "a difference in phase: here, the tilt of the I-maker"
     ]
    ],
-   "base": [],
-   "deeper": [
-    [
-     "THE FULL MIND-WAVE EQUATION",
-     "ψexp(t) = [ψₓ(t) * h(t)] + G(t) · ψₘ(t) + n(t). The asterisk means convolution: every arrival is reshaped by the echo of every arrival before it. With matched frequencies the fullness scales as cos(Δφ/2). The course states openly that this is a precise model of experience, not a claim about neurons."
-    ]
-   ],
-   "n": 14
-  },
-  {
-   "t": "Same speed, different setting",
-   "on": [
-    "Frequency is how fast a wave turns; phase is where it stands in its turn. Two clocks run at exactly the same speed, but one is set five minutes ahead. Adjusting the speed never corrects the setting. The setting must be corrected on its own.",
-    "So it is in the mind. Δf can close while Δφ stays: a person completely absorbed in a task, with time vanishing, can still come out of it saying \"Look what I achieved.\" Concentration alone does not remove the claim."
-   ],
-   "vs": [],
-   "gl": [],
    "base": [
+    {
+     "h": "SAME SPEED, DIFFERENT SETTING",
+     "paras": [
+      "Frequency is how fast a wave turns; phase is where it stands in its turn. Two clocks run at exactly the same speed, but one is set five minutes ahead. Adjusting the speed never corrects the setting. The setting must be corrected on its own.",
+      "So it is in the mind. Δf can close while Δφ stays: a person completely absorbed in a task, with time vanishing, can still come out of it saying \"Look what I achieved.\" Concentration alone does not remove the claim."
+     ]
+    },
     {
      "h": "WHERE Δφ SHOWS ITSELF",
      "paras": [
@@ -448,11 +426,16 @@
      ]
     }
    ],
-   "deeper": [],
-   "n": 15
+   "deeper": [
+    [
+     "THE FULL MIND-WAVE EQUATION",
+     "ψexp(t) = [ψₓ(t) * h(t)] + G(t) · ψₘ(t) + n(t). The asterisk means convolution: every arrival is reshaped by the echo of every arrival before it. With matched frequencies the fullness scales as cos(Δφ/2). The course states openly that this is a precise model of experience, not a claim about neurons."
+    ]
+   ],
+   "n": 12
   },
   {
-   "t": "One object, four settings",
+   "t": "Experience is a variable",
    "on": [
     "Put the two gaps together and a simple truth appears: experience is a variable. The same object, met with a different Δf and Δφ, is lived as a different experience. Left to right in the figure is tuning the mind (Δf); top to bottom is releasing the claim (Δφ).",
     "Restless and claimed: time drags and every result is mine. Restless but offered: the heart is given, the mind still wanders. Tuned but claimed: steady, but dimmed by the claim. Tuned and offered: the object alone shines, full and steady. Only the Seer who knows every setting does not change. Try the live dial of experience."
@@ -473,12 +456,12 @@
      "1.42: in early concentration the object is known mixed with word, meaning and idea. 1.43: with memory purified, the mind, as if empty of its own form, shines with the object alone. 3.3: the same phrase describes samādhi. 1.4: at other times the Seer appears to take the form of the vṛtti (sārūpya). 1.3: then the Seer abides in its own nature (svarūpa)."
     ]
    ],
+   "n": 13,
    "live": {
     "n": 5,
     "title": "The dial of experience",
     "url": "interactives/5-dial-of-experience/index.html"
-   },
-   "n": 16
+   }
   },
   {
    "t": "Will is a power, not a thing",
@@ -516,7 +499,7 @@
     }
    ],
    "deeper": [],
-   "n": 17
+   "n": 14
   },
   {
    "t": "Scattered wills cancel; aligned wills add",
@@ -535,7 +518,7 @@
     }
    ],
    "deeper": [],
-   "n": 18
+   "n": 15
   },
   {
    "t": "The four levels of Vāk",
@@ -575,10 +558,10 @@
     }
    ],
    "deeper": [],
-   "n": 19
+   "n": 16
   },
   {
-   "t": "Libet's experiment: the late arrival of the \"i\"",
+   "t": "The late arrival of the “i”",
    "on": [
     "In 1983 Benjamin Libet asked volunteers to flex a wrist whenever they felt like it and to note, on a fast clock, when they first felt the urge. Electrodes recorded the readiness potential. It began about 0.55 seconds before the movement; the urge was felt only about 0.2 seconds before. The brain had begun preparing about a third of a second before the person knew of deciding.",
     "Move through the experiment in the live interactive, with Libet's clock, the brain signal and the four levels of Vāk side by side, and try the veto switch."
@@ -599,12 +582,12 @@
     }
    ],
    "deeper": [],
+   "n": 17,
    "live": {
     "n": 6,
     "title": "Libet's experiment",
     "url": "interactives/6-libet/index.html"
-   },
-   "n": 20
+   }
   },
   {
    "t": "What the clock caught",
@@ -623,7 +606,7 @@
     }
    ],
    "deeper": [],
-   "n": 21
+   "n": 18
   },
   {
    "t": "The veto: a resolve from ego does not hold",
@@ -654,7 +637,7 @@
     }
    ],
    "deeper": [],
-   "n": 22
+   "n": 19
   },
   {
    "t": "My will within Thy will",
@@ -675,15 +658,15 @@
    ],
    "base": [],
    "deeper": [],
+   "n": 20,
    "live": {
     "n": 4,
     "title": "Two wills",
     "url": "interactives/4-two-wills/index.html"
-   },
-   "n": 23
+   }
   },
   {
-   "t": "Who is the doer?",
+   "t": "The machine and the Operator",
    "on": [
     "The second dial, Δφ, explains the feeling \"I did it\". The Gita states it directly in the verse on the slide. And it says where the true Doer dwells: \"The Lord dwells in the hearts of all beings, O Arjuna, causing them all to revolve by His Māyā, as if mounted on a machine\" (18.61, our rendering)."
    ],
@@ -705,19 +688,14 @@
      "Nature, the field of all action"
     ]
    ],
-   "base": [],
-   "deeper": [],
-   "n": 24
-  },
-  {
-   "t": "The machine and the Operator",
-   "on": [
-    "Asked by Vaidyanath whether we are really free, Sri Ramakrishna answered: \"Everything depends on the will of God. ... As long as a man has not realized God, he thinks he is free. It is God Himself who keeps this error in man. Otherwise sin would have multiplied.\"",
-    "And of the one who has realised God, the words on the slide. Notice the compassion in \"It is God Himself who keeps this error in man.\" At our present setting the feeling of being a free doer is necessary: it keeps us responsible and careful until we see more truly."
-   ],
-   "vs": [],
-   "gl": [],
    "base": [
+    {
+     "h": "THE MACHINE AND THE OPERATOR",
+     "paras": [
+      "Asked by Vaidyanath whether we are really free, Sri Ramakrishna answered: \"Everything depends on the will of God. ... As long as a man has not realized God, he thinks he is free. It is God Himself who keeps this error in man. Otherwise sin would have multiplied.\"",
+      "And of the one who has realised God, the words on the slide. Notice the compassion in \"It is God Himself who keeps this error in man.\" At our present setting the feeling of being a free doer is necessary: it keeps us responsible and careful until we see more truly."
+     ]
+    },
     {
      "h": "SOURCE",
      "paras": [
@@ -726,7 +704,7 @@
     }
    ],
    "deeper": [],
-   "n": 25
+   "n": 21
   },
   {
    "t": "The will is bound; the Self is free",
@@ -745,10 +723,10 @@
     }
    ],
    "deeper": [],
-   "n": 26
+   "n": 22
   },
   {
-   "t": "Four ways of living",
+   "t": "Two dials, four ways of living",
    "on": [
     "Because the two dials are separate, there are four broad ways of living, and most of us move between them several times a day. Restless and self-centred: struggle, and every result mine to carry. Focused but self-centred: excellent work, yet every success inflates and every failure wounds. Devoted but scattered: the heart offered, the mind not yet steady. Focused and surrendered: the instrument, full effort and no claim.",
     "Concentration closes Δf and brings real gifts, but a sharp mind can still be a proud mind. Freedom needs the second dial too. The two dials help each other: a mind that has let go of the claim has less to defend and settles more easily."
@@ -757,10 +735,10 @@
    "gl": [],
    "base": [],
    "deeper": [],
-   "n": 27
+   "n": 23
   },
   {
-   "t": "The little \"i\", coherent with the universal \"I\"",
+   "t": "The little “i”, coherent with the universal “I”",
    "on": [
     "In physics, two waves are coherent when they keep a fixed relationship in time, which needs the same frequency (Δf = 0). Coherence alone is not enough: two coherent waves held half a cycle apart cancel. When they are both coherent and in phase (Δφ = 0), they add fully.",
     "So it is with the little \"i\" and the universal \"I\". Free will as an independent power is the late arrival Libet's clock caught. The Divine Will is not a foreign power imposed on us. True freedom is not independence from the Divine Will but coherence with it. \"Thy will be done\" is not defeat. It is coherence."
@@ -774,7 +752,7 @@
    ],
    "base": [],
    "deeper": [],
-   "n": 28
+   "n": 24
   },
   {
    "t": "Two levels, not rivals",
@@ -793,7 +771,7 @@
     }
    ],
    "deeper": [],
-   "n": 29
+   "n": 25
   },
   {
    "t": "The fish at the Master's feet",
@@ -810,7 +788,7 @@
    ],
    "base": [],
    "deeper": [],
-   "n": 30
+   "n": 26
   },
   {
    "t": "Give up the claim, not the effort",
@@ -838,7 +816,7 @@
    ],
    "base": [],
    "deeper": [],
-   "n": 31
+   "n": 27
   },
   {
    "t": "Turning the two dials",
@@ -876,10 +854,10 @@
     }
    ],
    "deeper": [],
-   "n": 32
+   "n": 28
   },
   {
-   "t": "The gong fades into silence",
+   "t": "Guided meditation: from the beat to the stillness",
    "on": [
     "We began with three questions. Who really starts my actions? Not the little \"i\": every action descends from the Divine Source through will, knowledge and deed, and the \"i\" steps in midway to claim it. Is the future already fixed? To a mind at the top of the dial all is present at once, but for us the road must still be driven. Where are my freedom and responsibility? Freedom is in the Self behind the will; we move towards it by tuning the mind and releasing the claim, and until the claim is gone responsibility remains ours.",
     "Sri Ramakrishna's gong gathers it all. Our lives, our choices and our struggles are the ringing. The Divine Will is the silence from which the sound arose and into which it returns. To surrender is to let the ringing settle, and to discover that the silence was never absent. With this, we enter meditation."
@@ -888,31 +866,27 @@
    "gl": [],
    "base": [],
    "deeper": [],
-   "n": 33
+   "n": 29
   },
   {
-   "t": "Revision: five questions",
+   "t": "To take home",
    "on": [
     "1. Time drags while you wait for news: Δf is wide; steadying the breath and attending to what is actually here narrows it. 2. \"Look what I achieved\" after absorbed work: Δf closed, but Δφ, the claim, is still turned. 3. On Libet's clock the \"i\" arrives at Madhyamā, with the felt urge, after the impulse has been descending through Paśyantī.",
     "4. Fatalism keeps the claim and simply turns it towards doing nothing; surrender is full effort with the claim given up. 5. For Δf: meditation, japa, slow breathing, steady routine. For Δφ: offering before work, working as an instrument, the pause before reacting. Two marks each, ten in all. The full 25-question quiz is on vedanta.nz."
    ],
    "vs": [],
    "gl": [],
-   "base": [],
-   "deeper": [],
-   "n": 34
-  },
-  {
-   "t": "Continue at home",
-   "on": [
-    "Read the study article for the full argument, figures and sources; try the six live interactives; take the quiz and read the answers with their reflections; and share your practice in the members' group.",
-    "The study article, slides, interactives and quiz are all in the Satsang Study course on vedanta.nz."
+   "base": [
+    {
+     "h": "CONTINUE AT HOME",
+     "paras": [
+      "Read the study article for the full argument, figures and sources; try the six live interactives; take the quiz and read the answers with their reflections; and share your practice in the members' group.",
+      "The study article, slides, interactives and quiz are all in the Satsang Study course on vedanta.nz."
+     ]
+    }
    ],
-   "vs": [],
-   "gl": [],
-   "base": [],
    "deeper": [],
-   "n": 35
+   "n": 30
   }
  ],
  "questions": [
@@ -928,7 +902,7 @@
    "a": 2,
    "e": "Time drags when the mind beats against its situation: a large Δf gives many thin beats, each felt as a tick. Steady breathing and attention to what is actually present bring the mind's rhythm closer to what is unfolding, and the beat slows. The clock does not change (option A), and repeating a formula about the doer (B) works on the other dial, Δφ, not the restlessness. Fatalism (D) offers no help for the mind in front of us.",
    "r": "Where in my week does time drag most, and what simple act of attention could I bring there?",
-   "s": 13,
+   "s": 11,
    "lv": "apply"
   },
   {
@@ -943,7 +917,7 @@
    "a": 0,
    "e": "The two gaps are separate. Absorption closes Δf, so time vanishes, but the I-maker's tilt, Δφ, can stay and shows itself afterwards as \"my finest work\". This is why the satsang says concentration alone does not free us, and why the subtle ego shows itself most clearly in a concentrated mind. Her absorption was real (against C), but it did not remove the claim (against B), and pride is the claim, not an offering (against D).",
    "r": "After my best work, what is the first thought that arises? Whose work do I take it to be?",
-   "s": 15,
+   "s": 12,
    "lv": "analyse"
   },
   {
@@ -958,7 +932,7 @@
    "a": 1,
    "e": "Sri Krishna showed Arjuna the war as accomplished and in the same verse told him to arise and be an instrument (Gita 11.33). The view from the aeroplane does not take the steering wheel from the driver. Fatalism keeps Δφ, the claim, and simply points it at inaction: \"I need not bother\" is still the little \"i\" deciding. Option A gives the right action for the wrong reason; C and D swing to the other extreme and leave no place for the Divine Will or grace.",
    "r": "Where do I use \"it is all decided anyway\" to avoid an effort I know I should make?",
-   "s": 29,
+   "s": 25,
    "lv": "evaluate"
   },
   {
@@ -984,7 +958,7 @@
    ],
    "e": "The manager is focused (Δf closed while working) but still claims every result, so one criticism wounds: focused but self-centred. The devotee has offered her heart (Δφ released) but her mind is not yet steady: devoted but scattered. The nurse has both: full attention and no claim, the instrument. The student is restless (Δf wide) and holds every result as proof about himself: restless and self-centred. Most of us visit all four in a single day.",
    "r": "Which of the four do I live in most often at work, and which at home?",
-   "s": 27,
+   "s": 23,
    "lv": "analyse"
   },
   {
@@ -999,7 +973,7 @@
    "a": 3,
    "e": "The satsang lays the levels of Vāk beside Libet's timeline: the rising readiness potential matches Paśyantī, whole and wordless; the felt urge matches Madhyamā, where the impulse first has a form the \"i\" can claim; the movement is Vaikharī. The \"i\" arrives midway (against C). This is a contemplative reading, and science still debates the details, but no reading shows that awareness and effort are meaningless (against A), and method questions do not erase the basic timing (against B).",
    "r": "Can I catch, today, one impulse that was already moving before I said \"I want\"?",
-   "s": 21,
+   "s": 18,
    "lv": "analyse"
   },
   {
@@ -1014,7 +988,7 @@
    "a": 0,
    "e": "Science finds the veto real but limited, with a point of no return (Schultze-Kraft and colleagues, 2016), so C overstates it and B denies it. The satsang reads the veto as a counter-impulse of discrimination that also descends from the Source and meets the first impulse at Madhyamā, carried by the impressions of practice. The Gita shows the limit of the ego's own resolve: a resolve made from egoism against one's nature is vain (18.59 to 60). The pause before reacting is exactly where this matters in daily life (against D).",
    "r": "Which of my reactions have I learnt to pause before, and how did that pause grow?",
-   "s": 22,
+   "s": 19,
    "lv": "evaluate"
   },
   {
@@ -1029,7 +1003,7 @@
    "a": 2,
    "e": "Δf is a difference in rate between the attention wave and the object wave; its beat is felt as the passage of time. Δφ is a standing offset that the I-maker brings to every meeting, felt as \"this is mine\" and \"I did it\". They are separate (against A): Δf can close while Δφ stays. Option B reverses them, and D misplaces both: both act in the meeting of mind and object, and both matter for practice.",
    "r": "Today, when did I feel time dragging, and when did I feel \"I did that\"? Were they the same moment?",
-   "s": 14,
+   "s": 12,
    "lv": "understand"
   },
   {
@@ -1044,7 +1018,7 @@
    "a": 3,
    "e": "The pause is Libet's veto window made conscious: the impulse has taken form at Madhyamā but has not yet become words at Vaikharī. One breath lets discrimination meet it. The evening review (A) belongs to the evening and is not self-blame. Japa (B) steadies the rhythm, but walking out is avoidance, not practice in the moment. Accepting what comes (C) means accepting the situation as Her will for today, not agreeing with whatever is said.",
    "r": "Where could one breath before speaking change the course of a conversation this week?",
-   "s": 32,
+   "s": 28,
    "lv": "apply"
   },
   {
@@ -1059,7 +1033,7 @@
    "a": 0,
    "e": "The plan combines practices for each dial: the offering and the review work on Δφ, the claim; full attention to each patient narrows Δf. It brings practice into the shift itself rather than after it (against B). Repeating a formula while dropping effort (C) misunderstands surrender, which is full effort with the claim given up. Concentration alone (D) closes Δf but can leave the claim untouched.",
    "r": "What would a practice for both dials look like in the busiest part of my own week?",
-   "s": 32,
+   "s": 28,
    "lv": "synthesise"
   },
   {
@@ -1074,7 +1048,7 @@
    "a": 1,
    "e": "The three cases in Part 3 are read as data: the same span is a long stream of moments for a mind low on the dial and a single whole for a mind at the top. The satsang sets relativity aside (against D), since it concerns clock time, not lived time. Option A confuses length of life with breadth of awareness, and C ignores that the teachers report these states as experience.",
    "r": "When has a short span held a great deal for me, or a long one held very little?",
-   "s": 8,
+   "s": 6,
    "lv": "analyse"
   },
   {
@@ -1089,7 +1063,7 @@
    "a": 3,
    "e": "Two waves add fully only when they are coherent (Δf = 0) and in phase (Δφ = 0). So it is with the little \"i\" and the universal \"I\": freedom is not independence from the Divine Will (against A) but coherence with it. A strong will is still bound by cause and effect (against B), as Swami Vivekananda says. Giving up action (C) is not surrender; surrender is full effort without the claim.",
    "r": "In what part of my life do I still equate freedom with getting my own way?",
-   "s": 28,
+   "s": 24,
    "lv": "evaluate"
   },
   {
@@ -1104,7 +1078,7 @@
    "a": 0,
    "e": "Scattered wills cancel and aligned wills add: a hundred waves out of step give only about ten times one, while a hundred in step give a hundred times. Swami Vivekananda teaches that self-control produces a mighty will, and that will is made by character, which is made by karma (Karma-Yoga). So the will can be trained (against C). More desires scatter it further (against B), and rest alone does not align it (against D).",
    "r": "Which two of my wishes most often pull against each other, and which one would I rather align with?",
-   "s": 18,
+   "s": 15,
    "lv": "analyse"
   },
   {
@@ -1119,7 +1093,7 @@
    "a": 0,
    "e": "The teaching distinguishes the will, which belongs to the world of cause and effect, from the Self behind it, which is free. That does not make choosing pointless (against B and C): Swami Vivekananda defines education as the training of the will, and the knowing will can free us. Nor is the will itself free when motives are good (against D); good motives make it a better instrument, not an independent one.",
    "r": "What choice am I avoiding by telling myself it does not matter?",
-   "s": 26,
+   "s": 22,
    "lv": "evaluate"
   },
   {
@@ -1134,7 +1108,7 @@
    "a": 2,
    "e": "The fish that stopped struggling and turned to the Master's feet was saved: it gave up the claim to save itself, and in the same act stopped fighting the current. The Gita's \"take refuge in Me alone ... do not grieve\" (18.66) promises freedom from grief when the burden of being the sole doer is laid down. Surrender is not passivity (against A); Arjuna fought and Holy Mother worked all her life. Struggle driven by the claim (B) is what the other fish did, and grief need not be exhausted before refuge is taken (D).",
    "r": "Where in my life am I circling in struggle when I could turn to Her feet?",
-   "s": 30,
+   "s": 26,
    "lv": "synthesise"
   },
   {
@@ -1149,7 +1123,7 @@
    "a": 0,
    "e": "Under the strobe the fan never changed; what changed was its meeting with the instrument. In the same way the match unfolds at one rate, while each mind meets it with its own rhythm. Neither friend is wrong about the clock (against C and D); each is right about his own experience. The point is general, not about football (against B).",
    "r": "Which activity makes time vanish for me, and what does that tell me about my attention?",
-   "s": 7,
+   "s": 5,
    "lv": "apply"
   },
   {
@@ -1164,7 +1138,7 @@
    "a": 2,
    "e": "The meaning comes first, whole and wordless, with the flavour of Paśyantī. The sense of being the speaker arrives with the inner words at Madhyamā, and by the time the sentence is spoken the \"i\" is sure it was the author from the start. It is not at Vaikharī (A), which only unrolls what was already formed, nor at Parā (B), which is the Source, not the ego. Option D denies an experience everyone has.",
    "r": "Next time I speak about something important, can I notice the moment before the words?",
-   "s": 19,
+   "s": 16,
    "lv": "analyse"
   },
   {
@@ -1179,7 +1153,7 @@
    "a": 1,
    "e": "The satsang warns that powers gained through concentration can strengthen the ego rather than dissolve it. Concentration closes Δf, but freedom needs the second dial: the claim must be offered. The abilities are not freedom (against A). The concentration may be quite real (against C); the problem is the claim that rides on it. Pride is not harmless (against D): it is Δφ itself.",
    "r": "What gift or ability of mine most easily becomes a source of pride?",
-   "s": 27,
+   "s": 23,
    "lv": "evaluate"
   },
   {
@@ -1194,7 +1168,7 @@
    "a": 2,
    "e": "Within the length of its rope the cow is free, and if it is to eat it must make the effort; the post and the rope are set by past karma. The moving of the post is grace. So effort works within the field that karma sets, and grace changes the field. Effort is not useless (against A and D), and the ego cannot pull up the post by force (against B). Effort prepares the mind to receive grace; it does not compel it.",
    "r": "Where is the grass within my rope that I have not yet grazed?",
-   "s": 29,
+   "s": 25,
    "lv": "synthesise"
   },
   {
@@ -1219,7 +1193,7 @@
    ],
    "e": "The whole meaning, before any word, has the flavour of Paśyantī. Inner words that can be heard and revised belong to Madhyamā, and so does the sense \"I am going to say this\", because the \"i\" attaches only when the impulse has a form it can recognise. The spoken sentence is Vaikharī. The meaning was complete at the start; speaking only unrolls it in time.",
    "r": "What changes in my speech when I wait for the whole meaning before I start talking?",
-   "s": 19,
+   "s": 16,
    "lv": "analyse"
   },
   {
@@ -1234,7 +1208,7 @@
    "a": 1,
    "e": "Under the strobe, the apparent motion is the difference between two rhythms, and the fan itself never changes. In the same way, the struggle of my will against Thy will is the beat of the gap between them. It is real as an experience (against C), but the two are not rival powers (against A): my will lives within Thy will. As surrender grows, the gap closes and the conflict fades, so sharpening it (D) misses the point.",
    "r": "Where do I most feel my will pulling against what life is bringing, and what would one step closer look like?",
-   "s": 23,
+   "s": 20,
    "lv": "synthesise"
   },
   {
@@ -1249,7 +1223,7 @@
    "a": 3,
    "e": "The feeling of being a free doer is not a mistake to be ashamed of (against A). At our present setting of the dial it keeps us responsible and careful. As long as we feel we are the doer, we must also feel responsible (against C). It is not the final truth (against B): the one who has realised God says, \"I am the machine, and Thou, O Lord, art the Operator.\" This is Δφ seen with compassion.",
    "r": "Can I hold my sense of responsibility without either pride or self-reproach?",
-   "s": 25,
+   "s": 21,
    "lv": "evaluate"
   },
   {
@@ -1264,7 +1238,7 @@
    "a": 2,
    "e": "Swami Vivekananda says that assimilating five ideas and making them one's life and character is more education than a library learnt by heart. Explaining (A) and reading (B) are information. Hours of meditation (D) are good but measure activity, not growth. The signs that the claim is loosening are in life itself: less movement under praise and blame, the pause rising by itself, and effort without anxiety about results.",
    "r": "Which small change in my reactions this month tells me the teaching is taking root?",
-   "s": 32,
+   "s": 28,
    "lv": "synthesise"
   },
   {
@@ -1279,7 +1253,7 @@
    "a": 1,
    "e": "Hearing (śravaṇa) is done. Next comes reflection (manana), turning the ideas over until doubts clear and testing them in real situations, and then sustained contemplation and practice (nididhyāsana), until the idea becomes one's own. More reading (A) and memorising (C) stay at the level of information. Waiting for experience (D) reverses the order: practice prepares the mind for experience.",
    "r": "Which one idea from this evening will I reflect on and practise this month?",
-   "s": 35,
+   "s": 30,
    "lv": "synthesise"
   },
   {
@@ -1294,7 +1268,7 @@
    "a": 3,
    "e": "The experiments have been debated for forty years: some read them as the brain deciding first, Libet pointed to a veto window, Schurger and colleagues suggested the signal is background activity reaching a threshold, and others question the method. None settles the question either way (against A and B). Yet every reading agrees that much happens before awareness, which fits the teaching that the \"i\" arrives late. Science and the spiritual tradition can light each other (against C).",
    "r": "How do I respond when science and my faith seem to disagree: with fear, dismissal or curiosity?",
-   "s": 21,
+   "s": 18,
    "lv": "evaluate"
   },
   {
@@ -1309,7 +1283,7 @@
    "a": 3,
    "e": "Accepting what comes is the practice marked for both dials: releasing the claim that the day must go my way loosens Δφ, and as resistance falls the mind steadies and Δf narrows. Then full effort goes into what the situation now needs. Giving up planning (A) is fatalism, not surrender. Blame (B) feeds the claim, and suppressed resentment (C) keeps the beat running underneath.",
    "r": "What disruption this week could I meet with \"This is Your will for today\"?",
-   "s": 32,
+   "s": 28,
    "lv": "apply"
   }
  ]
